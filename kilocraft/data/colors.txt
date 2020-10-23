@@ -1,0 +1,5 @@
+ligt blue: #96EEEE
+green: #7AF631
+dark blue: #6860FB
+
+ligth gray: #C7C7C7

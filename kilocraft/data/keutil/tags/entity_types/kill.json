@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+   "minecraft:skeleton",
+   "minecraft:creeper",
+   "minecraft:enderman",
+   "minecraft:zombie_villager",
+   "minecraft:spider",
+   "minecraft:phantom",
+   "minecraft:cave_spider",
+   "minecraft:zombified_piglin",
+   "minecraft:pillager"
+  ]
+}
