@@ -51,7 +51,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_ingot",
-          "weight": 3,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -84,7 +84,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:elytra",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",

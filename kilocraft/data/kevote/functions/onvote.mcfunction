@@ -1,6 +1,7 @@
 #calculate vote credits
 scoreboard players set #kevote_credits var 1
-execute if entity @s[team=70_ultimate] run scoreboard players operation #kevote_credits var *= #kevote_ultmultiplier
+execute if entity @s[permission=vote.double] run scoreboard players operation #kevote_credits var *= #kevote_ultmultiplier var
+#execute if entity @s[tag=staff_ult] run scoreboard players operation #kevote_credits var *= #kevote_ultmultiplier var
 scoreboard players operation #kevote_credits var *= #kevote_multiplier var
 
 #send message
@@ -10,6 +11,8 @@ tellraw @a ["",{"selector":"@s","color":"#6860FB"},{"text":" just voted and rece
 scoreboard players operation @s kevote_credits += #kevote_credits var
 scoreboard players add @s kevote_total 1
 scoreboard players add @s kevote_month 1
+
+function kecrate:give
 
 #reset
 scoreboard players reset #kevote_credits var

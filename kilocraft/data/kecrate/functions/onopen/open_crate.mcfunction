@@ -10,6 +10,6 @@ playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1
 execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:end_rod ^ ^0.3 ^ 0.5 0.001 -0.5 0.03 2
 
 #Remove the Key
-clear @s[gamemode=survival, nbt={Inventory:[{id:"minecraft:firework_star",tag:{VoteKey:1b}}]}] minecraft:firework_star{VoteKey:1b} 1
+clear @s[gamemode=!creative, nbt={Inventory:[{id:"minecraft:firework_star",tag:{VoteKey:1b}}]}] minecraft:firework_star{VoteKey:1b} 1
 
 function kecrate:shulker_animated/onopened
