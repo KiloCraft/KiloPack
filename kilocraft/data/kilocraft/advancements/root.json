@@ -1,0 +1,32 @@
+{
+	"display": {
+        "title": {
+            "text": "crateclick"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shulker_box"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "shulkerhit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:shulker",
+                    "nbt": "{Tags:[\"kecrate_shulker\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "kilocraft:crate/onopen/onclick"
+    }
+}

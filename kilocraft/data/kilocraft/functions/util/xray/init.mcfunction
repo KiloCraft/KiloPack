@@ -1,0 +1,1 @@
+scoreboard objectives add keutil_xrayscore dummy

@@ -1,0 +1,5 @@
+Scoreboard naming: ke{module.name}_{name} eg: kevote_voted
+Module:
+A module must have a init and a loop function which are registered in the parent module. 
+Loop functions are run once on load and have to loop themselves if necessary. 
+Init functions need to initialize scoreboard objectives they need, they are usually only ever run by the user.
