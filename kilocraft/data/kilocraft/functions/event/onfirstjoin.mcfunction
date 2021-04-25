@@ -16,12 +16,11 @@ team join guest @s
 minecraft:gamemode survival @s
 
 #equip
-# item entity @s armor.head minecraft:leather_helmet{display: {Name: "{\"text\":\"Starter Helmet\",\"color\":\"aqua\",\"italic\":\"false\"}"}}
-# item entity @s armor.chest minecraft:leather_chestplate{display: {Name: "{\"text\":\"Starter Chestplate\",\"color\":\"aqua\",\"italic\":\"false\"}"}}
-# item entity @s armor.legs minecraft:leather_leggings{display: {Name: "{\"text\":\"Starter Leggings\",\"color\":\"aqua\",\"italic\":\"false\"}"}}
-# item entity @s armor.feet minecraft:leather_boots{display: {Name: "{\"text\":\"Starter Boots\",\"color\":\"aqua\",\"italic\":\"false\"}"}}
-# item entity @s hotbar.0 stone_sword{Damage: 43s,display: {Name: "{\"text\":\"Starter Sword\",\"color\":\"dark_aqua\",\"italic\":\"false\"}"}}
-item entity @s hotbar.0 replace stone_sword{display: {Name: '{"text":"Starter Sword","color":"#85D5F4","italic":false}'}}
+item entity @s armor.head replace leather_helmet{display: {Name: '{"text":"Starter Helmet","color":"aqua","italic":false}'}}
+item entity @s armor.chest replace leather_chestplate{display: {Name: '{"text":"Starter Chestplate","color":"aqua","italic":false}'}}
+item entity @s armor.legs replace leather_leggings{display: {Name: '{"text":"Starter Leggings","color":"aqua","italic":false}'}}
+item entity @s armor.feet replace leather_boots{display: {Name: '{"text":"Starter Boots","color":"aqua","italic":false}'}}
+item entity @s hotbar.0 replace stone_sword{Damage: 43, display: {Name: '{"text":"Starter Sword","color":"#85D5F4","italic":false}'}}
 item entity @s hotbar.1 replace stone_pickaxe{display: {Name: '{"text":"Starter Pickaxe","color":"#85D5F4","italic":false}'}}
 item entity @s hotbar.2 replace stone_axe{display: {Name: '{"text":"Starter Axe","color":"#85D5F4","italic":false}'}}
 item entity @s hotbar.3 replace stone_shovel{display: {Name: '{"text":"Starter Shovel","color":"#85D5F4","italic":false}'}}
