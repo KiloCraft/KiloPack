@@ -2,6 +2,23 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            }
+          ],
+          "name": "minecraft:saddle"
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
@@ -10,7 +27,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Vindicator\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAwZDNmZmYxNmMyZGNhNTliOWM1OGYwOTY1MjVjODY5NzExNjZkYmFlMTMzYjFiMDUwZTVlZTcxNjQ0MyJ9fX0=\"}]}}}"
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Ravager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QyMGJmNTJlYzM5MGEwNzk5Mjk5MTg0ZmM2NzhiZjg0Y2Y3MzJiYjFiZDc4ZmQxYzRiNDQxODU4ZjAyMzVhOCJ9fX0=\"}]}}}"
             },
             {
               "function": "minecraft:looting_enchant",
@@ -36,8 +53,8 @@
         },
         {
           "condition": "random_chance_with_looting",
-          "chance": 0.1,
-          "looting_multiplier": 0.05
+          "chance": 0.055,
+          "looting_multiplier": 0.015
         }
       ]
     }

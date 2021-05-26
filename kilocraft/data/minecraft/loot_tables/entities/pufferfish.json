@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0,
+              "add": false
+            }
+          ],
+          "name": "minecraft:pufferfish"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.05
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Pufferfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Laughing Pufferfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ViY2ZlMjI1ZjdmMmE2MTk4NDhkMDc3MTE4NmU1NTA1NTA0Y2QzYmMyY2M2NjE4M2RlNDZlNmNmOTI3NWJlMiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lovely Pufferfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE3YjBjMzk3YzBhZDc4OGQ1NzJkNjRlYjRhNTAzMmU4MTAxZDQwOTg5MzkzZTY1Zjk3MzgzNDRmZGI4MzU2NSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Pride Pufferfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE1ZTA4YWFmYjc5ODJmNGU5OTkzODYyOGM4MjZlN2U0Y2QwNzk2M2RlNzg0ZTY3YjhkOTJjNTBmZDI2ZWQ5MiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Diamond Pufferfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ0NzcwNzZkZWVhNzY0ZTYzZGQ5ZWQ1MTMwMTQ5NDdjYzE5YTY3MjEyMjg4MmI0NGJhNjhlZDQwNTFhODQ2MyJ9fX0=\"}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.055,
+          "looting_multiplier": 0.015
+        }
+      ]
+    }
+  ]
+}
