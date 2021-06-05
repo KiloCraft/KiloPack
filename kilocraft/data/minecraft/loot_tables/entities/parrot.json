@@ -42,7 +42,38 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Cyan Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Cyan Parrot (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0=\"}]}}}"
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    [
+                      {
+                        "text": "Killed by ",
+                        "color": "white",
+                        "italic": "false"
+                      },
+                      {
+                        "selector": "@s",
+                        "color": "gray",
+                        "italic": "false"
+                      },
+                      {
+                        "text": " during",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "the head collect event!",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ]
+                  ],
+                  "entity": "killer_player",
+                  "replace": false
                 }
               ],
               "conditions": [
@@ -61,7 +92,38 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Green Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Green Parrot (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0=\"}]}}}"
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    [
+                      {
+                        "text": "Killed by ",
+                        "color": "white",
+                        "italic": "false"
+                      },
+                      {
+                        "selector": "@s",
+                        "color": "gray",
+                        "italic": "false"
+                      },
+                      {
+                        "text": " during",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "the head collect event!",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ]
+                  ],
+                  "entity": "killer_player",
+                  "replace": false
                 }
               ],
               "conditions": [
@@ -80,7 +142,38 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Parrot (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0=\"}]}}}"
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    [
+                      {
+                        "text": "Killed by ",
+                        "color": "white",
+                        "italic": "false"
+                      },
+                      {
+                        "selector": "@s",
+                        "color": "gray",
+                        "italic": "false"
+                      },
+                      {
+                        "text": " during",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "the head collect event!",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ]
+                  ],
+                  "entity": "killer_player",
+                  "replace": false
                 }
               ],
               "conditions": [
@@ -99,7 +192,38 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Blue Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNhNTgwYjA1MWM2M2JlMjlkYTU0NWE5YWE3ZmY3ZTEzNmRmNzdhODFjNjdkYzFlZTllNjE3MGMxNGZiMzEwIn19fQ==\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Blue Parrot (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNhNTgwYjA1MWM2M2JlMjlkYTU0NWE5YWE3ZmY3ZTEzNmRmNzdhODFjNjdkYzFlZTllNjE3MGMxNGZiMzEwIn19fQ==\"}]}}}"
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    [
+                      {
+                        "text": "Killed by ",
+                        "color": "white",
+                        "italic": "false"
+                      },
+                      {
+                        "selector": "@s",
+                        "color": "gray",
+                        "italic": "false"
+                      },
+                      {
+                        "text": " during",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "the head collect event!",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ]
+                  ],
+                  "entity": "killer_player",
+                  "replace": false
                 }
               ],
               "conditions": [
@@ -118,7 +242,38 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Red Parrot\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiYThkNjZmZWNiMTk5MmU5NGI4Njg3ZDZhYjRhNTMyMGFiNzU5NGFjMTk0YTI2MTVlZDRkZjgxOGVkYmMzIn19fQ==\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Red Parrot (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiYThkNjZmZWNiMTk5MmU5NGI4Njg3ZDZhYjRhNTMyMGFiNzU5NGFjMTk0YTI2MTVlZDRkZjgxOGVkYmMzIn19fQ==\"}]}}}"
+                },
+                {
+                  "function": "set_lore",
+                  "lore": [
+                    [
+                      {
+                        "text": "Killed by ",
+                        "color": "white",
+                        "italic": "false"
+                      },
+                      {
+                        "selector": "@s",
+                        "color": "gray",
+                        "italic": "false"
+                      },
+                      {
+                        "text": " during",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ],
+                    [
+                      {
+                        "text": "the head collect event!",
+                        "color": "white",
+                        "italic": "false"
+                      }
+                    ]
+                  ],
+                  "entity": "killer_player",
+                  "replace": false
                 }
               ],
               "conditions": [

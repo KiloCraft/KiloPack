@@ -128,7 +128,38 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Guardian\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ==\"}]}}}"
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Guardian (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ==\"}]}}}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                [
+                  {
+                    "text": "Killed by ",
+                    "color": "white",
+                    "italic": "false"
+                  },
+                  {
+                    "selector": "@s",
+                    "color": "gray",
+                    "italic": "false"
+                  },
+                  {
+                    "text": " during",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ],
+                [
+                  {
+                    "text": "the head collect event!",
+                    "color": "white",
+                    "italic": "false"
+                  }
+                ]
+              ],
+              "entity": "killer_player",
+              "replace": false
             },
             {
               "function": "minecraft:looting_enchant",
