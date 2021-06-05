@@ -8,3 +8,5 @@ scoreboard objectives add ketrigger_ri trigger
 scoreboard objectives add ketrigger_ru trigger
 #head chances
 scoreboard objectives add ketrigger_hc trigger
+#util
+scoreboard objectives add ketrigger_ut trigger
