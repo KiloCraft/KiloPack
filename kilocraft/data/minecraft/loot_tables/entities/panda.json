@@ -30,38 +30,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Aggressive Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyZjM5M2YzYjI4YWU1NTc4ZDY4ZWE3MmYzNGIwYWE0ZjVmMmM1ODNhMjJkODk4MzQ2N2I5OGM0YjIzZDg2YyJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Aggressive Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyZjM5M2YzYjI4YWU1NTc4ZDY4ZWE3MmYzNGIwYWE0ZjVmMmM1ODNhMjJkODk4MzQ2N2I5OGM0YjIzZDg2YyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -80,38 +49,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Playful Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY0NjNlNjRjZTI5NzY0ZGIzY2I0NjgwNmNlZTYwNmFmYzI0YmRmMGNlMTRiNjY2MGMyNzBhOTZjNzg3NDI2In19fQ==\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Playful Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY0NjNlNjRjZTI5NzY0ZGIzY2I0NjgwNmNlZTYwNmFmYzI0YmRmMGNlMTRiNjY2MGMyNzBhOTZjNzg3NDI2In19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -130,38 +68,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Weak Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMyZDI1ZTk1NjMzN2Q4Mjc5MWZhMGU2NjE3YTQwMDg2ZjAyZDZlYmZiZmQ1YTY0NTk4ODljZjIwNmZjYTc4NyJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Weak Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMyZDI1ZTk1NjMzN2Q4Mjc5MWZhMGU2NjE3YTQwMDg2ZjAyZDZlYmZiZmQ1YTY0NTk4ODljZjIwNmZjYTc4NyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -180,38 +87,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lazy Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgxOGI2ODFjYWNlMWM2NDE5MTlmNTNlZGFkZWNiMTQyMzMwZDA4OWE4MjZiNTYyMTkxMzhjMzNiN2E1ZTBkYiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lazy Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgxOGI2ODFjYWNlMWM2NDE5MTlmNTNlZGFkZWNiMTQyMzMwZDA4OWE4MjZiNTYyMTkxMzhjMzNiN2E1ZTBkYiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -230,38 +106,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Normal Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNhMDk2ZWVhNTA2MzAxYmVhNmQ0YjE3ZWUxNjA1NjI1YTZmNTA4MmM3MWY3NGE2MzljYzk0MDQzOWY0NzE2NiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Normal Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNhMDk2ZWVhNTA2MzAxYmVhNmQ0YjE3ZWUxNjA1NjI1YTZmNTA4MmM3MWY3NGE2MzljYzk0MDQzOWY0NzE2NiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -280,38 +125,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Worried Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlOTIxYzU3ZTU0ZGQwNzMzN2ZmYmE2MjllNzJjYWYzODUwZDgzNmI3NjU2MmIxYmMzYmM1OTQ5ZjJkNDFkIn19fQ==\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Worried Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlOTIxYzU3ZTU0ZGQwNzMzN2ZmYmE2MjllNzJjYWYzODUwZDgzNmI3NjU2MmIxYmMzYmM1OTQ5ZjJkNDFkIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -330,38 +144,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Panda (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMGQ0NWJmOTkyYjA3MmNmNWM1MTNlMDZiZWVmZThiZGM4MDljODE1MGYzZDE0Yjg4Mzc5NmE3Yjc0ZTQwNiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMGQ0NWJmOTkyYjA3MmNmNWM1MTNlMDZiZWVmZThiZGM4MDljODE1MGYzZDE0Yjg4Mzc5NmE3Yjc0ZTQwNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [

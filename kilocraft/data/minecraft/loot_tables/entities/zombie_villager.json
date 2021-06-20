@@ -86,38 +86,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Shepherd (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMzkxYmVmM2E0NmVmMjY3ZDNiNzE3MTA4NmJhNGM4ZDE3ZjJhNmIwZjgzZmEyYWMzMGVmZTkxNGI3YzI0OSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Shepherd\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMzkxYmVmM2E0NmVmMjY3ZDNiNzE3MTA4NmJhNGM4ZDE3ZjJhNmIwZjgzZmEyYWMzMGVmZTkxNGI3YzI0OSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -136,38 +105,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Leatherworker (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIyMzg4YjIzZGRkNmE5YTU3NzZmZjJlOGNhNTViNGVmZTMwOTBjYWFmOTY3YzIyNzY5YzU3NmIwYTQwYjg4NSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Leatherworker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIyMzg4YjIzZGRkNmE5YTU3NzZmZjJlOGNhNTViNGVmZTMwOTBjYWFmOTY3YzIyNzY5YzU3NmIwYTQwYjg4NSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -186,38 +124,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Librarian (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyMTFhMWY0MDljY2E0MjQ5YzcwZDIwY2E4MDM5OWZhNDg0NGVhNDE3NDU4YmU5ODhjYzIxZWI0Nzk3Mzc1ZSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Librarian\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyMTFhMWY0MDljY2E0MjQ5YzcwZDIwY2E4MDM5OWZhNDg0NGVhNDE3NDU4YmU5ODhjYzIxZWI0Nzk3Mzc1ZSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -236,38 +143,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Mason (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Mason\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -286,38 +162,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Cleric (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1ODU3OGJlMGUxMjE3MjczNGE3ODI0MmRhYjE0OTY0YWJjODVhYjliNTk2MzYxZjdjNWRhZjhmMTRhMGZlYiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Cleric\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1ODU3OGJlMGUxMjE3MjczNGE3ODI0MmRhYjE0OTY0YWJjODVhYjliNTk2MzYxZjdjNWRhZjhmMTRhMGZlYiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -336,38 +181,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Nitwit (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEyN2U0MjBmNDRmOWJiMDZjN2IzNjg0MDJiMjJhZjZkYzU3YmY5ZThjYTM0NzU4NDBmNmY3NWUyMTc4MDljMSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Nitwit\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEyN2U0MjBmNDRmOWJiMDZjN2IzNjg0MDJiMjJhZjZkYzU3YmY5ZThjYTM0NzU4NDBmNmY3NWUyMTc4MDljMSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -386,38 +200,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Fletcher (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVhMjZhYzBlMjU0OThhZGFkYTRlY2VhNThiYjRlNzZkYTMyZDVjYTJkZTMwN2VmZTVlNDIxOGZiN2M1ZWY4OSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Fletcher\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVhMjZhYzBlMjU0OThhZGFkYTRlY2VhNThiYjRlNzZkYTMyZDVjYTJkZTMwN2VmZTVlNDIxOGZiN2M1ZWY4OSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -436,38 +219,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Fisherman (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkwNWQ1M2ZlNGZhZWIwYjMxNWE2ODc4YzlhYjgxYjRiZTUyYzMxY2Q0NzhjMDI3ZjBkN2VjZTlmNmRhODkxNCJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Fisherman\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkwNWQ1M2ZlNGZhZWIwYjMxNWE2ODc4YzlhYjgxYjRiZTUyYzMxY2Q0NzhjMDI3ZjBkN2VjZTlmNmRhODkxNCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -486,38 +238,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Weaponsmith (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3MDg5NGI1Y2MzMDVkODdhYTA4YzNiNGIwODU4N2RiNjhmZjI5ZTdhM2VmMzU0Y2FkNmFiY2E1MGU1NTI4YiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Weaponsmith\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3MDg5NGI1Y2MzMDVkODdhYTA4YzNiNGIwODU4N2RiNjhmZjI5ZTdhM2VmMzU0Y2FkNmFiY2E1MGU1NTI4YiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -536,38 +257,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Cartographer (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwODAwYjAxMDEyZTk2M2U3YzIwYzhiYTE0YjcwYTAyNjRkMTQ2YTg1MGRlZmZiY2E3YmZlNTEyZjRjYjIzZCJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Cartographer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwODAwYjAxMDEyZTk2M2U3YzIwYzhiYTE0YjcwYTAyNjRkMTQ2YTg1MGRlZmZiY2E3YmZlNTEyZjRjYjIzZCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -586,38 +276,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Farmer (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZDQxNWY5YmFhNGZhNGI1ZTA1OGY1YjgxYmY3ZjAwM2IwYTJjOTBhNDgzMWU1M2E3ZGJjMDk4NDFjNTUxMSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Farmer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZDQxNWY5YmFhNGZhNGI1ZTA1OGY1YjgxYmY3ZjAwM2IwYTJjOTBhNDgzMWU1M2E3ZGJjMDk4NDFjNTUxMSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -636,38 +295,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Armorer (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg2NzllMDM0NzY3ZDUxODY2MGQ5NDE2ZGM1ZWFmMzE5ZDY5NzY4MmFjNDBjODg2ZTNjMmJjOGRmYTFkZTFkIn19fQ==\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Armorer\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg2NzllMDM0NzY3ZDUxODY2MGQ5NDE2ZGM1ZWFmMzE5ZDY5NzY4MmFjNDBjODg2ZTNjMmJjOGRmYTFkZTFkIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -686,38 +314,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Butcher (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNjZThkNmNlNDEyNGNlYzNlODRhODUyZTcwZjUwMjkzZjI0NGRkYzllZTg1NzhmN2Q2ZDg5MjllMTZiYWQ2OSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Butcher\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNjZThkNmNlNDEyNGNlYzNlODRhODUyZTcwZjUwMjkzZjI0NGRkYzllZTg1NzhmN2Q2ZDg5MjllMTZiYWQ2OSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -736,38 +333,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Villager (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlMDhhODc3NmMxNzY0YzNmZTZhNmRkZDQxMmRmY2I4N2Y0MTMzMWRhZDQ3OWFjOTZjMjFkZjRiZjNhYzg5YyJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlMDhhODc3NmMxNzY0YzNmZTZhNmRkZDQxMmRmY2I4N2Y0MTMzMWRhZDQ3OWFjOTZjMjFkZjRiZjNhYzg5YyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -786,38 +352,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Toolsmith (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAwODkzZDMxYWNkMGU4NDIzMjkyZDQxMTNjZTkxZTI3M2QxZTU3ZTVlMTA0YmFhZmM4NTNiMmU4NjRjYjQzZiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Zombie Toolsmith\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAwODkzZDMxYWNkMGU4NDIzMjkyZDQxMTNjZTkxZTI3M2QxZTU3ZTVlMTA0YmFhZmM4NTNiMmU4NjRjYjQzZiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [

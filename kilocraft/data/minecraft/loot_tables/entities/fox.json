@@ -13,38 +13,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Fox (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ==\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Fox\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -63,38 +32,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Sleeping Fox (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk3NTM4YzBlOWE4YzJjMzRiYzIwYjAzYzYyMTI0YjM3MWUxNDY2MTVjNTk1OTliMmU1Mzk5ZmQxZWU4YzA4MiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Sleeping Fox\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk3NTM4YzBlOWE4YzJjMzRiYzIwYjAzYzYyMTI0YjM3MWUxNDY2MTVjNTk1OTliMmU1Mzk5ZmQxZWU4YzA4MiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -113,38 +51,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Snow Fox (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Snow Fox\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -163,38 +70,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Sleeping Snow Fox (Event)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzNDVhNTIwOWI2MjZkNjk5OTlmZGFmOWI3NjczNWQ2MDRhMWExODk5NjhlNmI4OWI0ZWQ1ZGJkMGZmMTA2YiJ9fX0=\"}]}}}"
-                },
-                {
-                  "function": "set_lore",
-                  "lore": [
-                    [
-                      {
-                        "text": "Killed by ",
-                        "color": "white",
-                        "italic": "false"
-                      },
-                      {
-                        "selector": "@s",
-                        "color": "gray",
-                        "italic": "false"
-                      },
-                      {
-                        "text": " during",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ],
-                    [
-                      {
-                        "text": "the head collect event!",
-                        "color": "white",
-                        "italic": "false"
-                      }
-                    ]
-                  ],
-                  "entity": "killer_player",
-                  "replace": false
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Sleeping Snow Fox\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzNDVhNTIwOWI2MjZkNjk5OTlmZGFmOWI3NjczNWQ2MDRhMWExODk5NjhlNmI4OWI0ZWQ1ZGJkMGZmMTA2YiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
