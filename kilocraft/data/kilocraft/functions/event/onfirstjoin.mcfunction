@@ -5,12 +5,14 @@ function kilocraft:trigger/enable
 
 tellraw @a ["",{"selector":"@s","color":"yellow"},{"text":" joined for the first time.","color":"yellow"}]
 
-spawnpoint @s ~ ~ ~
+
+scoreboard players add first_joined kestats_global 1
 
 #tp
 clear @s
 # tp @s 648 52 -34 150 -20
-execute in kilocraft:mighty_highlands run tp @s -220.5 45.00 62.5 180 0
+execute in kilocraft:mighty_highlands run tp @s -247.5 9.00 143.5 -45 0
+spawnpoint @s ~ ~ ~
 team join guest @s
 #we use minecraft:gamemode here, because kiloessentials overrides /gamemode
 minecraft:gamemode survival @s

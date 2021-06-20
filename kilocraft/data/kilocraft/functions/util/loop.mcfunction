@@ -1,2 +1,2 @@
-execute in kilocraft:mighty_highlands run effect give @a[distance=0..] minecraft:resistance 3 4 true
+execute in kilocraft:mighty_highlands run function kilocraft:util/spawn
 schedule function kilocraft:util/loop 1t replace
