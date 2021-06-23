@@ -9,4 +9,6 @@ give @s[scores={kecrate.entry14=1..}] diamond 8
 tellraw @s[scores={kecrate.entry14=1..}] ["",{"text":"You obtained ","color":"yellow"},{"text":"8 Diamonds","color":"green","underlined":true},{"text":" from the Vote Crate","color":"yellow"}]
 
 ##Clear temp
-clear @s stone_button{kecrate.entry:8b}
+clear @s stone_button{kecrate.entry:14b}
+
+#fix
