@@ -1,7 +1,10 @@
 tellraw @s [{"text":"You have used a ","color":"#96EEEE"}, {"text":"Vote Crate Key","color":"#7AF631"}, {"text":"!","color":"#96EEEE"}]
 
-#Give the Loot
+#Give the "temporary" Loot
 loot give @s loot kilocraft:votes
+
+#Replace the temporary items
+function kilocraft:crate/onopen/replace/direct
 
 #Play Sound
 playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1
