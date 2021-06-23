@@ -3,7 +3,7 @@ execute store result score @s kecrate.entry6 run clear @s stone_button{kecrate.e
 
 ##If item succeed
 #Provide the Reward
-give @s[scores={kecrate.entry6=1..}] 
+give @s[scores={kecrate.entry6=1..}] cooked_beef 16
 
 #Tellraw Message
 tellraw @s[scores={kecrate.entry6=1..}] ["",{"text":"You obtained ","color":"yellow"},{"text":"16 Steaks","color":"green","underlined":true},{"text":" from the Vote Crate","color":"yellow"}]
