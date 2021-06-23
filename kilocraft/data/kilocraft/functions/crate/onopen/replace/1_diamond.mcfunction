@@ -1,8 +1,12 @@
-#Clear the temp item, and increment to the scoreboard
-execute store result score @s kecrate.entry2 run clear @s stone_button{kecrate.entry:2b}
+##Check for the temp item
+execute store result score @s kecrate.entry2 run clear @s stone_button{kecrate.entry:2b} 0
 
+##If item succeed
 #Provide the Reward
-give @s[scores={kecrate.entry2=1..}] diamond 1
+give @s[scores={kecrate.entry2=1..}] 
 
 #Tellraw Message
-tellraw @s ["",{"text":"You obtained ","color":"yellow"},{"text":"1 Diamond","color":"green","underlined":true},{"text":" from the Vote Crate","color":"yellow"}]
+tellraw @s[scores={kecrate.entry2=1..}] ["",{"text":"You obtained ","color":"yellow"},{"text":"1 Diamond","color":"green","underlined":true},{"text":" from the Vote Crate","color":"yellow"}]
+
+##Clear temp
+clear @s stone_button{kecrate.entry:2b}
