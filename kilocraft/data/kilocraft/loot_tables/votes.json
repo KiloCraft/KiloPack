@@ -6,166 +6,166 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:stone_button",
           "weight": 15,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 16
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:1b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:stone_button",
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:2b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:stone_button",
           "weight": 15,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 8
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:3b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:stone_button",
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 4
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:4b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_ingot",
+          "name": "minecraft:stone_button",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:5b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_beef",
+          "name": "minecraft:stone_button",
           "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 16
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:6b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
+          "name": "minecraft:stone_button",
           "weight": 15,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 16
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:7b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:elytra",
+          "name": "minecraft:stone_button",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:8b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:trident",
+          "name": "minecraft:stone_button",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:9b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
+          "name": "minecraft:stone_button",
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:10b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:wither_skeleton_skull",
+          "name": "minecraft:stone_button",
           "weight": 3,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:11b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
+          "name": "minecraft:stone_button",
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 2
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:12b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:stone_button",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 32
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:13b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:stone_button",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 8
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:14b}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:stone_button",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 16
+              "function": "minecraft:set_nbt",
+              "tag": "{kecrate.entry:15b}"
             }
           ]
         }
