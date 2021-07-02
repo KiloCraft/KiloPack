@@ -87,7 +87,7 @@ execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 1.
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..0 run tellraw @s [{"text":"[8] ","color":"yellow"},{"text":"32 Steak","color":"gold"},{"text":" [Buy for 1 credit]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
 
 execute if score @s ketrigger_vs matches -8 if score @s kevote_credits matches 1.. run give @s minecraft:cooked_beef 32
-execute if score @s ketrigger_vs matches -8 if score @s kevote_credits matches 1.. run tellraw @s ["",{"text":"Purchased ","color":"green"}]
+execute if score @s ketrigger_vs matches -8 if score @s kevote_credits matches 1.. run tellraw @s ["",{"text":"Purchased 32 Steak","color":"green"}]
 
 execute if score @s ketrigger_vs matches -8 if score @s kevote_credits matches 1.. run playsound entity.experience_orb.pickup master @s
 execute if score @s ketrigger_vs matches -8 if score @s kevote_credits matches 1.. run scoreboard players remove @s kevote_credits 1
