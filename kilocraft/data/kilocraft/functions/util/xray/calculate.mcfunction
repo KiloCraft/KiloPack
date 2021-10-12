@@ -3,10 +3,6 @@ scoreboard players operation #temp ke_var = @s kestats_diamond
 scoreboard players operation #temp ke_var += @s kestats_debris
 scoreboard players operation #temp ke_var += @s kestats_dsdia
 
-#subtract placed ore
-scoreboard players operation #temp ke_var -= @s kestats_diaplace
-scoreboard players operation #temp ke_var -= @s kestats_dsplace
-
 #store minutes to score
 scoreboard players operation #score ke_var = @s keutil_minutes
 
