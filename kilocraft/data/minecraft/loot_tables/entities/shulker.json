@@ -22,39 +22,342 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0=\"}]}}}"
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI5NGIwYWNiMzE3N2I0Y2RiMDE3ZmUzMWNkNWMyNDcyNjJkZWY1M2JmODMzODFjNmM4MmQ3MmM1NmFjIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             },
             {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": -1,
-                "max": 1
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Purple Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             },
             {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Blue Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzMDk2NmQ1Y2ViYmQ3ODcxNDc2OTlhMjk3NDM3NTFiM2NlNGJiODE0ZTJkYjU2NGZlOTIxNDJkMTE5Y2QxIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2ZDdmYjg3NDQ3ZmZjMDU0ZmIxMDliODRkNjIyNWQ0MTAyOWIxZTY3MTBjN2RlNTdmNjYxYWVmYTZmIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Green Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxYWJlMmJiMmI5MTQxZjEwMThlYjE1MzlkMmNmZWMxM2Q5MjMxYjUzYTQ2Y2FmOGRjMjFhYTI3MDUwNDkifX19\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Red Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk5OTQwNDA0MzNhZjBmMDE1YmU0ZDY5NjhjM2Q1NWUwNDRjOThkYWMyYzRjNmE2ZWEwZWZhYzdhNmRkYiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU0NTVhYWFkYjIzMTdiNWYyOWU5ODk4MWFhNTdmNTc5NTcwNTA2OWQ4ZjQxNWMwZDY4YTkyYTc5MTQxM2IzYSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:15b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Shulker Box\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVjNGQyNGFmZmRkNDgxMDI2MjAzNjE1MjdkMjE1NmUxOGMyMjNiYWU1MTg5YWM0Mzk4MTU2NDNmM2NmZjlkIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:16b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Orange Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3MTFkOTU0YmQ1NjIzNmQxYTlmOTliZTg4MGM1ZDM4OTkwZGY2YmVmNzJlNzNmNzQ1YjA0OTk1ZGJmNiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Magenta Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlmZTI5MTY3NmM3YjNmOTZmM2NkZjYzYzQ3YjUzZmI0NWQ3M2JkNmZlMmNlMjJkZTEwNzQ5ZWIxNDI2YSJ9fX0\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Light Blue Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIxY2RlYzJjZjRlYmVlZjM1ZDU4YjE4NGI4MzI1OThiYzg5MGEwYWU1YzJkNTRlZTliZTU4NmQwIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Yellow Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNiZjU1ODY4MzZiN2IzNDI5MzJlMWQyM2VmYzI0OTBjZjU5YzY5YWNjZjFlMDVlOWVkNTc2Y2FlZDhiNzg3NyJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lime Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNDQ5NTdjMmM1YmJmZTQ0N2Y0YjJkMzZhMjQ2ZWExYjAyM2RhNGNiZDFhYTJkYmJiMTVlOTQ5ODEyNDgifX19\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Pink Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y4NDdjMTJkNTdmZTY1NTVlOGY5YjQ3ZTU2MmVjZjE2ODNmYjZjMzVmOTJjZTJjZWQyYWU2OGRlNjI4NzUwIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5ODQzMmZiZWIyYmMyZDc1N2IxZDNjM2IzNTU4ZTY5OTAzOTJkZDA5MWVhNGVmMzgxYjJlMDE5Yzk0NjIifX19\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Light Gray Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhMTdkNDFlYTE4M2JlZTUzZDU0NmM3YmVjNGNjZjZhNTRkNGY1MDhmZGU2ZWJmM2U1ZDM4OGQ0Y2JlYWNiOSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Cyan Shulker\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZmMTczZDRlM2U4YmQ2ZjliZTBiZjliNzQ1YmQxY2M3YTI5ZmY4MzZlZDJkNDg2YzViOTkyOTJjODVjYyJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Color:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             }
           ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.015,
-          "looting_multiplier": 0.005
         }
       ]
     }
