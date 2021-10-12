@@ -30,33 +30,14 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lazy Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgxOGI2ODFjYWNlMWM2NDE5MTlmNTNlZGFkZWNiMTQyMzMwZDA4OWE4MjZiNTYyMTkxMzhjMzNiN2E1ZTBkYiJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Aggressive Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyZjM5M2YzYjI4YWU1NTc4ZDY4ZWE3MmYzNGIwYWE0ZjVmMmM1ODNhMjJkODk4MzQ2N2I5OGM0YjIzZDg2YyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{MainGene:'lazy'}"
-                  },
-                  "entity": "this"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:player_head",
-              "functions": [
-                {
-                  "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Worried Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlOTIxYzU3ZTU0ZGQwNzMzN2ZmYmE2MjllNzJjYWYzODUwZDgzNmI3NjU2MmIxYmMzYmM1OTQ5ZjJkNDFkIn19fQ==\"}]}}}"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{MainGene:'worried'}"
+                    "nbt": "{MainGene:'aggressive'}"
                   },
                   "entity": "this"
                 }
@@ -87,25 +68,6 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Aggressive Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyZjM5M2YzYjI4YWU1NTc4ZDY4ZWE3MmYzNGIwYWE0ZjVmMmM1ODNhMjJkODk4MzQ2N2I5OGM0YjIzZDg2YyJ9fX0=\"}]}}}"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{MainGene:'aggressive'}"
-                  },
-                  "entity": "this"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:player_head",
-              "functions": [
-                {
-                  "function": "set_nbt",
                   "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Weak Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMyZDI1ZTk1NjMzN2Q4Mjc5MWZhMGU2NjE3YTQwMDg2ZjAyZDZlYmZiZmQ1YTY0NTk4ODljZjIwNmZjYTc4NyJ9fX0=\"}]}}}"
                 }
               ],
@@ -125,14 +87,14 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMGQ0NWJmOTkyYjA3MmNmNWM1MTNlMDZiZWVmZThiZGM4MDljODE1MGYzZDE0Yjg4Mzc5NmE3Yjc0ZTQwNiJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Lazy Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgxOGI2ODFjYWNlMWM2NDE5MTlmNTNlZGFkZWNiMTQyMzMwZDA4OWE4MjZiNTYyMTkxMzhjMzNiN2E1ZTBkYiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{MainGene:'brown'}"
+                    "nbt": "{MainGene:'lazy'}"
                   },
                   "entity": "this"
                 }
@@ -152,6 +114,44 @@
                   "condition": "entity_properties",
                   "predicate": {
                     "nbt": "{MainGene:'normal'}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Worried Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlOTIxYzU3ZTU0ZGQwNzMzN2ZmYmE2MjllNzJjYWYzODUwZDgzNmI3NjU2MmIxYmMzYmM1OTQ5ZjJkNDFkIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'worried'}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Panda\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMGQ0NWJmOTkyYjA3MmNmNWM1MTNlMDZiZWVmZThiZGM4MDljODE1MGYzZDE0Yjg4Mzc5NmE3Yjc0ZTQwNiJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'brown'}"
                   },
                   "entity": "this"
                 }

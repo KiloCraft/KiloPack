@@ -13,6 +13,7 @@ scoreboard players add @s kevote_total 1
 scoreboard players add @s kevote_month 1
 
 function kilocraft:crate/give
+function kilocraft:util/playtime/rankup
 
 #reset
 scoreboard players reset #kevote_credits ke_var
