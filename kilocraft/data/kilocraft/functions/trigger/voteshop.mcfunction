@@ -64,6 +64,10 @@ execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..
 execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 3.. run give @s minecraft:moss_block 1
 execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 3.. run scoreboard players remove @s kevote_credits 3
 
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 10.. run tellraw @s [{"text":"[13] ","color":"yellow"},{"text":"Summon a Panda","color":"gold"},{"text":" [Buy for 10 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -13"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..9 run tellraw @s [{"text":"[13] ","color":"yellow"},{"text":"Summon a Panda","color":"gold"},{"text":" [Buy for 10 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 10.. run execute at @s run summon minecraft:panda
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 10.. run scoreboard players remove @s kevote_credits 10
 
 scoreboard players reset @s ketrigger_vs
 scoreboard players enable @s ketrigger_vs
