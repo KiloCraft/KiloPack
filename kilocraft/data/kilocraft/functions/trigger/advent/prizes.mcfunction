@@ -91,7 +91,7 @@ execute if entity @s[tag=day12] if score var advent_date matches 12..13 if score
 execute if entity @s[tag=day12] if score var advent_date matches 12..13 if score @s advent matches 112 run execute at @s run playsound minecraft:block.anvil.land master @s
 execute if entity @s[tag=!day12] if score var advent_date matches 12..13 if score @s advent matches 112 run title @s title {"text":"Prize Claimed!","color":"gold"}
 execute if entity @s[tag=!day12] if score var advent_date matches 12..13 if score @s advent matches 112 run execute at @s run playsound minecraft:block.note_block.bell master @s
-#execute if entity @s[tag=!day12] if score var advent_date matches 12..13 if score @s advent matches 112 run execute as @s run function kilocraft:crate/give
+execute if entity @s[tag=!day12] if score var advent_date matches 12..13 if score @s advent matches 112 run execute as @s run function kilocraft:crate/give
 execute if entity @s[tag=!day12] if score var advent_date matches 12..13 if score @s advent matches 112 run scoreboard players add @s advent_total 1
 execute if entity @s[tag=!day12] if score var advent_date matches 12..13 if score @s advent matches 112 run tag @s add day12
 #Day13
