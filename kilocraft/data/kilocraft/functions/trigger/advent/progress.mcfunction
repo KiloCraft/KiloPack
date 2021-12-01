@@ -52,3 +52,4 @@ tellraw @s[tag=day25] {"text":"[Dec 25]","color":"green"}
 tellraw @s[tag=!day25] {"text":"[Dec 25]","color":"red"}
 
 scoreboard players set @s advent 0
+scoreboard players enable @s advent
