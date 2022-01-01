@@ -1,1 +1,0 @@
-tellraw @s ["",{"text":"Stuck at spawn? Click ","color":"red"},{"text":"here","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger ketrigger_ut set 1"}},{"text":" to teleport into the wilderness!","color":"red"}]
