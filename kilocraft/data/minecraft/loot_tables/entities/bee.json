@@ -32,14 +32,14 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Pollinated Bee\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Angry Bee\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{HasNectar:1b,HasStung:0b}"
+                    "nbt": "{HasNectar:0b,HasStung:1b}"
                   },
                   "entity": "this"
                 }
@@ -51,14 +51,14 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Angry Bee\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0=\"}]}}}"
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Pollinated Bee\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{HasNectar:0b,HasStung:1b}"
+                    "nbt": "{HasNectar:1b,HasStung:0b}"
                   },
                   "entity": "this"
                 }
