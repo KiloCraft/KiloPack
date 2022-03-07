@@ -1,4 +1,4 @@
-tellraw @s ["",{"text":"=================== ","color":"yellow"},{"text":"RankInfo","bold":true,"color":"gold"},{"text":" ===================","color":"yellow"}]
+tellraw @s ["",{"text":"==================== ","color":"yellow"},{"text":"RankInfo","bold":true,"color":"gold"},{"text":" ======================","color":"yellow"}]
 tellraw @s ["",{"text":"Hover over rank for new permissions, click for full list","italic":true,"color":"gray"},"\n",{"text":"[Click for basic permission list]","bold":true,"color":"gray","clickEvent":{"action":"run_command","value":"/trigger ketrigger_ri set 2"}},"\n","\n",{"text":"Playtime / Voting Ranks: ","bold":true,"color":"white"}]
 
 #Guest
@@ -43,8 +43,14 @@ tellraw @s ["",{"text":"[Donator] - ","color":"dark_purple","clickEvent":{"actio
 #Ultimate
 tellraw @s ["",{"text":"[Ultimate] - ","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger ketrigger_ri set 10"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click for permission list]","color":"gold"}]}},{"text":"[Starting at 10€/month] ","color":"gold","clickEvent":{"action":"run_command","value":"/store"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to visit store!","color":"gold"}]}}]
 
+#Staff Ranks
+tellraw @s ["","\n",{"text":"Staff Ranks: ","bold":true,"color":"white","hoverEvent":{"action":"show_text","contents":[{"text":"All ranks that have gray brackets","color":"gray"},{"text":" [] ","italic":true,"color":"dark_gray"},{"text":"are staff ranks","color":"gray"}]}},{"text":"[","color":"dark_gray"},{"text":"Helper","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"[","color":"dark_gray"},{"text":"H","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Answers the players questions and helps with problems in-game","color":"green"}]}},{"text":"]","color":"dark_gray"},", ",{"text":"[","color":"dark_gray"},{"text":"Staff","color":"dark_green","hoverEvent":{"action":"show_text","contents":[{"text":"[","color":"dark_gray"},{"text":"S","color":"dark_green"},{"text":"] ","color":"dark_gray"},{"text":"Moderates chat ","color":"dark_green"},{"text":"+ Helper responsibilities","italic":true,"color":"green"}]}},{"text":"]","color":"dark_gray"},", ",{"text":"[","color":"dark_gray"},{"text":"Moderator","color":"blue","hoverEvent":{"action":"show_text","contents":[{"text":"[","color":"dark_gray"},{"text":"Mod","color":"blue"},{"text":"] ","color":"dark_gray"},{"text":"Moderates gameplay of players ","color":"blue"},{"text":"+ Staff responsibilities","italic":true,"color":"dark_green"}]}},{"text":"]","color":"dark_gray"},", ",{"text":"[","color":"dark_gray"},{"text":"Admin","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"[","color":"dark_gray"},{"text":"A","color":"red"},{"text":"] ","color":"dark_gray"},{"text":"Overall server moderation ","color":"red"},{"text":"+ Moderator responsibilities","italic":true,"color":"blue"}]}},{"text":"]","color":"dark_gray"},", ",{"text":"[","color":"dark_gray"},{"text":"Owner","color":"dark_red","hoverEvent":{"action":"show_text","contents":[{"text":"[","color":"dark_gray"},{"text":"O","color":"dark_red"},{"text":"] ","color":"dark_gray"},{"text":"The one and only Drex, owns and maintains the server","color":"dark_red"}]}},{"text":"]","color":"dark_gray"}]
+
+#Other Ranks
+tellraw @s ["",{"text":"Other Ranks: ","bold":true,"color":"white","hoverEvent":{"action":"show_text","contents":[]}},{"text":"[Builder]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Builds for the server (spawn, events, etc.)","color":"green"}]}},", ",{"text":"[Developer]","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"text":"Creates and mantains custom stuff (mods, datapacks) for the server","color":"yellow"}]}},", ",{"text":"[VIP]","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"text":"Very important people to the server","color":"yellow"}]}}]
+
 #Bottom Line
-tellraw @s {"text":"=================================================","color":"yellow"}
+tellraw @s {"text":"====================================================","color":"yellow"}
 
 scoreboard players reset @s ketrigger_ri
 scoreboard players enable @s ketrigger_ri

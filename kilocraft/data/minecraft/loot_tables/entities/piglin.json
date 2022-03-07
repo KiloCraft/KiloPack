@@ -7,25 +7,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
+          "weight": 4,
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Piglin\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBiYzlkYmI0NDA0YjgwMGY4Y2YwMjU2MjIwZmY3NGIwYjcxZGJhOGI2NjYwMGI2NzM0ZjRkNjMzNjE2MThmNSJ9fX0=\"}]}}}"
-            },
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
             {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": -1,
-                "max": 1
-              }
-            },
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1,
-                "type": "minecraft:uniform"
-              }
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Pot of Gold\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UyODVjNWM4NTU5OTQzN2FjNDJlMjdmNDkyMWM4MDVhZWQxZGM1Nzc0Zjk1MmEyN2VhN2U4YzlhYmU2ZSJ9fX0=\"}]}}}"
             }
           ]
         }
