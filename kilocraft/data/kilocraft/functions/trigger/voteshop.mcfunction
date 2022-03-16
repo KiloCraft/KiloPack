@@ -54,10 +54,10 @@ execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..
 execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 7.. run execute at @s run summon minecraft:phantom ~ ~15 ~
 execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 7.. run scoreboard players remove @s kevote_credits 7
 
-execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 10.. run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"Summon a Panda","color":"gold"},{"text":" [Buy for 10 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -11"}}]
-execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..9 run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"Summon a Panda","color":"gold"},{"text":" [Buy for 10 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
-execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 10.. run execute at @s run summon minecraft:panda
-execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 10.. run scoreboard players remove @s kevote_credits 10
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 5.. run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"1 Tadpole Bucket","color":"gold"},{"text":" [Buy for 5 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -11"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..4 run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"1 Tadpole Bucket","color":"gold"},{"text":" [Buy for 5 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 5.. run give @s minecraft:tadpole_bucket 1
+execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 5.. run scoreboard players remove @s kevote_credits 5
 
 scoreboard players reset @s ketrigger_vs
 scoreboard players enable @s ketrigger_vs
