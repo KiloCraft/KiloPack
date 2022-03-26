@@ -19,10 +19,10 @@ execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..
 execute if score @s ketrigger_vs matches -3 if score @s kevote_credits matches 1.. run give @s minecraft:experience_bottle 5
 execute if score @s ketrigger_vs matches -3 if score @s kevote_credits matches 1.. run scoreboard players remove @s kevote_credits 1
 
-execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 10.. run tellraw @s [{"text":"[4] ","color":"yellow"},{"text":"1 Mending Book","color":"gold"},{"text":" [Buy for 10 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -4"}}]
-execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..9 run tellraw @s [{"text":"[4] ","color":"yellow"},{"text":"1 Mending Book","color":"gold"},{"text":" [Buy for 10 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
-execute if score @s ketrigger_vs matches -4 if score @s kevote_credits matches 10.. run give @s minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:mending",lvl:1}]} 1
-execute if score @s ketrigger_vs matches -4 if score @s kevote_credits matches 10.. run scoreboard players remove @s kevote_credits 10
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 25.. run tellraw @s [{"text":"[4] ","color":"yellow"},{"text":"1 Mending Book","color":"gold"},{"text":" [Buy for 25 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -4"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..24 run tellraw @s [{"text":"[4] ","color":"yellow"},{"text":"1 Mending Book","color":"gold"},{"text":" [Buy for 25 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -4 if score @s kevote_credits matches 25.. run give @s minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:mending",lvl:1}]} 1
+execute if score @s ketrigger_vs matches -4 if score @s kevote_credits matches 25.. run scoreboard players remove @s kevote_credits 25
 
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 1.. run tellraw @s [{"text":"[5] ","color":"yellow"},{"text":"50 Claim blocks","color":"gold"},{"text":" [Buy for 1 credit]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -5"}}]
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..0 run tellraw @s [{"text":"[5] ","color":"yellow"},{"text":"50 Claim blocks","color":"gold"},{"text":" [Buy for 1 credit]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
@@ -58,6 +58,11 @@ execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 5.
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..4 run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"1 Tadpole Bucket","color":"gold"},{"text":" [Buy for 5 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
 execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 5.. run give @s minecraft:tadpole_bucket 1
 execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 5.. run scoreboard players remove @s kevote_credits 5
+
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 15.. run tellraw @s [{"text":"[12] ","color":"yellow"},{"text":"1 Swift Sneak Book","color":"gold"},{"text":" [Buy for 15 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -12"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..14 run tellraw @s [{"text":"[12] ","color":"yellow"},{"text":"1 Swift Sneak Book","color":"gold"},{"text":" [Buy for 15 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 15.. run give @s minecraft:enchanted_book{StoredEnchantments:[{id:"minecraft:swift_sneak",lvl:3}]} 1
+execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 15.. run scoreboard players remove @s kevote_credits 15
 
 scoreboard players reset @s ketrigger_vs
 scoreboard players enable @s ketrigger_vs
