@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Frog\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmNDhkNzFiOWY3YTcxN2MzMzBmZWJkNzAwZDFkMWY5NDYxYTI2MzVjMjQ4OTM3OGNiZWZjMWIyNTk0YjIwIn19fQ==\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:0}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Warm Frog\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEwM2E0MjNiYWI4YTRkODMyNzZlNTQwNzgwMTk4NjIwZTIwMWM0ZDE5NTAxYzFmZjNjOTFkY2VmMWMyODFkZCJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:1}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Cold Frog\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiMzAzYzI5MzRiMjY3MjZhZjg5NWU3MGZkOTkyYTZmNWZhMmUzMDIyMzI1MWI0Y2Y5MTZmMjY5NTI4N2ZkNSJ9fX0=\"}]}}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:2}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.015,
+              "looting_multiplier": 0.005
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
