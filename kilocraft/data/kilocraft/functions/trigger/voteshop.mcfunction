@@ -66,7 +66,7 @@ execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 
 
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 6.. run tellraw @s [{"text":"[13] ","color":"yellow"},{"text":"Summon an Allay","color":"gold"},{"text":" [Buy for 6 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -13"}}]
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..5 run tellraw @s [{"text":"[13] ","color":"yellow"},{"text":"Summon an Allay","color":"gold"},{"text":" [Buy for 6 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
-execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 6.. run execute at @s run summon minecraft:allay
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 6.. run execute at @s run summon minecraft:allay ~ ~ ~ {PersistenceRequired:1b}
 execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 6.. run scoreboard players remove @s kevote_credits 6
 
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 6.. run tellraw @s [{"text":"[14] ","color":"yellow"},{"text":"Mangrove Stuff","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"You will get 32 Mangrove Logs, 32 Mangrove Leaves and 32 Mangrove Roots","color":"gray"}}},{"text":" [Buy for 6 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -14"}}]
