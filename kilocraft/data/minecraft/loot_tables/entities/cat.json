@@ -41,7 +41,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:0}"
+                    "nbt": "{variant:\"minecraft:tabby\"}"
                   },
                   "entity": "this"
                 }
@@ -60,7 +60,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:10}"
+                    "nbt": "{variant:\"minecraft:all_black\"}"
                   },
                   "entity": "this"
                 }
@@ -79,7 +79,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:1}"
+                    "nbt": "{variant:\"minecraft:black\"}"
                   },
                   "entity": "this"
                 }
@@ -98,7 +98,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:2}"
+                    "nbt": "{variant:\"minecraft:red\"}"
                   },
                   "entity": "this"
                 }
@@ -117,7 +117,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:3}"
+                    "nbt": "{variant:\"minecraft:siamese\"}"
                   },
                   "entity": "this"
                 }
@@ -136,7 +136,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:4}"
+                    "nbt": "{variant:\"minecraft:british\"}"
                   },
                   "entity": "this"
                 }
@@ -155,7 +155,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:5}"
+                    "nbt": "{variant:\"minecraft:calico\"}"
                   },
                   "entity": "this"
                 }
@@ -174,7 +174,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:6}"
+                    "nbt": "{variant:\"minecraft:persian\"}"
                   },
                   "entity": "this"
                 }
@@ -193,7 +193,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:7}"
+                    "nbt": "{variant:\"minecraft:ragdoll\"}"
                   },
                   "entity": "this"
                 }
@@ -212,7 +212,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:8}"
+                    "nbt": "{variant:\"minecraft:white\"}"
                   },
                   "entity": "this"
                 }
@@ -231,7 +231,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{CatType:9}"
+                    "nbt": "{variant:\"minecraft:jellie\"}"
                   },
                   "entity": "this"
                 }
