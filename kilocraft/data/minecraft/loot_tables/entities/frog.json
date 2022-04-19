@@ -20,7 +20,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{Variant:0}"
+                    "nbt": "{variant:\"minecraft:temperate\"}"
                   },
                   "entity": "this"
                 }
@@ -39,7 +39,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{Variant:1}"
+                    "nbt": "{variant:\"minecraft:warm\"}"
                   },
                   "entity": "this"
                 }
@@ -58,7 +58,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{Variant:2}"
+                    "nbt": "{variant:\"minecraft:cold\"}"
                   },
                   "entity": "this"
                 }
