@@ -11,7 +11,7 @@ scoreboard players add first_joined kestats_global 1
 #tp
 clear @s
 # tp @s 648 52 -34 150 -20
-execute in kilocraft:mighty_highlands run tp @s -155.5 65.00 16.5 90 0
+execute in kilocraft:mighty_highlands run tp @s 46.5 65.00 3.5 270 -3.75
 spawnpoint @s ~ ~ ~
 team join guest @s
 #we use minecraft:gamemode here, because kiloessentials overrides /gamemode
