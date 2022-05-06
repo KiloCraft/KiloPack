@@ -54,5 +54,10 @@ execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..
 execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 6.. run execute at @s run summon minecraft:allay
 execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 6.. run scoreboard players remove @s kevote_credits 6
 
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 8.. run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"1 Heart of the Sea","color":"gold"},{"text":" [Buy for 8 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -11"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..7 run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"1 Heart of the Sea","color":"gold"},{"text":" [Buy for 8 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 8.. run give @s minecraft:heart_of_the_sea 1
+execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 8.. run scoreboard players remove @s kevote_credits 8
+
 scoreboard players reset @s ketrigger_vs
 scoreboard players enable @s ketrigger_vs
