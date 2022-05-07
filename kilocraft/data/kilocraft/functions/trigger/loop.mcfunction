@@ -19,10 +19,9 @@ execute as @a if score @s ketrigger_ru matches 1.. run function kilocraft:trigge
 execute as @a if score @s ketrigger_vs matches 1.. run function kilocraft:trigger/voteshop
 execute as @a if score @s ketrigger_vs matches ..-1 run function kilocraft:trigger/voteshop
 execute as @a if score @s ketrigger_hc matches 1.. run function kilocraft:trigger/headchances
-execute as @a if score @s ketrigger_hc matches ..-3 run function kilocraft:trigger/headchances
-execute as @a if score @s ketrigger_hc matches -1 run function kilocraft:trigger/easter/easterhead
-execute as @a if score @s ketrigger_hc matches -2 run function kilocraft:trigger/easter/submitegg
+execute as @a if score @s ketrigger_hc matches ..-1 run function kilocraft:trigger/headchances
 execute as @a if score @s ketrigger_ut matches 1.. run function kilocraft:trigger/util
 execute as @a if score @s ketrigger_ut matches ..-1 run function kilocraft:trigger/util
+
 
 schedule function kilocraft:trigger/loop 5t replace
