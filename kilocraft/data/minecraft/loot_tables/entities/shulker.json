@@ -390,8 +390,8 @@
         },
         {
           "condition": "random_chance_with_looting",
-          "chance": 0.055,
-          "looting_multiplier": 0.015
+          "chance": 0.02,
+          "looting_multiplier": 0.01
         }
       ]
     }
