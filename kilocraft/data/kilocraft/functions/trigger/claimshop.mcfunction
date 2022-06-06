@@ -17,10 +17,10 @@ clear @s[tag=buydiablock] minecraft:diamond_block 1
 clear @s[tag=buydiablockstack] minecraft:diamond_block 64
 
 # Give the claim blocks
-sudo as @s[tag=buydia] ?claim blocks add ${source.name} 50
-sudo as @s[tag=buydiastack] ?claim blocks add ${source.name} 3200
-sudo as @s[tag=buydiablock] ?claim blocks add ${source.name} 450
-sudo as @s[tag=buydiablockstack] ?claim blocks add ${source.name} 28800
+claim blocks add @p[tag=buydia] 50
+claim blocks add @p[tag=buydiastack] 3200
+claim blocks add @p[tag=buydiablock] 450
+claim blocks add @p[tag=buydiablockstack] 28800
 
 # Tell them they got blocks
 tellraw @s[tag=buydia] {"text":"You have bought 50 claim blocks with 1 diamond","color":"green"}

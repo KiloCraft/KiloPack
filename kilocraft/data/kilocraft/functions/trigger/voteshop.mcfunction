@@ -26,7 +26,7 @@ execute if score @s ketrigger_vs matches -4 if score @s kevote_credits matches 2
 
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 1.. run tellraw @s [{"text":"[5] ","color":"yellow"},{"text":"50 Claim blocks","color":"gold"},{"text":" [Buy for 1 credit]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -5"}}]
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..0 run tellraw @s [{"text":"[5] ","color":"yellow"},{"text":"50 Claim blocks","color":"gold"},{"text":" [Buy for 1 credit]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
-execute if score @s ketrigger_vs matches -5 if score @s kevote_credits matches 1.. run sudo as @s ?claim blocks add ${source.name} 50
+execute if score @s ketrigger_vs matches -5 if score @s kevote_credits matches 1.. run claim blocks add @p 50
 execute if score @s ketrigger_vs matches -5 if score @s kevote_credits matches 1.. run scoreboard players remove @s kevote_credits 1
 
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 50.. run tellraw @s [{"text":"[6] ","color":"yellow"},{"text":"1 Elytra","color":"gold"},{"text":" [Buy for 50 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -6"}}]
