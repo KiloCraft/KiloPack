@@ -244,8 +244,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             }
           ]
         }
