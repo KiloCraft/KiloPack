@@ -22,6 +22,7 @@ execute as @a if score @s ketrigger_hc matches 1.. run function kilocraft:trigge
 execute as @a if score @s ketrigger_hc matches ..-1 run function kilocraft:trigger/headchances
 execute as @a if score @s ketrigger_ut matches 1.. run function kilocraft:trigger/util
 execute as @a if score @s ketrigger_ut matches ..-1 run function kilocraft:trigger/util
-
+execute as @a if score @s ketrigger_gd matches 1.. run function kilocraft:trigger/guide
+execute as @a if score @s ketrigger_gd matches ..-1 run function kilocraft:trigger/guide
 
 schedule function kilocraft:trigger/loop 5t replace

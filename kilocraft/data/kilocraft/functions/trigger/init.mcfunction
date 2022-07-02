@@ -10,3 +10,5 @@ scoreboard objectives add ketrigger_ru trigger
 scoreboard objectives add ketrigger_hc trigger
 #util
 scoreboard objectives add ketrigger_ut trigger
+#guide
+scoreboard objectives add ketrigger_gd trigger
