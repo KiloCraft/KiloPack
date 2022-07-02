@@ -4,3 +4,4 @@ scoreboard players enable @s ketrigger_ru
 scoreboard players enable @s ketrigger_vs
 scoreboard players enable @s ketrigger_hc
 scoreboard players enable @s ketrigger_ut
+scoreboard players enable @s ketrigger_gd
