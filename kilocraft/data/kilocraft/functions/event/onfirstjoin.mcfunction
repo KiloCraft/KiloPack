@@ -3,7 +3,7 @@ scoreboard players set @s kevote_credits 0
 
 function kilocraft:trigger/enable
 
-tellraw @a ["",{"selector":"@s","color":"yellow"},{"text":" joined for the first time.","color":"yellow"}]
+tellraw @a ["",{"selector":"@s"},{"text":" joined for the first time.","color":"yellow"}]
 
 
 scoreboard players add first_joined kestats_global 1
