@@ -1,6 +1,6 @@
 {
   "commandId": "home",
   "requires": {
-    "predicate": "kilocraft:overworld"
+    "predicate": "kilocraft:teleportation"
   }
 }
