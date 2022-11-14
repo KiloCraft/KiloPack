@@ -1,0 +1,6 @@
+{
+  "commandId": "home",
+  "requires": {
+    "predicate": "kilocraft:overworld"
+  }
+}

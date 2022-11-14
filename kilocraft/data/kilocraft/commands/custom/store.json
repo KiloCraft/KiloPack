@@ -1,0 +1,9 @@
+{
+	"id": "store",
+	"executes": [
+		{
+			"command": "tellraw @s [{\"text\":\"Store: \",\"bold\":true,\"color\":\"dark_green\"},{\"text\":\"kilocraft.craftingstore.net\",\"italic\":true,\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https:\/\/kilocraft.craftingstore.net\/category\/94268\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Click to join!\",\"color\":\"green\"}]}}]",
+			"withLevel": 2
+		}
+	]
+}

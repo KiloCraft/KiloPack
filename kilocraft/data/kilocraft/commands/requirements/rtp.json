@@ -1,0 +1,6 @@
+{
+  "commandId": "rtp",
+  "requires": {
+    "predicate": "kilocraft:overworld"
+  }
+}
