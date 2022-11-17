@@ -83,17 +83,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:trident",
           "weight": 1,
           "functions": [
