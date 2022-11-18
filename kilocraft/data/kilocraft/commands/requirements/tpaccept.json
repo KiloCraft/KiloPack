@@ -1,0 +1,6 @@
+{
+  "commandId": "tpaccept",
+  "requires": {
+    "predicate": "kilocraft:teleportation"
+  }
+}

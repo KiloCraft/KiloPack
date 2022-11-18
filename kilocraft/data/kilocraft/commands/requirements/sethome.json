@@ -1,0 +1,6 @@
+{
+  "commandId": "sethome",
+  "requires": {
+    "predicate": "kilocraft:teleportation"
+  }
+}
