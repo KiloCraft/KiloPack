@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 15,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -18,11 +18,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 10,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": 2
             }
           ]
         },
@@ -50,18 +50,29 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_ingot",
-          "weight": 2,
+          "name": "minecraft:cooked_beef",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": 8
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cooked_beef",
+          "name": "minecraft:golden_carrot",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
           "weight": 10,
           "functions": [
             {
@@ -72,45 +83,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle",
-          "weight": 15,
+          "name": "minecraft:oak_log",
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 16
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
-          "weight": 5,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wither_skeleton_skull",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
+              "count": 32
             }
           ]
         },
@@ -127,34 +105,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:totem_of_undying",
           "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 32
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 8
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 16
+              "count": 1
             }
           ]
         }

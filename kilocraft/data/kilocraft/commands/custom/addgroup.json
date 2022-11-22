@@ -1,0 +1,25 @@
+{
+  "id": "addgroup",
+  "requires": {
+    "requiredLevel": 4
+  },
+  "arguments": [
+    {
+      "id": "group",
+      "type": "brigadier:string single_word",
+      "arguments": [
+        {
+          "id": "entity",
+          "type": "entity player",
+          "executes": [
+            {
+              "command": "lp user ${entity_name} parent add ${group}",
+              "silent": false,
+              "asConsole": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
