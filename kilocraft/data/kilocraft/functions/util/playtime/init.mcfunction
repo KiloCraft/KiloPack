@@ -1,1 +1,2 @@
 scoreboard objectives add keutil_minutes dummy
+scoreboard objectives add keutil_claimblock_minutes dummy

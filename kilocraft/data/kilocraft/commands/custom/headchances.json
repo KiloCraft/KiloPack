@@ -1,0 +1,8 @@
+{
+	"id": "headchances",
+	"executes": [
+		{
+			"command": "trigger ketrigger_hc"
+		}
+	]
+}

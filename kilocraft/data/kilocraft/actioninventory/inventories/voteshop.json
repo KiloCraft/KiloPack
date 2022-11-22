@@ -159,9 +159,9 @@
     {
       "item": {
         "item": "minecraft:cooked_beef",
-        "count": 32,
+        "count": 8,
         "customName": {
-          "text": "32 Cooked Beefs",
+          "text": "8 Cooked Beefs",
           "italic": false
         },
         "lore": [
@@ -286,37 +286,6 @@
     },
     {
       "item": {
-        "item": "minecraft:ender_pearl",
-        "count": 1,
-        "customName": {
-          "text": "1 RTP",
-          "italic": false
-        },
-        "customNbt": "{Enchantments:[{}]}",
-        "lore": [
-          [
-            {
-              "text": "Cost: ",
-              "color": "aqua",
-              "italic": false
-            },
-            {
-              "text": "2 credits",
-              "color": "white"
-            }
-          ]
-        ]
-      },
-      "action": {
-        "command": "trigger ketrigger_vs set -10",
-        "silent": true,
-        "type": "Command"
-      },
-      "index": 9,
-      "type": "Normal"
-    },
-    {
-      "item": {
         "item": "minecraft:allay_spawn_egg",
         "count": 1,
         "customName": {
@@ -342,43 +311,7 @@
         "silent": true,
         "type": "Command"
       },
-      "index": 10,
-      "type": "Normal"
-    },
-    {
-      "item": {
-        "item": "minecraft:phantom_spawn_egg",
-        "count": 1,
-        "customName": {
-          "text": "Summon a Phantom",
-          "italic": false
-        },
-        "lore": [
-          [
-            {
-              "text": "Note: The Phantom will spawn 15 blocks above your location",
-              "color": "gray"
-            }
-          ],
-          [
-            {
-              "text": "Cost: ",
-              "color": "aqua",
-              "italic": false
-            },
-            {
-              "text": "3 credits",
-              "color": "white"
-            }
-          ]
-        ]
-      },
-      "action": {
-        "command": "trigger ketrigger_vs set -12",
-        "silent": true,
-        "type": "Command"
-      },
-      "index": 11,
+      "index": 9,
       "type": "Normal"
     },
     {

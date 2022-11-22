@@ -1,7 +1,6 @@
 #calculate vote credits
 scoreboard players set #kevote_credits ke_var 1
-execute if entity @s[permission=vote.double] run scoreboard players operation #kevote_credits ke_var *= #kevote_ultmultiplier ke_var
-#execute if entity @s[tag=staff_ult] run scoreboard players operation #kevote_credits ke_var *= #kevote_ultmultiplier ke_var
+execute if permission @s vote.double run scoreboard players operation #kevote_credits ke_var *= #kevote_ultmultiplier ke_var
 scoreboard players operation #kevote_credits ke_var *= #kevote_multiplier ke_var
 
 #send message

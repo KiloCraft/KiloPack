@@ -1,0 +1,8 @@
+{
+	"id": "claim",
+	"executes": [
+		{
+			"command": "trigger ketrigger_gd set -5"
+		}
+	]
+}

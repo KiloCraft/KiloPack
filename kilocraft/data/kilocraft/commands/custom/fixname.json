@@ -1,0 +1,40 @@
+{
+  "id": "fixname",
+  "requires": {
+    "permission": "kilocraft.fixname"
+  },
+  "arguments": [
+    {
+      "id": "oldName",
+      "type": "brigadier:string single_word",
+      "arguments": [
+        {
+          "id": "newName",
+          "type": "entity player",
+          "executes": [
+            {
+              "command": "scoreboard players operation ${newName} keutil_minutes += ${oldName} keutil_minutes",
+              "silent": true,
+              "asConsole": true
+            },
+            {
+              "command": "scoreboard players operation ${newName} kevote_credits += ${oldName} kevote_credits"
+            },
+            {
+              "command": "scoreboard players operation ${newName} kevote_total += ${oldName} kevote_total"
+            },
+            {
+              "command": "scoreboard players reset ${oldName} keutil_minutes"
+            },
+            {
+              "command": "scoreboard players reset ${oldName} kevote_credits"
+            },
+            {
+              "command": "scoreboard players reset ${oldName} kevote_total"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

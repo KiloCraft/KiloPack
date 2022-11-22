@@ -1,0 +1,8 @@
+{
+	"id": "claimshop",
+	"executes": [
+		{
+			"command": "trigger ketrigger_cs"
+		}
+	]
+}

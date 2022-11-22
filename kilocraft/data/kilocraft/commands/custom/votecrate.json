@@ -1,0 +1,8 @@
+{
+	"id": "votecrate",
+	"executes": [
+		{
+			"command": "trigger ketrigger_ut set 2"
+		}
+	]
+}

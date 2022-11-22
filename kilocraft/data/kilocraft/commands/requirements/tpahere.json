@@ -1,0 +1,6 @@
+{
+  "commandId": "tpahere",
+  "requires": {
+    "predicate": "kilocraft:teleportation"
+  }
+}

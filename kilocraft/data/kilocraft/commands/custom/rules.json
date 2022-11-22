@@ -1,0 +1,8 @@
+{
+	"id": "rules",
+	"executes": [
+		{
+			"command": "trigger ketrigger_ru"
+		}
+	]
+}

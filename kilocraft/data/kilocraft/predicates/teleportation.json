@@ -1,0 +1,19 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "dimension": "minecraft:overworld"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "dimension": "kilocraft:mighty_highlands"
+        }
+      }
+    ]
+  }
+]

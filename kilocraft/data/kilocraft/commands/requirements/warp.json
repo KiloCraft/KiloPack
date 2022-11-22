@@ -1,0 +1,6 @@
+{
+  "commandId": "warp",
+  "requires": {
+    "predicate": "kilocraft:teleportation"
+  }
+}
