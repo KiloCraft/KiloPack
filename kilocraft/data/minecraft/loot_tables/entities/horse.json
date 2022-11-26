@@ -42,7 +42,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -61,7 +61,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -80,7 +80,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.angry\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -99,7 +99,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.breathe\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -118,7 +118,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -137,7 +137,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.gallop\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -156,7 +156,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.jump\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -175,7 +175,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.land\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -194,7 +194,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.angry\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -213,7 +213,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -232,7 +232,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.angry\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -251,7 +251,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.breathe\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -270,7 +270,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -289,7 +289,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.gallop\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -308,7 +308,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.jump\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -327,7 +327,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.land\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -346,7 +346,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.breathe\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -365,7 +365,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -384,7 +384,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.gallop\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -403,7 +403,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -422,7 +422,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.angry\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -441,7 +441,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.breathe\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -460,7 +460,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -479,7 +479,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.gallop\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -498,7 +498,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.jump\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -517,7 +517,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.land\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -536,7 +536,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.jump\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -555,7 +555,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.land\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -574,7 +574,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"White Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -593,7 +593,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.angry\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Creamy Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -612,7 +612,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.breathe\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Chestnut Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -631,7 +631,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -650,7 +650,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.gallop\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -669,7 +669,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.jump\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Gray Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -688,7 +688,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.horse.land\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Dark Brown Horse\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
