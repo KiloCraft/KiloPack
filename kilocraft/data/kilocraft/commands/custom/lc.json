@@ -1,0 +1,14 @@
+{
+  "id": "lc",
+  "arguments": [
+    {
+      "id": "message",
+      "type": "brigadier:string greedy_phrase",
+      "executes": [
+        {
+          "command": "chat local ${message}"
+        }
+      ]
+    }
+  ]
+}

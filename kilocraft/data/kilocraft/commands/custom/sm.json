@@ -1,0 +1,14 @@
+{
+  "id": "sm",
+  "arguments": [
+    {
+      "id": "message",
+      "type": "brigadier:string greedy_phrase",
+      "executes": [
+        {
+          "command": "chat staff ${message}"
+        }
+      ]
+    }
+  ]
+}
