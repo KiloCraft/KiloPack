@@ -5,3 +5,4 @@ scoreboard players enable @s ketrigger_vs
 scoreboard players enable @s ketrigger_hc
 scoreboard players enable @s ketrigger_ut
 scoreboard players enable @s ketrigger_gd
+scoreboard players enable @s advent
