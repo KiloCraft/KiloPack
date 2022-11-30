@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Wither\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.wither.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Wither\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19\"}]}}}"
             }
           ]
         },
@@ -22,7 +22,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Wither\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.wither.spawn\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Invulnerable Wither\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -33,7 +33,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Wither\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ==\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.wither.break_block\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Invulnerable Wither Skull\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ==\"}]}}}"
             }
           ]
         },
@@ -44,7 +44,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Wither\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZTFjM2UzMTVjOGQ4ZmZmYzM3OTg1YjY2ODFjNWJkMTZhNmY5N2ZmZDA3MTk5ZThhMDVlZmJlZjEwMzc5MyJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.wither.shoot\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Wither Skull\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZTFjM2UzMTVjOGQ4ZmZmYzM3OTg1YjY2ODFjNWJkMTZhNmY5N2ZmZDA3MTk5ZThhMDVlZmJlZjEwMzc5MyJ9fX0=\"}]}}}"
             }
           ]
         }

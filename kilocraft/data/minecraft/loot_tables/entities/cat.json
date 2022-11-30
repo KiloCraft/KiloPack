@@ -34,7 +34,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Tabby Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGQzMGRiM2Y4YzNmZTUwY2E0ZjI2ZjMwNzVlMzZmMDAzYWU4MDI4MTM1YThjZDY5MmYyNGM5YTk4YWUxYiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Tabby Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGQzMGRiM2Y4YzNmZTUwY2E0ZjI2ZjMwNzVlMzZmMDAzYWU4MDI4MTM1YThjZDY5MmYyNGM5YTk4YWUxYiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -53,7 +53,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjMWU4MWZmMDNlODJhM2U3MWUwY2Q1ZmJlYzYwN2UxMTM2MTA4OWFhNDdmMjkwZDQ2YzhhMmMwNzQ2MGQ5MiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Black Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjMWU4MWZmMDNlODJhM2U3MWUwY2Q1ZmJlYzYwN2UxMTM2MTA4OWFhNDdmMjkwZDQ2YzhhMmMwNzQ2MGQ5MiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -72,7 +72,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Tuxedo Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhNjYyZjJhZTdkZWJlZTY1MjkyYzJiZjQyZmJiMDliOTdiMmZmYmRiMjcwNTIwYzJkYjk2ZTUxZDg5NDUifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.beg_for_food\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Tuxedo Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhNjYyZjJhZTdkZWJlZTY1MjkyYzJiZjQyZmJiMDliOTdiMmZmYmRiMjcwNTIwYzJkYjk2ZTUxZDg5NDUifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -91,7 +91,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Ginger Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc1NWU3ZGYwNGQxOGIzMWQ2M2MxN2Y0YTdiNGM3MzkyNGJkNjI2NWRhNjllMTEzZWRkZDk3NTE2ZmM3In19fQ==\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.beg_for_food\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Ginger Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc1NWU3ZGYwNGQxOGIzMWQ2M2MxN2Y0YTdiNGM3MzkyNGJkNjI2NWRhNjllMTEzZWRkZDk3NTE2ZmM3In19fQ==\"}]}}}"
                 }
               ],
               "conditions": [
@@ -110,7 +110,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Siamese Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ODFjMzliM2FmZGNjNzlmOTFmZTVkZTNjZGQwMTViYzMzNTM4NDNmNTkxZjRkMjNjZDMwMjdkZTRlNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Siamese Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ODFjMzliM2FmZGNjNzlmOTFmZTVkZTNjZGQwMTViYzMzNTM4NDNmNTkxZjRkMjNjZDMwMjdkZTRlNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -129,7 +129,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"British Shorthair Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.eat\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"British Shorthair Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -148,7 +148,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Calico Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.hiss\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Calico Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -167,7 +167,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Persian Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.hiss\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Persian Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -186,7 +186,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Ragdoll Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTQ1ZDI1ODg5ZTNmZGY3Nzk3Y2IyNThlMjZkNGU5NGY1YmMxM2VlZjAwNzk1ZGFmZWYyZTgzZTBhYjUxMSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.hurt\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Ragdoll Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTQ1ZDI1ODg5ZTNmZGY3Nzk3Y2IyNThlMjZkNGU5NGY1YmMxM2VlZjAwNzk1ZGFmZWYyZTgzZTBhYjUxMSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -205,7 +205,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"White Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkMTVhYzk1NThlOThiODlhY2E4OWQzODE5NTAzZjFjNTI1NmMyMTk3ZGQzYzM0ZGY1YWFjNGQ3MmU3ZmJlZCJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.hurt\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"White Cat\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkMTVhYzk1NThlOThiODlhY2E4OWQzODE5NTAzZjFjNTI1NmMyMTk3ZGQzYzM0ZGY1YWFjNGQ3MmU3ZmJlZCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -224,7 +224,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Jellie\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkYjQxMzc2Y2E1N2RmMTBmY2IxNTM5ZTg2NjU0ZWVjZmQzNmQzZmU3NWU4MTc2ODg1ZTkzMTg1ZGYyODBhNSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.cat.purreow\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Jellie\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkYjQxMzc2Y2E1N2RmMTBmY2IxNTM5ZTg2NjU0ZWVjZmQzNmQzZmU3NWU4MTc2ODg1ZTkzMTg1ZGYyODBhNSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
