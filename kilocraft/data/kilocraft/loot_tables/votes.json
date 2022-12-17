@@ -55,7 +55,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
+              "count": 16
             }
           ]
         },
@@ -107,6 +107,39 @@
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
           "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
