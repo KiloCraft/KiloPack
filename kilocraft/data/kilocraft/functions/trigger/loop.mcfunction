@@ -25,8 +25,4 @@ execute as @a if score @s ketrigger_ut matches ..-1 run function kilocraft:trigg
 execute as @a if score @s ketrigger_gd matches 1.. run function kilocraft:trigger/guide
 execute as @a if score @s ketrigger_gd matches ..-1 run function kilocraft:trigger/guide
 
-execute as @a if score @s advent matches 1 run function kilocraft:trigger/advent/list
-execute as @a if score @s advent matches 100 run function kilocraft:trigger/advent/progress
-execute as @a if score @s advent matches 101..125 run function kilocraft:trigger/advent/prizes
-
 schedule function kilocraft:trigger/loop 5t replace

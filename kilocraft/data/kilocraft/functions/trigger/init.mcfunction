@@ -12,6 +12,3 @@ scoreboard objectives add ketrigger_hc trigger
 scoreboard objectives add ketrigger_ut trigger
 #guide
 scoreboard objectives add ketrigger_gd trigger
-#advent
-scoreboard objectives add advent trigger
-scoreboard objectives add advent_total dummy

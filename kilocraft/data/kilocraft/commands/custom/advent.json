@@ -1,8 +1,0 @@
-{
-	"id": "advent",
-	"executes": [
-		{
-			"command": "trigger advent"
-		}
-	]
-}

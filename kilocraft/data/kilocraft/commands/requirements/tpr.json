@@ -1,0 +1,6 @@
+{
+  "commandId": "tpr",
+  "requires": {
+    "predicate": "kilocraft:teleportation"
+  }
+}
