@@ -65,6 +65,13 @@ execute if score @s ketrigger_vs matches -9 if score @s kevote_credits matches 1
 execute if score @s ketrigger_vs matches -9 if score @s kevote_credits matches ..0 run tellraw @s [{"text":"You don't have enough vote credits to purchase ","color":"red"},{"text":"50 Claim Blocks","color":"gold"},{"text":"!","color":"red"}]
 execute if score @s ketrigger_vs matches -9 if score @s kevote_credits matches 1.. run scoreboard players remove @s kevote_credits 1
 
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 2.. run tellraw @s [{"text":"[10] ","color":"yellow"},{"text":"1 RTP","color":"gold"},{"text":" [Buy for 2 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -10"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..1 run tellraw @s [{"text":"[10] ","color":"yellow"},{"text":"1 RTP","color":"gold"},{"text":" [Buy for 2 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 2.. at @s run wild add @p 1
+execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 2.. run tellraw @s [{"text":"Purchased ", "color":"yellow"}, {"text":"1 RTP","color":"gold"}, {"text":" from the vote shop!", "color":"yellow"}]
+execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches ..1 run tellraw @s [{"text":"You don't have enough vote credits to purchase ","color":"red"},{"text":"1 RTP","color":"gold"},{"text":"!","color":"red"}]
+execute if score @s ketrigger_vs matches -10 if score @s kevote_credits matches 2.. run scoreboard players remove @s kevote_credits 2
+
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 6.. run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"Summon an Allay","color":"gold"},{"text":" [Buy for 6 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -11"}}]
 execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..5 run tellraw @s [{"text":"[11] ","color":"yellow"},{"text":"Summon an Allay","color":"gold"},{"text":" [Buy for 6 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
 execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 6.. run execute at @s run summon minecraft:allay

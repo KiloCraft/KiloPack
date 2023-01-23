@@ -286,6 +286,37 @@
     },
     {
       "item": {
+        "item": "minecraft:ender_pearl",
+        "count": 1,
+        "customName": {
+          "text": "1 RTP",
+          "italic": false
+        },
+        "customNbt": "{Enchantments:[{}]}",
+        "lore": [
+          [
+            {
+              "text": "Cost: ",
+              "color": "aqua",
+              "italic": false
+            },
+            {
+              "text": "2 credits",
+              "color": "white"
+            }
+          ]
+        ]
+      },
+      "action": {
+        "command": "trigger ketrigger_vs set -10",
+        "silent": true,
+        "type": "Command"
+      },
+      "index": 9,
+      "type": "Normal"
+    },
+    {
+      "item": {
         "item": "minecraft:allay_spawn_egg",
         "count": 1,
         "customName": {
@@ -311,7 +342,7 @@
         "silent": true,
         "type": "Command"
       },
-      "index": 9,
+      "index": 10,
       "type": "Normal"
     },
     {
