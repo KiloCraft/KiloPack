@@ -138,7 +138,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap",
+          "name": "minecraft:ancient_debris",
           "weight": 4,
           "functions": [
             {
