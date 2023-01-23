@@ -1,6 +1,6 @@
 {
   "commandId": "tpaccept",
   "requires": {
-    "predicate": "kilocraft:teleportation"
+    "predicate": "kilocraft:teleportation_notin_jnr"
   }
 }

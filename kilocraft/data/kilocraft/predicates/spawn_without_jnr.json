@@ -1,0 +1,30 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "kilocraft:mighty_highlands"
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "position": {
+          "x": {
+            "min": 952,
+            "max": 1050
+          },
+          "y": {
+            "min": -64,
+            "max": 320
+          },
+          "z": {
+            "min": 952,
+            "max": 1050
+          }
+        }
+      }
+    }
+  }
+]
