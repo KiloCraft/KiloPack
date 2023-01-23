@@ -10,7 +10,7 @@ execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches
 execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 9 run data merge entity @s {CustomName:'{"text":"1 Totem of Undying (1.5%)","color":"#96EEEE"}',Item:{id:"minecraft:totem_of_undying",Count:1b}}
 execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 10 run data merge entity @s {CustomName:'{"text":"1 Elytra (0.8%)","color":"#96EEEE"}',Item:{id:"minecraft:elytra",Count:1b}}
 execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 11 run data merge entity @s {CustomName:'{"text":"1 Wither Skeleton Skull (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:wither_skeleton_skull",Count:1b}}
-execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 12 run data merge entity @s {CustomName:'{"text":"1 Netherite Scrap (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:netherite_scrap",Count:1b}}
+execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 12 run data merge entity @s {CustomName:'{"text":"1 Ancient Debris (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:ancient_debris",Count:1b}}
 
 execute at @e[tag=kecrate_displayitem] run particle minecraft:enchant ~ ~0.2 ~ 0.2 0.2 0.2 0 10 force @a
 
