@@ -158,6 +158,20 @@
           "looting_multiplier": 0.1
         }
       ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tide_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

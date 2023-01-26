@@ -1,0 +1,115 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Exploration maps cause significant lag spikes / server crashes and have been disabled!",
+                    "color": "red",
+                    "italic": false
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.buried_treasure",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:compass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:clock"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:paper",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:feather",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5.0,
+                  "min": 1.0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:book",
+            "weight": 5
+          }
+        ],
+        "rolls": 3.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coast_armor_trim_smithing_template"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+  }
