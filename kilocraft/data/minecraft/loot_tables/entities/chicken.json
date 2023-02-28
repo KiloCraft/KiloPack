@@ -7,6 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:feather",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -25,8 +26,7 @@
                 "max": 1.0
               }
             }
-          ],
-          "name": "minecraft:feather"
+          ]
         }
       ]
     },
@@ -36,6 +36,7 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:chicken",
           "functions": [
             {
               "function": "minecraft:furnace_smelt",
@@ -59,8 +60,7 @@
                 "max": 1.0
               }
             }
-          ],
-          "name": "minecraft:chicken"
+          ]
         }
       ]
     },
@@ -86,6 +86,112 @@
           "condition": "random_chance_with_looting",
           "chance": 0.004,
           "looting_multiplier": 0.002
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwZGJlZTM3MDg3N2ZlYjRhNjJhYzlmOTNlMTNmYTVkZTA0ZDMxM2VmODNmZWVlODE1ZjZlZDNhN2FiY2E1YyJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Red)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVhMzViNWNhMTUyNjg2ODVjNDY2MDUzNWU1ODgzZDIxYTVlYzU3YzU1ZDM5NzIzNDI2OWFjYjVkYzI5NTRmIn19fQ==\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Orange)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY4MTIxMTJkZDE4N2U3YzhkZGI1YzNiOGU4NTRlODJmMTkxOTc0MTRhOGNkYjU0MjAyMWYxYTQ5MTg5N2U1MyJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Yellow)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmEyODI5OTg5NmY0MTNmZTVkYjg0YTM4NTQ2MjQ1OGY3YmQxNjQ2ZTg2MjVjMjViMjY2M2UxMmE2YiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Lime)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZlMjRjNmY1MmRkYzA4MzU5Zjc5MjMwMWVjYTk2YWVjZjY2OTc5ZGM4OTljNDMyNDJkMjU4N2ViY2I3MGU2In19fQ==\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Green)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYxODlkMTljNDRkMjIzYWRjZDVjYWE1MjBiNDIwNzExNjFhYjFhMGM3NzliOTdjMzdiNDY0M2Y1NGIifX19\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Cyan)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RhZWEzZTEzYTUxM2RhMTA1MWVhNTlkMTdlZGZiMDNlOGQ4Mzg4ZWRlODg4ODg0NzZkZmI2OTNmMmM4Mzk4In19fQ==\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Blue)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmU1MDU1YzU2Y2RmMjE2OWEzMjRkYmZkM2ExZGM1Y2VmZjlkNjQ4ZTU1MWJhMDI0M2ExYjJlNjFhMmZlYiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Bird House (Purple)\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU5MDMxNmE5MzliMzIzZmE1ZmRiMjNmNWJhNDM4YjZjOWNmYWQ0OTg0NTJkMjQ5ODhlYTNmNGNlYzZiZTYwIn19fQ==\"}]}}}"
+            }
+          ]
+        }
+        
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.008,
+          "looting_multiplier": 0.004
         }
       ]
     }
