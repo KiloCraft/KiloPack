@@ -32,22 +32,27 @@
       ]
     },
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_lightning"
+              }
+            ]
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:bowl"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:damage_source_properties",
-          "predicate": {
-            "is_lightning": true
-          }
-        }
-      ]
+      "rolls": 1.0
     },
     {
       "rolls": 1,
