@@ -79,31 +79,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Rainbow Sundae\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M5MzBkMjBkMDRhYzk5MjFiNDlhNTk5YWQ5OWI5OTc2NjcwMzRlNTAyODVhM2U4ZTIyYTdhN2U2ZjI0YjczZSJ9fX0=\"}]}}}"
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.008,
-          "looting_multiplier": 0.004
-        }
-      ]
     }
   ]
 }
