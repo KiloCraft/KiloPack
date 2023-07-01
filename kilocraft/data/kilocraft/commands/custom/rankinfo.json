@@ -1,8 +1,0 @@
-{
-	"id": "rankinfo",
-	"executes": [
-		{
-			"command": "trigger ketrigger_ri"
-		}
-	]
-}

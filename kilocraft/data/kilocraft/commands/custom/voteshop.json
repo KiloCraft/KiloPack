@@ -1,9 +1,0 @@
-{
-	"id": "voteshop",
-	"executes": [
-		{
-			"command": "actioninventory open @s kilocraft:voteshop",
-			"withLevel": 2
-		}
-	]
-}

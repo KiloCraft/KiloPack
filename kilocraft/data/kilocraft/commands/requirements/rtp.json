@@ -1,6 +1,0 @@
-{
-  "commandId": "rtp",
-  "requires": {
-    "predicate": "kilocraft:teleportation"
-  }
-}

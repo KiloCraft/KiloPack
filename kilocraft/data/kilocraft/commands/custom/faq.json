@@ -1,8 +1,0 @@
-{
-	"id": "faq",
-	"executes": [
-		{
-			"command": "trigger ketrigger_gd set -9"
-		}
-	]
-}

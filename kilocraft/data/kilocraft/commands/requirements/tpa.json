@@ -1,6 +1,0 @@
-{
-  "commandId": "tpa",
-  "requires": {
-    "predicate": "kilocraft:teleportation"
-  }
-}

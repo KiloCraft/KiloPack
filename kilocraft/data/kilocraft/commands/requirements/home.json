@@ -1,6 +1,0 @@
-{
-  "commandId": "home",
-  "requires": {
-    "predicate": "kilocraft:teleportation"
-  }
-}

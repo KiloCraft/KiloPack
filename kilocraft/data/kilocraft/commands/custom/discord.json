@@ -1,9 +1,0 @@
-{
-	"id": "discord",
-	"executes": [
-		{
-			"command": "tellraw @s [{\"text\":\"Discord: \",\"bold\":true,\"color\":\"blue\"},{\"text\":\"discord.gg\/Ss5muBFFGt\",\"italic\":true,\"bold\":false,\"color\":\"gray\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https:\/\/discord.com\/invite\/Ss5muBFFGt\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"Click to join!\",\"color\":\"aqua\"}]}}]",
-			"withLevel": 2
-		}
-	]
-}

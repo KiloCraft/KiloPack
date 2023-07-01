@@ -1,6 +1,0 @@
-{
-  "commandId": "tprhere",
-  "requires": {
-    "predicate": "kilocraft:teleportation_notin_jnr"
-  }
-}

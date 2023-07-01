@@ -1,8 +1,0 @@
-{
-	"id": "guide",
-	"executes": [
-		{
-			"command": "trigger ketrigger_gd"
-		}
-	]
-}

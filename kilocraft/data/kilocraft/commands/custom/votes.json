@@ -1,9 +1,0 @@
-{
-	"id": "votes",
-	"executes": [
-		{
-			"command": "tellraw @s [{\"text\":\"You have \",\"color\":\"aqua\"},{\"score\":{\"name\":\"@s\",\"objective\":\"kevote_total\"},\"color\":\"gray\"},{\"text\":\" votes!\",\"color\":\"aqua\"}]",
-			"withLevel": 2
-		}
-	]
-}
