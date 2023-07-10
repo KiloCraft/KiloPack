@@ -79,6 +79,19 @@ execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 
 execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches ..5 run tellraw @s [{"text":"You don't have enough vote credits to purchase ","color":"red"},{"text":"Summon an Allay","color":"gold"},{"text":"!","color":"red"}]
 execute if score @s ketrigger_vs matches -11 if score @s kevote_credits matches 6.. run scoreboard players remove @s kevote_credits 6
 
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 4.. run tellraw @s [{"text":"[12] ","color":"yellow"},{"text":"1 Suspicious Sand","color":"gold"},{"text":" [Buy for 4 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -12"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..3 run tellraw @s [{"text":"[12] ","color":"yellow"},{"text":"1 Suspicious Sand","color":"gold"},{"text":" [Buy for 4 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 4.. run give @s minecraft:suspicious_sand{BlockEntityTag:{LootTable:"kilocraft:sus_blocks"}}
+execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 4.. run tellraw @s [{"text":"Purchased ", "color":"yellow"}, {"text":"1 Suspicious Sand","color":"gold"}, {"text":" from the vote shop!", "color":"yellow"}]
+execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches ..3 run tellraw @s [{"text":"You don't have enough vote credits to purchase ","color":"red"},{"text":"1 Suspicious Sand","color":"gold"},{"text":"!","color":"red"}]
+execute if score @s ketrigger_vs matches -12 if score @s kevote_credits matches 4.. run scoreboard players remove @s kevote_credits 4
+
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches 4.. run tellraw @s [{"text":"[13] ","color":"yellow"},{"text":"1 Suspicious Gravel","color":"gold"},{"text":" [Buy for 4 credits]","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_vs set -12"}}]
+execute if score @s ketrigger_vs matches 1 if score @s kevote_credits matches ..3 run tellraw @s [{"text":"[13] ","color":"yellow"},{"text":"1 Suspicious Gravel","color":"gold"},{"text":" [Buy for 4 credits]","italic":false,"color":"red","hoverEvent":{"action":"show_text","value":{"text":"You don't have enough credits!","color":"red"}}}]
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 4.. run give @s minecraft:suspicious_gravel{BlockEntityTag:{LootTable:"kilocraft:sus_blocks"}}
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 4.. run tellraw @s [{"text":"Purchased ", "color":"yellow"}, {"text":"1 Suspicious Gravel","color":"gold"}, {"text":" from the vote shop!", "color":"yellow"}]
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches ..3 run tellraw @s [{"text":"You don't have enough vote credits to purchase ","color":"red"},{"text":"1 Suspicious Gravel","color":"gold"},{"text":"!","color":"red"}]
+execute if score @s ketrigger_vs matches -13 if score @s kevote_credits matches 4.. run scoreboard players remove @s kevote_credits 4
 
 scoreboard players reset @s ketrigger_vs
 scoreboard players enable @s ketrigger_vs

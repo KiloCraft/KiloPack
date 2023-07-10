@@ -347,6 +347,80 @@
     },
     {
       "item": {
+        "item": "minecraft:suspicious_sand",
+        "count": 1,
+        "customName": {
+          "text": "1 Suspicious Sand",
+          "italic": false
+        },
+        "lore": [
+          [
+            {
+              "text": "Note: Contains a random item from any archaeology block.",
+              "color": "gray",
+              "italic": true
+            }
+          ],
+          [
+            {
+              "text": "Cost: ",
+              "color": "aqua",
+              "italic": false
+            },
+            {
+              "text": "4 credits",
+              "color": "white"
+            }
+          ]
+        ]
+      },
+      "action": {
+        "command": "trigger ketrigger_vs set -12",
+        "silent": true,
+        "type": "Command"
+      },
+      "index": 11,
+      "type": "Normal"
+    },
+    {
+      "item": {
+        "item": "minecraft:suspicious_gravel",
+        "count": 1,
+        "customName": {
+          "text": "1 Suspicious Gravel",
+          "italic": false
+        },
+        "lore": [
+          [
+            {
+              "text": "Note: Contains a random item from any archaeology block.",
+              "color": "gray",
+              "italic": true
+            }
+          ],
+          [
+            {
+              "text": "Cost: ",
+              "color": "aqua",
+              "italic": false
+            },
+            {
+              "text": "4 credits",
+              "color": "white"
+            }
+          ]
+        ]
+      },
+      "action": {
+        "command": "trigger ketrigger_vs set -13",
+        "silent": true,
+        "type": "Command"
+      },
+      "index": 12,
+      "type": "Normal"
+    },
+    {
+      "item": {
         "item": "minecraft:sunflower",
         "count": 1,
         "customName": [
