@@ -7,8 +7,11 @@ execute if score #keutil_automessage ke_var matches 1 run tellraw @a ["",{"text"
 #donate
 execute if score #keutil_automessage ke_var matches 2 run tellraw @a ["",{"text":"[Info] ","color":"#6860FB"},{"text":"You can ","color":"#7AF631"},{"text":"donate ","color":"#96EEEE"},{"text":"to get access to many ","color":"#7AF631"},{"text":"exclusive perks","color":"#96EEEE"},{"text":" and to ","color":"#7AF631"},{"text":"support ","color":"#96EEEE"},{"text":"the server!","color":"#7AF631"},{"text":" Visit our ","color":"#7AF631"},{"text":"store","color":"#96EEEE","clickEvent":{"action":"open_url","value":"https://kilocraft.craftingstore.net/"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to get to our store!","color":"#BE11EE"}}},{"text":" for more info.","color":"#7AF631"}]
 
+#guide
+execute if score #keutil_automessage ke_var matches 3 run tellraw @a ["",{"text":"[Info] ","color":"#6860FB"},{"text":"Type ","color":"#7AF631"},{"text":"/guide ","color":"#96EEEE","clickEvent":{"action":"run_command","value":"/guide"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to show the guide!","color":"#BE11EE"}}},{"text":"to see the important ","color":"#7AF631"},{"text":"information","color":"#96EEEE"},{"text":" and ","color":"#7AF631"},{"text":"commands ","color":"#96EEEE"},{"text":"we have here, and how to use them!","color":"#7AF631"}]
+
 scoreboard players add #keutil_automessage ke_var 1
 
-execute if score #keutil_automessage ke_var matches 3 run scoreboard players set #keutil_automessage ke_var 0
+execute if score #keutil_automessage ke_var matches 4 run scoreboard players set #keutil_automessage ke_var 0
 
 schedule function kilocraft:util/automessage 300s replace
