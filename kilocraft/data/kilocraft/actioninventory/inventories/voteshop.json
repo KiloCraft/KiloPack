@@ -423,21 +423,17 @@
       "item": {
         "item": "minecraft:sunflower",
         "count": 1,
-        "customName": [
-          {
-            "text": "Vote Credits: ",
-            "color": "aqua",
-            "italic": false
-          },
-          {
-            "score": {
-              "name": "@s",
-              "objective": "kevote_credits"
-            },
-            "color": "white",
-            "icalic": false
-          }
-        ],
+        "customName": {
+          "text": "Vote Credits: ",
+          "color": "aqua",
+          "italic": false,
+          "extra": [
+            {
+              "text": "%player:objective kevote_credits%",
+              "color": "white"
+            }
+          ]
+        },
         "customNbt": "{Enchantments:[{}]}"
       },
       "index": 26,
