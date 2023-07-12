@@ -1,0 +1,10 @@
+execute if score @s rankinfo matches 1 run function kilocraft:trigger/rankinfo/list
+execute if score @s rankinfo matches 2 run function kilocraft:trigger/rankinfo/perms
+execute if score @s rankinfo matches 3 run function kilocraft:trigger/rankinfo/guest
+execute if score @s rankinfo matches 4 run function kilocraft:trigger/rankinfo/player
+execute if score @s rankinfo matches 5 run function kilocraft:trigger/rankinfo/player_plus
+execute if score @s rankinfo matches 6 run function kilocraft:trigger/rankinfo/member
+execute if score @s rankinfo matches 7 run function kilocraft:trigger/rankinfo/kc
+execute if score @s rankinfo matches 8 run function kilocraft:trigger/rankinfo/kc_plus
+execute if score @s rankinfo matches 9 run function kilocraft:trigger/rankinfo/donator
+execute if score @s rankinfo matches 10 run function kilocraft:trigger/rankinfo/ultimate

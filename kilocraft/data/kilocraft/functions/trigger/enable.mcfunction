@@ -1,8 +1,8 @@
-scoreboard players enable @s ketrigger_cs
-scoreboard players enable @s ketrigger_ri
-scoreboard players enable @s ketrigger_ru
-scoreboard players enable @s ketrigger_vs
-scoreboard players enable @s ketrigger_hc
-scoreboard players enable @s ketrigger_ut
-scoreboard players enable @s ketrigger_gd
+scoreboard players enable @s claimshop
+scoreboard players enable @s rankinfo
+scoreboard players enable @s rules
+scoreboard players enable @s voteshop
+scoreboard players enable @s headchances
+scoreboard players enable @s misc
+scoreboard players enable @s guide
 scoreboard players enable @s advent

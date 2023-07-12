@@ -1,14 +1,7 @@
-#voteshop
-scoreboard objectives add ketrigger_vs trigger
-#claimshop
-scoreboard objectives add ketrigger_cs trigger
-#rankinfo
-scoreboard objectives add ketrigger_ri trigger
-#rules
-scoreboard objectives add ketrigger_ru trigger
-#head chances
-scoreboard objectives add ketrigger_hc trigger
-#util
-scoreboard objectives add ketrigger_ut trigger
-#guide
-scoreboard objectives add ketrigger_gd trigger
+scoreboard objectives add voteshop trigger
+scoreboard objectives add claimshop trigger
+scoreboard objectives add rankinfo trigger
+scoreboard objectives add rules trigger
+scoreboard objectives add headchances trigger
+scoreboard objectives add misc trigger
+scoreboard objectives add guide trigger

@@ -1,14 +1,14 @@
-execute if score @s ketrigger_cs matches 1 run tellraw @s ["",{"text":"Claim shop: ","color":"gold", "bold":true},{"text":"\n"},{"text":"[1] ","color":"yellow"},{"text":"50 Claim blocks","color":"gold"},{"text":" [Buy for 1 diamond]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_cs set -1"}},{"text":"\n"},{"text":"[2] ","color":"yellow"},{"text":"3200 Claim blocks","color":"gold"},{"text":" [Buy for 64 diamonds]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_cs set -2"}},{"text":"\n"},{"text":"[3] ","color":"yellow"},{"text":"450 Claim blocks","color":"gold"},{"text":" [Buy for 1 diamond block]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_cs set -3"}},{"text":"\n"},{"text":"[4] ","color":"yellow"},{"text":"28800 Claim blocks","color":"gold"},{"text":" [Buy for 64 diamond blocks]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger ketrigger_cs set -4"}}]
+execute if score @s claimshop matches 1 run tellraw @s ["",{"text":"Claim shop: ","color":"gold", "bold":true},{"text":"\n"},{"text":"[1] ","color":"yellow"},{"text":"50 Claim blocks","color":"gold"},{"text":" [Buy for 1 diamond]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger claimshop set -1"}},{"text":"\n"},{"text":"[2] ","color":"yellow"},{"text":"3200 Claim blocks","color":"gold"},{"text":" [Buy for 64 diamonds]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger claimshop set -2"}},{"text":"\n"},{"text":"[3] ","color":"yellow"},{"text":"450 Claim blocks","color":"gold"},{"text":" [Buy for 1 diamond block]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger claimshop set -3"}},{"text":"\n"},{"text":"[4] ","color":"yellow"},{"text":"28800 Claim blocks","color":"gold"},{"text":" [Buy for 64 diamond blocks]","color":"yellow","hoverEvent":{"action":"show_text","value":{"text":"Click to purchase!","color":"green"}},"clickEvent":{"action":"run_command","value":"/trigger claimshop set -4"}}]
 
-execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond"}},scores={ketrigger_cs=-1..-1}] run tag @s add buydia
-execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond",Count:64b}},scores={ketrigger_cs=-2..-2}] run tag @s add buydiastack
-execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond_block"}},scores={ketrigger_cs=-3..-3}] run tag @s add buydiablock
-execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond_block",Count:64b}},scores={ketrigger_cs=-4..-4}] run tag @s add buydiablockstack
+execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond"}},scores={claimshop=-1..-1}] run tag @s add buydia
+execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond",Count:64b}},scores={claimshop=-2..-2}] run tag @s add buydiastack
+execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond_block"}},scores={claimshop=-3..-3}] run tag @s add buydiablock
+execute if entity @s[nbt={"SelectedItem":{id:"minecraft:diamond_block",Count:64b}},scores={claimshop=-4..-4}] run tag @s add buydiablockstack
 
-tellraw @s[tag=!buydia,scores={ketrigger_cs=-1..-1}] {"text":"Hold a diamond in your Main Hand to buy claim blocks","color":"dark_red"}
-tellraw @s[tag=!buydiastack,scores={ketrigger_cs=-2..-2}] {"text":"Hold 64 diamonds in your Main Hand to buy claim blocks","color":"dark_red"}
-tellraw @s[tag=!buydiablock,scores={ketrigger_cs=-3..-3}] {"text":"Hold a diamond block in your Main Hand to buy claim blocks","color":"dark_red"}
-tellraw @s[tag=!buydiablockstack,scores={ketrigger_cs=-4..-4}] {"text":"Hold 64 diamond blocks in your Main Hand to buy claim blocks","color":"dark_red"}
+tellraw @s[tag=!buydia,scores={claimshop=-1..-1}] {"text":"Hold a diamond in your Main Hand to buy claim blocks","color":"dark_red"}
+tellraw @s[tag=!buydiastack,scores={claimshop=-2..-2}] {"text":"Hold 64 diamonds in your Main Hand to buy claim blocks","color":"dark_red"}
+tellraw @s[tag=!buydiablock,scores={claimshop=-3..-3}] {"text":"Hold a diamond block in your Main Hand to buy claim blocks","color":"dark_red"}
+tellraw @s[tag=!buydiablockstack,scores={claimshop=-4..-4}] {"text":"Hold 64 diamond blocks in your Main Hand to buy claim blocks","color":"dark_red"}
 
 # Remove the ingot
 clear @s[tag=buydia] minecraft:diamond 1
@@ -34,5 +34,5 @@ tag @s[tag=buydiastack] remove buydiastack
 tag @s[tag=buydiablock] remove buydiablock
 tag @s[tag=buydiablockstack] remove buydiablockstack
 
-scoreboard players reset @s ketrigger_cs
-scoreboard players enable @s ketrigger_cs
+scoreboard players reset @s claimshop
+scoreboard players enable @s claimshop

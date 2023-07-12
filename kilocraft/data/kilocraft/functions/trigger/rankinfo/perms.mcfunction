@@ -4,5 +4,5 @@ tellraw @s ["",{"text":"[Server Stuff]:","bold":true,"color":"white"},"\n",{"tex
 
 tellraw @s {"text":"=================================================","color":"yellow"}
 
-scoreboard players reset @s ketrigger_ri
-scoreboard players enable @s ketrigger_ri
+scoreboard players reset @s rankinfo
+scoreboard players enable @s rankinfo

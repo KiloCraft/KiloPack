@@ -9,5 +9,5 @@ tellraw @s [{"text":"7.","color":"red"},{"text":" No impersonating staff in any 
 tellraw @s [{"text":"8.","color":"red"},{"text":" No excessive swearing or harassment towards anyone. Treat everyone with respect.","color":"gold"},{"text":" Toxic behavior is not tolerated.","color":"red"}]
 tellraw @s [{"text":"9.","color":"red"},{"text":" Use common sense.","bold":true,"color":"gold"},{"text":" If you think something is not allowed, ask a staff member for clarification.","color":"yellow"},"\n"]
 
-scoreboard players reset @s ketrigger_ru
-scoreboard players enable @s ketrigger_ru
+scoreboard players reset @s rules
+scoreboard players enable @s rules
