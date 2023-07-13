@@ -28,7 +28,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -1",
+        "command": "trigger voteshop set -1",
         "silent": true,
         "type": "Command"
       },
@@ -58,7 +58,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -2",
+        "command": "trigger voteshop set -2",
         "silent": true,
         "type": "Command"
       },
@@ -88,7 +88,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -3",
+        "command": "trigger voteshop set -3",
         "silent": true,
         "type": "Command"
       },
@@ -119,7 +119,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -4",
+        "command": "trigger voteshop set -4",
         "silent": true,
         "type": "Command"
       },
@@ -149,7 +149,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -5",
+        "command": "trigger voteshop set -5",
         "silent": true,
         "type": "Command"
       },
@@ -179,7 +179,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -6",
+        "command": "trigger voteshop set -6",
         "silent": true,
         "type": "Command"
       },
@@ -209,7 +209,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -7",
+        "command": "trigger voteshop set -7",
         "silent": true,
         "type": "Command"
       },
@@ -246,7 +246,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -8",
+        "command": "trigger voteshop set -8",
         "silent": true,
         "type": "Command"
       },
@@ -277,7 +277,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -9",
+        "command": "trigger voteshop set -9",
         "silent": true,
         "type": "Command"
       },
@@ -308,7 +308,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -10",
+        "command": "trigger voteshop set -10",
         "silent": true,
         "type": "Command"
       },
@@ -338,7 +338,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -11",
+        "command": "trigger voteshop set -11",
         "silent": true,
         "type": "Command"
       },
@@ -375,7 +375,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -12",
+        "command": "trigger voteshop set -12",
         "silent": true,
         "type": "Command"
       },
@@ -412,7 +412,7 @@
         ]
       },
       "action": {
-        "command": "trigger ketrigger_vs set -13",
+        "command": "trigger voteshop set -13",
         "silent": true,
         "type": "Command"
       },
