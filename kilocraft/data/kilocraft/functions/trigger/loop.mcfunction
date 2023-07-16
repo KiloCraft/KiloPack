@@ -1,3 +1,4 @@
+execute as @a if score @s claimshop matches ..-1 run function kilocraft:trigger/claimshop
 execute as @a if score @s claimshop matches 1.. run function kilocraft:trigger/claimshop
 execute as @a if score @s rankinfo matches 1.. run function kilocraft:trigger/rankinfo/rankinfo
 execute as @a if score @s rules matches 1.. run function kilocraft:trigger/rules
