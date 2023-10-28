@@ -116,17 +116,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:wither_skeleton_skull",
           "weight": 4,
           "functions": [

@@ -8,14 +8,13 @@ execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches
 execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 7 run data merge entity @s {CustomName:'{"text":"32 Oak Logs (15.3%)","color":"#96EEEE"}',Item:{id:"minecraft:oak_log",Count:32b}}
 execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 8 run data merge entity @s {CustomName:'{"text":"2 Nautilus Shell (3.8%)","color":"#96EEEE"}',Item:{id:"minecraft:nautilus_shell",Count:2b}}
 execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 9 run data merge entity @s {CustomName:'{"text":"1 Totem of Undying (1.5%)","color":"#96EEEE"}',Item:{id:"minecraft:totem_of_undying",Count:1b}}
-execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 10 run data merge entity @s {CustomName:'{"text":"1 Elytra (0.8%)","color":"#96EEEE"}',Item:{id:"minecraft:elytra",Count:1b}}
-execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 11 run data merge entity @s {CustomName:'{"text":"1 Wither Skeleton Skull (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:wither_skeleton_skull",Count:1b}}
-execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 12 run data merge entity @s {CustomName:'{"text":"1 Ancient Debris (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:ancient_debris",Count:1b}}
+execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 10 run data merge entity @s {CustomName:'{"text":"1 Wither Skeleton Skull (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:wither_skeleton_skull",Count:1b}}
+execute as @e[tag=kecrate_displayitem] if score #kecrate_chanceid ke_var matches 11 run data merge entity @s {CustomName:'{"text":"1 Ancient Debris (3.1%)","color":"#96EEEE"}',Item:{id:"minecraft:ancient_debris",Count:1b}}
 
 execute at @e[tag=kecrate_displayitem] run particle minecraft:enchant ~ ~0.2 ~ 0.2 0.2 0.2 0 10 force @a
 
 scoreboard players add #kecrate_chanceid ke_var 1
 
-execute if score #kecrate_chanceid ke_var matches 13.. run scoreboard players set #kecrate_chanceid ke_var 0
+execute if score #kecrate_chanceid ke_var matches 12.. run scoreboard players set #kecrate_chanceid ke_var 0
 
 schedule function kilocraft:crate/showchances 30t replace
