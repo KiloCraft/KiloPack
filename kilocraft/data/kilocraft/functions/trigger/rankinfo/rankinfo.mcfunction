@@ -6,5 +6,5 @@ execute if score @s rankinfo matches 5 run function kilocraft:trigger/rankinfo/p
 execute if score @s rankinfo matches 6 run function kilocraft:trigger/rankinfo/member
 execute if score @s rankinfo matches 7 run function kilocraft:trigger/rankinfo/kc
 execute if score @s rankinfo matches 8 run function kilocraft:trigger/rankinfo/kc_plus
-execute if score @s rankinfo matches 9 run function kilocraft:trigger/rankinfo/donator
+execute if score @s rankinfo matches 9 run function kilocraft:trigger/rankinfo/champion
 execute if score @s rankinfo matches 10 run function kilocraft:trigger/rankinfo/ultimate

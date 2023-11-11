@@ -37,8 +37,8 @@ tellraw @s[scores={keutil_minutes=30000..,kevote_total=200..}] ["",{"text":"[Kil
 #Line break
 tellraw @s ["","\n",{"text":"Donating Ranks: ","bold":true,"color":"white"}]
 
-#Donator
-tellraw @s ["",{"text":"[Donator] - ","color":"#8C11E9","clickEvent":{"action":"run_command","value":"/trigger rankinfo set 9"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click for permission list]","color":"gold"}]}},{"text":"[Starting at 5€/month] ","color":"gold","clickEvent":{"action":"run_command","value":"/store"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to visit store!","color":"gold"}]}}]
+#Champion
+tellraw @s ["",{"text":"[Champion] - ","color":"#8C11E9","clickEvent":{"action":"run_command","value":"/trigger rankinfo set 9"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click for permission list]","color":"gold"}]}},{"text":"[Starting at 5€/month] ","color":"gold","clickEvent":{"action":"run_command","value":"/store"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to visit store!","color":"gold"}]}}]
 
 #Ultimate
 tellraw @s ["",{"text":"[Ultimate] - ","color":"#F929F9","clickEvent":{"action":"run_command","value":"/trigger rankinfo set 10"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click for permission list]","color":"gold"}]}},{"text":"[Starting at 10€/month] ","color":"gold","clickEvent":{"action":"run_command","value":"/store"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to visit store!","color":"gold"}]}}]
