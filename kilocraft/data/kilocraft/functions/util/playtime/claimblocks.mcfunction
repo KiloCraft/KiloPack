@@ -1,4 +1,4 @@
 execute if score @s keutil_claimblock_minutes matches 30.. run tellraw @s [{"text": "You have received ","color": "gold"},{"text": "75 claim blocks", "color": "yellow"}, {"text": " for playing ", "color": "gold"}, {"text": "30 minutes", "color": "yellow"}, {"text": "!", "color": "gold"}]
-execute if score @s keutil_claimblock_minutes matches 30.. run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1 1.5
+execute if score @s keutil_claimblock_minutes matches 30.. run playsound minecraft:entity.player.levelup master @s ~ ~ ~ 0.1 1.5
 execute if score @s keutil_claimblock_minutes matches 30.. run claim blocks add @p 75
 execute if score @s keutil_claimblock_minutes matches 30.. run scoreboard players remove @s keutil_claimblock_minutes 30
