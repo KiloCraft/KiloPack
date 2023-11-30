@@ -13,7 +13,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_armorer\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Armorer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_armorer\"},SkullOwner:{Name:\"Armorer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -32,7 +32,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_butcher\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Butcher Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_butcher\"},SkullOwner:{Name:\"Butcher Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -51,7 +51,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_cartographer\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Cartographer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyYjAwYzYwMmE4ZTI2MDRhOWI1OGE3ZWZhZTNhZGQwYzQ0MGI4OThlNTA1Mzk4NTM2M2NiYjJmZmIwMGZlNCJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_cartographer\"},SkullOwner:{Name:\"Cartographer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyYjAwYzYwMmE4ZTI2MDRhOWI1OGE3ZWZhZTNhZGQwYzQ0MGI4OThlNTA1Mzk4NTM2M2NiYjJmZmIwMGZlNCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -70,7 +70,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_cleric\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Cleric Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRmOGI1ZDJkZGQxYjRmNDkzNmI4MWJlMjZhMzZhNGJjZjA1OWE0ZmE5MzBlNzBlYjBjY2U5MGU1ZmIyMGRhZiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_cleric\"},SkullOwner:{Name:\"Cleric Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRmOGI1ZDJkZGQxYjRmNDkzNmI4MWJlMjZhMzZhNGJjZjA1OWE0ZmE5MzBlNzBlYjBjY2U5MGU1ZmIyMGRhZiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -89,7 +89,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_farmer\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Farmer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_farmer\"},SkullOwner:{Name:\"Farmer Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -108,7 +108,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_fisherman\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Fisherman Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_fisherman\"},SkullOwner:{Name:\"Fisherman Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -127,7 +127,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_fletcher\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Fletcher Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_fletcher\"},SkullOwner:{Name:\"Fletcher Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -146,7 +146,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_leatherworker\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Leatherworker Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_leatherworker\"},SkullOwner:{Name:\"Leatherworker Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -165,7 +165,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_librarian\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Librarian Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_librarian\"},SkullOwner:{Name:\"Librarian Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -184,7 +184,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_mason\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Mason Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMwMmMzZmZkNTcwNWFiNDg4YjMwNWQ1N2ZmMDE2OGUyNmRlNzBmZDNmNzM5ZTgzOTY2MWFiOTQ3ZGZmMzdiMSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_mason\"},SkullOwner:{Name:\"Mason Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMwMmMzZmZkNTcwNWFiNDg4YjMwNWQ1N2ZmMDE2OGUyNmRlNzBmZDNmNzM5ZTgzOTY2MWFiOTQ3ZGZmMzdiMSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -203,7 +203,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.celebrate\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Nitwit Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MWU4ZWJjODgxYzhhMDJmZTRhZjQ0ZjI5MjhlYTkxODhiNTM5ZmQ1NjFiNWIzZmQ3MzE4OTZjMzNiYjUyNCJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.celebrate\"},SkullOwner:{Name:\"Nitwit Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MWU4ZWJjODgxYzhhMDJmZTRhZjQ0ZjI5MjhlYTkxODhiNTM5ZmQ1NjFiNWIzZmQ3MzE4OTZjMzNiYjUyNCJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -222,7 +222,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.ambient\"},SkullOwner:{Name:\"Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19\"}]}}}"
                 }
               ],
               "conditions": [
@@ -241,7 +241,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_shepherd\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Shepherd Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_shepherd\"},SkullOwner:{Name:\"Shepherd Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -260,7 +260,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_toolsmith\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Toolsmith Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTA3ZmQxMjQ0ZWI4OTQ1ZjRlZGVkZDAwNDI2NzUwYjc3ZWY1ZGZiYWYwM2VkNzc1NjMzNDU5ZWNlNDE1YSJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_toolsmith\"},SkullOwner:{Name:\"Toolsmith Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTA3ZmQxMjQ0ZWI4OTQ1ZjRlZGVkZDAwNDI2NzUwYjc3ZWY1ZGZiYWYwM2VkNzc1NjMzNDU5ZWNlNDE1YSJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [
@@ -279,7 +279,7 @@
               "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_weaponsmith\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Weaponsmith Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxMzkyOWMxYzYyNjRiZTkzZGUxNTYyMGU4ZTA0MWMwOWI4MmI4YzAwM2MzZWNiOGJhY2MzNWNlNzY3MGI0MiJ9fX0=\"}]}}}"
+                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.villager.work_weaponsmith\"},SkullOwner:{Name:\"Weaponsmith Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxMzkyOWMxYzYyNjRiZTkzZGUxNTYyMGU4ZTA0MWMwOWI4MmI4YzAwM2MzZWNiOGJhY2MzNWNlNzY3MGI0MiJ9fX0=\"}]}}}"
                 }
               ],
               "conditions": [

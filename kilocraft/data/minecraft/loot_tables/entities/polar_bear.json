@@ -91,7 +91,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.polar_bear.ambient\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Polar Bear\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ2ZDIzZjA0ODQ2MzY5ZmEyYTM3MDJjMTBmNzU5MTAxYWY3YmZlODQxOTk2NjQyOTUzM2NkODFhMTFkMmIifX19\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.polar_bear.ambient\"},SkullOwner:{Name:\"Polar Bear\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ2ZDIzZjA0ODQ2MzY5ZmEyYTM3MDJjMTBmNzU5MTAxYWY3YmZlODQxOTk2NjQyOTUzM2NkODFhMTFkMmIifX19\"}]}}}"
             }
           ]
         }
@@ -104,31 +104,6 @@
           "condition": "random_chance_with_looting",
           "chance": 0.1,
           "looting_multiplier": 0.05
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;0,0,0,0],Name:\"Penguin Plushie\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkyMDM3ZmVlZGY0YzExZmFiOGU0MTc3YjVmNzYxZTc5ZDBmZmJlYzQ2ZmEwZWIxZGJlOTExM2JhZTEyZDViYyJ9fX0=\"}]}}}"
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.08,
-          "looting_multiplier": 0.04
         }
       ]
     }
