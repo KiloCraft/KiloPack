@@ -20,7 +20,7 @@
             "functions": [
               {
                 "function": "set_nbt",
-                "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.warden.roar\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Warden\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y2NDgxYzdjNDM1YzM0ZjIxZGZmMTA0M2E0YzcwMzRjNDQ1YTM4M2E1NDM1ZmExZjJhNTAzYTM0OGFmZDYyZiJ9fX0=\"}]}}}"
+                "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.warden.roar\"},SkullOwner:{Name:\"Warden\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y2NDgxYzdjNDM1YzM0ZjIxZGZmMTA0M2E0YzcwMzRjNDQ1YTM4M2E1NDM1ZmExZjJhNTAzYTM0OGFmZDYyZiJ9fX0=\"}]}}}"
               }
             ]
           }

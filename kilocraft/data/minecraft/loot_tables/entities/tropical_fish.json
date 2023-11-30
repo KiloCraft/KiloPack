@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Tropical Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Tropical Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -53,7 +53,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Cotton Candy Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNkNzc2N2RlN2FjZDlmZTllMDM4MzI1NzRiMjQ4MzQ0ZjBhZTA2ZjRjMWE3YzZjYjVjNGIwOTIzYWVmZTU2ZCJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Cotton Candy Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNkNzc2N2RlN2FjZDlmZTllMDM4MzI1NzRiMjQ4MzQ0ZjBhZTA2ZjRjMWE3YzZjYjVjNGIwOTIzYWVmZTU2ZCJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -63,7 +63,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Goatfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNDdiNDBhYzMxMDM0YTZhYzAyOGNlNWU5NmQ2YWUyNzBiNzM5Zjc0MmIzNTU3MmE5OTk0N2I5MzA2YmQ3In19fQ==\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Goatfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNDdiNDBhYzMxMDM0YTZhYzAyOGNlNWU5NmQ2YWUyNzBiNzM5Zjc0MmIzNTU3MmE5OTk0N2I5MzA2YmQ3In19fQ==\"}]}}}"
             }
           ]
         },
@@ -73,7 +73,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Parrotfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmExNmY1Mjg4YjRkZmMzNDQ4NmNjMjBiNjFhZDIwYzRiNGFjNmIxMzdiZjljODMxMTg3OTk3ZDAwMmVmNWVmNiJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Parrotfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmExNmY1Mjg4YjRkZmMzNDQ4NmNjMjBiNjFhZDIwYzRiNGFjNmIxMzdiZjljODMxMTg3OTk3ZDAwMmVmNWVmNiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -83,7 +83,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Queen Angelfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRmYjRkN2RmZjU0NTZkZTcwNDk2NDE0ZTg3NGM2NjUwYTFlODM5NTYzY2M3NWQ0Yjk5MzgwYjIxNmNmZGJjZCJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Queen Angelfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRmYjRkN2RmZjU0NTZkZTcwNDk2NDE0ZTg3NGM2NjUwYTFlODM5NTYzY2M3NWQ0Yjk5MzgwYjIxNmNmZGJjZCJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -93,7 +93,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Red Lipped Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjJiZTEyZTE0NjY0Y2FlM2ZlMjI2ZDFiMzQ4N2VlMmE3ZDhlNzZhMGUyOWJjYTRkYmY5OTY0YjJhMGY2MyJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Red Lipped Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjJiZTEyZTE0NjY0Y2FlM2ZlMjI2ZDFiMzQ4N2VlMmE3ZDhlNzZhMGUyOWJjYTRkYmY5OTY0YjJhMGY2MyJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -103,7 +103,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Red Snapper Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4MjI2YWI5ODcwYjdjNmM1OWQzMWI0MGI4NmVkZjczMjRlY2E2NzRiNzBkNTViZThhYWU2YTBiODllN2Q4YiJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Red Snapper Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4MjI2YWI5ODcwYjdjNmM1OWQzMWI0MGI4NmVkZjczMjRlY2E2NzRiNzBkNTViZThhYWU2YTBiODllN2Q4YiJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -113,7 +113,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Triggerfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMwZDFlNmQyYTlkZjRmMGViYmNkNTQ3NzhmZjMxYjdjMjQ5ZTBkOTk0NGZjZWQ0YjFhODNhZmJhZWVhY2ZjYSJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Triggerfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMwZDFlNmQyYTlkZjRmMGViYmNkNTQ3NzhmZjMxYjdjMjQ5ZTBkOTk0NGZjZWQ0YjFhODNhZmJhZWVhY2ZjYSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -123,7 +123,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Yellowtail Parrotfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3YjkyYTFiZGM3MzNkMmE1M2ZiMDk1YzcwYjczMmI3MWEyMjNhOWNlY2E3MmI4NzJlMWVlOTkwYTZhOTA3ZSJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Yellowtail Parrotfish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3YjkyYTFiZGM3MzNkMmE1M2ZiMDk1YzcwYjczMmI3MWEyMjNhOWNlY2E3MmI4NzJlMWVlOTkwYTZhOTA3ZSJ9fX0=\"}]}}}"
             }
           ]
         },
@@ -133,7 +133,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Id:[I;0,0,0,0],Name:\"Blue Dory Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwNDlhNjlhZDJiNGQ4YTVkYWFiODM3MmVlOTEyYzcyOGFjODA5ZjhmZDQxMGNiZTdhMGI4MDU0NmRlOThjYiJ9fX0=\"}]}}}"
+              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.player.splash\"},SkullOwner:{Name:\"Blue Dory Fish\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwNDlhNjlhZDJiNGQ4YTVkYWFiODM3MmVlOTEyYzcyOGFjODA5ZjhmZDQxMGNiZTdhMGI4MDU0NmRlOThjYiJ9fX0=\"}]}}}"
             }
           ]
         }
@@ -146,6 +146,101 @@
           "condition": "random_chance_with_looting",
           "chance": 0.055,
           "looting_multiplier": 0.015
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Red Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZmNTE4Y2RjYzMwZGE2ZTIxODMzZjNkOTAzNjZjMzcwM2MyN2EwMTcwYjkyOGZiMTViNWU1MTgxNmY0ZTE1ZSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Green Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYwNWM2NjM0N2YzMjdjNWVlZDI3NjcyZDdhMGUzNDdmNGUzNmMwMDYzNTNjOTFiNzg5MzViYTI4MTE2NTA0In19fQ==\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Purple Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMxZDkwMWNlZWIzOGQwZjljNjNhZTY2Y2Q1YTQ2ZTMzYTA5YzAzNDlkMzgzZjVhNWM3YzM3MjZlMGUwZTM3MSJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Yellow Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBkYWMyNTAxYzllNzU2NzY3ZjY5NDMzMjNhZDU5NTViNWE5NzViYjA5YmUxMjM2NGVmODBlYTNmMWNhN2IwNiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Light Blue Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyNzNjYjNjNzllY2Q1M2MxM2I0ZDcxZTlhZmQ5MTlkMWRjYmExNDEwYzI1MzhiOGZlMDk5ZWNkNjFhNmNiNCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Pink Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdmNWMzMGExMTdlZThhZTgwYzc4NThhYzQyYzY3YjJiYmU1ZTYwMGE2MGNlZWFhMjgxN2Y4NjJkZDg5MzMzZCJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Rainbow Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFmYTQ3YTc2OGI3OWU2MWQ1ZjQzZWE4N2I0Y2U4ZGNlYTFjNDM5ZmU3Njg3MWFlOTk4MTMwMDMwNzRlYzNmYiJ9fX0=\"}]}}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Name:\"Pastel Rainbow Bauble\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRiNTQ4ZTI3ZTE2Y2QwMTVjZDUyNzJhMzQzZjFmN2FjNjgyZjk5ZGZkZTg0YjQyNTYwZmRmZTcyMzdiNmI3ZCJ9fX0=\"}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.05
         }
       ]
     }
