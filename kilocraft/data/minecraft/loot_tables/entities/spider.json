@@ -2,67 +2,67 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 2.0
+                "max": 2.0,
+                "min": 0.0
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:string"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": -1.0,
-                "max": 1.0
+                "max": 1.0,
+                "min": -1.0
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:spider_eye"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ]
+      "rolls": 1.0
     },
     {
       "rolls": 1,
@@ -72,22 +72,34 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.spider.ambient\"},SkullOwner:{Name:\"Spider\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ==\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.spider.ambient",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Spider\", \"italic\": false, \"color\": \"light_purple\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.004,
+              "looting_multiplier": 0.002
             }
           ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.004,
-          "looting_multiplier": 0.002
-        }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/spider"
 }

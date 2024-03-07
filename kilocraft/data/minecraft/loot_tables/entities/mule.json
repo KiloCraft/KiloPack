@@ -2,33 +2,33 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 2.0
+                "max": 2.0,
+                "min": 0.0
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:leather"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
       "rolls": 1,
@@ -38,22 +38,34 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.mule.angry\"},SkullOwner:{Name:\"Mule\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.mule.angry",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Mule\", \"italic\": false, \"color\": \"blue\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             }
           ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.055,
-          "looting_multiplier": 0.015
-        }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/mule"
 }

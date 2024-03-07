@@ -1,68 +1,28 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/frog",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
             {
-              "type": "minecraft:item",
-              "name": "minecraft:player_head",
-              "functions": [
-                {
-                  "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.frog.ambient\"},SkullOwner:{Name:\"Frog\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmNDhkNzFiOWY3YTcxN2MzMzBmZWJkNzAwZDFkMWY5NDYxYTI2MzVjMjQ4OTM3OGNiZWZjMWIyNTk0YjIwIn19fQ==\"}]}}}"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{variant:\"minecraft:temperate\"}"
-                  },
-                  "entity": "this"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:player_head",
-              "functions": [
-                {
-                  "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.frog.eat\"},SkullOwner:{Name:\"Warm Frog\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEwM2E0MjNiYWI4YTRkODMyNzZlNTQwNzgwMTk4NjIwZTIwMWM0ZDE5NTAxYzFmZjNjOTFkY2VmMWMyODFkZCJ9fX0=\"}]}}}"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{variant:\"minecraft:warm\"}"
-                  },
-                  "entity": "this"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:player_head",
-              "functions": [
-                {
-                  "function": "set_nbt",
-                  "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.frog.long_jump\"},SkullOwner:{Name:\"Cold Frog\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiMzAzYzI5MzRiMjY3MjZhZjg5NWU3MGZkOTkyYTZmNWZhMmUzMDIyMzI1MWI0Y2Y5MTZmMjY5NTI4N2ZkNSJ9fX0=\"}]}}}"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{variant:\"minecraft:cold\"}"
-                  },
-                  "entity": "this"
-                }
-              ]
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.frog.ambient",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmNDhkNzFiOWY3YTcxN2MzMzBmZWJkNzAwZDFkMWY5NDYxYTI2MzVjMjQ4OTM3OGNiZWZjMWIyNTk0YjIwIn19fQ=="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Frog\", \"italic\": false, \"color\": \"aqua\"}"
+              }
             }
           ],
           "conditions": [
@@ -73,6 +33,89 @@
               "condition": "random_chance_with_looting",
               "chance": 0.015,
               "looting_multiplier": 0.005
+            },
+            {
+              "condition": "entity_properties",
+              "predicate": {
+                "nbt": "{variant:\"minecraft:temperate\"}"
+              },
+              "entity": "this"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.frog.eat",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEwM2E0MjNiYWI4YTRkODMyNzZlNTQwNzgwMTk4NjIwZTIwMWM0ZDE5NTAxYzFmZjNjOTFkY2VmMWMyODFkZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Warm Frog\", \"italic\": false, \"color\": \"aqua\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.015,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "entity_properties",
+              "predicate": {
+                "nbt": "{variant:\"minecraft:warm\"}"
+              },
+              "entity": "this"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.frog.long_jump",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiMzAzYzI5MzRiMjY3MjZhZjg5NWU3MGZkOTkyYTZmNWZhMmUzMDIyMzI1MWI0Y2Y5MTZmMjY5NTI4N2ZkNSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Cold Frog\", \"italic\": false, \"color\": \"aqua\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.015,
+              "looting_multiplier": 0.005
+            },
+            {
+              "condition": "entity_properties",
+              "predicate": {
+                "nbt": "{variant:\"minecraft:cold\"}"
+              },
+              "entity": "this"
             }
           ]
         }

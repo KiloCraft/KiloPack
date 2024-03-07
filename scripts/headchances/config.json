@@ -1,0 +1,2356 @@
+{
+    "entities": {
+        "minecraft:allay": {
+            "name": "Allay",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.allay.ambient_without_item",
+                    "profile": {
+                        "name": "Allay",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFjNTlkY2NkZTRiODUzNTUwMGRjZjY3OTRjYTQ1MDY2M2Y2MDcyOTBlMjUxMGY2ZDhlYjFlNWViNzFkYTVhZiJ9fX0="
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:armadillo": {
+            "name": "Armadillo",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.armadillo.ambient",
+                    "profile": {
+                        "name": "Armadillo",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljMWU5NmNlOTg1NzI1ZTIyZWQ2Y2NmMGY0YzQ4MTBjNzI5YTI1MzhiOTdiZGEwNmZhZWIzYjkyNzk5Yzg3OCJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:axolotl": {
+            "name": "Axolotl",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.axolotl.idle_air",
+                    "profile": {
+                        "name": "Lucy Axolotl",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMxMzhmNDAxYzY3ZmMyZTFlMzg3ZDljOTBhOTY5MTc3MmVlNDg2ZThkZGJmMmVkMzc1ZmM4MzQ4NzQ2ZjkzNiJ9fX0="
+                    },
+                    "condition": "{Variant:0}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.axolotl.idle_water",
+                    "profile": {
+                        "name": "Wild Axolotl",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ3ZWZlMDIwMTJjZjMxYWUyNzA4ZTdkN2RmMDc5NzI2NTc1YzdlZTg1MDQzMjgxNzVmZTU0NDcwODE4N2RjZSJ9fX0="
+                    },
+                    "condition": "{Variant:1}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.axolotl.attack",
+                    "profile": {
+                        "name": "Gold Axolotl",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y4MGNjMTQ5MmU0NDY2OGNjY2RiNDAxNzhjM2E2Njg5ZThkZmMwZDIzNGU5ODU1M2ZiN2RlYmMyNmZjYWVhYyJ9fX0="
+                    },
+                    "condition": "{Variant:2}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.axolotl.hurt",
+                    "profile": {
+                        "name": "Cyan Axolotl",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFjMmQwYzNiOTZhZDQ1YjQ2NjM4OGUwMjhiMjQ3YWFmZTM2YjI2YjEyYzQxMWVjYjcyZTliNTBlYTIxZTUyYyJ9fX0="
+                    },
+                    "condition": "{Variant:3}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.axolotl.death",
+                    "profile": {
+                        "name": "Blue Axolotl",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVmNjMwNjU3ZTRhMjc5YjBiN2VhMGY2NzkwNTkyMGFmMzY1ZjljODRjYTlmMzRhMzJiNTMzNDNmZjYyOTkxMCJ9fX0="
+                    },
+                    "condition": "{Variant:4}"
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:bat": {
+            "name": "Bat",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.bat.ambient",
+                    "profile": {
+                        "name": "Bat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzcyZjVmOGMwNTE2NDMzNTJiNjdkZmJmOTA1MWUwZjFiZmE0MzFjN2ViNzVkYjhkMTNiNTE0MDhmNDFkNzY4OCJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:bee": {
+            "name": "Bee",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.bee.loop",
+                    "profile": {
+                        "name": "Bee",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0="
+                    },
+                    "condition": "{HasNectar:0b,HasStung:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.bee.loop_aggressive",
+                    "profile": {
+                        "name": "Angry Bee",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0="
+                    },
+                    "condition": "{HasNectar:0b,HasStung:1b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.bee.pollinate",
+                    "profile": {
+                        "name": "Pollinated Bee",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0="
+                    },
+                    "condition": "{HasNectar:1b,HasStung:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.bee.sting",
+                    "profile": {
+                        "name": "Angry Pollinated Bee",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiNzRlMDUyYjc0Mjg4Nzk5YmE2ZDlmMzVjNWQwMjIxY2Y4YjA0MzMxNTQ3ZWMyZjY4ZDczNTk3YWUyYzliIn19fQ=="
+                    },
+                    "condition": "{HasNectar:1b,HasStung:1b}"
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:blaze": {
+            "name": "Blaze",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.blaze.ambient",
+                    "profile": {
+                        "name": "Blaze",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ"
+                    }
+                }
+            ],
+            "group": "very_rare"
+        },
+        "minecraft:breeze": {
+            "name": "Breeze",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.breeze.idle_air",
+                    "profile": {
+                        "name": "Breeze",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZjOTAzOWY2MjEwZWE4OTU0NDllNTYxNWU0ZTMwZDgwYjY5ZDUwNzY5YzM3MTc2ZWE3MTY0YzA2YTk4Y2I3In19fQ=="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:camel": {
+            "name": "Camel",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.camel.ambient",
+                    "profile": {
+                        "name": "Camel",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZiMjc2MTgzNzU2ZWFmMjU5OGFhNzBjMjY1Mjg1ZjFlMGJkNjkxMjYyMjk0NDc4OGE0NWE3ZDdmODkzYmMxOCJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:cat": {
+            "name": "Cat",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.cat.ambient",
+                    "profile": {
+                        "name": "Tabby Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGQzMGRiM2Y4YzNmZTUwY2E0ZjI2ZjMwNzVlMzZmMDAzYWU4MDI4MTM1YThjZDY5MmYyNGM5YTk4YWUxYiJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:tabby\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.ambient",
+                    "profile": {
+                        "name": "Black Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjMWU4MWZmMDNlODJhM2U3MWUwY2Q1ZmJlYzYwN2UxMTM2MTA4OWFhNDdmMjkwZDQ2YzhhMmMwNzQ2MGQ5MiJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:all_black\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.beg_for_food",
+                    "profile": {
+                        "name": "Tuxedo Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhNjYyZjJhZTdkZWJlZTY1MjkyYzJiZjQyZmJiMDliOTdiMmZmYmRiMjcwNTIwYzJkYjk2ZTUxZDg5NDUifX19"
+                    },
+                    "condition": "{variant:\"minecraft:black\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.beg_for_food",
+                    "profile": {
+                        "name": "Ginger Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc1NWU3ZGYwNGQxOGIzMWQ2M2MxN2Y0YTdiNGM3MzkyNGJkNjI2NWRhNjllMTEzZWRkZDk3NTE2ZmM3In19fQ=="
+                    },
+                    "condition": "{variant:\"minecraft:red\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.eat",
+                    "profile": {
+                        "name": "Siamese Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ODFjMzliM2FmZGNjNzlmOTFmZTVkZTNjZGQwMTViYzMzNTM4NDNmNTkxZjRkMjNjZDMwMjdkZTRlNiJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:siamese\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.eat",
+                    "profile": {
+                        "name": "British Shorthair Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:british_shorthair\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.hiss",
+                    "profile": {
+                        "name": "Calico Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:calico\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.hiss",
+                    "profile": {
+                        "name": "Persian Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:persian\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.hurt",
+                    "profile": {
+                        "name": "Ragdoll Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTQ1ZDI1ODg5ZTNmZGY3Nzk3Y2IyNThlMjZkNGU5NGY1YmMxM2VlZjAwNzk1ZGFmZWYyZTgzZTBhYjUxMSJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:ragdoll\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.hurt",
+                    "profile": {
+                        "name": "White Cat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkMTVhYzk1NThlOThiODlhY2E4OWQzODE5NTAzZjFjNTI1NmMyMTk3ZGQzYzM0ZGY1YWFjNGQ3MmU3ZmJlZCJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:white\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cat.purreow",
+                    "profile": {
+                        "name": "Jellie",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkYjQxMzc2Y2E1N2RmMTBmY2IxNTM5ZTg2NjU0ZWVjZmQzNmQzZmU3NWU4MTc2ODg1ZTkzMTg1ZGYyODBhNSJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:jellie\"}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:cave_spider": {
+            "name": "Cave Spider",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.spider.step",
+                    "profile": {
+                        "name": "Cave Spider",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19"
+                    }
+                }
+            ],
+            "group": "very_rare"
+        },
+        "minecraft:charged_creeper": {
+            "name": "Charged Creeper",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.lightning_bolt.thunder",
+                    "profile": {
+                        "name": "Charged Creeper",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZWIzOWRkNGRlMjRhN2FkZmUyOTFhM2EwY2ZjN2NmNGY2NDVkZTU5YjYwM2ZjZmUwNmM2YjVhMDZlMjYifX19"
+                    },
+                    "condition": "{powered:1b}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:chicken": {
+            "name": "Chicken",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.chicken.ambient",
+                    "profile": {
+                        "name": "Chicken",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ"
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:cod": {
+            "name": "Cod",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.cod.flop",
+                    "profile": {
+                        "name": "Cod",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0"
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:cow": {
+            "name": "Cow",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.cow.ambient",
+                    "profile": {
+                        "name": "Cow",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19"
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:creeper": {
+            "name": "Creeper",
+            "heads": [
+            ],
+            "references": [
+                "minecraft:charged_creeper"
+            ]
+        },
+        "minecraft:dolphin": {
+            "name": "Dolphin",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.dolphin.ambient_water",
+                    "profile": {
+                        "name": "Dolphin",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ"
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:donkey": {
+            "name": "Donkey",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.donkey.ambient",
+                    "profile": {
+                        "name": "Donkey",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNmMzYzA1MmNmNzg3ZDIzNmEyOTE1ZjgwNzJiNzdjNTQ3NDk3NzE1ZDFkMmY4Y2JjOWQyNDFkODhhIn19fQ"
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:drowned": {
+            "name": "Drowned",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.drowned.ambient_water",
+                    "profile": {
+                        "name": "Drowned",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmN2NjZjYxZGJjM2Y5ZmU5YTYzMzNjZGUwYzBlMTQzOTllYjJlZWE3MWQzNGNmMjIzYjNhY2UyMjA1MSJ9fX0"
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:elder_guardian": {
+            "name": "Elder Guardian",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.elder_guardian.ambient",
+                    "profile": {
+                        "name": "Elder Guardian",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM3OTc0ODJhMTRiZmNiODc3MjU3Y2IyY2ZmMWI2ZTZhOGI4NDEzMzM2ZmZiNGMyOWE2MTM5Mjc4YjQzNmIifX19"
+                    }
+                }
+            ],
+            "group": "very_common"
+        },
+        "minecraft:enderman": {
+            "name": "Enderman",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.enderman.ambient",
+                    "profile": {
+                        "name": "Enderman",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0"
+                    }
+                }
+            ],
+            "group": "very_rare"
+        },
+        "minecraft:endermite": {
+            "name": "Endermite",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.endermite.ambient",
+                    "profile": {
+                        "name": "Endermite",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRhYWZmYTRjMDllMmVhZmI4NWQzNTIyMTIyZGIwYWE0NTg3NGJlYTRlM2Y1ZTc1NjZiNGQxNjZjN2RmOCJ9fX0"
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:ender_dragon": {
+            "name": "Ender Dragon",
+            "heads": []
+        },
+        "minecraft:evoker": {
+            "name": "Evoker",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.evoker.prepare_summon",
+                    "profile": {
+                        "name": "Evoker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAwZDNmZmYxNmMyZGNhNTliOWM1OGYwOTY1MjVjODY5NzExNjZkYmFlMTMzYjFiMDUwZTVlZTcxNjQ0MyJ9fX0"
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:fox": {
+            "name": "Fox",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.fox.ambient",
+                    "profile": {
+                        "name": "Fox",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
+                    },
+                    "condition": "{Type:'red',Sleeping:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.fox.sleep",
+                    "profile": {
+                        "name": "Sleeping Fox",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk3NTM4YzBlOWE4YzJjMzRiYzIwYjAzYzYyMTI0YjM3MWUxNDY2MTVjNTk1OTliMmU1Mzk5ZmQxZWU4YzA4MiJ9fX0="
+                    },
+                    "condition": "{Type:'red',Sleeping:1b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.fox.aggro",
+                    "profile": {
+                        "name": "Snow Fox",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0="
+                    },
+                    "condition": "{Type:'snow',Sleeping:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.fox.sniff",
+                    "profile": {
+                        "name": "Sleeping Snow Fox",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzNDVhNTIwOWI2MjZkNjk5OTlmZGFmOWI3NjczNWQ2MDRhMWExODk5NjhlNmI4OWI0ZWQ1ZGJkMGZmMTA2YiJ9fX0="
+                    },
+                    "condition": "{Type:'snow',Sleeping:1b}"
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:frog": {
+            "name": "Frog",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.frog.ambient",
+                    "profile": {
+                        "name": "Frog",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmNDhkNzFiOWY3YTcxN2MzMzBmZWJkNzAwZDFkMWY5NDYxYTI2MzVjMjQ4OTM3OGNiZWZjMWIyNTk0YjIwIn19fQ=="
+                    },
+                    "condition": "{variant:\"minecraft:temperate\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.frog.eat",
+                    "profile": {
+                        "name": "Warm Frog",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEwM2E0MjNiYWI4YTRkODMyNzZlNTQwNzgwMTk4NjIwZTIwMWM0ZDE5NTAxYzFmZjNjOTFkY2VmMWMyODFkZCJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:warm\"}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.frog.long_jump",
+                    "profile": {
+                        "name": "Cold Frog",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiMzAzYzI5MzRiMjY3MjZhZjg5NWU3MGZkOTkyYTZmNWZhMmUzMDIyMzI1MWI0Y2Y5MTZmMjY5NTI4N2ZkNSJ9fX0="
+                    },
+                    "condition": "{variant:\"minecraft:cold\"}"
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:ghast": {
+            "name": "Ghast",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.ghast.ambient",
+                    "profile": {
+                        "name": "Ghast",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YTcyMTM4ZDY5ZmJiZDJmZWEzZmEyNTFjYWJkODcxNTJlNGYxYzk3ZTVmOTg2YmY2ODU1NzFkYjNjYzAifX19"
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.ghast.warn",
+                    "profile": {
+                        "name": "Shooting Ghast",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhmNzdlZWVlZjZmZmIyZjY4MThlNTc2OTg3OTRhZTAzNTFhYjMyYmEyMzRkNjIxYzIyZmU0Y2U4ZTE1OTlkMiJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:glow_squid": {
+            "name": "Glow Squid",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.glow_squid.ambient",
+                    "profile": {
+                        "name": "Glow Squid",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTczMjdlZTExODEyYjc2NGM3YWRlNzBiMjgyY2NlNGM1OGU2MzViMjAxNTI0NDA4MWQxNDkwNTQzZGE3MjgwZSJ9fX0"
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:goat": {
+            "name": "Goat",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.goat.ambient",
+                    "profile": {
+                        "name": "Goat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY2MjMzNmQ4YWUwOTI0MDdlNThmN2NjODBkMjBmMjBlNzY1MDM1N2E0NTRjZTE2ZTMzMDc2MTlhMDExMDY0OCJ9fX0"
+                    },
+                    "condition": "{IsScreamingGoat:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.goat.screaming.ambient",
+                    "profile": {
+                        "name": "Screaming Goat",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVjNzM0OWM3YjUzNDQzN2I2YmM5NTk0YzdlZDAwZmU1YjZjMWVjMDY0NmRjNGI4OTg0ZjM0ZWI0MTAzNzU4NCJ9fX0="
+                    },
+                    "condition": "{IsScreamingGoat:1b}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:guardian": {
+            "name": "Guardian",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.guardian.ambient_land",
+                    "profile": {
+                        "name": "Guardian",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ=="
+                    }
+                }
+            ],
+            "group": "very_rare"
+        },
+        "minecraft:hoglin": {
+            "name": "Hoglin",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.hoglin.ambient",
+                    "profile": {
+                        "name": "Hoglin",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0="
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:horse": {
+            "name": "Horse",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.horse.ambient",
+                    "profile": {
+                        "name": "White Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
+                    },
+                    "condition": "{Variant:0}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.ambient",
+                    "profile": {
+                        "name": "White Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
+                    },
+                    "condition": "{Variant:1024}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.angry",
+                    "profile": {
+                        "name": "Creamy Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
+                    },
+                    "condition": "{Variant:1025}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.breathe",
+                    "profile": {
+                        "name": "Chestnut Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
+                    },
+                    "condition": "{Variant:1026}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.eat",
+                    "profile": {
+                        "name": "Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
+                    },
+                    "condition": "{Variant:1027}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.gallop",
+                    "profile": {
+                        "name": "Black Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
+                    },
+                    "condition": "{Variant:1028}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.jump",
+                    "profile": {
+                        "name": "Gray Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
+                    },
+                    "condition": "{Variant:1029}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.land",
+                    "profile": {
+                        "name": "Dark Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
+                    },
+                    "condition": "{Variant:1030}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.angry",
+                    "profile": {
+                        "name": "Creamy Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
+                    },
+                    "condition": "{Variant:1}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.ambient",
+                    "profile": {
+                        "name": "White Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
+                    },
+                    "condition": "{Variant:256}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.angry",
+                    "profile": {
+                        "name": "Creamy Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
+                    },
+                    "condition": "{Variant:257}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.breathe",
+                    "profile": {
+                        "name": "Chestnut Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
+                    },
+                    "condition": "{Variant:258}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.eat",
+                    "profile": {
+                        "name": "Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
+                    },
+                    "condition": "{Variant:259}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.gallop",
+                    "profile": {
+                        "name": "Black Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
+                    },
+                    "condition": "{Variant:260}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.jump",
+                    "profile": {
+                        "name": "Gray Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
+                    },
+                    "condition": "{Variant:261}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.land",
+                    "profile": {
+                        "name": "Dark Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
+                    },
+                    "condition": "{Variant:262}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.breathe",
+                    "profile": {
+                        "name": "Chestnut Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
+                    },
+                    "condition": "{Variant:2}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.eat",
+                    "profile": {
+                        "name": "Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
+                    },
+                    "condition": "{Variant:3}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.gallop",
+                    "profile": {
+                        "name": "Black Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
+                    },
+                    "condition": "{Variant:4}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.ambient",
+                    "profile": {
+                        "name": "White Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
+                    },
+                    "condition": "{Variant:512}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.angry",
+                    "profile": {
+                        "name": "Creamy Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
+                    },
+                    "condition": "{Variant:513}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.breathe",
+                    "profile": {
+                        "name": "Chestnut Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
+                    },
+                    "condition": "{Variant:514}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.eat",
+                    "profile": {
+                        "name": "Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
+                    },
+                    "condition": "{Variant:515}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.gallop",
+                    "profile": {
+                        "name": "Black Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
+                    },
+                    "condition": "{Variant:516}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.jump",
+                    "profile": {
+                        "name": "Gray Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
+                    },
+                    "condition": "{Variant:517}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.land",
+                    "profile": {
+                        "name": "Dark Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
+                    },
+                    "condition": "{Variant:518}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.jump",
+                    "profile": {
+                        "name": "Gray Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
+                    },
+                    "condition": "{Variant:5}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.land",
+                    "profile": {
+                        "name": "Dark Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
+                    },
+                    "condition": "{Variant:6}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.ambient",
+                    "profile": {
+                        "name": "White Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
+                    },
+                    "condition": "{Variant:768}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.angry",
+                    "profile": {
+                        "name": "Creamy Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
+                    },
+                    "condition": "{Variant:769}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.breathe",
+                    "profile": {
+                        "name": "Chestnut Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
+                    },
+                    "condition": "{Variant:770}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.eat",
+                    "profile": {
+                        "name": "Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
+                    },
+                    "condition": "{Variant:771}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.gallop",
+                    "profile": {
+                        "name": "Black Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
+                    },
+                    "condition": "{Variant:772}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.jump",
+                    "profile": {
+                        "name": "Gray Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
+                    },
+                    "condition": "{Variant:773}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.horse.land",
+                    "profile": {
+                        "name": "Dark Brown Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
+                    },
+                    "condition": "{Variant:774}"
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:husk": {
+            "name": "Husk",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.husk.ambient",
+                    "profile": {
+                        "name": "Husk",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc3MDY4MWQxYTI1NWZiNGY3NTQ3OTNhYTA1NWIyMjA0NDFjZGFiOWUxMTQxZGZhNTIzN2I0OTkzMWQ5YjkxYyJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:iron_golem": {
+            "name": "Iron Golem",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.iron_golem.hurt",
+                    "profile": {
+                        "name": "Iron Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19"
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:jebsheep": {
+            "name": "Jeb_ Sheep",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:block.amethyst_block.chime",
+                    "profile": {
+                        "name": "Jeb_ Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM0Y2JmMmRhYzQyZGUzYjJjYmZkMGFhMWRjNDAzNjNiNmQzZDViNTczNmIyYTc4OGMwNWQxYjRhYmIxOWU3In19fQ=="
+                    },
+                    "condition": "{CustomName:'\"jeb_\"'}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:llama": {
+            "name": "Llama",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.llama.ambient",
+                    "profile": {
+                        "name": "Creamy Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ2N2ZkNGJmZjI5MzI2OWNiOTA4OTc0ZGNhODNjMzM0ODVlNDM1ZWQ1YThlMWRiZDY1MjFjNjE2ODcxNDAifX19"
+                    },
+                    "condition": "{Variant:0}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.llama.angry",
+                    "profile": {
+                        "name": "White Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAyNzdlNmIzZDlmNzgxOWVmYzdkYTRiNDI3NDVmN2FiOWE2M2JhOGYzNmQ2Yjg0YTdhMjUwYzZkMWEzNThlYiJ9fX0="
+                    },
+                    "condition": "{Variant:1}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.llama.eat",
+                    "profile": {
+                        "name": "Brown Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJiMWVjZmY3N2ZmZTNiNTAzYzMwYTU0OGViMjNhMWEwOGZhMjZmZDY3Y2RmZjM4OTg1NWQ3NDkyMTM2OCJ9fX0="
+                    },
+                    "condition": "{Variant:2}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.llama.spit",
+                    "profile": {
+                        "name": "Grey Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YyNGU1NmZkOWZmZDcxMzNkYTZkMWYzZTJmNDU1OTUyYjFkYTQ2MjY4NmY3NTNjNTk3ZWU4MjI5OWEifX19"
+                    },
+                    "condition": "{Variant:3}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:magma_cube": {
+            "name": "Magma Cube",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.magma_cube.squish",
+                    "profile": {
+                        "name": "Magma Cube",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:mooshroom": {
+            "name": "Mooshroom",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.mooshroom.convert",
+                    "profile": {
+                        "name": "Brown Mooshroom",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkNWZjNzAzMWFjYzk1YmVlYjUyODc1ZjE1NDA4ZTk3OWEwYTljMzkxYjZkYjdlY2VlN2U0MDAwNzJkZTVjNCJ9fX0="
+                    },
+                    "condition": "{Type:'brown'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cow.hurt",
+                    "profile": {
+                        "name": "Mooshroom",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBiYzYxYjk3NTdhN2I4M2UwM2NkMjUwN2EyMTU3OTEzYzJjZjAxNmU3YzA5NmE0ZDZjZjFmZTFiOGRiIn19fQ=="
+                    },
+                    "condition": "{Type:'red'}"
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:mule": {
+            "name": "Mule",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.mule.angry",
+                    "profile": {
+                        "name": "Mule",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19"
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:ocelot": {
+            "name": "Ocelot",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.cat.stray_ambient",
+                    "profile": {
+                        "name": "Ocelot",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19"
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:panda": {
+            "name": "Panda",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.panda.aggressive_ambient",
+                    "profile": {
+                        "name": "Aggressive Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyZjM5M2YzYjI4YWU1NTc4ZDY4ZWE3MmYzNGIwYWE0ZjVmMmM1ODNhMjJkODk4MzQ2N2I5OGM0YjIzZDg2YyJ9fX0="
+                    },
+                    "condition": "{MainGene:'aggressive'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.panda.pre_sneeze",
+                    "profile": {
+                        "name": "Brown Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMGQ0NWJmOTkyYjA3MmNmNWM1MTNlMDZiZWVmZThiZGM4MDljODE1MGYzZDE0Yjg4Mzc5NmE3Yjc0ZTQwNiJ9fX0="
+                    },
+                    "condition": "{MainGene:'brown'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.panda.cant_breed",
+                    "profile": {
+                        "name": "Lazy Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgxOGI2ODFjYWNlMWM2NDE5MTlmNTNlZGFkZWNiMTQyMzMwZDA4OWE4MjZiNTYyMTkxMzhjMzNiN2E1ZTBkYiJ9fX0="
+                    },
+                    "condition": "{MainGene:'lazy'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.panda.ambient",
+                    "profile": {
+                        "name": "Normal Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNhMDk2ZWVhNTA2MzAxYmVhNmQ0YjE3ZWUxNjA1NjI1YTZmNTA4MmM3MWY3NGE2MzljYzk0MDQzOWY0NzE2NiJ9fX0="
+                    },
+                    "condition": "{MainGene:'normal'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.panda.eat",
+                    "profile": {
+                        "name": "Playful Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY0NjNlNjRjZTI5NzY0ZGIzY2I0NjgwNmNlZTYwNmFmYzI0YmRmMGNlMTRiNjY2MGMyNzBhOTZjNzg3NDI2In19fQ=="
+                    },
+                    "condition": "{MainGene:'playful'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.panda.sneeze",
+                    "profile": {
+                        "name": "Weak Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMyZDI1ZTk1NjMzN2Q4Mjc5MWZhMGU2NjE3YTQwMDg2ZjAyZDZlYmZiZmQ1YTY0NTk4ODljZjIwNmZjYTc4NyJ9fX0="
+                    },
+                    "condition": "{MainGene:'weak'}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.panda.worried_ambient",
+                    "profile": {
+                        "name": "Worried Panda",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlOTIxYzU3ZTU0ZGQwNzMzN2ZmYmE2MjllNzJjYWYzODUwZDgzNmI3NjU2MmIxYmMzYmM1OTQ5ZjJkNDFkIn19fQ=="
+                    },
+                    "condition": "{MainGene:'worried'}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:parrot": {
+            "name": "Parrot",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.parrot.ambient",
+                    "profile": {
+                        "name": "Red Parrot",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiYThkNjZmZWNiMTk5MmU5NGI4Njg3ZDZhYjRhNTMyMGFiNzU5NGFjMTk0YTI2MTVlZDRkZjgxOGVkYmMzIn19fQ=="
+                    },
+                    "condition": "{Variant:0}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.parrot.fly",
+                    "profile": {
+                        "name": "Blue Parrot",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNhNTgwYjA1MWM2M2JlMjlkYTU0NWE5YWE3ZmY3ZTEzNmRmNzdhODFjNjdkYzFlZTllNjE3MGMxNGZiMzEwIn19fQ=="
+                    },
+                    "condition": "{Variant:1}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.parrot.ambient",
+                    "profile": {
+                        "name": "Green Parrot",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0="
+                    },
+                    "condition": "{Variant:2}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.parrot.fly",
+                    "profile": {
+                        "name": "Cyan Parrot",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0="
+                    },
+                    "condition": "{Variant:3}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.parrot.hurt",
+                    "profile": {
+                        "name": "Gray Parrot",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0="
+                    },
+                    "condition": "{Variant:4}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:phantom": {
+            "name": "Phantom",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.phantom.ambient",
+                    "profile": {
+                        "name": "Phantom",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NTE1M2VjMjMyODRiMjgzZjAwZDE5ZDI5NzU2ZjI0NDMxM2EwNjFiNzBhYzAzYjk3ZDIzNmVlNTdiZDk4MiJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:pig": {
+            "name": "Pig",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.pig.ambient",
+                    "profile": {
+                        "name": "Pig",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0="
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:piglin": {
+            "name": "Piglin",
+            "heads": []
+        },
+        "minecraft:piglin_brute": {
+            "name": "Piglin Brute",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.piglin_brute.ambient",
+                    "profile": {
+                        "name": "Piglin Brute",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0="
+                    }
+                }
+            ],
+            "group": "common"
+        },
+        "minecraft:pillager": {
+            "name": "Pillager",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.pillager.ambient",
+                    "profile": {
+                        "name": "Pillager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFlZTZiYjM3Y2JmYzkyYjBkODZkYjVhZGE0NzkwYzY0ZmY0NDY4ZDY4Yjg0OTQyZmRlMDQ0MDVlOGVmNTMzMyJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal",
+            "references": [
+                "minecraft:pill_bo"
+            ]
+        },
+        "minecraft:pill_bo": {
+            "name": "Bad Omen Pillager",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.pillager.celebrate",
+                    "profile": {
+                        "name": "Bad Omen Pillager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ1NDNlM2RmYjUwNDhiNDNjYTNjM2FiY2YwZGY0YjNmY2ZiMTdhOTk4NTRkNzZjZmFhNjdhNjYxZjU2NGZkOSJ9fX0="
+                    },
+                    "condition": "{PatrolLeader:1b}"
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:polar_bear": {
+            "name": "Polar Bear",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.polar_bear.ambient",
+                    "profile": {
+                        "name": "Polar Bear",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ2ZDIzZjA0ODQ2MzY5ZmEyYTM3MDJjMTBmNzU5MTAxYWY3YmZlODQxOTk2NjQyOTUzM2NkODFhMTFkMmIifX19"
+                    }
+                }
+            ],
+            "group": "common"
+        },
+        "minecraft:pufferfish": {
+            "name": "Pufferfish",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.puffer_fish.flop",
+                    "profile": {
+                        "name": "Pufferfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0"
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.puffer_fish.blow_up",
+                    "profile": {
+                        "name": "Laughing Pufferfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ViY2ZlMjI1ZjdmMmE2MTk4NDhkMDc3MTE4NmU1NTA1NTA0Y2QzYmMyY2M2NjE4M2RlNDZlNmNmOTI3NWJlMiJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.puffer_fish.blow_out",
+                    "profile": {
+                        "name": "Lovely Pufferfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE3YjBjMzk3YzBhZDc4OGQ1NzJkNjRlYjRhNTAzMmU4MTAxZDQwOTg5MzkzZTY1Zjk3MzgzNDRmZGI4MzU2NSJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.puffer_fish.death",
+                    "profile": {
+                        "name": "Pride Pufferfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE1ZTA4YWFmYjc5ODJmNGU5OTkzODYyOGM4MjZlN2U0Y2QwNzk2M2RlNzg0ZTY3YjhkOTJjNTBmZDI2ZWQ5MiJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.ender_eye.death",
+                    "profile": {
+                        "name": "Diamond Pufferfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ0NzcwNzZkZWVhNzY0ZTYzZGQ5ZWQ1MTMwMTQ5NDdjYzE5YTY3MjEyMjg4MmI0NGJhNjhlZDQwNTFhODQ2MyJ9fX0="
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:rabbit": {
+            "name": "Rabbit",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.ambient",
+                    "profile": {
+                        "name": "Brown Rabbit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxMTY5YjI2OTRhNmFiYTgyNjM2MDk5MjM2NWJjZGE1YTEwYzg5YTNhYTJiNDhjNDM4NTMxZGQ4Njg1YzNhNyJ9fX0="
+                    },
+                    "condition": "{RabbitType:0}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.jump",
+                    "profile": {
+                        "name": "White Rabbit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU0MmQ3MTYwOTg3MTQ4YTVkOGUyMGU0NjliZDliM2MyYTM5NDZjN2ZiNTkyM2Y1NWI5YmVhZTk5MTg1ZiJ9fX0="
+                    },
+                    "condition": "{RabbitType:1}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.hurt",
+                    "profile": {
+                        "name": "Black Rabbit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJjNTgxMTZhMTQ3ZDFhOWEyNjI2OTIyNGE4YmUxODRmZThlNWYzZjNkZjliNjE3NTEzNjlhZDg3MzgyZWM5In19fQ=="
+                    },
+                    "condition": "{RabbitType:2}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.ambient",
+                    "profile": {
+                        "name": "Black and White Rabbit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4Y2ZmNGIxNWI4Y2EzN2UyNTc1MGYzNDU3MThmMjg5Y2IyMmM1YjNhZDIyNjI3YTcxMjIzZmFjY2MifX19"
+                    },
+                    "condition": "{RabbitType:3}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.ambient",
+                    "profile": {
+                        "name": "Gold Rabbit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3N2EzMjY2YmYzYjllYWYxN2U1YTAyZWE1ZmJiNDY4MDExNTk4NjNkZDI4OGI5M2U2YzEyYzljYiJ9fX0="
+                    },
+                    "condition": "{RabbitType:4}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.death",
+                    "profile": {
+                        "name": "Salt and Pepper Rabbit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlY2M2YjVlNmVhNWNlZDc0YzQ2ZTc2MjdiZTNmMDgyNjMyN2ZiYTI2Mzg2YzZjYzc4NjMzNzJlOWJjIn19fQ=="
+                    },
+                    "condition": "{RabbitType:5}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.attack",
+                    "profile": {
+                        "name": "Toast",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYzNiNzQ2NjY1NDVmMmQ0MWJjMmI1MzQwZTFkZjY5ZGQyNWUyYTdlMmIzNGVmZDFhOTUzMTFhN2Q2YyJ9fX0="
+                    },
+                    "condition": "{CustomName:'\"Toast\"'}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:ravager": {
+            "name": "Ravager",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.ravager.ambient",
+                    "profile": {
+                        "name": "Ravager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QyMGJmNTJlYzM5MGEwNzk5Mjk5MTg0ZmM2NzhiZjg0Y2Y3MzJiYjFiZDc4ZmQxYzRiNDQxODU4ZjAyMzVhOCJ9fX0="
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:salmon": {
+            "name": "Salmon",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.salmon.hurt",
+                    "profile": {
+                        "name": "Salmon",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19"
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:sheep": {
+            "name": "Sheep",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.sheep.ambient",
+                    "profile": {
+                        "name": "White Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19"
+                    },
+                    "condition": "{Color:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.shear",
+                    "profile": {
+                        "name": "Light Gray Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UxYWM2ODM5OTNiZTM1NTEyZTFiZTMxZDFmNGY5OGU1ODNlZGIxNjU4YTllMjExOTJjOWIyM2I1Y2NjZGMzIn19fQ=="
+                    },
+                    "condition": "{Color:8b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.shear",
+                    "profile": {
+                        "name": "Gray Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI4N2ViNTAxMzkxZjI3NTM4OWYxNjZlYzlmZWJlYTc1ZWM0YWU5NTFiODhiMzhjYWU4N2RmN2UyNGY0YyJ9fX0="
+                    },
+                    "condition": "{Color:7b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.shear",
+                    "profile": {
+                        "name": "Black Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI2NTIwODNmMjhlZDFiNjFmOWI5NjVkZjFhYmYwMTBmMjM0NjgxYzIxNDM1OTUxYzY3ZDg4MzY0NzQ5ODIyIn19fQ=="
+                    },
+                    "condition": "{Color:15b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.shear",
+                    "profile": {
+                        "name": "Brown Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU1YWQ2ZTVkYjU2OTJkODdmNTE1MTFmNGUwOWIzOWZmOWNjYjNkZTdiNDgxOWE3Mzc4ZmNlODU1M2I4In19fQ=="
+                    },
+                    "condition": "{Color:12b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.ambient",
+                    "profile": {
+                        "name": "Red Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM5YWY0NzdlYjYyNzgxNWY3MjNhNTY2MjU1NmVjOWRmY2JhYjVkNDk0ZDMzOGJkMjE0MjMyZjIzZTQ0NiJ9fX0="
+                    },
+                    "condition": "{Color:14b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.ambient",
+                    "profile": {
+                        "name": "Orange Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA5ODM5N2EyNzBiNGMzZDJiMWU1NzRiOGNmZDNjYzRlYTM0MDkwNjZjZWZlMzFlYTk5MzYzM2M5ZDU3NiJ9fX0="
+                    },
+                    "condition": "{Color:1b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.ambient",
+                    "profile": {
+                        "name": "Yellow Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNDExMmRmMWU0YmNlMmE1ZTI4NDE3ZjNhYWZmNzljZDY2ZTg4NWMzNzI0NTU0MTAyY2VmOGViOCJ9fX0="
+                    },
+                    "condition": "{Color:4b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.hurt",
+                    "profile": {
+                        "name": "Lime Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJhMjQ0OGY1OGE0OTEzMzI0MzRlODVjNDVkNzg2ZDg3NDM5N2U4MzBhM2E3ODk0ZTZkOTI2OTljNDJiMzAifX19"
+                    },
+                    "condition": "{Color:5b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.hurt",
+                    "profile": {
+                        "name": "Green Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAxNzIxNWM3ZjhkYjgyMDQwYWEyYzQ3Mjk4YjY2NTQxYzJlYjVmN2Y5MzA0MGE1ZDIzZDg4ZjA2ODdkNGIzNCJ9fX0="
+                    },
+                    "condition": "{Color:13b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.hurt",
+                    "profile": {
+                        "name": "Cyan Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZmNmM3ZTdmZDUxNGNlMGFjYzY4NTkzMjI5ZTQwZmNjNDM1MmI4NDE2NDZlNGYwZWJjY2NiMGNlMjNkMTYifX19"
+                    },
+                    "condition": "{Color:9b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.ambient",
+                    "profile": {
+                        "name": "Light Blue Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM4YTk3YTM4ODU2NTE0YTE2NDEzZTJjOTk1MjEyODlmNGM1MzYzZGM4MmZjOWIyODM0Y2ZlZGFjNzhiODkifX19"
+                    },
+                    "condition": "{Color:3b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.ambient",
+                    "profile": {
+                        "name": "Blue Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDllYzIyODE4ZDFmYmZjODE2N2ZiZTM2NzI4YjI4MjQwZTM0ZTE2NDY5YTI5MjlkMDNmZGY1MTFiZjJjYTEifX19"
+                    },
+                    "condition": "{Color:11b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.hurt",
+                    "profile": {
+                        "name": "Purple Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU1Mjg2N2FmZWYzOGJiMTRhMjZkMTQyNmM4YzBmMTE2YWQzNDc2MWFjZDkyZTdhYWUyYzgxOWEwZDU1Yjg1In19fQ=="
+                    },
+                    "condition": "{Color:10b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.hurt",
+                    "profile": {
+                        "name": "Magenta Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTgzNjU2NWM3ODk3ZDQ5YTcxYmMxODk4NmQxZWE2NTYxMzIxYTBiYmY3MTFkNDFhNTZjZTNiYjJjMjE3ZTdhIn19fQ=="
+                    },
+                    "condition": "{Color:2b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.sheep.hurt",
+                    "profile": {
+                        "name": "Pink Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFjNzRhMmI5YjkxNDUyZTU2ZmExZGRhNWRiODEwNzc4NTZlNDlmMjdjNmUyZGUxZTg0MWU1Yzk1YTZmYzVhYiJ9fX0="
+                    },
+                    "condition": "{Color:6b}"
+                }
+            ],
+            "references": [
+                "minecraft:jebsheep"
+            ],
+            "group": "normal"
+        },
+        "minecraft:shulker": {
+            "name": "Shulker",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.shulker.close",
+                    "profile": {
+                        "name": "White Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI5NGIwYWNiMzE3N2I0Y2RiMDE3ZmUzMWNkNWMyNDcyNjJkZWY1M2JmODMzODFjNmM4MmQ3MmM1NmFjIn19fQ=="
+                    },
+                    "condition": "{Color:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.close",
+                    "profile": {
+                        "name": "Purple Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0="
+                    },
+                    "condition": "{Color:10b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.ambient",
+                    "profile": {
+                        "name": "Blue Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzMDk2NmQ1Y2ViYmQ3ODcxNDc2OTlhMjk3NDM3NTFiM2NlNGJiODE0ZTJkYjU2NGZlOTIxNDJkMTE5Y2QxIn19fQ=="
+                    },
+                    "condition": "{Color:11b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.death",
+                    "profile": {
+                        "name": "Brown Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2ZDdmYjg3NDQ3ZmZjMDU0ZmIxMDliODRkNjIyNWQ0MTAyOWIxZTY3MTBjN2RlNTdmNjYxYWVmYTZmIn19fQ=="
+                    },
+                    "condition": "{Color:12b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.death",
+                    "profile": {
+                        "name": "Green Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxYWJlMmJiMmI5MTQxZjEwMThlYjE1MzlkMmNmZWMxM2Q5MjMxYjUzYTQ2Y2FmOGRjMjFhYTI3MDUwNDkifX19"
+                    },
+                    "condition": "{Color:13b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.ambient",
+                    "profile": {
+                        "name": "Red Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk5OTQwNDA0MzNhZjBmMDE1YmU0ZDY5NjhjM2Q1NWUwNDRjOThkYWMyYzRjNmE2ZWEwZWZhYzdhNmRkYiJ9fX0="
+                    },
+                    "condition": "{Color:14b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.hurt",
+                    "profile": {
+                        "name": "Black Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU0NTVhYWFkYjIzMTdiNWYyOWU5ODk4MWFhNTdmNTc5NTcwNTA2OWQ4ZjQxNWMwZDY4YTkyYTc5MTQxM2IzYSJ9fX0="
+                    },
+                    "condition": "{Color:15b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.ambient",
+                    "profile": {
+                        "name": "Shulker Box",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVjNGQyNGFmZmRkNDgxMDI2MjAzNjE1MjdkMjE1NmUxOGMyMjNiYWU1MTg5YWM0Mzk4MTU2NDNmM2NmZjlkIn19fQ=="
+                    },
+                    "condition": "{Color:16b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.hurt",
+                    "profile": {
+                        "name": "Orange Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3MTFkOTU0YmQ1NjIzNmQxYTlmOTliZTg4MGM1ZDM4OTkwZGY2YmVmNzJlNzNmNzQ1YjA0OTk1ZGJmNiJ9fX0="
+                    },
+                    "condition": "{Color:1b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.hurt_closed",
+                    "profile": {
+                        "name": "Magenta Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlmZTI5MTY3NmM3YjNmOTZmM2NkZjYzYzQ3YjUzZmI0NWQ3M2JkNmZlMmNlMjJkZTEwNzQ5ZWIxNDI2YSJ9fX0"
+                    },
+                    "condition": "{Color:2b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.hurt_closed",
+                    "profile": {
+                        "name": "Light Blue Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIxY2RlYzJjZjRlYmVlZjM1ZDU4YjE4NGI4MzI1OThiYzg5MGEwYWU1YzJkNTRlZTliZTU4NmQwIn19fQ=="
+                    },
+                    "condition": "{Color:3b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.open",
+                    "profile": {
+                        "name": "Yellow Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNiZjU1ODY4MzZiN2IzNDI5MzJlMWQyM2VmYzI0OTBjZjU5YzY5YWNjZjFlMDVlOWVkNTc2Y2FlZDhiNzg3NyJ9fX0="
+                    },
+                    "condition": "{Color:4b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.open",
+                    "profile": {
+                        "name": "Lime Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNDQ5NTdjMmM1YmJmZTQ0N2Y0YjJkMzZhMjQ2ZWExYjAyM2RhNGNiZDFhYTJkYmJiMTVlOTQ5ODEyNDgifX19"
+                    },
+                    "condition": "{Color:5b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.shoot",
+                    "profile": {
+                        "name": "Pink Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y4NDdjMTJkNTdmZTY1NTVlOGY5YjQ3ZTU2MmVjZjE2ODNmYjZjMzVmOTJjZTJjZWQyYWU2OGRlNjI4NzUwIn19fQ=="
+                    },
+                    "condition": "{Color:6b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.shoot",
+                    "profile": {
+                        "name": "Gray Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5ODQzMmZiZWIyYmMyZDc1N2IxZDNjM2IzNTU4ZTY5OTAzOTJkZDA5MWVhNGVmMzgxYjJlMDE5Yzk0NjIifX19"
+                    },
+                    "condition": "{Color:7b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.teleport",
+                    "profile": {
+                        "name": "Light Gray Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhMTdkNDFlYTE4M2JlZTUzZDU0NmM3YmVjNGNjZjZhNTRkNGY1MDhmZGU2ZWJmM2U1ZDM4OGQ0Y2JlYWNiOSJ9fX0="
+                    },
+                    "condition": "{Color:8b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.shulker.teleport",
+                    "profile": {
+                        "name": "Cyan Shulker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZmMTczZDRlM2U4YmQ2ZjliZTBiZjliNzQ1YmQxY2M3YTI5ZmY4MzZlZDJkNDg2YzViOTkyOTJjODVjYyJ9fX0="
+                    },
+                    "condition": "{Color:9b}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:silverfish": {
+            "name": "Silverfish",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.silverfish.ambient",
+                    "profile": {
+                        "name": "Silverfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ=="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:skeleton": {
+            "name": "Skeleton",
+            "heads": []
+        },
+        "minecraft:skeleton_horse": {
+            "name": "Skeleton Horse",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.skeleton_horse.ambient",
+                    "profile": {
+                        "name": "Skeleton Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdlZmZjZTM1MTMyYzg2ZmY3MmJjYWU3N2RmYmIxZDIyNTg3ZTk0ZGYzY2JjMjU3MGVkMTdjZjg5NzNhIn19fQ=="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_horse.ambient",
+                    "profile": {
+                        "name": "Zombie Horse",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIyOTUwZjJkM2VmZGRiMThkZTg2ZjhmNTVhYzUxOGRjZTczZjEyYTZlMGY4NjM2ZDU1MWQ4ZWI0ODBjZWVjIn19fQ=="
+                    }
+                }
+            ],
+            "group": "very_common"
+        },
+        "minecraft:slime": {
+            "name": "Slime",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.slime.jump_small",
+                    "profile": {
+                        "name": "Slime",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhZDIwZmMyZDU3OWJlMjUwZDNkYjY1OWM4MzJkYTJiNDc4YTczYTY5OGI3ZWExMGQxOGM5MTYyZTRkOWI1In19fQ=="
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:sniffer": {
+            "name": "Sniffer",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.sniffer.idle",
+                    "profile": {
+                        "name": "Sniffer",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzZWRhZmY2OWUwNThiM2RjNGIxNmI1YTNmZWQ5Njc0ZTg4OWQ2MDJjY2FlNDQ1NDc2ZGY2OTA2ODczMDM1MCJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:snow_golem": {
+            "name": "Snow Golem",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.snow_golem.shoot",
+                    "profile": {
+                        "name": "Sheared Snow Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZkZmQxZjc1MzhjMDQwMjU4YmU3YTkxNDQ2ZGE4OWVkODQ1Y2M1ZWY3MjhlYjVlNjkwNTQzMzc4ZmNmNCJ9fX0="
+                    },
+                    "condition": "{Pumpkin:0b}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.snow_golem.hurt",
+                    "profile": {
+                        "name": "Snow Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUyOGEwM2VkMmViOTBlYWZmMWExMTlhNWI1NTQ0NTI3MDFiOTdhZjQ3YmZmNzNjZTcxMDg0OWM2YjAifX19"
+                    },
+                    "condition": "{Pumpkin:1b}"
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:spider": {
+            "name": "Spider",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.spider.ambient",
+                    "profile": {
+                        "name": "Spider",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1NDE1NDFkYWFmZjUwODk2Y2QyNThiZGJkZDRjZjgwYzNiYTgxNjczNTcyNjA3OGJmZTM5MzkyN2U1N2YxIn19fQ=="
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:squid": {
+            "name": "Squid",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.squid.squirt",
+                    "profile": {
+                        "name": "Squid",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE0MzNiZTI0MjM2NmFmMTI2ZGE0MzRiODczNWRmMWViNWIzY2IyY2VkZTM5MTQ1OTc0ZTljNDgzNjA3YmFjIn19fQ=="
+                    }
+                }
+            ],
+            "group": "rare"
+        },
+        "minecraft:stray": {
+            "name": "Stray",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.stray.ambient",
+                    "profile": {
+                        "name": "Stray",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhkZGY3NmU1NTVkZDVjNGFhOGEwYTVmYzU4NDUyMGNkNjNkNDg5YzI1M2RlOTY5ZjdmMjJmODVhOWEyZDU2In19fQ=="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:strider": {
+            "name": "Strider",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.strider.ambient",
+                    "profile": {
+                        "name": "Cold Strider",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzczODYxMGUyZjczYjY3ZTViYzEyZWJjYmI2ZGRjNDU2MWMyNjViOWQ1YTE3ZDIwZGFlNDkzYTgyNTBkNzAwYiJ9fX0="
+                    },
+                    "condition": "{Fire:-1s}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.strider.happy",
+                    "profile": {
+                        "name": "Strider",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThhOWFkZjc4MGVjN2RkNDYyNWM5YzA3NzkwNTJlNmExNWE0NTE4NjY2MjM1MTFlNGM4MmU5NjU1NzE0YjNjMSJ9fX0="
+                    },
+                    "condition": "{Fire:0s}"
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:tadpole": {
+            "name": "Tadpole",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.tadpole.grow_up",
+                    "profile": {
+                        "name": "Tadpole",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNjOWI5NzQwYmQzYWRlYmE1MmUwY2UwYTc3YjNkZmRlZjhkM2E0MDU1NWE0ZThiYjY3ZDIwMGNkNjI3NzBkMCJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:trader_llama": {
+            "name": "Trader Llama",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.llama.ambient",
+                    "profile": {
+                        "name": "Trader Creamy Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTJlYjE3NzA1ZmU3MTU0YWIwNDFlNWM3NmEwOGQ0MTU0NmEzMWJhMjBlYTMwNjBlM2VjOGVkYzEwNDEyYyJ9fX0="
+                    },
+                    "condition": "{Variant:0}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.llama.angry",
+                    "profile": {
+                        "name": "Trader White Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA4N2E1NTZkNGZmYTk1ZWNkMjg0NGYzNTBkYzQzZTI1NGU1ZDUzNWZhNTk2ZjU0MGQ3ZTc3ZmE2N2RmNDY5NiJ9fX0="
+                    },
+                    "condition": "{Variant:1}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.llama.eat",
+                    "profile": {
+                        "name": "Trader Brown Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNDc4MGIzYzVjNTM1MWNmNDlmYjViZjQxZmNiMjg5NDkxZGY2YzQzMDY4M2M4NGQ3ODQ2MTg4ZGI0Zjg0ZCJ9fX0="
+                    },
+                    "condition": "{Variant:2}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.llama.spit",
+                    "profile": {
+                        "name": "Trader Grey Llama",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0ZDhhMGJjMTVmMjM5OTIxZWZkOGJlMzQ4MGJhNzdhOThlZTdkOWNlMDA3MjhjMGQ3MzNmMGEyZDYxNGQxNiJ9fX0="
+                    },
+                    "condition": "{Variant:3}"
+                }
+            ],
+            "group": "common"
+        },
+        "minecraft:tropical_fish": {
+            "name": "Tropical Fish",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Tropical Fish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkMTQ5ZTRkNDk5OTI5NjcyZTI3Njg5NDllNjQ3Nzk1OWMyMWU2NTI1NDYxM2IzMjdiNTM4ZGYxZTRkZiJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Cotton Candy Fish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNkNzc2N2RlN2FjZDlmZTllMDM4MzI1NzRiMjQ4MzQ0ZjBhZTA2ZjRjMWE3YzZjYjVjNGIwOTIzYWVmZTU2ZCJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Goatfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRjNDdiNDBhYzMxMDM0YTZhYzAyOGNlNWU5NmQ2YWUyNzBiNzM5Zjc0MmIzNTU3MmE5OTk0N2I5MzA2YmQ3In19fQ=="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Parrotfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmExNmY1Mjg4YjRkZmMzNDQ4NmNjMjBiNjFhZDIwYzRiNGFjNmIxMzdiZjljODMxMTg3OTk3ZDAwMmVmNWVmNiJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Queen Angelfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRmYjRkN2RmZjU0NTZkZTcwNDk2NDE0ZTg3NGM2NjUwYTFlODM5NTYzY2M3NWQ0Yjk5MzgwYjIxNmNmZGJjZCJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Red Lipped Fish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjJiZTEyZTE0NjY0Y2FlM2ZlMjI2ZDFiMzQ4N2VlMmE3ZDhlNzZhMGUyOWJjYTRkYmY5OTY0YjJhMGY2MyJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Red Snapper Fish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI4MjI2YWI5ODcwYjdjNmM1OWQzMWI0MGI4NmVkZjczMjRlY2E2NzRiNzBkNTViZThhYWU2YTBiODllN2Q4YiJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Triggerfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmMwZDFlNmQyYTlkZjRmMGViYmNkNTQ3NzhmZjMxYjdjMjQ5ZTBkOTk0NGZjZWQ0YjFhODNhZmJhZWVhY2ZjYSJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Yellowtail Parrotfish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3YjkyYTFiZGM3MzNkMmE1M2ZiMDk1YzcwYjczMmI3MWEyMjNhOWNlY2E3MmI4NzJlMWVlOTkwYTZhOTA3ZSJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.player.splash",
+                    "profile": {
+                        "name": "Blue Dory Fish",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwNDlhNjlhZDJiNGQ4YTVkYWFiODM3MmVlOTEyYzcyOGFjODA5ZjhmZDQxMGNiZTdhMGI4MDU0NmRlOThjYiJ9fX0="
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:turtle": {
+            "name": "Turtle",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.turtle.lay_egg",
+                    "profile": {
+                        "name": "Turtle",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ=="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:vex": {
+            "name": "Vex",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.vex.ambient",
+                    "profile": {
+                        "name": "Vex",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM4NDRlYzU0OWJhMWVkMzU3YjQ4YmFkYTY0NWM1ZjgwMDc2ODhlMDU3OTZhZjRkNzFkYTU1OTZjOTEyN2MzOCJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.vex.charge",
+                    "profile": {
+                        "name": "Charging Vex",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlNmM0YWNkOTNiM2NlMWVjMWJiYTA0N2JjMDc1ODFmMTY0MWJiMDk3MmM5YWIyNDdlZDMxNmMxYjc3NjMzMyJ9fX0="
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:villager": {
+            "name": "Villager",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_armorer",
+                    "profile": {
+                        "name": "Armorer Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:armorer'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_butcher",
+                    "profile": {
+                        "name": "Butcher Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:butcher'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_cartographer",
+                    "profile": {
+                        "name": "Cartographer Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyYjAwYzYwMmE4ZTI2MDRhOWI1OGE3ZWZhZTNhZGQwYzQ0MGI4OThlNTA1Mzk4NTM2M2NiYjJmZmIwMGZlNCJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:cartographer'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_cleric",
+                    "profile": {
+                        "name": "Cleric Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRmOGI1ZDJkZGQxYjRmNDkzNmI4MWJlMjZhMzZhNGJjZjA1OWE0ZmE5MzBlNzBlYjBjY2U5MGU1ZmIyMGRhZiJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:cleric'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_farmer",
+                    "profile": {
+                        "name": "Farmer Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:farmer'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_fisherman",
+                    "profile": {
+                        "name": "Fisherman Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:fisherman'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_fletcher",
+                    "profile": {
+                        "name": "Fletcher Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:fletcher'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_leatherworker",
+                    "profile": {
+                        "name": "Leatherworker Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_librarian",
+                    "profile": {
+                        "name": "Librarian Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:librarian'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_mason",
+                    "profile": {
+                        "name": "Mason Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMwMmMzZmZkNTcwNWFiNDg4YjMwNWQ1N2ZmMDE2OGUyNmRlNzBmZDNmNzM5ZTgzOTY2MWFiOTQ3ZGZmMzdiMSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:mason'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.celebrate",
+                    "profile": {
+                        "name": "Nitwit Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MWU4ZWJjODgxYzhhMDJmZTRhZjQ0ZjI5MjhlYTkxODhiNTM5ZmQ1NjFiNWIzZmQ3MzE4OTZjMzNiYjUyNCJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:nitwit'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.ambient",
+                    "profile": {
+                        "name": "Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19"
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:none'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_shepherd",
+                    "profile": {
+                        "name": "Shepherd Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:shepherd'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_toolsmith",
+                    "profile": {
+                        "name": "Toolsmith Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTA3ZmQxMjQ0ZWI4OTQ1ZjRlZGVkZDAwNDI2NzUwYjc3ZWY1ZGZiYWYwM2VkNzc1NjMzNDU5ZWNlNDE1YSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.villager.work_weaponsmith",
+                    "profile": {
+                        "name": "Weaponsmith Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxMzkyOWMxYzYyNjRiZTkzZGUxNTYyMGU4ZTA0MWMwOWI4MmI4YzAwM2MzZWNiOGJhY2MzNWNlNzY3MGI0MiJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:vindicator": {
+            "name": "Vindicator",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.vindicator.ambient",
+                    "profile": {
+                        "name": "Vindicator",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAwZDNmZmYxNmMyZGNhNTliOWM1OGYwOTY1MjVjODY5NzExNjZkYmFlMTMzYjFiMDUwZTVlZTcxNjQ0MyJ9fX0="
+                    }
+                }
+            ],
+            "group": "common"
+        },
+        "minecraft:wandering_trader": {
+            "name": "Wandering Trader",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.wandering_trader.ambient",
+                    "profile": {
+                        "name": "Wandering Trader",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0="
+                    }
+                }
+            ],
+            "group": "very_common"
+        },
+        "minecraft:warden": {
+            "name": "Warden",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.warden.roar",
+                    "profile": {
+                        "name": "Warden",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y2NDgxYzdjNDM1YzM0ZjIxZGZmMTA0M2E0YzcwMzRjNDQ1YTM4M2E1NDM1ZmExZjJhNTAzYTM0OGFmZDYyZiJ9fX0="
+                    }
+                }
+            ],
+            "group": "very_common"
+        },
+        "minecraft:witch": {
+            "name": "Witch",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.witch.ambient",
+                    "profile": {
+                        "name": "Witch",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBlMTNkMTg0NzRmYzk0ZWQ1NWFlYjcwNjk1NjZlNDY4N2Q3NzNkYWMxNmY0YzNmODcyMmZjOTViZjlmMmRmYSJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:wither": {
+            "name": "Wither",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.wither.ambient",
+                    "profile": {
+                        "name": "Wither",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19"
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.wither.spawn",
+                    "profile": {
+                        "name": "Invulnerable Wither",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U0ZjQ5NTM1YTI3NmFhY2M0ZGM4NDEzM2JmZTgxYmU1ZjJhNDc5OWE0YzA0ZDlhNGRkYjcyZDgxOWVjMmIyYiJ9fX0="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.wither.break_block",
+                    "profile": {
+                        "name": "Invulnerable Wither Skull",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhZmIyM2VmYzU3ZjI1MTg3OGU1MzI4ZDExY2IwZWVmODdiNzljODdiMjU0YTdlYzcyMjk2ZjkzNjNlZjdjIn19fQ=="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.wither.shoot",
+                    "profile": {
+                        "name": "Wither Skull",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZTFjM2UzMTVjOGQ4ZmZmYzM3OTg1YjY2ODFjNWJkMTZhNmY5N2ZmZDA3MTk5ZThhMDVlZmJlZjEwMzc5MyJ9fX0="
+                    }
+                }
+            ],
+            "group": "common"
+        },
+        "minecraft:wither_skeleton": {
+            "name": "Wither Skeleton",
+            "heads": []
+        },
+        "minecraft:wolf": {
+            "name": "Wolf",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.wolf.ambient",
+                    "profile": {
+                        "name": "Wolf",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MzczMWQ3N2Y1NGY1ZDRmOTNkZGQ5OWI5NDc2ZTRmMWZlNWI3ZTEzMThmMWUxNjI2ZjdkM2ZhM2FhODQ3In19fQ=="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.wolf.growl",
+                    "profile": {
+                        "name": "Angry Wolf",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA0NzJkOThlOGU3MzNjNjQ4OTYwYzBmZjMwOTFiODBlNzg1YmE4MzJiMzUxODkyZjhjMTk2NWZhYzNkMjkifX19"
+                    }
+                }
+            ],
+            "group": "normal"
+        },
+        "minecraft:zoglin": {
+            "name": "Zoglin",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.zoglin.ambient",
+                    "profile": {
+                        "name": "Zoglin",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3ZTE4NjAyZTAzMDM1YWQ2ODk2N2NlMDkwMjM1ZDg5OTY2NjNmYjllYTQ3NTc4ZDNhN2ViYmM0MmE1Y2NmOSJ9fX0="
+                    }
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:zombie_villager": {
+            "name": "Zombie Villager",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                    "profile": {
+                        "name": "Zombie Armorer",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg2NzllMDM0NzY3ZDUxODY2MGQ5NDE2ZGM1ZWFmMzE5ZDY5NzY4MmFjNDBjODg2ZTNjMmJjOGRmYTFkZTFkIn19fQ=="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:armorer'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                    "profile": {
+                        "name": "Zombie Butcher",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNjZThkNmNlNDEyNGNlYzNlODRhODUyZTcwZjUwMjkzZjI0NGRkYzllZTg1NzhmN2Q2ZDg5MjllMTZiYWQ2OSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:butcher'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                    "profile": {
+                        "name": "Zombie Cartographer",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwODAwYjAxMDEyZTk2M2U3YzIwYzhiYTE0YjcwYTAyNjRkMTQ2YTg1MGRlZmZiY2E3YmZlNTEyZjRjYjIzZCJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:cartographer'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.converted",
+                    "profile": {
+                        "name": "Zombie Cleric",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1ODU3OGJlMGUxMjE3MjczNGE3ODI0MmRhYjE0OTY0YWJjODVhYjliNTk2MzYxZjdjNWRhZjhmMTRhMGZlYiJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:cleric'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.converted",
+                    "profile": {
+                        "name": "Zombie Farmer",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZDQxNWY5YmFhNGZhNGI1ZTA1OGY1YjgxYmY3ZjAwM2IwYTJjOTBhNDgzMWU1M2E3ZGJjMDk4NDFjNTUxMSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:farmer'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.converted",
+                    "profile": {
+                        "name": "Zombie Fisherman",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkwNWQ1M2ZlNGZhZWIwYjMxNWE2ODc4YzlhYjgxYjRiZTUyYzMxY2Q0NzhjMDI3ZjBkN2VjZTlmNmRhODkxNCJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:fisherman'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.cure",
+                    "profile": {
+                        "name": "Zombie Fletcher",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVhMjZhYzBlMjU0OThhZGFkYTRlY2VhNThiYjRlNzZkYTMyZDVjYTJkZTMwN2VmZTVlNDIxOGZiN2M1ZWY4OSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:fletcher'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.cure",
+                    "profile": {
+                        "name": "Zombie Leatherworker",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIyMzg4YjIzZGRkNmE5YTU3NzZmZjJlOGNhNTViNGVmZTMwOTBjYWFmOTY3YzIyNzY5YzU3NmIwYTQwYjg4NSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.cure",
+                    "profile": {
+                        "name": "Zombie Librarian",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyMTFhMWY0MDljY2E0MjQ5YzcwZDIwY2E4MDM5OWZhNDg0NGVhNDE3NDU4YmU5ODhjYzIxZWI0Nzk3Mzc1ZSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:librarian'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.hurt",
+                    "profile": {
+                        "name": "Zombie Mason",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:mason'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.hurt",
+                    "profile": {
+                        "name": "Zombie Nitwit",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEyN2U0MjBmNDRmOWJiMDZjN2IzNjg0MDJiMjJhZjZkYzU3YmY5ZThjYTM0NzU4NDBmNmY3NWUyMTc4MDljMSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:nitwit'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.hurt",
+                    "profile": {
+                        "name": "Zombie Villager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlMDhhODc3NmMxNzY0YzNmZTZhNmRkZDQxMmRmY2I4N2Y0MTMzMWRhZDQ3OWFjOTZjMjFkZjRiZjNhYzg5YyJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:none'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.step",
+                    "profile": {
+                        "name": "Zombie Shepherd",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMzkxYmVmM2E0NmVmMjY3ZDNiNzE3MTA4NmJhNGM4ZDE3ZjJhNmIwZjgzZmEyYWMzMGVmZTkxNGI3YzI0OSJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:shepherd'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.step",
+                    "profile": {
+                        "name": "Zombie Toolsmith",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAwODkzZDMxYWNkMGU4NDIzMjkyZDQxMTNjZTkxZTI3M2QxZTU3ZTVlMTA0YmFhZmM4NTNiMmU4NjRjYjQzZiJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.step",
+                    "profile": {
+                        "name": "Zombie Weaponsmith",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3MDg5NGI1Y2MzMDVkODdhYTA4YzNiNGIwODU4N2RiNjhmZjI5ZTdhM2VmMzU0Y2FkNmFiY2E1MGU1NTI4YiJ9fX0="
+                    },
+                    "condition": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                }
+            ],
+            "group": "uncommon"
+        },
+        "minecraft:zombified_piglin": {
+            "name": "Zombified Piglin",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.zombified_piglin.angry",
+                    "profile": {
+                        "name": "Zombie Pigman",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRlOWM2ZTk4NTgyZmZkOGZmOGZlYjMzMjJjZDE4NDljNDNmYjE2YjE1OGFiYjExY2E3YjQyZWRhNzc0M2ViIn19fQ=="
+                    }
+                },
+                {
+                    "note_block_sound": "minecraft:entity.zombified_piglin.ambient",
+                    "profile": {
+                        "name": "Zombified Piglin",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VhYmFlY2M1ZmFlNWE4YTQ5Yzg4NjNmZjQ4MzFhYWEyODQxOThmMWEyMzk4ODkwYzc2NWUwYThkZTE4ZGE4YyJ9fX0="
+                    }
+                }
+            ],
+            "group": "very_rare"
+        }
+    },
+    "groups": {
+        "very_rare": {
+            "name": {
+                "text": "VERY RARE",
+                "color": "dark_purple"
+            },
+            "base_chance": 0.04,
+            "looting_chance": 0.02
+        },
+        "rare": {
+            "name": {
+                "text": "RARE",
+                "color": "light_purple"
+            },
+            "base_chance": 0.4,
+            "looting_chance": 0.2
+        },
+        "normal": {
+            "name": {
+                "text": "NORMAL",
+                "color": "aqua"
+            },
+            "base_chance": 1.5,
+            "looting_chance": 0.5
+        },
+        "uncommon": {
+            "name": {
+                "text": "UNCOMMON",
+                "color": "blue"
+            },
+            "base_chance": 5.5,
+            "looting_chance": 1.5
+        },
+        "common": {
+            "name": {
+                "text": "COMMON",
+                "color": "green"
+            },
+            "base_chance": 10,
+            "looting_chance": 5
+        },
+        "very_common": {
+            "name": {
+                "text": "VERY COMMON",
+                "color": "yellow"
+            },
+            "base_chance": 20,
+            "looting_chance": 10
+        }
+    }
+}

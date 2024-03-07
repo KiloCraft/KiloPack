@@ -2,32 +2,68 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 1.0,
-                "max": 3.0
+                "max": 3.0,
+                "min": 1.0
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:glow_ink_sac"
         }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.glow_squid.ambient",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTczMjdlZTExODEyYjc2NGM3YWRlNzBiMjgyY2NlNGM1OGU2MzViMjAxNTI0NDA4MWQxNDkwNTQzZGE3MjgwZSJ9fX0"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Glow Squid\", \"italic\": false, \"color\": \"aqua\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.015,
+              "looting_multiplier": 0.005
+            }
+          ]
+        }
       ]
     },
     {
@@ -38,47 +74,34 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.glow_squid.ambient\"},SkullOwner:{Name:\"Glow Squid\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTczMjdlZTExODEyYjc2NGM3YWRlNzBiMjgyY2NlNGM1OGU2MzViMjAxNTI0NDA4MWQxNDkwNTQzZGE3MjgwZSJ9fX0\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.glow_squid.ambient",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2OTIzYWQyNDczMTAwMDdmNmFlNWQzMjZkODQ3YWQ1Mzg2NGNmMTZjMzU2NWExODFkYzhlNmIyMGJlMjM4NyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Fairy Soyl\", \"italic\": false, \"color\": \"red\"}"
+              }
             }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.015,
-          "looting_multiplier": 0.005
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
+          ],
+          "conditions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Name:\"Fairy Soyl\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk2OTIzYWQyNDczMTAwMDdmNmFlNWQzMjZkODQ3YWQ1Mzg2NGNmMTZjMzU2NWExODFkYzhlNmIyMGJlMjM4NyJ9fX0=\"}]}}}"
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.02,
+              "looting_multiplier": 0.01
             }
           ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.02,
-          "looting_multiplier": 0.01
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/glow_squid"
 }

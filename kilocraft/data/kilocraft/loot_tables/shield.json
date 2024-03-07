@@ -1,85 +1,85 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:shield",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "entity": "this",
-                "name": [
-                  "",
-                  {
-                    "text": "                                       [ ",
-                    "color": "#b897fb",
-                    "italic": false
-                  },
-                  {
-                    "text": "ĸ",
-                    "color": "#74a5fd",
-                    "italic": false
-                  },
-                  {
-                    "text": "ɪ",
-                    "color": "#47bbec",
-                    "italic": false
-                  },
-                  {
-                    "text": "ʟ",
-                    "color": "#52e5a8",
-                    "italic": false
-                  },
-                  {
-                    "text": "ο",
-                    "color": "#8ef684",
-                    "italic": false
-                  },
-                  {
-                    "text": "с",
-                    "color": "#f1f377",
-                    "italic": false
-                  },
-                  {
-                    "text": "ʀ",
-                    "color": "#fdc36b",
-                    "italic": false
-                  },
-                  {
-                    "text": "ᴀ",
-                    "color": "#fb8d62",
-                    "italic": false
-                  },
-                  {
-                    "text": "ꜰ",
-                    "color": "#f96467",
-                    "italic": false
-                  },
-                  {
-                    "text": "т",
-                    "color": "#f96086",
-                    "italic": false
-                  },
-                  {
-                    "text": "ᴇ",
-                    "color": "#fb8bc7",
-                    "italic": false
-                  },
-                  {
-                    "text": "ᴅ",
-                    "color": "#df97e8",
-                    "italic": false
-                  },
-                  {
-                    "text": " ]                               ",
-                    "color": "#b897fb",
-                    "italic": false
-                  }
-                ]
-              },
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                "",
+                {
+                  "text": "                                       [ ",
+                  "color": "#b897fb",
+                  "italic": false
+                },
+                {
+                  "text": "ĸ",
+                  "color": "#74a5fd",
+                  "italic": false
+                },
+                {
+                  "text": "ɪ",
+                  "color": "#47bbec",
+                  "italic": false
+                },
+                {
+                  "text": "ʟ",
+                  "color": "#52e5a8",
+                  "italic": false
+                },
+                {
+                  "text": "ο",
+                  "color": "#8ef684",
+                  "italic": false
+                },
+                {
+                  "text": "с",
+                  "color": "#f1f377",
+                  "italic": false
+                },
+                {
+                  "text": "ʀ",
+                  "color": "#fdc36b",
+                  "italic": false
+                },
+                {
+                  "text": "ᴀ",
+                  "color": "#fb8d62",
+                  "italic": false
+                },
+                {
+                  "text": "ꜰ",
+                  "color": "#f96467",
+                  "italic": false
+                },
+                {
+                  "text": "т",
+                  "color": "#f96086",
+                  "italic": false
+                },
+                {
+                  "text": "ᴇ",
+                  "color": "#fb8bc7",
+                  "italic": false
+                },
+                {
+                  "text": "ᴅ",
+                  "color": "#df97e8",
+                  "italic": false
+                },
+                {
+                  "text": " ]                               ",
+                  "color": "#b897fb",
+                  "italic": false
+                }
+              ]
+            },
             {
               "function": "minecraft:set_banner_pattern",
               "patterns": [
@@ -114,94 +114,96 @@
               ],
               "append": false
             },
-              {
-                "function": "minecraft:set_lore",
-                "entity": "this",
-                "lore": [
-                  [
-                    {
-                      "text": "                                   ༻",
-                      "color": "#95FFF2",
-                      "italic": false
-                    },
-                    {
-                      "text": " ₊ ",
-                      "color": "#555555",
-                      "italic": false
-                    },
-                    {
-                      "text": " ᴡ ᴇ ʟ с ο ᴍ ᴇ ",
-                      "color": "dark_gray",
-                      "italic": false
-                    },
-                    {
-                      "text": " ₊ ",
-                      "color": "#555555",
-                      "italic": false
-                    },
-                    {
-                      "text": "༺          ",
-                      "color": "#95FFF2",
-                      "italic": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": ""
-                    }
-                  ],
-                  [
-                    {
-                      "text": "     ",
-                      "color": "#555555",
-                      "italic": false,
-                      "underlined": false
-                    },
-                    {
-                      "selector": "@s",
-                      "italic": false,
-                      "underlined": false
-                    },
-                    {
-                      "text": " ꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇɪʀ ĸɪʟοсʀᴀꜰт ᴊᴏᴜʀɴᴇʏ ᴏɴ ",
-                      "color": "#555555",
-                      "italic": false,
-                      "underlined": false
-                    },
-                    {
-                      "text": "ᴅᴀʏ ",
-                      "color": "#95fff2",
-                      "italic": false,
-                      "underlined": false
-                    },
-                    {
-                      "nbt": "day",
-                      "storage": "minecraft:kilocraft",
-                      "color": "#95FFF2"
-                    },
-                    {
-                      "text": "     ",
-                      "color": "#555555",
-                      "italic": false,
-                      "underlined": false
-                    }
-                  ],
-                  [
-                    {
-                      "text": "                                             ༻ 🛡 ༺                                 ",
-                      "color": "#95fff2",
-                      "italic": false
-                    }
-                  ]
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": "                                   ༻",
+                    "color": "#95FFF2",
+                    "italic": false
+                  },
+                  {
+                    "text": " ₊ ",
+                    "color": "#555555",
+                    "italic": false
+                  },
+                  {
+                    "text": " ᴡ ᴇ ʟ с ο ᴍ ᴇ ",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " ₊ ",
+                    "color": "#555555",
+                    "italic": false
+                  },
+                  {
+                    "text": "༺          ",
+                    "color": "#95FFF2",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  }
+                ],
+                [
+                  {
+                    "text": "     ",
+                    "color": "#555555",
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "selector": "@s",
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": " ꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇɪʀ ĸɪʟοсʀᴀꜰт ᴊᴏᴜʀɴᴇʏ ᴏɴ ",
+                    "color": "#555555",
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "ᴅᴀʏ ",
+                    "color": "#95fff2",
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "nbt": "day",
+                    "storage": "minecraft:kilocraft",
+                    "color": "#95FFF2"
+                  },
+                  {
+                    "text": "     ",
+                    "color": "#555555",
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                [
+                  {
+                    "text": "                                             ༻ 🛡 ༺                                 ",
+                    "color": "#95fff2",
+                    "italic": false
+                  }
                 ]
-              },
-        {
-          "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:32}"
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
         }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+      ]
+    }
+  ]
+}

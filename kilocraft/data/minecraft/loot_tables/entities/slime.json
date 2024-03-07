@@ -2,8 +2,19 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type_specific": {
+              "type": "slime",
+              "size": 1
+            }
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -22,21 +33,21 @@
           ],
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 2.0
+                "max": 2.0,
+                "min": 0.0
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:looting_enchant",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:slime_ball"
@@ -55,24 +66,49 @@
           ],
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": 1.0,
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:slime_ball"
         }
       ],
-      "conditions": [
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "condition": "minecraft:entity_properties",
-          "predicate": {
-            "type_specific": {
-              "size": 1,
-              "type": "slime"
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.slime.jump_small",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhZDIwZmMyZDU3OWJlMjUwZDNkYjY1OWM4MzJkYTJiNDc4YTczYTY5OGI3ZWExMGQxOGM5MTYyZTRkOWI1In19fQ=="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Slime\", \"italic\": false, \"color\": \"light_purple\"}"
+              }
             }
-          },
-          "entity": "this"
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.004,
+              "looting_multiplier": 0.002
+            }
+          ]
         }
       ]
     },
@@ -84,47 +120,34 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.slime.jump_small\"},SkullOwner:{Name:\"Slime\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhZDIwZmMyZDU3OWJlMjUwZDNkYjY1OWM4MzJkYTJiNDc4YTczYTY5OGI3ZWExMGQxOGM5MTYyZTRkOWI1In19fQ==\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.slime.jump_small",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ4OGViNzAzMThlYjdmYjhmNDg2Njc0MDE0ZDRjY2QxYzI3ZmZjMzdlODA0YzBmNmUyM2VhZDgxYTU2MWRkNyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \" Melting Emoticon\", \"italic\": false, \"color\": \"red\"}"
+              }
             }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.004,
-          "looting_multiplier": 0.002
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
+          ],
+          "conditions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Name:\"Melting Emoticon\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ4OGViNzAzMThlYjdmYjhmNDg2Njc0MDE0ZDRjY2QxYzI3ZmZjMzdlODA0YzBmNmUyM2VhZDgxYTU2MWRkNyJ9fX0=\"}]}}}"
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.015,
+              "looting_multiplier": 0.005
             }
           ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.015,
-          "looting_multiplier": 0.005
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/slime"
 }

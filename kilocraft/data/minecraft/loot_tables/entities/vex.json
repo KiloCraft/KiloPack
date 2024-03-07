@@ -1,5 +1,6 @@
 {
   "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/vex",
   "pools": [
     {
       "rolls": 1,
@@ -7,34 +8,64 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "weight": 4,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.vex.ambient\"},SkullOwner:{Name:\"Vex\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM4NDRlYzU0OWJhMWVkMzU3YjQ4YmFkYTY0NWM1ZjgwMDc2ODhlMDU3OTZhZjRkNzFkYTU1OTZjOTEyN2MzOCJ9fX0=\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.vex.ambient",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM4NDRlYzU0OWJhMWVkMzU3YjQ4YmFkYTY0NWM1ZjgwMDc2ODhlMDU3OTZhZjRkNzFkYTU1OTZjOTEyN2MzOCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Vex\", \"italic\": false, \"color\": \"blue\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "weight": 2,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{BlockEntityTag:{note_block_sound:\"minecraft:entity.vex.charge\"},SkullOwner:{Name:\"Charging Vex\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlNmM0YWNkOTNiM2NlMWVjMWJiYTA0N2JjMDc1ODFmMTY0MWJiMDk3MmM5YWIyNDdlZDMxNmMxYjc3NjMzMyJ9fX0=\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.vex.charge",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRlNmM0YWNkOTNiM2NlMWVjMWJiYTA0N2JjMDc1ODFmMTY0MWJiMDk3MmM5YWIyNDdlZDMxNmMxYjc3NjMzMyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Charging Vex\", \"italic\": false, \"color\": \"blue\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             }
           ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.055,
-          "looting_multiplier": 0.015
         }
       ]
     }
