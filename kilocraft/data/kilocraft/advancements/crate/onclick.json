@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "shulkerhit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:shulker",
+                    "nbt": "{Tags:[\"kecrate_shulker\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "kilocraft:crate/onopen/onclick"
+    }
+}

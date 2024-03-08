@@ -1,1 +1,1 @@
-give @s minecraft:firework_star{display:{Name:'{"text":"Vote Crate Key","color":"#DF70DF","italic":false}'},VoteKey:1b,Enchantments:[{}]} 1
+give @s minecraft:firework_star[custom_name='{"text":"Vote Crate Key","color":"#DF70DF","italic":false}', enchantment_glint_override=true]{VoteKey:1b}
