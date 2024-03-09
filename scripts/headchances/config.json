@@ -136,6 +136,19 @@
             ],
             "group": "very_rare"
         },
+        "minecraft:bogged": {
+            "name": "Bogged",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.bogged.ambient",
+                    "profile": {
+                        "name": "Bogged",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDgzNDc0YTgxM2EwMzg5ZTUyZmM1YWViZDVlNjllMDlhNzI1NDE2NDI4ODE1M2IxM2JkMDU5NjNiZjIzOTYxMSJ9fX0="
+                    }
+                }
+            ],
+            "group": "normal"
+        },
         "minecraft:breeze": {
             "name": "Breeze",
             "heads": [
