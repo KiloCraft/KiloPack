@@ -131,7 +131,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \" Melting Emoticon\", \"italic\": false, \"color\": \"red\"}"
+                "minecraft:custom_name": "{\"text\": \"Melting Emoticon\", \"italic\": false, \"color\": \"red\"}"
               }
             }
           ],
