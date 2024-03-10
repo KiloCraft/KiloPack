@@ -2212,7 +2212,7 @@
                     "condition": "{variant:\"minecraft:snowy\"}"
                 }
             ],
-            "group": "normal"
+            "group": "uncommon"
         },
         "minecraft:zoglin": {
             "name": "Zoglin",
