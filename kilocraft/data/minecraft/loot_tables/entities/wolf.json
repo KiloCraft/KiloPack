@@ -21,7 +21,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Pale Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Pale Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -31,8 +31,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -59,7 +59,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Woods Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Woods Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -69,8 +69,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -97,7 +97,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Ashen Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Ashen Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -107,8 +107,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -135,7 +135,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Black Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Black Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -145,8 +145,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -173,7 +173,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Chestnut Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Chestnut Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -183,8 +183,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -211,7 +211,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Rusty Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Rusty Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -221,8 +221,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -249,7 +249,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Spotted Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Spotted Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -259,8 +259,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -287,7 +287,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Striped Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Striped Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -297,8 +297,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
@@ -325,7 +325,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Snowy Wolf\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": "{\"text\": \"Snowy Wolf\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
           ],
@@ -335,8 +335,8 @@
             },
             {
               "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "chance": 0.055,
+              "looting_multiplier": 0.015
             },
             {
               "condition": "entity_properties",
