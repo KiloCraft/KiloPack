@@ -1,7 +1,40 @@
 {
   "type": "minecraft:entity",
-  "random_sequence": "minecraft:entities/breeze",
   "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:breeze_rod"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
       "rolls": 1,
       "entries": [
@@ -38,5 +71,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/breeze"
 }

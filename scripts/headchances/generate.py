@@ -5,6 +5,7 @@ import os
 import requests
 import json
 import zipfile
+import re
 
 MCFUNCTION_FILE_PREFIX = """# THIS FILE IS GENERATED AUTOMATICALLY, DO NOT MANUALLY EDIT
 
@@ -35,9 +36,11 @@ def download_jar():
 def extract_loot_tables():
     with zipfile.ZipFile(client_jar, "r") as zip:
         for file in zip.infolist():
-            if file.filename.startswith(VANILLA_LOOT_TABLE_PATH):
-                relative_path = os.path.relpath(file.filename, VANILLA_LOOT_TABLE_PATH)
-                destination_path = os.path.join(cache, VANILLA_LOOT_TABLE_PATH, relative_path)
+            match = re.search("(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_tables/entities/([\w_\d]+/)*\w+.json)", file.filename)
+            if match:
+                destination_path = os.path.join(cache, match.group(1))
+                if os.path.exists(destination_path):
+                    continue
                 os.makedirs(os.path.dirname(destination_path), exist_ok=True)
                 with zip.open(file) as source, open(destination_path, "wb") as dest:
                     dest.write(source.read())
