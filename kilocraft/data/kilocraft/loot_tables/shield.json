@@ -117,6 +117,7 @@
             {
               "function": "minecraft:set_lore",
               "entity": "this",
+              "mode": "replace_all",
               "lore": [
                 [
                   {
