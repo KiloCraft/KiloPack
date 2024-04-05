@@ -99,42 +99,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:note_block_sound": "minecraft:entity.chicken.ambient",
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIwMDFjMTIyMjhmOTNiY2E2MjM4OTI2NDRlMzc0ZTIxZWExMTk0N2RiZjNhZTVhYTRjOGZjMmU4OTI4ZGJhYyJ9fX0="
-                    }
-                  ]
-                },
-                "minecraft:custom_name": "{\"text\": \"Chicken Nuggets\", \"italic\": false, \"color\": \"red\"}"
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_looting",
-              "chance": 0.02,
-              "looting_multiplier": 0.01
-            }
-          ]
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/chicken"
