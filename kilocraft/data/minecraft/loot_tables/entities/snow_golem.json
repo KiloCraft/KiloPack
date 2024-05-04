@@ -50,9 +50,13 @@
               "condition": "killed_by_player"
             },
             {
-              "condition": "random_chance_with_looting",
-              "chance": 0.004,
-              "looting_multiplier": 0.002
+              "condition": "random_chance_with_enchanted_bonus",
+              "chance": {
+                "type": "minecraft:linear",
+                "base": 0.004,
+                "per_level_above_first": 0.002
+              },
+              "enchantment": "minecraft:looting"
             },
             {
               "condition": "entity_properties",
@@ -88,9 +92,13 @@
               "condition": "killed_by_player"
             },
             {
-              "condition": "random_chance_with_looting",
-              "chance": 0.004,
-              "looting_multiplier": 0.002
+              "condition": "random_chance_with_enchanted_bonus",
+              "chance": {
+                "type": "minecraft:linear",
+                "base": 0.004,
+                "per_level_above_first": 0.002
+              },
+              "enchantment": "minecraft:looting"
             },
             {
               "condition": "entity_properties",

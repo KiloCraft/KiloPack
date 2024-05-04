@@ -22,7 +22,8 @@
                 "max": 1.0,
                 "min": 0.0
               },
-              "function": "minecraft:looting_enchant"
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
             }
           ],
           "name": "minecraft:seagrass",
@@ -82,9 +83,13 @@
               "condition": "killed_by_player"
             },
             {
-              "condition": "random_chance_with_looting",
-              "chance": 0.015,
-              "looting_multiplier": 0.005
+              "condition": "random_chance_with_enchanted_bonus",
+              "chance": {
+                "type": "minecraft:linear",
+                "base": 0.015,
+                "per_level_above_first": 0.005
+              },
+              "enchantment": "minecraft:looting"
             }
           ]
         }

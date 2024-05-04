@@ -136,9 +136,14 @@ def create_loot_table_pool(heads: dict, group: dict) -> dict:
                     "condition": "killed_by_player"
                 },
                 {
-                    "condition": "random_chance_with_looting",
-                    "chance": base_chance * 0.01,
-                    "looting_multiplier": looting_chance * 0.01
+                    "condition": "random_chance_with_enchanted_bonus",
+                    "chance": {
+                        "type": "minecraft:linear",
+                        "base": base_chance * 0.01,
+                        # TODO https://bugs.mojang.com/browse/MC-271556
+                        "per_level_above_first": looting_chance * 0.01
+                    },
+                    "enchantment": "minecraft:looting"
                 }
             ]}
         if "condition" in head:
