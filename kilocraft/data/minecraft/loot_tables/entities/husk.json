@@ -109,6 +109,42 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:block.sand.place",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNhMWI4MzAzOTlhYjQzMmE1MTc4ZmRhZjM5MzliMjRiZjI1YzcyNGE2NmJlOTQ3Mjk2YzUwMzM1MmJjMzgwZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": "{\"text\": \"Fossil Dust\", \"italic\": false, \"color\": \"red\"}"
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.01,
+              "looting_multiplier": 0.01
+            }
+          ]
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/husk"
