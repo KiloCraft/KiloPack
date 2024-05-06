@@ -6,6 +6,7 @@ import requests
 import json
 import zipfile
 import re
+import shutil
 
 MCFUNCTION_FILE_PREFIX = """# THIS FILE IS GENERATED AUTOMATICALLY, DO NOT MANUALLY EDIT
 
@@ -36,7 +37,7 @@ def download_jar():
 def extract_loot_tables():
     with zipfile.ZipFile(client_jar, "r") as zip:
         for file in zip.infolist():
-            match = re.search("(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_tables/entities/([\w_\d]+/)*\w+.json)", file.filename)
+            match = re.search(r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_tables/entities/([\w_\d]+/)*\w+.json)", file.filename)
             if match:
                 destination_path = os.path.join(cache, match.group(1))
                 if os.path.exists(destination_path):
@@ -179,6 +180,10 @@ def remove_emeralds():
 
 
 def save_loot_tables():
+    loot_tables = os.path.join(datapack_root, get_loot_table_path("minecraft"))
+    if os.path.exists(loot_tables) and os.path.isdir(loot_tables):
+        shutil.rmtree(loot_tables)
+
     for entity_id, entity_json in loot_table_data.items():
         id_namespace, id_path = entity_id.split(":")
         loot_table_path = get_loot_table_path(id_namespace)
