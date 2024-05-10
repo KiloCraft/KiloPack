@@ -101,16 +101,16 @@
             "looting_chance": 2
         },
         "7_blossoms": {
-            "base_chance": 1.5,
-            "looting_chance": 1.5
+            "base_chance": 4,
+            "looting_chance": 2
         },
         "fossil_dust": {
             "base_chance": 1,
             "looting_chance": 1
         },
         "ghost_emoticon": {
-            "base_chance": 2,
-            "looting_chance": 1
+            "base_chance": 4,
+            "looting_chance": 2
         }
     }
 }
