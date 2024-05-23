@@ -37,7 +37,7 @@ def download_jar():
 def extract_loot_tables():
     with zipfile.ZipFile(client_jar, "r") as zip:
         for file in zip.infolist():
-            match = re.search(r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_tables/entities/([\w_\d]+/)*\w+.json)", file.filename)
+            match = re.search(r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_table/entities/([\w_\d]+/)*\w+.json)", file.filename)
             if match:
                 destination_path = os.path.join(cache, match.group(1))
                 if os.path.exists(destination_path):
@@ -48,7 +48,7 @@ def extract_loot_tables():
 
 
 def get_loot_table_path(namespace: str):
-    return f"data/{namespace}/loot_tables/entities"
+    return f"data/{namespace}/loot_table/entities"
 
 
 def modify_loot_table(entity_id: str, entity: dict, groups: dict):
