@@ -137,10 +137,11 @@ def create_loot_table_pool(heads: dict, group: dict) -> dict:
                 },
                 {
                     "condition": "random_chance_with_enchanted_bonus",
-                    "chance": {
+                    "unenchanted_chance": base_chance * 0.01,
+                    "enchanted_chance": {
                         "type": "minecraft:linear",
-                        "base": base_chance * 0.01,
-                        # TODO https://bugs.mojang.com/browse/MC-271556
+                        # chance of level 1
+                        "base": base_chance * 0.01 + looting_chance * 0.01,
                         "per_level_above_first": looting_chance * 0.01
                     },
                     "enchantment": "minecraft:looting"
@@ -346,7 +347,7 @@ text = "\n".join(
 )
 
 print("Saving function")
-with open(os.path.join(datapack_root, "data/kilocraft/functions/trigger/headchances.mcfunction"), "w") as f:
+with open(os.path.join(datapack_root, "data/kilocraft/function/trigger/headchances.mcfunction"), "w") as f:
     f.write(text)
 
 print("Done!")

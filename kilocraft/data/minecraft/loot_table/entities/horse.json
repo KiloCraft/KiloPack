@@ -60,9 +60,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -102,9 +103,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -144,9 +146,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -186,9 +189,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -228,9 +232,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -270,9 +275,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -312,9 +318,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -354,9 +361,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -396,9 +404,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -438,9 +447,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -480,9 +490,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -522,9 +533,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -564,9 +576,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -606,9 +619,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -648,9 +662,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -690,9 +705,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -732,9 +748,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -774,9 +791,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -816,9 +834,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -858,9 +877,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -900,9 +920,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -942,9 +963,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -984,9 +1006,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1026,9 +1049,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1068,9 +1092,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1110,9 +1135,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1152,9 +1178,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1194,9 +1221,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1236,9 +1264,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1278,9 +1307,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1320,9 +1350,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1362,9 +1393,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1404,9 +1436,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1446,9 +1479,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
@@ -1488,9 +1522,10 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "chance": {
+              "unenchanted_chance": 0.015,
+              "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.015,
+                "base": 0.02,
                 "per_level_above_first": 0.005
               },
               "enchantment": "minecraft:looting"
