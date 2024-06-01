@@ -11,3 +11,6 @@ execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:e
 
 #Remove the Key
 clear @s[gamemode=!creative, nbt={Inventory:[{id:"minecraft:firework_star", components:{"minecraft:custom_data":{VoteKey: 1b}}}]}] minecraft:firework_star[minecraft:custom_data={VoteKey:1b}] 1
+
+# Give advancement
+advancement grant @s only kilocraft:spawn/votecrate

@@ -256,37 +256,6 @@
     },
     {
       "item": {
-        "item": "minecraft:ender_pearl",
-        "count": 1,
-        "customName": {
-          "text": "1 RTP",
-          "italic": false
-        },
-        "customNbt": "{Enchantments:[{}]}",
-        "lore": [
-          [
-            {
-              "text": "Cost: ",
-              "color": "aqua",
-              "italic": false
-            },
-            {
-              "text": "2 credits",
-              "color": "white"
-            }
-          ]
-        ]
-      },
-      "action": {
-        "command": "trigger voteshop set -9",
-        "silent": true,
-        "type": "Command"
-      },
-      "index": 8,
-      "type": "Normal"
-    },
-    {
-      "item": {
         "item": "minecraft:allay_spawn_egg",
         "count": 1,
         "customName": {
@@ -308,11 +277,11 @@
         ]
       },
       "action": {
-        "command": "trigger voteshop set -10",
+        "command": "trigger voteshop set -9",
         "silent": true,
         "type": "Command"
       },
-      "index": 9,
+      "index": 8,
       "type": "Normal"
     },
     {
@@ -344,11 +313,11 @@
         ]
       },
       "action": {
-        "command": "trigger voteshop set -11",
+        "command": "trigger voteshop set -10",
         "silent": true,
         "type": "Command"
       },
-      "index": 10,
+      "index": 9,
       "type": "Normal"
     },
     {
@@ -380,11 +349,11 @@
         ]
       },
       "action": {
-        "command": "trigger voteshop set -12",
+        "command": "trigger voteshop set -11",
         "silent": true,
         "type": "Command"
       },
-      "index": 11,
+      "index": 10,
       "type": "Normal"
     },
     {
