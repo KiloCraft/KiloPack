@@ -40,11 +40,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{IsScreamingGoat:0b}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{IsScreamingGoat:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -83,11 +88,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{IsScreamingGoat:1b}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{IsScreamingGoat:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

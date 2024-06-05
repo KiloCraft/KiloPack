@@ -40,11 +40,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:temperate\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:temperate\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -83,11 +88,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:warm\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:warm\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -126,11 +136,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:cold\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:cold\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

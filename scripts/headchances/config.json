@@ -35,7 +35,9 @@
                         "name": "Lucy Axolotl",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMxMzhmNDAxYzY3ZmMyZTFlMzg3ZDljOTBhOTY5MTc3MmVlNDg2ZThkZGJmMmVkMzc1ZmM4MzQ4NzQ2ZjkzNiJ9fX0="
                     },
-                    "condition": "{Variant:0}"
+                    "conditions": [
+                        "{Variant:0}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.axolotl.idle_water",
@@ -43,7 +45,9 @@
                         "name": "Wild Axolotl",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ3ZWZlMDIwMTJjZjMxYWUyNzA4ZTdkN2RmMDc5NzI2NTc1YzdlZTg1MDQzMjgxNzVmZTU0NDcwODE4N2RjZSJ9fX0="
                     },
-                    "condition": "{Variant:1}"
+                    "conditions": [
+                        "{Variant:1}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.axolotl.attack",
@@ -51,7 +55,9 @@
                         "name": "Gold Axolotl",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Y4MGNjMTQ5MmU0NDY2OGNjY2RiNDAxNzhjM2E2Njg5ZThkZmMwZDIzNGU5ODU1M2ZiN2RlYmMyNmZjYWVhYyJ9fX0="
                     },
-                    "condition": "{Variant:2}"
+                    "conditions": [
+                        "{Variant:2}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.axolotl.hurt",
@@ -59,7 +65,9 @@
                         "name": "Cyan Axolotl",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFjMmQwYzNiOTZhZDQ1YjQ2NjM4OGUwMjhiMjQ3YWFmZTM2YjI2YjEyYzQxMWVjYjcyZTliNTBlYTIxZTUyYyJ9fX0="
                     },
-                    "condition": "{Variant:3}"
+                    "conditions": [
+                        "{Variant:3}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.axolotl.death",
@@ -67,7 +75,9 @@
                         "name": "Blue Axolotl",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVmNjMwNjU3ZTRhMjc5YjBiN2VhMGY2NzkwNTkyMGFmMzY1ZjljODRjYTlmMzRhMzJiNTMzNDNmZjYyOTkxMCJ9fX0="
                     },
-                    "condition": "{Variant:4}"
+                    "conditions": [
+                        "{Variant:4}"
+                    ]
                 }
             ],
             "group": "rare"
@@ -94,7 +104,9 @@
                         "name": "Bee",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0="
                     },
-                    "condition": "{HasNectar:0b,HasStung:0b}"
+                    "conditions": [
+                        "{HasNectar:0b,HasStung:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.bee.loop_aggressive",
@@ -102,7 +114,9 @@
                         "name": "Angry Bee",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0="
                     },
-                    "condition": "{HasNectar:0b,HasStung:1b}"
+                    "conditions": [
+                        "{HasNectar:0b,HasStung:1b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.bee.pollinate",
@@ -110,7 +124,9 @@
                         "name": "Pollinated Bee",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0="
                     },
-                    "condition": "{HasNectar:1b,HasStung:0b}"
+                    "conditions": [
+                        "{HasNectar:1b,HasStung:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.bee.sting",
@@ -118,7 +134,9 @@
                         "name": "Angry Pollinated Bee",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiNzRlMDUyYjc0Mjg4Nzk5YmE2ZDlmMzVjNWQwMjIxY2Y4YjA0MzMxNTQ3ZWMyZjY4ZDczNTk3YWUyYzliIn19fQ=="
                     },
-                    "condition": "{HasNectar:1b,HasStung:1b}"
+                    "conditions": [
+                        "{HasNectar:1b,HasStung:1b}"
+                    ]
                 }
             ],
             "group": "rare"
@@ -184,7 +202,9 @@
                         "name": "Tabby Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyOGQzMGRiM2Y4YzNmZTUwY2E0ZjI2ZjMwNzVlMzZmMDAzYWU4MDI4MTM1YThjZDY5MmYyNGM5YTk4YWUxYiJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:tabby\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:tabby\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.ambient",
@@ -192,7 +212,9 @@
                         "name": "Black Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjMWU4MWZmMDNlODJhM2U3MWUwY2Q1ZmJlYzYwN2UxMTM2MTA4OWFhNDdmMjkwZDQ2YzhhMmMwNzQ2MGQ5MiJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:all_black\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:all_black\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.beg_for_food",
@@ -200,7 +222,9 @@
                         "name": "Tuxedo Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhNjYyZjJhZTdkZWJlZTY1MjkyYzJiZjQyZmJiMDliOTdiMmZmYmRiMjcwNTIwYzJkYjk2ZTUxZDg5NDUifX19"
                     },
-                    "condition": "{variant:\"minecraft:black\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:black\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.beg_for_food",
@@ -208,7 +232,9 @@
                         "name": "Ginger Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc1NWU3ZGYwNGQxOGIzMWQ2M2MxN2Y0YTdiNGM3MzkyNGJkNjI2NWRhNjllMTEzZWRkZDk3NTE2ZmM3In19fQ=="
                     },
-                    "condition": "{variant:\"minecraft:red\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:red\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.eat",
@@ -216,7 +242,9 @@
                         "name": "Siamese Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ODFjMzliM2FmZGNjNzlmOTFmZTVkZTNjZGQwMTViYzMzNTM4NDNmNTkxZjRkMjNjZDMwMjdkZTRlNiJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:siamese\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:siamese\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.eat",
@@ -224,7 +252,9 @@
                         "name": "British Shorthair Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OWUwZDVkM2U4MWY4NGI1NzBlMjk3ODI0NGIzYTczZTVhMjJiY2RiNjg3NGI0NGVmNWQwZjY2Y2EyNGVlYyJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:british_shorthair\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:british_shorthair\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.hiss",
@@ -232,7 +262,9 @@
                         "name": "Calico Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwMDk3MjcxYmI2ODBmZTk4MWU4NTllOGJhOTNmZWEyOGI4MTNiMTA0MmJkMjc3ZWEzMzI5YmVjNDkzZWVmMyJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:calico\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:calico\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.hiss",
@@ -240,7 +272,9 @@
                         "name": "Persian Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MGM3NDYyNjBlZjkxYzk2YjI3MTU5Nzk1ZTg3MTkxYWU3Y2UzZDVmNzY3YmY4Yzc0ZmFhZDk2ODlhZjI1ZCJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:persian\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:persian\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.hurt",
@@ -248,7 +282,9 @@
                         "name": "Ragdoll Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3YTQ1ZDI1ODg5ZTNmZGY3Nzk3Y2IyNThlMjZkNGU5NGY1YmMxM2VlZjAwNzk1ZGFmZWYyZTgzZTBhYjUxMSJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:ragdoll\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:ragdoll\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.hurt",
@@ -256,7 +292,9 @@
                         "name": "White Cat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFkMTVhYzk1NThlOThiODlhY2E4OWQzODE5NTAzZjFjNTI1NmMyMTk3ZGQzYzM0ZGY1YWFjNGQ3MmU3ZmJlZCJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:white\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:white\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cat.purreow",
@@ -264,7 +302,9 @@
                         "name": "Jellie",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBkYjQxMzc2Y2E1N2RmMTBmY2IxNTM5ZTg2NjU0ZWVjZmQzNmQzZmU3NWU4MTc2ODg1ZTkzMTg1ZGYyODBhNSJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:jellie\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:jellie\"}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -291,7 +331,9 @@
                         "name": "Charged Creeper",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZWIzOWRkNGRlMjRhN2FkZmUyOTFhM2EwY2ZjN2NmNGY2NDVkZTU5YjYwM2ZjZmUwNmM2YjVhMDZlMjYifX19"
                     },
-                    "condition": "{powered:1b}"
+                    "conditions": [
+                        "{powered:1b}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -447,7 +489,9 @@
                         "name": "Fox",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
                     },
-                    "condition": "{Type:'red',Sleeping:0b}"
+                    "conditions": [
+                        "{Type:'red',Sleeping:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.fox.sleep",
@@ -455,7 +499,9 @@
                         "name": "Sleeping Fox",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk3NTM4YzBlOWE4YzJjMzRiYzIwYjAzYzYyMTI0YjM3MWUxNDY2MTVjNTk1OTliMmU1Mzk5ZmQxZWU4YzA4MiJ9fX0="
                     },
-                    "condition": "{Type:'red',Sleeping:1b}"
+                    "conditions": [
+                        "{Type:'red',Sleeping:1b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.fox.aggro",
@@ -463,7 +509,9 @@
                         "name": "Snow Fox",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0="
                     },
-                    "condition": "{Type:'snow',Sleeping:0b}"
+                    "conditions": [
+                        "{Type:'snow',Sleeping:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.fox.sniff",
@@ -471,7 +519,9 @@
                         "name": "Sleeping Snow Fox",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzNDVhNTIwOWI2MjZkNjk5OTlmZGFmOWI3NjczNWQ2MDRhMWExODk5NjhlNmI4OWI0ZWQ1ZGJkMGZmMTA2YiJ9fX0="
                     },
-                    "condition": "{Type:'snow',Sleeping:1b}"
+                    "conditions": [
+                        "{Type:'snow',Sleeping:1b}"
+                    ]
                 }
             ],
             "group": "normal"
@@ -485,7 +535,9 @@
                         "name": "Frog",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmNDhkNzFiOWY3YTcxN2MzMzBmZWJkNzAwZDFkMWY5NDYxYTI2MzVjMjQ4OTM3OGNiZWZjMWIyNTk0YjIwIn19fQ=="
                     },
-                    "condition": "{variant:\"minecraft:temperate\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:temperate\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.frog.eat",
@@ -493,7 +545,9 @@
                         "name": "Warm Frog",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEwM2E0MjNiYWI4YTRkODMyNzZlNTQwNzgwMTk4NjIwZTIwMWM0ZDE5NTAxYzFmZjNjOTFkY2VmMWMyODFkZCJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:warm\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:warm\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.frog.long_jump",
@@ -501,7 +555,9 @@
                         "name": "Cold Frog",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiMzAzYzI5MzRiMjY3MjZhZjg5NWU3MGZkOTkyYTZmNWZhMmUzMDIyMzI1MWI0Y2Y5MTZmMjY5NTI4N2ZkNSJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:cold\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:cold\"}"
+                    ]
                 }
             ],
             "group": "normal"
@@ -548,7 +604,9 @@
                         "name": "Goat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY2MjMzNmQ4YWUwOTI0MDdlNThmN2NjODBkMjBmMjBlNzY1MDM1N2E0NTRjZTE2ZTMzMDc2MTlhMDExMDY0OCJ9fX0"
                     },
-                    "condition": "{IsScreamingGoat:0b}"
+                    "conditions": [
+                        "{IsScreamingGoat:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.goat.screaming.ambient",
@@ -556,7 +614,9 @@
                         "name": "Screaming Goat",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVjNzM0OWM3YjUzNDQzN2I2YmM5NTk0YzdlZDAwZmU1YjZjMWVjMDY0NmRjNGI4OTg0ZjM0ZWI0MTAzNzU4NCJ9fX0="
                     },
-                    "condition": "{IsScreamingGoat:1b}"
+                    "conditions": [
+                        "{IsScreamingGoat:1b}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -596,63 +656,13 @@
                         "name": "White Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
                     },
-                    "condition": "{Variant:0}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.ambient",
-                    "profile": {
-                        "name": "White Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
-                    },
-                    "condition": "{Variant:1024}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.angry",
-                    "profile": {
-                        "name": "Creamy Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
-                    },
-                    "condition": "{Variant:1025}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.breathe",
-                    "profile": {
-                        "name": "Chestnut Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
-                    },
-                    "condition": "{Variant:1026}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.eat",
-                    "profile": {
-                        "name": "Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
-                    },
-                    "condition": "{Variant:1027}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.gallop",
-                    "profile": {
-                        "name": "Black Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
-                    },
-                    "condition": "{Variant:1028}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.jump",
-                    "profile": {
-                        "name": "Gray Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
-                    },
-                    "condition": "{Variant:1029}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.land",
-                    "profile": {
-                        "name": "Dark Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
-                    },
-                    "condition": "{Variant:1030}"
+                    "conditions": [
+                        "{Variant:0}",
+                        "{Variant:256}",
+                        "{Variant:512}",
+                        "{Variant:768}",
+                        "{Variant:1024}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.horse.angry",
@@ -660,23 +670,13 @@
                         "name": "Creamy Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
                     },
-                    "condition": "{Variant:1}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.ambient",
-                    "profile": {
-                        "name": "White Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
-                    },
-                    "condition": "{Variant:256}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.angry",
-                    "profile": {
-                        "name": "Creamy Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
-                    },
-                    "condition": "{Variant:257}"
+                    "conditions": [
+                        "{Variant:0}",
+                        "{Variant:257}",
+                        "{Variant:513}",
+                        "{Variant:769}",
+                        "{Variant:1025}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.horse.breathe",
@@ -684,7 +684,13 @@
                         "name": "Chestnut Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
                     },
-                    "condition": "{Variant:258}"
+                    "conditions": [
+                        "{Variant:2}",
+                        "{Variant:258}",
+                        "{Variant:514}",
+                        "{Variant:770}",
+                        "{Variant:1026}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.horse.eat",
@@ -692,7 +698,13 @@
                         "name": "Brown Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
                     },
-                    "condition": "{Variant:259}"
+                    "conditions": [
+                        "{Variant:3}",
+                        "{Variant:259}",
+                        "{Variant:515}",
+                        "{Variant:771}",
+                        "{Variant:1027}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.horse.gallop",
@@ -700,7 +712,13 @@
                         "name": "Black Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
                     },
-                    "condition": "{Variant:260}"
+                    "conditions": [
+                        "{Variant:4}",
+                        "{Variant:260}",
+                        "{Variant:516}",
+                        "{Variant:772}",
+                        "{Variant:1028}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.horse.jump",
@@ -708,7 +726,13 @@
                         "name": "Gray Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
                     },
-                    "condition": "{Variant:261}"
+                    "conditions": [
+                        "{Variant:5}",
+                        "{Variant:261}",
+                        "{Variant:517}",
+                        "{Variant:773}",
+                        "{Variant:1029}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.horse.land",
@@ -716,159 +740,13 @@
                         "name": "Dark Brown Horse",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
                     },
-                    "condition": "{Variant:262}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.breathe",
-                    "profile": {
-                        "name": "Chestnut Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
-                    },
-                    "condition": "{Variant:2}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.eat",
-                    "profile": {
-                        "name": "Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
-                    },
-                    "condition": "{Variant:3}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.gallop",
-                    "profile": {
-                        "name": "Black Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
-                    },
-                    "condition": "{Variant:4}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.ambient",
-                    "profile": {
-                        "name": "White Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
-                    },
-                    "condition": "{Variant:512}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.angry",
-                    "profile": {
-                        "name": "Creamy Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
-                    },
-                    "condition": "{Variant:513}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.breathe",
-                    "profile": {
-                        "name": "Chestnut Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
-                    },
-                    "condition": "{Variant:514}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.eat",
-                    "profile": {
-                        "name": "Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
-                    },
-                    "condition": "{Variant:515}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.gallop",
-                    "profile": {
-                        "name": "Black Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
-                    },
-                    "condition": "{Variant:516}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.jump",
-                    "profile": {
-                        "name": "Gray Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
-                    },
-                    "condition": "{Variant:517}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.land",
-                    "profile": {
-                        "name": "Dark Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
-                    },
-                    "condition": "{Variant:518}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.jump",
-                    "profile": {
-                        "name": "Gray Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
-                    },
-                    "condition": "{Variant:5}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.land",
-                    "profile": {
-                        "name": "Dark Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
-                    },
-                    "condition": "{Variant:6}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.ambient",
-                    "profile": {
-                        "name": "White Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhMmRiMmYxZWI5M2U1OTc4ZDJkYzkxYTc0ZGY0M2Q3Yjc1ZDllYzBlNjk0ZmQ3ZjJhNjUyZmJkMTUifX19"
-                    },
-                    "condition": "{Variant:768}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.angry",
-                    "profile": {
-                        "name": "Creamy Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4ZDFhYjRiZTFlMjhiN2I0NjFmZGVhNDYzODFhYzM2M2E3ZTVjMzU5MWM5ZTVkMjY4M2ZiZTFlYzlmY2QzIn19fQ=="
-                    },
-                    "condition": "{Variant:769}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.breathe",
-                    "profile": {
-                        "name": "Chestnut Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2YjJiMzJkMzE1MzljNzM4M2Q5MjNiYWU0ZmFhZjY1ZGE2NzE1Y2Q1MjZjMzVkMmU0ZTY4MjVkYTExZmIifX19"
-                    },
-                    "condition": "{Variant:770}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.eat",
-                    "profile": {
-                        "name": "Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="
-                    },
-                    "condition": "{Variant:771}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.gallop",
-                    "profile": {
-                        "name": "Black Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiN2ZjNWY3YTlkZGZkZDFhYTc5MzE3NDEwZmMxOTI5ZjkxYmRkZjk4NTg1OTM4YTJhNTYxOTlhNjMzY2MifX19"
-                    },
-                    "condition": "{Variant:772}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.jump",
-                    "profile": {
-                        "name": "Gray Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDEzODEzZGQ0NWVkMGVmODM4NDQ4Y2Y2ZjYzMWMxNTdjMjNmOTY1MGM1YWU0NTFlOTc4YTUzMzgzMzEyZmUifX19"
-                    },
-                    "condition": "{Variant:773}"
-                },
-                {
-                    "note_block_sound": "minecraft:entity.horse.land",
-                    "profile": {
-                        "name": "Dark Brown Horse",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJlYjk2N2FiOTRmZGQ0MWE2MzI1ZjEyNzdkNmRjMDE5MjI2ZTVjZjM0OTc3ZWVlNjk1OTdmYWZjZjVlIn19fQ=="
-                    },
-                    "condition": "{Variant:774}"
+                    "conditions": [
+                        "{Variant:6}",
+                        "{Variant:262}",
+                        "{Variant:518}",
+                        "{Variant:774}",
+                        "{Variant:1030}"
+                    ]
                 }
             ],
             "group": "normal"
@@ -908,7 +786,9 @@
                         "name": "Jeb_ Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM0Y2JmMmRhYzQyZGUzYjJjYmZkMGFhMWRjNDAzNjNiNmQzZDViNTczNmIyYTc4OGMwNWQxYjRhYmIxOWU3In19fQ=="
                     },
-                    "condition": "{CustomName:'\"jeb_\"'}"
+                    "conditions": [
+                        "{CustomName:'\"jeb_\"'}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -922,7 +802,9 @@
                         "name": "Creamy Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQ2N2ZkNGJmZjI5MzI2OWNiOTA4OTc0ZGNhODNjMzM0ODVlNDM1ZWQ1YThlMWRiZDY1MjFjNjE2ODcxNDAifX19"
                     },
-                    "condition": "{Variant:0}"
+                    "conditions": [
+                        "{Variant:0}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.llama.angry",
@@ -930,7 +812,9 @@
                         "name": "White Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAyNzdlNmIzZDlmNzgxOWVmYzdkYTRiNDI3NDVmN2FiOWE2M2JhOGYzNmQ2Yjg0YTdhMjUwYzZkMWEzNThlYiJ9fX0="
                     },
-                    "condition": "{Variant:1}"
+                    "conditions": [
+                        "{Variant:1}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.llama.eat",
@@ -938,7 +822,9 @@
                         "name": "Brown Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJiMWVjZmY3N2ZmZTNiNTAzYzMwYTU0OGViMjNhMWEwOGZhMjZmZDY3Y2RmZjM4OTg1NWQ3NDkyMTM2OCJ9fX0="
                     },
-                    "condition": "{Variant:2}"
+                    "conditions": [
+                        "{Variant:2}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.llama.spit",
@@ -946,7 +832,9 @@
                         "name": "Grey Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YyNGU1NmZkOWZmZDcxMzNkYTZkMWYzZTJmNDU1OTUyYjFkYTQ2MjY4NmY3NTNjNTk3ZWU4MjI5OWEifX19"
                     },
-                    "condition": "{Variant:3}"
+                    "conditions": [
+                        "{Variant:3}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -973,7 +861,9 @@
                         "name": "Brown Mooshroom",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkNWZjNzAzMWFjYzk1YmVlYjUyODc1ZjE1NDA4ZTk3OWEwYTljMzkxYjZkYjdlY2VlN2U0MDAwNzJkZTVjNCJ9fX0="
                     },
-                    "condition": "{Type:'brown'}"
+                    "conditions": [
+                        "{Type:'brown'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.cow.hurt",
@@ -981,7 +871,9 @@
                         "name": "Mooshroom",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBiYzYxYjk3NTdhN2I4M2UwM2NkMjUwN2EyMTU3OTEzYzJjZjAxNmU3YzA5NmE0ZDZjZjFmZTFiOGRiIn19fQ=="
                     },
-                    "condition": "{Type:'red'}"
+                    "conditions": [
+                        "{Type:'red'}"
+                    ]
                 }
             ],
             "group": "rare"
@@ -1021,7 +913,9 @@
                         "name": "Aggressive Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmUyZjM5M2YzYjI4YWU1NTc4ZDY4ZWE3MmYzNGIwYWE0ZjVmMmM1ODNhMjJkODk4MzQ2N2I5OGM0YjIzZDg2YyJ9fX0="
                     },
-                    "condition": "{MainGene:'aggressive'}"
+                    "conditions": [
+                        "{MainGene:'aggressive'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.panda.pre_sneeze",
@@ -1029,7 +923,9 @@
                         "name": "Brown Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzVkMGQ0NWJmOTkyYjA3MmNmNWM1MTNlMDZiZWVmZThiZGM4MDljODE1MGYzZDE0Yjg4Mzc5NmE3Yjc0ZTQwNiJ9fX0="
                     },
-                    "condition": "{MainGene:'brown'}"
+                    "conditions": [
+                        "{MainGene:'brown'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.panda.cant_breed",
@@ -1037,7 +933,9 @@
                         "name": "Lazy Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgxOGI2ODFjYWNlMWM2NDE5MTlmNTNlZGFkZWNiMTQyMzMwZDA4OWE4MjZiNTYyMTkxMzhjMzNiN2E1ZTBkYiJ9fX0="
                     },
-                    "condition": "{MainGene:'lazy'}"
+                    "conditions": [
+                        "{MainGene:'lazy'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.panda.ambient",
@@ -1045,7 +943,9 @@
                         "name": "Normal Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNhMDk2ZWVhNTA2MzAxYmVhNmQ0YjE3ZWUxNjA1NjI1YTZmNTA4MmM3MWY3NGE2MzljYzk0MDQzOWY0NzE2NiJ9fX0="
                     },
-                    "condition": "{MainGene:'normal'}"
+                    "conditions": [
+                        "{MainGene:'normal'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.panda.eat",
@@ -1053,7 +953,9 @@
                         "name": "Playful Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY0NjNlNjRjZTI5NzY0ZGIzY2I0NjgwNmNlZTYwNmFmYzI0YmRmMGNlMTRiNjY2MGMyNzBhOTZjNzg3NDI2In19fQ=="
                     },
-                    "condition": "{MainGene:'playful'}"
+                    "conditions": [
+                        "{MainGene:'playful'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.panda.sneeze",
@@ -1061,7 +963,9 @@
                         "name": "Weak Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMyZDI1ZTk1NjMzN2Q4Mjc5MWZhMGU2NjE3YTQwMDg2ZjAyZDZlYmZiZmQ1YTY0NTk4ODljZjIwNmZjYTc4NyJ9fX0="
                     },
-                    "condition": "{MainGene:'weak'}"
+                    "conditions": [
+                        "{MainGene:'weak'}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.panda.worried_ambient",
@@ -1069,7 +973,9 @@
                         "name": "Worried Panda",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlOTIxYzU3ZTU0ZGQwNzMzN2ZmYmE2MjllNzJjYWYzODUwZDgzNmI3NjU2MmIxYmMzYmM1OTQ5ZjJkNDFkIn19fQ=="
                     },
-                    "condition": "{MainGene:'worried'}"
+                    "conditions": [
+                        "{MainGene:'worried'}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -1083,7 +989,9 @@
                         "name": "Red Parrot",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRiYThkNjZmZWNiMTk5MmU5NGI4Njg3ZDZhYjRhNTMyMGFiNzU5NGFjMTk0YTI2MTVlZDRkZjgxOGVkYmMzIn19fQ=="
                     },
-                    "condition": "{Variant:0}"
+                    "conditions": [
+                        "{Variant:0}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.parrot.fly",
@@ -1091,7 +999,9 @@
                         "name": "Blue Parrot",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNhNTgwYjA1MWM2M2JlMjlkYTU0NWE5YWE3ZmY3ZTEzNmRmNzdhODFjNjdkYzFlZTllNjE3MGMxNGZiMzEwIn19fQ=="
                     },
-                    "condition": "{Variant:1}"
+                    "conditions": [
+                        "{Variant:1}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.parrot.ambient",
@@ -1099,7 +1009,9 @@
                         "name": "Green Parrot",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI5YTM2YzU1ODlmM2EyZTU5YzFjYWE5YjNiODhmYWRhNzY3MzJiZGI0YTc5MjYzODhhOGMwODhiYmJjYiJ9fX0="
                     },
-                    "condition": "{Variant:2}"
+                    "conditions": [
+                        "{Variant:2}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.parrot.fly",
@@ -1107,7 +1019,9 @@
                         "name": "Cyan Parrot",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI5NGYyMzZjNGE2NDJlYjJiY2RjMzU4OWI5YzNjNGEwYjViZDVkZjljZDVkNjhmMzdmOGM4M2Y4ZTNmMSJ9fX0="
                     },
-                    "condition": "{Variant:3}"
+                    "conditions": [
+                        "{Variant:3}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.parrot.hurt",
@@ -1115,7 +1029,9 @@
                         "name": "Gray Parrot",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2ZjRhMjFlMGQ2MmFmODI0Zjg3MDhhYzYzNDEwZjFhMDFiYmI0MWQ3ZjRhNzAyZDk0NjljNjExMzIyMiJ9fX0="
                     },
-                    "condition": "{Variant:4}"
+                    "conditions": [
+                        "{Variant:4}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -1188,7 +1104,9 @@
                         "name": "Bad Omen Pillager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ1NDNlM2RmYjUwNDhiNDNjYTNjM2FiY2YwZGY0YjNmY2ZiMTdhOTk4NTRkNzZjZmFhNjdhNjYxZjU2NGZkOSJ9fX0="
                     },
-                    "condition": "{PatrolLeader:1b}"
+                    "conditions": [
+                        "{PatrolLeader:1b}"
+                    ]
                 }
             ],
             "group": "normal"
@@ -1256,7 +1174,9 @@
                         "name": "Brown Rabbit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxMTY5YjI2OTRhNmFiYTgyNjM2MDk5MjM2NWJjZGE1YTEwYzg5YTNhYTJiNDhjNDM4NTMxZGQ4Njg1YzNhNyJ9fX0="
                     },
-                    "condition": "{RabbitType:0}"
+                    "conditions": [
+                        "{RabbitType:0}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.rabbit.jump",
@@ -1264,7 +1184,9 @@
                         "name": "White Rabbit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU0MmQ3MTYwOTg3MTQ4YTVkOGUyMGU0NjliZDliM2MyYTM5NDZjN2ZiNTkyM2Y1NWI5YmVhZTk5MTg1ZiJ9fX0="
                     },
-                    "condition": "{RabbitType:1}"
+                    "conditions": [
+                        "{RabbitType:1}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.rabbit.hurt",
@@ -1272,7 +1194,9 @@
                         "name": "Black Rabbit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJjNTgxMTZhMTQ3ZDFhOWEyNjI2OTIyNGE4YmUxODRmZThlNWYzZjNkZjliNjE3NTEzNjlhZDg3MzgyZWM5In19fQ=="
                     },
-                    "condition": "{RabbitType:2}"
+                    "conditions": [
+                        "{RabbitType:2}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.rabbit.ambient",
@@ -1280,7 +1204,9 @@
                         "name": "Black and White Rabbit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I4Y2ZmNGIxNWI4Y2EzN2UyNTc1MGYzNDU3MThmMjg5Y2IyMmM1YjNhZDIyNjI3YTcxMjIzZmFjY2MifX19"
                     },
-                    "condition": "{RabbitType:3}"
+                    "conditions": [
+                        "{RabbitType:3}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.rabbit.ambient",
@@ -1288,7 +1214,9 @@
                         "name": "Gold Rabbit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3N2EzMjY2YmYzYjllYWYxN2U1YTAyZWE1ZmJiNDY4MDExNTk4NjNkZDI4OGI5M2U2YzEyYzljYiJ9fX0="
                     },
-                    "condition": "{RabbitType:4}"
+                    "conditions": [
+                        "{RabbitType:4}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.rabbit.death",
@@ -1296,7 +1224,9 @@
                         "name": "Salt and Pepper Rabbit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlY2M2YjVlNmVhNWNlZDc0YzQ2ZTc2MjdiZTNmMDgyNjMyN2ZiYTI2Mzg2YzZjYzc4NjMzNzJlOWJjIn19fQ=="
                     },
-                    "condition": "{RabbitType:5}"
+                    "conditions": [
+                        "{RabbitType:5}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.rabbit.attack",
@@ -1304,7 +1234,9 @@
                         "name": "Toast",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYzNiNzQ2NjY1NDVmMmQ0MWJjMmI1MzQwZTFkZjY5ZGQyNWUyYTdlMmIzNGVmZDFhOTUzMTFhN2Q2YyJ9fX0="
                     },
-                    "condition": "{CustomName:'\"Toast\"'}"
+                    "conditions": [
+                        "{CustomName:'\"Toast\"'}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -1344,7 +1276,9 @@
                         "name": "White Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19"
                     },
-                    "condition": "{Color:0b}"
+                    "conditions": [
+                        "{Color:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.shear",
@@ -1352,7 +1286,9 @@
                         "name": "Light Gray Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UxYWM2ODM5OTNiZTM1NTEyZTFiZTMxZDFmNGY5OGU1ODNlZGIxNjU4YTllMjExOTJjOWIyM2I1Y2NjZGMzIn19fQ=="
                     },
-                    "condition": "{Color:8b}"
+                    "conditions": [
+                        "{Color:8b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.shear",
@@ -1360,7 +1296,9 @@
                         "name": "Gray Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI4N2ViNTAxMzkxZjI3NTM4OWYxNjZlYzlmZWJlYTc1ZWM0YWU5NTFiODhiMzhjYWU4N2RmN2UyNGY0YyJ9fX0="
                     },
-                    "condition": "{Color:7b}"
+                    "conditions": [
+                        "{Color:7b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.shear",
@@ -1368,7 +1306,9 @@
                         "name": "Black Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI2NTIwODNmMjhlZDFiNjFmOWI5NjVkZjFhYmYwMTBmMjM0NjgxYzIxNDM1OTUxYzY3ZDg4MzY0NzQ5ODIyIn19fQ=="
                     },
-                    "condition": "{Color:15b}"
+                    "conditions": [
+                        "{Color:15b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.shear",
@@ -1376,7 +1316,9 @@
                         "name": "Brown Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTU1YWQ2ZTVkYjU2OTJkODdmNTE1MTFmNGUwOWIzOWZmOWNjYjNkZTdiNDgxOWE3Mzc4ZmNlODU1M2I4In19fQ=="
                     },
-                    "condition": "{Color:12b}"
+                    "conditions": [
+                        "{Color:12b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.ambient",
@@ -1384,7 +1326,9 @@
                         "name": "Red Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM5YWY0NzdlYjYyNzgxNWY3MjNhNTY2MjU1NmVjOWRmY2JhYjVkNDk0ZDMzOGJkMjE0MjMyZjIzZTQ0NiJ9fX0="
                     },
-                    "condition": "{Color:14b}"
+                    "conditions": [
+                        "{Color:14b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.ambient",
@@ -1392,7 +1336,9 @@
                         "name": "Orange Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA5ODM5N2EyNzBiNGMzZDJiMWU1NzRiOGNmZDNjYzRlYTM0MDkwNjZjZWZlMzFlYTk5MzYzM2M5ZDU3NiJ9fX0="
                     },
-                    "condition": "{Color:1b}"
+                    "conditions": [
+                        "{Color:1b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.ambient",
@@ -1400,7 +1346,9 @@
                         "name": "Yellow Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZhNDExMmRmMWU0YmNlMmE1ZTI4NDE3ZjNhYWZmNzljZDY2ZTg4NWMzNzI0NTU0MTAyY2VmOGViOCJ9fX0="
                     },
-                    "condition": "{Color:4b}"
+                    "conditions": [
+                        "{Color:4b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.hurt",
@@ -1408,7 +1356,9 @@
                         "name": "Lime Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJhMjQ0OGY1OGE0OTEzMzI0MzRlODVjNDVkNzg2ZDg3NDM5N2U4MzBhM2E3ODk0ZTZkOTI2OTljNDJiMzAifX19"
                     },
-                    "condition": "{Color:5b}"
+                    "conditions": [
+                        "{Color:5b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.hurt",
@@ -1416,7 +1366,9 @@
                         "name": "Green Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAxNzIxNWM3ZjhkYjgyMDQwYWEyYzQ3Mjk4YjY2NTQxYzJlYjVmN2Y5MzA0MGE1ZDIzZDg4ZjA2ODdkNGIzNCJ9fX0="
                     },
-                    "condition": "{Color:13b}"
+                    "conditions": [
+                        "{Color:13b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.hurt",
@@ -1424,7 +1376,9 @@
                         "name": "Cyan Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZmNmM3ZTdmZDUxNGNlMGFjYzY4NTkzMjI5ZTQwZmNjNDM1MmI4NDE2NDZlNGYwZWJjY2NiMGNlMjNkMTYifX19"
                     },
-                    "condition": "{Color:9b}"
+                    "conditions": [
+                        "{Color:9b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.ambient",
@@ -1432,7 +1386,9 @@
                         "name": "Light Blue Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM4YTk3YTM4ODU2NTE0YTE2NDEzZTJjOTk1MjEyODlmNGM1MzYzZGM4MmZjOWIyODM0Y2ZlZGFjNzhiODkifX19"
                     },
-                    "condition": "{Color:3b}"
+                    "conditions": [
+                        "{Color:3b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.ambient",
@@ -1440,7 +1396,9 @@
                         "name": "Blue Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDllYzIyODE4ZDFmYmZjODE2N2ZiZTM2NzI4YjI4MjQwZTM0ZTE2NDY5YTI5MjlkMDNmZGY1MTFiZjJjYTEifX19"
                     },
-                    "condition": "{Color:11b}"
+                    "conditions": [
+                        "{Color:11b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.hurt",
@@ -1448,7 +1406,9 @@
                         "name": "Purple Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU1Mjg2N2FmZWYzOGJiMTRhMjZkMTQyNmM4YzBmMTE2YWQzNDc2MWFjZDkyZTdhYWUyYzgxOWEwZDU1Yjg1In19fQ=="
                     },
-                    "condition": "{Color:10b}"
+                    "conditions": [
+                        "{Color:10b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.hurt",
@@ -1456,7 +1416,9 @@
                         "name": "Magenta Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTgzNjU2NWM3ODk3ZDQ5YTcxYmMxODk4NmQxZWE2NTYxMzIxYTBiYmY3MTFkNDFhNTZjZTNiYjJjMjE3ZTdhIn19fQ=="
                     },
-                    "condition": "{Color:2b}"
+                    "conditions": [
+                        "{Color:2b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.sheep.hurt",
@@ -1464,7 +1426,9 @@
                         "name": "Pink Sheep",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFjNzRhMmI5YjkxNDUyZTU2ZmExZGRhNWRiODEwNzc4NTZlNDlmMjdjNmUyZGUxZTg0MWU1Yzk1YTZmYzVhYiJ9fX0="
                     },
-                    "condition": "{Color:6b}"
+                    "conditions": [
+                        "{Color:6b}"
+                    ]
                 }
             ],
             "references": [
@@ -1481,7 +1445,9 @@
                         "name": "White Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI5NGIwYWNiMzE3N2I0Y2RiMDE3ZmUzMWNkNWMyNDcyNjJkZWY1M2JmODMzODFjNmM4MmQ3MmM1NmFjIn19fQ=="
                     },
-                    "condition": "{Color:0b}"
+                    "conditions": [
+                        "{Color:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.close",
@@ -1489,7 +1455,9 @@
                         "name": "Purple Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0="
                     },
-                    "condition": "{Color:10b}"
+                    "conditions": [
+                        "{Color:10b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.ambient",
@@ -1497,7 +1465,9 @@
                         "name": "Blue Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzMDk2NmQ1Y2ViYmQ3ODcxNDc2OTlhMjk3NDM3NTFiM2NlNGJiODE0ZTJkYjU2NGZlOTIxNDJkMTE5Y2QxIn19fQ=="
                     },
-                    "condition": "{Color:11b}"
+                    "conditions": [
+                        "{Color:11b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.death",
@@ -1505,7 +1475,9 @@
                         "name": "Brown Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2ZDdmYjg3NDQ3ZmZjMDU0ZmIxMDliODRkNjIyNWQ0MTAyOWIxZTY3MTBjN2RlNTdmNjYxYWVmYTZmIn19fQ=="
                     },
-                    "condition": "{Color:12b}"
+                    "conditions": [
+                        "{Color:12b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.death",
@@ -1513,7 +1485,9 @@
                         "name": "Green Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMxYWJlMmJiMmI5MTQxZjEwMThlYjE1MzlkMmNmZWMxM2Q5MjMxYjUzYTQ2Y2FmOGRjMjFhYTI3MDUwNDkifX19"
                     },
-                    "condition": "{Color:13b}"
+                    "conditions": [
+                        "{Color:13b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.ambient",
@@ -1521,7 +1495,9 @@
                         "name": "Red Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk5OTQwNDA0MzNhZjBmMDE1YmU0ZDY5NjhjM2Q1NWUwNDRjOThkYWMyYzRjNmE2ZWEwZWZhYzdhNmRkYiJ9fX0="
                     },
-                    "condition": "{Color:14b}"
+                    "conditions": [
+                        "{Color:14b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.hurt",
@@ -1529,7 +1505,9 @@
                         "name": "Black Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU0NTVhYWFkYjIzMTdiNWYyOWU5ODk4MWFhNTdmNTc5NTcwNTA2OWQ4ZjQxNWMwZDY4YTkyYTc5MTQxM2IzYSJ9fX0="
                     },
-                    "condition": "{Color:15b}"
+                    "conditions": [
+                        "{Color:15b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.ambient",
@@ -1537,7 +1515,9 @@
                         "name": "Shulker Box",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVjNGQyNGFmZmRkNDgxMDI2MjAzNjE1MjdkMjE1NmUxOGMyMjNiYWU1MTg5YWM0Mzk4MTU2NDNmM2NmZjlkIn19fQ=="
                     },
-                    "condition": "{Color:16b}"
+                    "conditions": [
+                        "{Color:16b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.hurt",
@@ -1545,7 +1525,9 @@
                         "name": "Orange Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3MTFkOTU0YmQ1NjIzNmQxYTlmOTliZTg4MGM1ZDM4OTkwZGY2YmVmNzJlNzNmNzQ1YjA0OTk1ZGJmNiJ9fX0="
                     },
-                    "condition": "{Color:1b}"
+                    "conditions": [
+                        "{Color:1b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.hurt_closed",
@@ -1553,7 +1535,9 @@
                         "name": "Magenta Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlmZTI5MTY3NmM3YjNmOTZmM2NkZjYzYzQ3YjUzZmI0NWQ3M2JkNmZlMmNlMjJkZTEwNzQ5ZWIxNDI2YSJ9fX0"
                     },
-                    "condition": "{Color:2b}"
+                    "conditions": [
+                        "{Color:2b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.hurt_closed",
@@ -1561,7 +1545,9 @@
                         "name": "Light Blue Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIxY2RlYzJjZjRlYmVlZjM1ZDU4YjE4NGI4MzI1OThiYzg5MGEwYWU1YzJkNTRlZTliZTU4NmQwIn19fQ=="
                     },
-                    "condition": "{Color:3b}"
+                    "conditions": [
+                        "{Color:3b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.open",
@@ -1569,7 +1555,9 @@
                         "name": "Yellow Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNiZjU1ODY4MzZiN2IzNDI5MzJlMWQyM2VmYzI0OTBjZjU5YzY5YWNjZjFlMDVlOWVkNTc2Y2FlZDhiNzg3NyJ9fX0="
                     },
-                    "condition": "{Color:4b}"
+                    "conditions": [
+                        "{Color:4b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.open",
@@ -1577,7 +1565,9 @@
                         "name": "Lime Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNDQ5NTdjMmM1YmJmZTQ0N2Y0YjJkMzZhMjQ2ZWExYjAyM2RhNGNiZDFhYTJkYmJiMTVlOTQ5ODEyNDgifX19"
                     },
-                    "condition": "{Color:5b}"
+                    "conditions": [
+                        "{Color:5b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.shoot",
@@ -1585,7 +1575,9 @@
                         "name": "Pink Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Y4NDdjMTJkNTdmZTY1NTVlOGY5YjQ3ZTU2MmVjZjE2ODNmYjZjMzVmOTJjZTJjZWQyYWU2OGRlNjI4NzUwIn19fQ=="
                     },
-                    "condition": "{Color:6b}"
+                    "conditions": [
+                        "{Color:6b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.shoot",
@@ -1593,7 +1585,9 @@
                         "name": "Gray Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc5ODQzMmZiZWIyYmMyZDc1N2IxZDNjM2IzNTU4ZTY5OTAzOTJkZDA5MWVhNGVmMzgxYjJlMDE5Yzk0NjIifX19"
                     },
-                    "condition": "{Color:7b}"
+                    "conditions": [
+                        "{Color:7b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.teleport",
@@ -1601,7 +1595,9 @@
                         "name": "Light Gray Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmZhMTdkNDFlYTE4M2JlZTUzZDU0NmM3YmVjNGNjZjZhNTRkNGY1MDhmZGU2ZWJmM2U1ZDM4OGQ0Y2JlYWNiOSJ9fX0="
                     },
-                    "condition": "{Color:8b}"
+                    "conditions": [
+                        "{Color:8b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.shulker.teleport",
@@ -1609,7 +1605,9 @@
                         "name": "Cyan Shulker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZmMTczZDRlM2U4YmQ2ZjliZTBiZjliNzQ1YmQxY2M3YTI5ZmY4MzZlZDJkNDg2YzViOTkyOTJjODVjYyJ9fX0="
                     },
-                    "condition": "{Color:9b}"
+                    "conditions": [
+                        "{Color:9b}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -1686,7 +1684,9 @@
                         "name": "Sheared Snow Golem",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZkZmQxZjc1MzhjMDQwMjU4YmU3YTkxNDQ2ZGE4OWVkODQ1Y2M1ZWY3MjhlYjVlNjkwNTQzMzc4ZmNmNCJ9fX0="
                     },
-                    "condition": "{Pumpkin:0b}"
+                    "conditions": [
+                        "{Pumpkin:0b}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.snow_golem.hurt",
@@ -1694,7 +1694,9 @@
                         "name": "Snow Golem",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWUyOGEwM2VkMmViOTBlYWZmMWExMTlhNWI1NTQ0NTI3MDFiOTdhZjQ3YmZmNzNjZTcxMDg0OWM2YjAifX19"
                     },
-                    "condition": "{Pumpkin:1b}"
+                    "conditions": [
+                        "{Pumpkin:1b}"
+                    ]
                 }
             ],
             "group": "rare"
@@ -1747,7 +1749,9 @@
                         "name": "Cold Strider",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzczODYxMGUyZjczYjY3ZTViYzEyZWJjYmI2ZGRjNDU2MWMyNjViOWQ1YTE3ZDIwZGFlNDkzYTgyNTBkNzAwYiJ9fX0="
                     },
-                    "condition": "{Fire:-1s}"
+                    "conditions": [
+                        "{Fire:-1s}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.strider.happy",
@@ -1755,7 +1759,9 @@
                         "name": "Strider",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThhOWFkZjc4MGVjN2RkNDYyNWM5YzA3NzkwNTJlNmExNWE0NTE4NjY2MjM1MTFlNGM4MmU5NjU1NzE0YjNjMSJ9fX0="
                     },
-                    "condition": "{Fire:0s}"
+                    "conditions": [
+                        "{Fire:0s}"
+                    ]
                 }
             ],
             "group": "normal"
@@ -1782,7 +1788,9 @@
                         "name": "Trader Creamy Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTJlYjE3NzA1ZmU3MTU0YWIwNDFlNWM3NmEwOGQ0MTU0NmEzMWJhMjBlYTMwNjBlM2VjOGVkYzEwNDEyYyJ9fX0="
                     },
-                    "condition": "{Variant:0}"
+                    "conditions": [
+                        "{Variant:0}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.llama.angry",
@@ -1790,7 +1798,9 @@
                         "name": "Trader White Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA4N2E1NTZkNGZmYTk1ZWNkMjg0NGYzNTBkYzQzZTI1NGU1ZDUzNWZhNTk2ZjU0MGQ3ZTc3ZmE2N2RmNDY5NiJ9fX0="
                     },
-                    "condition": "{Variant:1}"
+                    "conditions": [
+                        "{Variant:1}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.llama.eat",
@@ -1798,7 +1808,9 @@
                         "name": "Trader Brown Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODQyNDc4MGIzYzVjNTM1MWNmNDlmYjViZjQxZmNiMjg5NDkxZGY2YzQzMDY4M2M4NGQ3ODQ2MTg4ZGI0Zjg0ZCJ9fX0="
                     },
-                    "condition": "{Variant:2}"
+                    "conditions": [
+                        "{Variant:2}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.llama.spit",
@@ -1806,7 +1818,9 @@
                         "name": "Trader Grey Llama",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0ZDhhMGJjMTVmMjM5OTIxZWZkOGJlMzQ4MGJhNzdhOThlZTdkOWNlMDA3MjhjMGQ3MzNmMGEyZDYxNGQxNiJ9fX0="
                     },
-                    "condition": "{Variant:3}"
+                    "conditions": [
+                        "{Variant:3}"
+                    ]
                 }
             ],
             "group": "common"
@@ -1929,7 +1943,9 @@
                         "name": "Armorer Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIzNGY1OWQ5ZGNjYTk2ZDdhNjhiMTUzYjZjMzAxYTRlMDQzZTMzYjUxYzM5YTBmOTQyNDA0N2I0M2JhOGIyOCJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:armorer'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:armorer'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_butcher",
@@ -1937,7 +1953,9 @@
                         "name": "Butcher Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY0MWFjNjRhZmVhZmY5OTk5NGE4ZWRhYThiM2E0MGE2NjIzZDQxODAxZjE4ZGM5YmU4NmMxZTNlZmFjOWJhNyJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:butcher'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:butcher'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_cartographer",
@@ -1945,7 +1963,9 @@
                         "name": "Cartographer Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyYjAwYzYwMmE4ZTI2MDRhOWI1OGE3ZWZhZTNhZGQwYzQ0MGI4OThlNTA1Mzk4NTM2M2NiYjJmZmIwMGZlNCJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:cartographer'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:cartographer'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_cleric",
@@ -1953,7 +1973,9 @@
                         "name": "Cleric Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRmOGI1ZDJkZGQxYjRmNDkzNmI4MWJlMjZhMzZhNGJjZjA1OWE0ZmE5MzBlNzBlYjBjY2U5MGU1ZmIyMGRhZiJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:cleric'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:cleric'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_farmer",
@@ -1961,7 +1983,9 @@
                         "name": "Farmer Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgwNzI3ZDM5MGMzYjM0ZDgwOWE0ZDU5MDhjNThiNWVkNmE4OTFiOGJkZDBiY2ExNjA2NWNkNTVmMGQ4ZGUwYyJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:farmer'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:farmer'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_fisherman",
@@ -1969,7 +1993,9 @@
                         "name": "Fisherman Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY1ZDM4MTlhNjVkYjc5YzQ1ZmQwMDE0MWMwODgyZTQ3YWQyMzRjMGU1Zjg5OTJiZjRhZjE4Y2VkMGUxZWNkYyJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:fisherman'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:fisherman'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_fletcher",
@@ -1977,7 +2003,9 @@
                         "name": "Fletcher Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJkNjc3NjY4ODQwN2FhYzFiNDUxY2Q2OWEwYThiZmRlYzFmOWE3MDFhYjg2YTM5ZDM3NzdlNDQ4NjM5NTAzZSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:fletcher'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:fletcher'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_leatherworker",
@@ -1985,7 +2013,9 @@
                         "name": "Leatherworker Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4ZmNmYjE5YTQ4MDMxODNlZDU3YjNhYjQ4NTYyZGViZGMwZTgwNDkxZTk3NGJiNjI2OTBkZGU5NDIwZDI4YSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_librarian",
@@ -1993,7 +2023,9 @@
                         "name": "Librarian Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYxZjU3NjJhM2ZhZjUyOTA0NGNmNDU2MDU0YjhlNmQ2YmE4YjI4NzMwOGE4YTA4YjI4NzA3MGY4ZDE2ZWZlNSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:librarian'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:librarian'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_mason",
@@ -2001,7 +2033,9 @@
                         "name": "Mason Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMwMmMzZmZkNTcwNWFiNDg4YjMwNWQ1N2ZmMDE2OGUyNmRlNzBmZDNmNzM5ZTgzOTY2MWFiOTQ3ZGZmMzdiMSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:mason'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:mason'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.celebrate",
@@ -2009,7 +2043,9 @@
                         "name": "Nitwit Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU0MWU4ZWJjODgxYzhhMDJmZTRhZjQ0ZjI5MjhlYTkxODhiNTM5ZmQ1NjFiNWIzZmQ3MzE4OTZjMzNiYjUyNCJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:nitwit'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:nitwit'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.ambient",
@@ -2017,7 +2053,9 @@
                         "name": "Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIyZDhlNzUxYzhmMmZkNGM4OTQyYzQ0YmRiMmY1Y2E0ZDhhZThlNTc1ZWQzZWIzNGMxOGE4NmU5M2IifX19"
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:none'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:none'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_shepherd",
@@ -2025,7 +2063,9 @@
                         "name": "Shepherd Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNmY2IwNTJmNDAxZWQ3NTU5NjZiNTdhNjVhODYwNGI2NDdkYmUzZGQzMmI5YTRiMmI5Y2FlNzAxZWRhYzllNiJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:shepherd'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:shepherd'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_toolsmith",
@@ -2033,7 +2073,9 @@
                         "name": "Toolsmith Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTA3ZmQxMjQ0ZWI4OTQ1ZjRlZGVkZDAwNDI2NzUwYjc3ZWY1ZGZiYWYwM2VkNzc1NjMzNDU5ZWNlNDE1YSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.villager.work_weaponsmith",
@@ -2041,7 +2083,9 @@
                         "name": "Weaponsmith Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQxMzkyOWMxYzYyNjRiZTkzZGUxNTYyMGU4ZTA0MWMwOWI4MmI4YzAwM2MzZWNiOGJhY2MzNWNlNzY3MGI0MiJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -2145,7 +2189,9 @@
                         "name": "Pale Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM4M2YyNmY0MjAwMDRkYmQzZWYxNWFlMDUyMTM2MTg4N2UxZTRkN2ZjYzRmNGJmYjBmZTFmNTRiMTZlNzcxMSJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:pale\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:pale\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.ambient",
@@ -2153,7 +2199,9 @@
                         "name": "Woods Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU4YzJhNmUxMDRhM2U5ZDczOTczMjZmMDFiZjI1ODYyZjBhYWY5ZTM4MzBkNDlkYmI5YjRhNDMwNTM1ODQwNCJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:woods\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:woods\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.howl",
@@ -2161,7 +2209,9 @@
                         "name": "Ashen Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5NzU0ZjBjZmY0MTk1NzhjZTk0YjVjODg2NjZkMjZkMDI3NWZmMmNjNzEzYjZlMzQ2MWI5MzViYWFjODQ0ZiJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:ashen\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:ashen\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.whine",
@@ -2169,7 +2219,9 @@
                         "name": "Black Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTgyZjY0NzMxNWE3OGM0ZTEwZTQwNTcxYTRiODI5OTZlZjllNmQzOGI1MjVmN2JhNzcwY2RmZThlZWVkYmFjNiJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:black\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:black\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.pant",
@@ -2177,7 +2229,9 @@
                         "name": "Chestnut Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxYTA3NDhiYTBmN2YwZGY0Y2RlM2Q5YjllZGNiMzVkYjIyNzNjZDQ1YjIxOTFhNWQyMzE1Y2Y4ZTc1NmNhZiJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:chestnut\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:chestnut\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.howl",
@@ -2185,7 +2239,9 @@
                         "name": "Rusty Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcwNDc3N2NjNTM2Mzc1N2E4NjM3YTE3NjM4ZWRhODM0ODdiMDM2MTVjOTk5ZjEyYTJjZDY1MzU4YWZlNGEwOCJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:rusty\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:rusty\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.pant",
@@ -2193,7 +2249,9 @@
                         "name": "Spotted Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E4MjM1M2JjYzk1YTVhMDgxMjI3OTFlOTU3MmRlNzg1ZDlhZmRhZDZjZWJkYzUyMDUzMjQ2Yjk0YjZlODYxIn19fQ=="
                     },
-                    "condition": "{variant:\"minecraft:spotted\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:spotted\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.ambient",
@@ -2201,7 +2259,9 @@
                         "name": "Striped Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmM0NmNmNDkyYWE1NTYxMjlmNzkxZTBiZWRjMDQ5NjQyNjNiNDk5NzYwYzk4OGFlMTc0MGZlMjc4Yzc2ZTEwYSJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:striped\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:striped\"}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.wolf.howl",
@@ -2209,7 +2269,9 @@
                         "name": "Snowy Wolf",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ4NzdlNTJkOTM2MTI3OGEzNzM2ZmNhYWE1ZDcwZWIxNDc4NWMxYTk5NWJkYWJhNWRlOTFlZDg4NjQ1OWVhOCJ9fX0="
                     },
-                    "condition": "{variant:\"minecraft:snowy\"}"
+                    "conditions": [
+                        "{variant:\"minecraft:snowy\"}"
+                    ]
                 }
             ],
             "group": "uncommon"
@@ -2236,7 +2298,9 @@
                         "name": "Zombie Armorer",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg2NzllMDM0NzY3ZDUxODY2MGQ5NDE2ZGM1ZWFmMzE5ZDY5NzY4MmFjNDBjODg2ZTNjMmJjOGRmYTFkZTFkIn19fQ=="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:armorer'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:armorer'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.ambient",
@@ -2244,7 +2308,9 @@
                         "name": "Zombie Butcher",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNjZThkNmNlNDEyNGNlYzNlODRhODUyZTcwZjUwMjkzZjI0NGRkYzllZTg1NzhmN2Q2ZDg5MjllMTZiYWQ2OSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:butcher'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:butcher'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.ambient",
@@ -2252,7 +2318,9 @@
                         "name": "Zombie Cartographer",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwODAwYjAxMDEyZTk2M2U3YzIwYzhiYTE0YjcwYTAyNjRkMTQ2YTg1MGRlZmZiY2E3YmZlNTEyZjRjYjIzZCJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:cartographer'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:cartographer'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.converted",
@@ -2260,7 +2328,9 @@
                         "name": "Zombie Cleric",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk1ODU3OGJlMGUxMjE3MjczNGE3ODI0MmRhYjE0OTY0YWJjODVhYjliNTk2MzYxZjdjNWRhZjhmMTRhMGZlYiJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:cleric'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:cleric'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.converted",
@@ -2268,7 +2338,9 @@
                         "name": "Zombie Farmer",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc3ZDQxNWY5YmFhNGZhNGI1ZTA1OGY1YjgxYmY3ZjAwM2IwYTJjOTBhNDgzMWU1M2E3ZGJjMDk4NDFjNTUxMSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:farmer'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:farmer'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.converted",
@@ -2276,7 +2348,9 @@
                         "name": "Zombie Fisherman",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkwNWQ1M2ZlNGZhZWIwYjMxNWE2ODc4YzlhYjgxYjRiZTUyYzMxY2Q0NzhjMDI3ZjBkN2VjZTlmNmRhODkxNCJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:fisherman'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:fisherman'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.cure",
@@ -2284,7 +2358,9 @@
                         "name": "Zombie Fletcher",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVhMjZhYzBlMjU0OThhZGFkYTRlY2VhNThiYjRlNzZkYTMyZDVjYTJkZTMwN2VmZTVlNDIxOGZiN2M1ZWY4OSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:fletcher'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:fletcher'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.cure",
@@ -2292,7 +2368,9 @@
                         "name": "Zombie Leatherworker",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWIyMzg4YjIzZGRkNmE5YTU3NzZmZjJlOGNhNTViNGVmZTMwOTBjYWFmOTY3YzIyNzY5YzU3NmIwYTQwYjg4NSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.cure",
@@ -2300,7 +2378,9 @@
                         "name": "Zombie Librarian",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIyMTFhMWY0MDljY2E0MjQ5YzcwZDIwY2E4MDM5OWZhNDg0NGVhNDE3NDU4YmU5ODhjYzIxZWI0Nzk3Mzc1ZSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:librarian'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:librarian'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.hurt",
@@ -2308,7 +2388,9 @@
                         "name": "Zombie Mason",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:mason'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:mason'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.hurt",
@@ -2316,7 +2398,9 @@
                         "name": "Zombie Nitwit",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGEyN2U0MjBmNDRmOWJiMDZjN2IzNjg0MDJiMjJhZjZkYzU3YmY5ZThjYTM0NzU4NDBmNmY3NWUyMTc4MDljMSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:nitwit'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:nitwit'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.hurt",
@@ -2324,7 +2408,9 @@
                         "name": "Zombie Villager",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVlMDhhODc3NmMxNzY0YzNmZTZhNmRkZDQxMmRmY2I4N2Y0MTMzMWRhZDQ3OWFjOTZjMjFkZjRiZjNhYzg5YyJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:none'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:none'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.step",
@@ -2332,7 +2418,9 @@
                         "name": "Zombie Shepherd",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjkxMzkxYmVmM2E0NmVmMjY3ZDNiNzE3MTA4NmJhNGM4ZDE3ZjJhNmIwZjgzZmEyYWMzMGVmZTkxNGI3YzI0OSJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:shepherd'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:shepherd'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.step",
@@ -2340,7 +2428,9 @@
                         "name": "Zombie Toolsmith",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAwODkzZDMxYWNkMGU4NDIzMjkyZDQxMTNjZTkxZTI3M2QxZTU3ZTVlMTA0YmFhZmM4NTNiMmU4NjRjYjQzZiJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                    ]
                 },
                 {
                     "note_block_sound": "minecraft:entity.zombie_villager.step",
@@ -2348,7 +2438,9 @@
                         "name": "Zombie Weaponsmith",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM3MDg5NGI1Y2MzMDVkODdhYTA4YzNiNGIwODU4N2RiNjhmZjI5ZTdhM2VmMzU0Y2FkNmFiY2E1MGU1NTI4YiJ9fX0="
                     },
-                    "condition": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                    "conditions": [
+                        "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                    ]
                 }
             ],
             "group": "uncommon"

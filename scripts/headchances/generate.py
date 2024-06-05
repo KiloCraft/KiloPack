@@ -147,14 +147,23 @@ def create_loot_table_pool(heads: dict, group: dict) -> dict:
                     "enchantment": "minecraft:looting"
                 }
             ]}
-        if "condition" in head:
+        if "conditions" in head:
+            terms = []
+
+            for cond in head['conditions']:
+                terms.append(
+                    {
+                        "condition": "entity_properties",
+                        "predicate": {
+                            "nbt": f"{cond}"
+                        },
+                        "entity": "this"
+                    }
+                )
             entry["conditions"].append(
                 {
-                    "condition": "entity_properties",
-                    "predicate": {
-                        "nbt": f"{head['condition']}"
-                    },
-                    "entity": "this"
+                    "condition": "any_of",
+                    "terms": terms
                 }
             )
         entries.append(entry)

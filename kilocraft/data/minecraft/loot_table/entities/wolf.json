@@ -40,11 +40,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:pale\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:pale\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -83,11 +88,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:woods\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:woods\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -126,11 +136,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:ashen\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:ashen\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -169,11 +184,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:black\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:black\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -212,11 +232,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:chestnut\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:chestnut\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -255,11 +280,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:rusty\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:rusty\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -298,11 +328,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:spotted\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:spotted\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -341,11 +376,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:striped\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:striped\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -384,11 +424,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{variant:\"minecraft:snowy\"}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:snowy\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

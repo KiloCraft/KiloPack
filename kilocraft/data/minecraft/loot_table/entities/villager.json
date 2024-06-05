@@ -40,11 +40,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:armorer'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:armorer'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -83,11 +88,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:butcher'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:butcher'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -126,11 +136,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:cartographer'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:cartographer'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -169,11 +184,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:cleric'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:cleric'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -212,11 +232,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:farmer'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:farmer'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -255,11 +280,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:fisherman'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:fisherman'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -298,11 +328,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:fletcher'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:fletcher'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -341,11 +376,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:leatherworker'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -384,11 +424,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:librarian'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:librarian'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -427,11 +472,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:mason'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:mason'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -470,11 +520,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:nitwit'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:nitwit'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -513,11 +568,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:none'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:none'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -556,11 +616,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:shepherd'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:shepherd'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -599,11 +664,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:toolsmith'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:toolsmith'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -642,11 +712,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

@@ -40,11 +40,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{HasNectar:0b,HasStung:0b}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{HasNectar:0b,HasStung:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -83,11 +88,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{HasNectar:0b,HasStung:1b}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{HasNectar:0b,HasStung:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -126,11 +136,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{HasNectar:1b,HasStung:0b}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{HasNectar:1b,HasStung:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -169,11 +184,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{HasNectar:1b,HasStung:1b}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{HasNectar:1b,HasStung:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

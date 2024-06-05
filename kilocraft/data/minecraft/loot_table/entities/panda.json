@@ -56,11 +56,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'aggressive'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'aggressive'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -99,11 +104,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'brown'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'brown'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -142,11 +152,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'lazy'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'lazy'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -185,11 +200,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'normal'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'normal'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -228,11 +248,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'playful'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'playful'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -271,11 +296,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'weak'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'weak'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -314,11 +344,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{MainGene:'worried'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{MainGene:'worried'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

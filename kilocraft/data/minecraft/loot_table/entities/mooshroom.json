@@ -135,11 +135,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{Type:'brown'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Type:'brown'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -178,11 +183,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{Type:'red'}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Type:'red'}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }

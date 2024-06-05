@@ -69,11 +69,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{Fire:-1s}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Fire:-1s}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         },
@@ -112,11 +117,16 @@
               "enchantment": "minecraft:looting"
             },
             {
-              "condition": "entity_properties",
-              "predicate": {
-                "nbt": "{Fire:0s}"
-              },
-              "entity": "this"
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Fire:0s}"
+                  },
+                  "entity": "this"
+                }
+              ]
             }
           ]
         }
