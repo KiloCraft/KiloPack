@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": "Time to Go Camping!",
+    "description": "Eat marshmallows, play cards and enjoy the peace of nature.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 133,
+                  "max": 144
+                },
+                "y": {
+                  "min": 87,
+                  "max": 88
+                },
+                "z": {
+                  "min": 151,
+                  "max": 161
+                }
+              },
+              "dimension": "kilocraft:mighty_highlands"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

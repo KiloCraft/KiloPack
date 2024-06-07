@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": "Sounds Dangerous...",
+    "description": "Visit an ocean monument and a woodland mansion.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/structures1",
+  "criteria": {
+    "minecraft:monument": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:monument",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:mansion": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:mansion",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

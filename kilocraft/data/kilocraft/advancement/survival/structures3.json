@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": "No Risk, No Fun",
+    "description": "Visit an ancient city and the trial chambers.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/structures2",
+  "criteria": {
+    "minecraft:ancient_city": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:ancient_city",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:trial_chambers": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:trial_chambers",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

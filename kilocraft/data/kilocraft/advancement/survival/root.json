@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "count": 1,
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "pattern": "minecraft:base",
+            "color": "pink"
+          },
+          {
+            "pattern": "minecraft:gradient_up",
+            "color": "orange"
+          },
+          {
+            "pattern": "minecraft:gradient_up",
+            "color": "lime"
+          },
+          {
+            "pattern": "minecraft:gradient_up",
+            "color": "light_blue"
+          },
+          {
+            "pattern": "minecraft:small_stripes",
+            "color": "black"
+          },
+          {
+            "pattern": "minecraft:stripe_left",
+            "color": "black"
+          },
+          {
+            "pattern": "minecraft:stripe_right",
+            "color": "black"
+          }
+        ]
+      }
+    },
+    "title": "KiloCraft Survival",
+    "description": "Walk through the Wilderness Portal and start your KiloCraft journey!",
+    "background": "minecraft:textures/block/light_gray_concrete_powder.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

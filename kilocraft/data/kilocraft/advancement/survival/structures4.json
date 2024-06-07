@@ -1,0 +1,264 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": "Dora the Explorer",
+    "description": "Visit every single overworld structure.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kilocraft:survival/structures3",
+  "criteria": {
+    "minecraft:ancient_city": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:ancient_city",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:mineshaft": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": [
+                "minecraft:mineshaft",
+                "minecraft:mineshaft_mesa"
+              ],
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:stronghold": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:stronghold",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:buried_treasure": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:buried_treasure",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:trail_ruins": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:trail_ruins",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:desert_pyramid": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:desert_pyramid",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:igloo": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:igloo",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:jungle_pyramid": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:jungle_pyramid",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:pillager_outpost": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:pillager_outpost",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:swamp_hut": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:swamp_hut",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:village": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "#minecraft:village",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:mansion": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:mansion",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:ruined_portal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": [
+                "minecraft:ruined_portal",
+                "minecraft:ruined_portal_desert",
+                "minecraft:ruined_portal_jungle",
+                "minecraft:ruined_portal_mountain",
+                "minecraft:ruined_portal_ocean",
+                "minecraft:ruined_portal_swamp"
+              ],
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:ocean_ruins": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "#minecraft:ocean_ruin",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:shipwreck": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "#minecraft:shipwreck",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:monument": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:monument",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:trial_chambers": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:trial_chambers",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

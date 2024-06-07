@@ -1,0 +1,199 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY0ZTFjM2UzMTVjOGQ4ZmZmYzM3OTg1YjY2ODFjNWJkMTZhNmY5N2ZmZDA3MTk5ZThhMDVlZmJlZjEwMzc5MyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Ahead of your time",
+    "description": "Obtain and fill your whole inventory with 38 mob heads",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/heads/nine_mob_heads",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "hotbar.0": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.1": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.2": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.3": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.4": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.5": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.6": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.7": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "hotbar.8": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.0": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.1": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.2": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.3": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.4": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.5": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.6": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.7": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.8": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.9": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.10": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.11": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.12": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.13": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.14": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.15": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.16": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.17": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.18": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.19": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.20": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.21": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.22": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.23": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.24": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.25": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "inventory.26": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "weapon.offhand": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                },
+                "armor.head": {
+                  "items": "minecraft:player_head",
+                  "count": 1
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:player_head"
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

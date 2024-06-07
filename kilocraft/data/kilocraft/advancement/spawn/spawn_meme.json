@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "Always Has Been",
+    "description": "Now you know.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 154,
+                  "max": 155
+                },
+                "y": {
+                  "min": 77,
+                  "max": 85
+                },
+                "z": {
+                  "min": 139,
+                  "max": 140
+                }
+              },
+              "dimension": "kilocraft:mighty_highlands"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
