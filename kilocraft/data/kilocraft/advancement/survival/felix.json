@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "count": 1,
+      "components": {
+        "profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThlY2FmMTEwOGIyZWI4MDAyNmNkNmIwZjEwMmI4Mzk4ZWI2NzQ5MjA1MWFkMDRjZDc0MWUwMjhiODczM2ZlNyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Felix Baumgartner",
+    "description": "Free fall from 10000 blocks (or higher) and survive.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/elytra",
+  "criteria": {
+    "fall_from_world_height": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {}
+            }
+          }
+        ],
+        "start_position": {
+          "position": {
+            "y": {
+              "min": 10000
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fall_from_world_height"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

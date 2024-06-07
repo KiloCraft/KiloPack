@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": "Houston, We Have a Problem",
+    "description": "Reduce an elytra to 1 durability above 500 blocks height.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": 500,
+                  "max": 1000000
+                }
+              },
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ],
+        "durability": 1,
+        "item": {
+          "items": "minecraft:elytra"
+        }
+      }
+    }
+  }
+}

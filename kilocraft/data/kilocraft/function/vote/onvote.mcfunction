@@ -11,6 +11,9 @@ scoreboard players add @s kevote_month 1
 function kilocraft:crate/give
 function kilocraft:util/playtime/rankup
 
+#advancement
+execute if entity @s[advancements={kilocraft:survival/vote=false}] run advancement grant @s only kilocraft:survival/vote
+
 #reset
 scoreboard players reset #kevote_credits ke_var
 scoreboard players remove @s kevote_voted 1

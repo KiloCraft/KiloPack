@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title": "Old School",
+    "description": "Visit a desert pyramid and a jungle temple.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/root",
+  "criteria": {
+    "minecraft:desert_pyramid": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:desert_pyramid",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:jungle_pyramid": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:jungle_pyramid",
+              "dimension": "minecraft:overworld"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

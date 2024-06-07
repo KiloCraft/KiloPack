@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield",
+      "count": 1,
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "pattern": "minecraft:base",
+            "color": "pink"
+          },
+          {
+            "pattern": "minecraft:gradient_up",
+            "color": "orange"
+          },
+          {
+            "pattern": "minecraft:gradient_up",
+            "color": "lime"
+          },
+          {
+            "pattern": "minecraft:gradient_up",
+            "color": "light_blue"
+          },
+          {
+            "pattern": "minecraft:small_stripes",
+            "color": "black"
+          },
+          {
+            "pattern": "minecraft:stripe_left",
+            "color": "black"
+          },
+          {
+            "pattern": "minecraft:stripe_right",
+            "color": "black"
+          }
+        ]
+      }
+    },
+    "title": "Welcome to KiloCraft!",
+    "description": "You joined KiloCraft Season 10 for the very first time!",
+    "background": "minecraft:textures/block/light_blue_terracotta.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location"
+    }
+  }
+}
