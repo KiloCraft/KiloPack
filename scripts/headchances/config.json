@@ -2114,7 +2114,7 @@
                     }
                 }
             ],
-            "group": "very_common"
+            "group": "common"
         },
         "minecraft:warden": {
             "name": "Warden",

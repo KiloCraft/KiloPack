@@ -21,7 +21,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Wandering Trader\", \"italic\": false, \"color\": \"yellow\"}"
+                "minecraft:custom_name": "{\"text\": \"Wandering Trader\", \"italic\": false, \"color\": \"green\"}"
               }
             }
           ],
@@ -31,11 +31,11 @@
             },
             {
               "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.2,
+              "unenchanted_chance": 0.1,
               "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.30000000000000004,
-                "per_level_above_first": 0.1
+                "base": 0.15000000000000002,
+                "per_level_above_first": 0.05
               },
               "enchantment": "minecraft:looting"
             }
