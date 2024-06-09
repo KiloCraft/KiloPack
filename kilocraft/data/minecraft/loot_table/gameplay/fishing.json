@@ -32,13 +32,13 @@
           "type": "minecraft:loot_table",
           "quality": -1,
           "value": "minecraft:gameplay/fishing/fish",
-          "weight": 65
+          "weight": 75
         },
         {
           "type": "minecraft:loot_table",
-          "quality": 1,
+          "quality": 0.5,
           "value": "kilocraft:kilofishing",
-          "weight": 20
+          "weight": 10
         }
       ],
       "rolls": 1.0
