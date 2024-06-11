@@ -7,7 +7,7 @@
     "description": "Stand on the nose of the fox statue whilst holding the \"Creator\" disc.",
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
   "parent": "kilocraft:spawn/root",
