@@ -5,7 +5,7 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:shulker",
-                    "nbt": "{Tags:[\"kecrate_shulker\"]}"
+                    "nbt": "{Tags:[\"kecrate\"]}"
                 }
             }
         }

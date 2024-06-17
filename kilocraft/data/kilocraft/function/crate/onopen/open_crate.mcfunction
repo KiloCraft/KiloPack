@@ -7,7 +7,7 @@ loot give @s loot kilocraft:votes
 playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1
 
 #Display Particles
-execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:end_rod ^ ^0.3 ^ 0.5 0.001 -0.5 0.03 2
+execute as e48b1142-8994-4226-8a4e-3cb4882b9219 at @s rotated as @s run particle minecraft:end_rod ^ ^0.3 ^ 0.5 0.001 -0.5 0.03 2
 
 #Remove the Key
 clear @s[gamemode=!creative, nbt={Inventory:[{id:"minecraft:firework_star", components:{"minecraft:custom_data":{VoteKey: 1b}}}]}] minecraft:firework_star[minecraft:custom_data={VoteKey:1b}] 1

@@ -1,5 +1,1 @@
-execute as @e[tag=kecrate_particle] at @s run tp @s ~ ~ ~ ~3 ~
-execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:portal ^ ^ ^1 0.001 0.001 0.001 0 3 force @a
-execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:portal ^ ^ ^-1 0.001 0.001 0.001 0 3 force @a
-execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:portal ^1 ^ ^ 0.001 0.001 0.001 0 3 force @a
-execute as @e[tag=kecrate_particle] at @s rotated as @s run particle minecraft:portal ^-1 ^ ^ 0.001 0.001 0.001 0 3 force @a
+execute as e48b1142-8994-4226-8a4e-3cb4882b9219 at @s run function kilocraft:crate/particle
