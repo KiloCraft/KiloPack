@@ -37,7 +37,9 @@ def download_jar():
 def extract_loot_tables():
     with zipfile.ZipFile(client_jar, "r") as zip:
         for file in zip.infolist():
-            match = re.search(r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_table/entities/([\w_\d]+/)*\w+.json)", file.filename)
+            match = re.search(
+                r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_table/entities/([\w_\d]+/)*\w+.json)",
+                file.filename)
             if match:
                 destination_path = os.path.join(cache, match.group(1))
                 if os.path.exists(destination_path):
@@ -194,6 +196,30 @@ def remove_emeralds():
                 loot_table_data[entity_id] = entity_json
 
 
+def add_dragon_egg():
+    file_path = os.path.join(cache, VANILLA_LOOT_TABLE_PATH, "ender_dragon.json")
+    with open(file_path, "r") as f:
+        entity_json = json.load(f)
+        entity_json["pools"] = [
+            {
+                "rolls": 1,
+                "entries": [
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:dragon_egg"
+                    }
+                ],
+                "conditions": [
+                    {
+                        "condition": "minecraft:random_chance",
+                        "chance": 0.2
+                    }
+                ]
+            }
+        ]
+        loot_table_data["minecraft:ender_dragon"] = entity_json
+
+
 def save_loot_tables():
     loot_tables = os.path.join(datapack_root, get_loot_table_path("minecraft"))
     if os.path.exists(loot_tables) and os.path.isdir(loot_tables):
@@ -337,6 +363,8 @@ print("Generating data:")
 loot_table_data = {}
 print("- Removing emeralds")
 remove_emeralds()
+print("- Adding dragon egg drop")
+add_dragon_egg()
 print("- Applying mob heads")
 modify_loot_tables(config)
 print("- Applying monthly heads")
