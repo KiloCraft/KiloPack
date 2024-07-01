@@ -27,19 +27,6 @@
           ],
           "conditions": [
             {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.004,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.006,
-                "per_level_above_first": 0.002
-              },
-              "enchantment": "minecraft:looting"
-            },
-            {
               "condition": "any_of",
               "terms": [
                 {
@@ -74,19 +61,6 @@
             }
           ],
           "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.004,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.006,
-                "per_level_above_first": 0.002
-              },
-              "enchantment": "minecraft:looting"
-            },
             {
               "condition": "any_of",
               "terms": [
@@ -123,19 +97,6 @@
           ],
           "conditions": [
             {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.004,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.006,
-                "per_level_above_first": 0.002
-              },
-              "enchantment": "minecraft:looting"
-            },
-            {
               "condition": "any_of",
               "terms": [
                 {
@@ -171,19 +132,6 @@
           ],
           "conditions": [
             {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.004,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.006,
-                "per_level_above_first": 0.002
-              },
-              "enchantment": "minecraft:looting"
-            },
-            {
               "condition": "any_of",
               "terms": [
                 {
@@ -196,6 +144,21 @@
               ]
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.004,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.006,
+            "per_level_above_first": 0.002
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     }

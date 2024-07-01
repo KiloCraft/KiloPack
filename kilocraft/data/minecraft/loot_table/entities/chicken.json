@@ -110,22 +110,22 @@
                 "minecraft:custom_name": "{\"text\": \"Chicken\", \"italic\": false, \"color\": \"light_purple\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.004,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.006,
-                "per_level_above_first": 0.002
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.004,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.006,
+            "per_level_above_first": 0.002
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     },
@@ -151,22 +151,22 @@
                 "minecraft:custom_name": "{\"text\": \"Bluebird\", \"italic\": false, \"color\": \"red\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.015,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.02,
-                "per_level_above_first": 0.005
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.015,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.02,
+            "per_level_above_first": 0.005
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     }

@@ -56,21 +56,6 @@
                 "minecraft:custom_name": "{\"text\": \"Tropical Fish\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
         },
         {
@@ -91,21 +76,6 @@
                 },
                 "minecraft:custom_name": "{\"text\": \"Cotton Candy Fish\", \"italic\": false, \"color\": \"blue\"}"
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
             }
           ]
         },
@@ -128,21 +98,6 @@
                 "minecraft:custom_name": "{\"text\": \"Goatfish\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
         },
         {
@@ -163,21 +118,6 @@
                 },
                 "minecraft:custom_name": "{\"text\": \"Parrotfish\", \"italic\": false, \"color\": \"blue\"}"
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
             }
           ]
         },
@@ -200,21 +140,6 @@
                 "minecraft:custom_name": "{\"text\": \"Queen Angelfish\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
         },
         {
@@ -235,21 +160,6 @@
                 },
                 "minecraft:custom_name": "{\"text\": \"Red Lipped Fish\", \"italic\": false, \"color\": \"blue\"}"
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
             }
           ]
         },
@@ -272,21 +182,6 @@
                 "minecraft:custom_name": "{\"text\": \"Red Snapper Fish\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
         },
         {
@@ -307,21 +202,6 @@
                 },
                 "minecraft:custom_name": "{\"text\": \"Triggerfish\", \"italic\": false, \"color\": \"blue\"}"
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
             }
           ]
         },
@@ -344,21 +224,6 @@
                 "minecraft:custom_name": "{\"text\": \"Yellowtail Parrotfish\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
         },
         {
@@ -380,22 +245,22 @@
                 "minecraft:custom_name": "{\"text\": \"Blue Dory Fish\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.055,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.07,
+            "per_level_above_first": 0.015
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     }
