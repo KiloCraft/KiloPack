@@ -33,22 +33,22 @@
                 "minecraft:custom_name": "{\"text\": \"Warden\", \"italic\": false, \"color\": \"yellow\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.2,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.30000000000000004,
-                "per_level_above_first": 0.1
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.2,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.30000000000000004,
+            "per_level_above_first": 0.1
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     }

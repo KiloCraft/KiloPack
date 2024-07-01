@@ -89,22 +89,22 @@
                 "minecraft:custom_name": "{\"text\": \"Dolphin\", \"italic\": false, \"color\": \"blue\"}"
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "killed_by_player"
-            },
-            {
-              "condition": "random_chance_with_enchanted_bonus",
-              "unenchanted_chance": 0.055,
-              "enchanted_chance": {
-                "type": "minecraft:linear",
-                "base": 0.07,
-                "per_level_above_first": 0.015
-              },
-              "enchantment": "minecraft:looting"
-            }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.055,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.07,
+            "per_level_above_first": 0.015
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     }

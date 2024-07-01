@@ -132,23 +132,8 @@ def create_loot_table_pool(heads: dict, group: dict) -> dict:
                         "minecraft:custom_name": json.dumps(name)
                     }
                 }
-            ],
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "random_chance_with_enchanted_bonus",
-                    "unenchanted_chance": base_chance * 0.01,
-                    "enchanted_chance": {
-                        "type": "minecraft:linear",
-                        # chance of level 1
-                        "base": base_chance * 0.01 + looting_chance * 0.01,
-                        "per_level_above_first": looting_chance * 0.01
-                    },
-                    "enchantment": "minecraft:looting"
-                }
-            ]}
+            ]
+        }
         if "conditions" in head:
             terms = []
 
@@ -162,14 +147,30 @@ def create_loot_table_pool(heads: dict, group: dict) -> dict:
                         "entity": "this"
                     }
                 )
-            entry["conditions"].append(
+            entry["conditions"] = [
                 {
                     "condition": "any_of",
                     "terms": terms
                 }
-            )
+            ]
         entries.append(entry)
     pool["entries"] = entries
+    pool["conditions"] = [
+        {
+            "condition": "killed_by_player"
+        },
+        {
+            "condition": "random_chance_with_enchanted_bonus",
+            "unenchanted_chance": base_chance * 0.01,
+            "enchanted_chance": {
+                "type": "minecraft:linear",
+                # chance of level 1
+                "base": base_chance * 0.01 + looting_chance * 0.01,
+                "per_level_above_first": looting_chance * 0.01
+            },
+            "enchantment": "minecraft:looting"
+        }
+    ]
     return pool
 
 
