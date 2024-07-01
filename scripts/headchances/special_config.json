@@ -1,56 +1,56 @@
 {
     "entities": {
-        "minecraft:turtle": {
-            "name": "Turtle",
+        "minecraft:ghast": {
+            "name": "Ghast",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:entity.generic.drink",
+                    "note_block_sound": "minecraft:entity.snowball.throw",
                     "profile": {
-                        "name": "Coconut Drink",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY1YTIzZjAzYzQ4MWVkNWY3YTA1NzJkMmNlOWE3Zjg3MTM5Yjg1ZGQ4MTI0MTQ0MTU0MmJlOTc3MzExZDExYSJ9fX0="
+                        "name": "Beach Ball",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNjMmYxYzVkMmM4ZjBlMzM3MzBjMTRkY2ExYzFkMWUxYWJkODU5NmIwODM5ZDY3MzhkMThmNDY0MzJiNmZhNiJ9fX0="
                     }
                 }
             ],
-            "group": "coconut"
+            "group": "beach_ball"
         },
-        "minecraft:husk": {
-            "name": "Husk",
+        "minecraft:bogged": {
+            "name": "Bogged",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:block.sand.place",
+                    "note_block_sound": "minecraft:entity.generic.eat",
                     "profile": {
-                        "name": "Sandcastle",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlZTRjYzcxZjY3Mjg1MjBjYTdjOWNhOTAxMDRjNjdmNGVmNmRiZjQwMDgyZWJhYWNjZjk2NDI0NDdlOWEwYiJ9fX0="
+                        "name": "Tomato",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkxNzIyMjZkMjc2MDcwZGMyMWI3NWJhMjVjYzJhYTU2NDlkYTVjYWM3NDViYTk3NzY5NWI1OWFlYmQifX19"
                     }
                 }
             ],
-            "group": "sandcastle"
+            "group": "tomato"
         },
-        "minecraft:chicken": {
-            "name": "Chicken",
+        "minecraft:pig": {
+            "name": "Pig",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:entity.chicken.egg",
+                    "note_block_sound": "minecraft:entity.experience_orb.pickup",
                     "profile": {
-                        "name": "Bluebird",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE4YWMxNWYwZjNhMTA4ZWE2N2Q0YzE3ZWM0NjI3YTBkNGMyNWVhOTFkNmRlYWJmYzE3YjI4MDY4NjM1OGU3MSJ9fX0="
+                        "name": "Piggy Bank",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19"
                     }
                 }
             ],
-            "group": "bluebird"
+            "group": "piggy_bank"
         }
     },
     "groups": {
-        "coconut": {
-            "base_chance": 2,
-            "looting_chance": 1
+        "beach_ball": {
+            "base_chance": 4,
+            "looting_chance": 2
         },
-        "sandcastle": {
+        "tomato": {
             "base_chance": 2.5,
             "looting_chance": 0.5
         },
-        "bluebird": {
-            "base_chance": 1.5,
+        "piggy_bank": {
+            "base_chance": 2.5,
             "looting_chance": 0.5
         }
     }
