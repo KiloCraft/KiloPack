@@ -1,7 +1,10 @@
-tellraw @s [{"text":"You have used a ","color":"#96EEEE"}, {"text":"Vote Crate Key","color":"#7AF631"}, {"text":"!","color":"#96EEEE"}]
 
 #Give the Loot
-loot give @s loot kilocraft:votes
+loot spawn ~ ~ ~ loot kilocraft:votes
+execute as @e[type=item,sort=nearest,limit=1] store result score count ke_var run data get entity @s Item.count
+tellraw @s ["",{"text":"You opened a ","color":"#96EEEE"},{"text":"Vote Crate","color":"#7AF631"},{"text":" and received ","color":"#96EEEE"},{"score":{"name":"count","objective":"ke_var"},"color":"#7AF631"}," ",{"selector":"@e[type=item,sort=nearest,limit=1]","color":"#7AF631"},{"text":"!","color":"#96EEEE"}]
+data modify entity @e[type=item,sort=nearest,limit=1] Owner set from entity @s UUID
+execute as @e[type=item,sort=nearest,limit=1] run data merge entity @s {PickupDelay:0}
 
 #Play Sound
 playsound minecraft:entity.player.levelup master @s ~ ~ ~ 1
