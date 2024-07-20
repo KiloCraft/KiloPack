@@ -179,24 +179,6 @@ def modify_loot_tables(config: dict):
         modify_loot_table(entity_id, entity, config["groups"])
 
 
-def remove_emeralds():
-    for file in os.listdir(os.path.join(cache, VANILLA_LOOT_TABLE_PATH)):
-        file_path = os.path.join(cache, VANILLA_LOOT_TABLE_PATH, file)
-        if not os.path.isfile(file_path):
-            continue
-        entity_id = "minecraft:" + file.replace(".json", "")
-        with open(file_path, "r") as f:
-            entity_json = json.load(f)
-            if "pools" not in entity_json:
-                continue
-            prev_len = len(entity_json["pools"])
-            entity_json["pools"] = [
-                pool for pool in entity_json["pools"] if not "minecraft:emerald" in json.dumps(pool)
-            ]
-            if prev_len != len(entity_json["pools"]):
-                loot_table_data[entity_id] = entity_json
-
-
 def add_dragon_egg():
     file_path = os.path.join(cache, VANILLA_LOOT_TABLE_PATH, "ender_dragon.json")
     with open(file_path, "r") as f:
@@ -362,8 +344,6 @@ with open("special_config.json", "r") as f:
 
 print("Generating data:")
 loot_table_data = {}
-print("- Removing emeralds")
-remove_emeralds()
 print("- Adding dragon egg drop")
 add_dragon_egg()
 print("- Applying mob heads")
