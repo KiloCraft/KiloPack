@@ -42,7 +42,7 @@ execute if permission @s group.champion unless permission @s group.ultimate run 
 execute unless permission @s group.champion run tellraw @s ["",{"text":"[Champion] - ","color":"#8C11E9","clickEvent":{"action":"run_command","value":"/trigger rankinfo set 9"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click for permission list]","color":"gold"}]}},{"text":"[5€/month] ","color":"gold","clickEvent":{"action":"run_command","value":"/store"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to visit store!","color":"gold"}]}}]
 
 #Ultimate
-execute if permission @s group.ultimate run tellmessage @s <hover:'<gold>[Click for permission list]'><run_cmd:'/trigger rankinfo set 9'><#F929F9>[Ultimate] - <r><green>You have %luckperms:inherited_group_expiry_time ultimate% left
+execute if permission @s group.ultimate run tellmessage @s <hover:'<gold>[Click for permission list]'><run_cmd:'/trigger rankinfo set 10'><#F929F9>[Ultimate] - <r><green>You have %luckperms:inherited_group_expiry_time ultimate% left
 execute unless permission @s group.ultimate run tellraw @s ["",{"text":"[Ultimate] - ","color":"#F929F9","clickEvent":{"action":"run_command","value":"/trigger rankinfo set 10"},"hoverEvent":{"action":"show_text","contents":[{"text":"[Click for permission list]","color":"gold"}]}},{"text":"[10€/month] ","color":"gold","clickEvent":{"action":"run_command","value":"/store"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click to visit store!","color":"gold"}]}}]
 
 #Staff Ranks
