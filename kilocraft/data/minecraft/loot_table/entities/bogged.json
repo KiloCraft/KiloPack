@@ -141,47 +141,6 @@
           "enchantment": "minecraft:looting"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:note_block_sound": "minecraft:entity.generic.eat",
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkxNzIyMjZkMjc2MDcwZGMyMWI3NWJhMjVjYzJhYTU2NDlkYTVjYWM3NDViYTk3NzY5NWI1OWFlYmQifX19"
-                    }
-                  ]
-                },
-                "minecraft:custom_name": "{\"text\": \"Tomato\", \"italic\": false, \"color\": \"red\"}"
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_enchanted_bonus",
-          "unenchanted_chance": 0.025,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.030000000000000002,
-            "per_level_above_first": 0.005
-          },
-          "enchantment": "minecraft:looting"
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/bogged"
