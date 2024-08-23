@@ -5,6 +5,7 @@
     },
     "title": "Level 1000",
     "description": "Obtain Xp Level 1000",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
