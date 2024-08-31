@@ -117,47 +117,6 @@
           "enchantment": "minecraft:looting"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:note_block_sound": "minecraft:entity.player.burp",
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMTVmYjRlOWEzMTE5MWYwY2I0ZGE1NmZlNjAzMzRkZDQ2ZWIzYTU4MjExMWI0ZjhmMjdlZGRiNzYwZTJjIn19fQ=="
-                    }
-                  ]
-                },
-                "minecraft:custom_name": "{\"text\": \"Green Apple\", \"italic\": false, \"color\": \"red\"}"
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_enchanted_bonus",
-          "unenchanted_chance": 0.02,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.03,
-            "per_level_above_first": 0.01
-          },
-          "enchantment": "minecraft:looting"
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/slime"

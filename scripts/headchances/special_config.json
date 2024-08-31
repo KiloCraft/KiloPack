@@ -1,57 +1,91 @@
 {
     "entities": {
-        "minecraft:slime": {
-            "name": "Slime",
+        "minecraft:cow": {
+            "name": "Cow",
             "heads": [
                 {
                     "note_block_sound": "minecraft:entity.player.burp",
                     "profile": {
-                        "name": "Green Apple",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMTVmYjRlOWEzMTE5MWYwY2I0ZGE1NmZlNjAzMzRkZDQ2ZWIzYTU4MjExMWI0ZjhmMjdlZGRiNzYwZTJjIn19fQ=="
+                        "name": "Burger",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E5Yzg3NTM3ODBlYmMzOWMzNTFkYThlZmQ5MWJjZTkwYmQ4Y2NhN2I1MTFmOTNlNzhkZjc1ZjY2MTVjNzlhNiJ9fX0="
                     }
                 }
             ],
-            "group": "green_apple"
+            "group": "burger"
+        },
+        "minecraft:ghast": {
+            "name": "Ghast",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:block.amethyst_block.resonate",
+                    "profile": {
+                        "name": "Sobbing Emoticon",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThmZWVjYTU2Y2MwYWFiYWFjNDZhZDQwMzY2OTBjZGM2NmRhM2M5ZjJjODVjMzcxYjY3OTUyZmU3Mzg5OGYwNCJ9fX0="
+                    }
+                }
+            ],
+            "group": "sobbing"
+        },
+        "minecraft:armadillo": {
+            "name": "Armadillo",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.panda.sneeze",
+                    "profile": {
+                        "name": "Hedgehog",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFiMmZkYWJjZjkzMTk3MjZhNTIwMjM2NDU1YWNkNDg3ODA5MzJjYmY2NjFmZTExMDVlNzExMzg4MjRlNDczYiJ9fX0="
+                    }
+                }
+            ],
+            "group": "hedgehog"
+        },
+        "minecraft:squid": {
+            "name": "Squid",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.panda.sneeze",
+                    "profile": {
+                        "name": "Grapes",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdlMzE2M2QyMTM3MDFhYWMwNjFkMDhlMzNiOTE1ZWYyZTEwZjUxNDI2MzMyY2VhNzU2ZjA3ZTkyY2JiMzU1YyJ9fX0="
+                    }
+                }
+            ],
+            "group": "grapes"
         },
         "minecraft:glow_squid": {
             "name": "Glow Squid",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:block.amethyst_block.resonate",
-                    "profile": {
-                        "name": "Winking Tongue",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNlZjIzNGIzZmU2YjQ5MmVlOWI4ZjFlMjYzNDFlMzAwMzZmOGE1MWRkODljZGM4NmU4MTczNDgxZWFjODAwMyJ9fX0="
-                    }
-                }
-            ],
-            "group": "winking_tongue"
-        },
-        "minecraft:panda": {
-            "name": "Panda",
-            "heads": [
-                {
                     "note_block_sound": "minecraft:entity.panda.sneeze",
                     "profile": {
-                        "name": "TV",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRkNTIxZDMyMWFiZTA2ZDEzOWU1ZjVjZjI5ZjY3MzRhNjViZWIzMWMxMzc5NGE1ZWMwZmRjZGExMjFiOWZlNiJ9fX0="
+                        "name": "Green Grapes",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U4MGM3M2I3NjVkOWYyZTJhMWFlNmQ5ZGY5NmM1ZmJjNjEyNmVlNTRmOWRmMGE0NmJiMWYwMGVmMGIwMjc5ZSJ9fX0="
                     }
                 }
             ],
-            "group": "tv"
+            "group": "green_grapes"
         }
     },
     "groups": {
-        "green_apple": {
-            "base_chance": 2,
+        "burger": {
+            "base_chance": 2.5,
+            "looting_chance": 0.5
+        },
+        "sobbing": {
+            "base_chance": 3,
             "looting_chance": 1
         },
-        "winking_tongue": {
+        "hedgehog": {
             "base_chance": 3,
-            "looting_chance": 1.5
+            "looting_chance": 1
         },
-        "tv": {
-            "base_chance": 5,
-            "looting_chance": 2.5
+        "grapes": {
+            "base_chance": 2.5,
+            "looting_chance": 0.5
+        },
+        "green_grapes": {
+            "base_chance": 3,
+            "looting_chance": 1
         }
     }
 }
