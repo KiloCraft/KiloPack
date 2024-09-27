@@ -5,7 +5,7 @@
     },
     "title": "Interdimensional Traveller",
     "description": "Visit All Structures",
-    "frame": "task",
+    "frame": "challenges",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
