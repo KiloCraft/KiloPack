@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title": "Interdimensional Traveller",
+    "description": "Visit a Nether Fortress a Bastion Remnant and an End City",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/structures2",
+  "criteria": {
+    "minecraft:fortress": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:fortress",
+              "dimension": "minecraft:nether"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:bastion_remnant": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:bastion_remnant",
+              "dimension": "minecraft:nether"
+            }
+          }
+        ]
+      }
+    },
+     "minecraft:end_city": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:end_city",
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
