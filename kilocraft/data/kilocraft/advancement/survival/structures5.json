@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "kilocraft:survival/structures2",
+  "parent": "kilocraft:survival/structures3",
   "criteria": {
     "minecraft:fortress": {
       "trigger": "minecraft:tick",
