@@ -53,7 +53,7 @@
           }
         ]
       }
-    }.
+    },
   "minecraft:ancient_city": {
       "trigger": "minecraft:tick",
       "conditions": {
