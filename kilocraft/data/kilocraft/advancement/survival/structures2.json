@@ -13,7 +13,7 @@
   "parent": "kilocraft:survival/structures1",
   "criteria": {
     "minecraft:monument": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -27,7 +27,7 @@
       }
     },
     "minecraft:mansion": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
