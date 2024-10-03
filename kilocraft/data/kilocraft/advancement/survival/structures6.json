@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:chiseled_sandstone"
     },
-    "title": "Interdimensional Traveller",
+    "title": "Visit ALl Structures",
     "description": "Visit All Structures",
     "frame": "challenges",
     "show_toast": true,
@@ -13,7 +13,7 @@
   "parent": "kilocraft:survival/structures5",
   "criteria": {
     "minecraft:fortress": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -27,7 +27,7 @@
       }
     },
     "minecraft:bastion_remnant": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -41,7 +41,7 @@
       }
     },
      "minecraft:end_city": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -55,7 +55,7 @@
       }
     },
   "minecraft:ancient_city": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -69,7 +69,7 @@
       }
     },
     "minecraft:mineshaft": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -86,7 +86,7 @@
       }
     },
     "minecraft:stronghold": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -100,7 +100,7 @@
       }
     },
     "minecraft:buried_treasure": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -114,7 +114,7 @@
       }
     },
     "minecraft:trail_ruins": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -128,7 +128,7 @@
       }
     },
     "minecraft:desert_pyramid": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -142,7 +142,7 @@
       }
     },
     "minecraft:igloo": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -156,7 +156,7 @@
       }
     },
     "minecraft:jungle_pyramid": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -170,7 +170,7 @@
       }
     },
     "minecraft:pillager_outpost": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -184,7 +184,7 @@
       }
     },
     "minecraft:swamp_hut": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -198,7 +198,7 @@
       }
     },
     "minecraft:village": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -212,7 +212,7 @@
       }
     },
     "minecraft:mansion": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -226,7 +226,7 @@
       }
     },
     "minecraft:ruined_portal": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -247,7 +247,7 @@
       }
     },
     "minecraft:ocean_ruins": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -261,7 +261,7 @@
       }
     },
     "minecraft:shipwreck": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -275,7 +275,7 @@
       }
     },
     "minecraft:monument": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -289,7 +289,7 @@
       }
     },
     "minecraft:trial_chambers": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
