@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chiseled_sandstone"
+      "id": "minecraft:ender_eye"
     },
     "title": "Interdimensional Traveller",
     "description": "Visit a Nether Fortress a Bastion Remnant and an End City",
@@ -13,7 +13,7 @@
   "parent": "kilocraft:survival/structures3",
   "criteria": {
     "minecraft:fortress": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -27,7 +27,7 @@
       }
     },
     "minecraft:bastion_remnant": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -41,7 +41,7 @@
       }
     },
      "minecraft:end_city": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
