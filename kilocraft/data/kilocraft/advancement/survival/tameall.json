@@ -147,21 +147,20 @@
         ]
       }
     },
-   "minecraft:skeleton_horse": {
-        "trigger": "minecraft:started_riding",
-        "conditions": {
-          "player": [],
-			"entity": [
-    		{ 
-     		 "condition": "minecraft:entity_properties",
-     		 "entity": "this",
-      		  "predicate": {
-      			"type": "minecraft:skeleton_horse"
- 			  }
+    "minecraft:skeleton_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:skeleton_horse"
             }
-          ]
-        }
+          }
+        ]
       }
-    }  
+    }
   }
-
+}

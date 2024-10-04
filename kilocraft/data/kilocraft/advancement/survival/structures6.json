@@ -40,7 +40,7 @@
         ]
       }
     },
-     "minecraft:end_city": {
+    "minecraft:end_city": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -54,7 +54,7 @@
         ]
       }
     },
-  "minecraft:ancient_city": {
+    "minecraft:ancient_city": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -303,5 +303,4 @@
       }
     }
   }
-}  
-
+}
