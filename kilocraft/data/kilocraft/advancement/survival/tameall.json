@@ -1,0 +1,166 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lead"
+    },
+    "title": "Animal Lover",
+    "description": "Tame all tameable animals",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/root",
+  "criteria": {
+    "minecraft:horse": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:horse"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:llama"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:camel": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:camel"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:cat": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cat"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:donkey": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:donkey"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:mule": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:mule"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:parrot": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:parrot"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:trader_llama": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:trader_llama"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:wolf": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf"
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [],
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:skeleton_horse"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
