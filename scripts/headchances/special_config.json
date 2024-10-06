@@ -1,91 +1,91 @@
 {
     "entities": {
-        "minecraft:cow": {
-            "name": "Cow",
+        "minecraft:snow_golem": {
+            "name": "Snow Golem",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:entity.player.burp",
+                    "note_block_sound": "minecraft:block.pumpkin.carve",
                     "profile": {
-                        "name": "Burger",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E5Yzg3NTM3ODBlYmMzOWMzNTFkYThlZmQ5MWJjZTkwYmQ4Y2NhN2I1MTFmOTNlNzhkZjc1ZjY2MTVjNzlhNiJ9fX0="
+                        "name": "Trick or Treat Basket",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdlZGM5MDk4MDg5NDBmNjU2NGU5NjA4NmM5Yjk4Y2RhYTg1OWY2MjdlZWQ1NTZlYzM3NWQ2ZWQyNzA0YzUwNiJ9fX0="
                     }
                 }
             ],
-            "group": "burger"
+            "group": "trick"
         },
-        "minecraft:ghast": {
-            "name": "Ghast",
+        "minecraft:zombie": {
+            "name": "Zombie",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:block.amethyst_block.resonate",
+                    "note_block_sound": "minecraft:entity.zombie_villager.cure",
                     "profile": {
-                        "name": "Sobbing Emoticon",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThmZWVjYTU2Y2MwYWFiYWFjNDZhZDQwMzY2OTBjZGM2NmRhM2M5ZjJjODVjMzcxYjY3OTUyZmU3Mzg5OGYwNCJ9fX0="
+                        "name": "Tombstone",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjYWI1NmM4MmNiODFiZGI5OTc5YTQ2NGJjOWQzYmEzZTY3MjJiYTEyMmNmNmM1Mjg3MzAxMGEyYjU5YWVmZSJ9fX0="
                     }
                 }
             ],
-            "group": "sobbing"
+            "group": "tombstone"
         },
-        "minecraft:armadillo": {
-            "name": "Armadillo",
+        "minecraft:husk": {
+            "name": "Husk",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:entity.panda.sneeze",
+                    "note_block_sound": "minecraft:block.pale_hanging_moss.idle",
                     "profile": {
-                        "name": "Hedgehog",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFiMmZkYWJjZjkzMTk3MjZhNTIwMjM2NDU1YWNkNDg3ODA5MzJjYmY2NjFmZTExMDVlNzExMzg4MjRlNDczYiJ9fX0="
+                        "name": "Herobrine",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ4ZDU1YjMzZWQ2ZmViNjE0ZTJjYTVkNGY1MGJiMzdmMTYxYWRhMzU4MmZjZmM2ZTQwMjg4YzZmYjA2ZjFmIn19fQ=="
                     }
                 }
             ],
-            "group": "hedgehog"
+            "group": "herobrine"
         },
-        "minecraft:squid": {
-            "name": "Squid",
+        "minecraft:chicken": {
+            "name": "Chicken",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:entity.panda.sneeze",
+                    "note_block_sound": "minecraft:entity.parrot.imitate.phantom",
                     "profile": {
-                        "name": "Grapes",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdlMzE2M2QyMTM3MDFhYWMwNjFkMDhlMzNiOTE1ZWYyZTEwZjUxNDI2MzMyY2VhNzU2ZjA3ZTkyY2JiMzU1YyJ9fX0="
+                        "name": "Crow",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVkYmFiNzdkMmYwMmMxMDBhZDA3MDI4YzU4ZTA5ZWIyOWQyNjM3M2MxMTFkNWM1YmViMWY2ZmNmNzk3MzQxMCJ9fX0="
                     }
                 }
             ],
-            "group": "grapes"
+            "group": "crow"
         },
-        "minecraft:glow_squid": {
-            "name": "Glow Squid",
+        "minecraft:skeleton": {
+            "name": "Skeleton",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:entity.panda.sneeze",
+                    "note_block_sound": "minecraft:entity.skeleton.converted_to_stray",
                     "profile": {
-                        "name": "Green Grapes",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U4MGM3M2I3NjVkOWYyZTJhMWFlNmQ5ZGY5NmM1ZmJjNjEyNmVlNTRmOWRmMGE0NmJiMWYwMGVmMGIwMjc5ZSJ9fX0="
+                        "name": "Skull",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJlY2M2NDVmMTI5YzhiYzJmYWE0ZDgxNDU0ODFmYWIxMWFkMmVlNzU3NDlkNjI4ZGNkOTk5YWE5NGU3In19fQ=="
                     }
                 }
             ],
-            "group": "green_grapes"
+            "group": "skull"
         }
     },
     "groups": {
-        "burger": {
+        "trick": {
+            "base_chance": 3,
+            "looting_chance": 1
+        },
+        "tombstone": {
+            "base_chance": 0.8,
+            "looting_chance": 0.4
+        },
+        "herobrine": {
+            "base_chance": 1,
+            "looting_chance": 1
+        },
+        "crow": {
             "base_chance": 2.5,
             "looting_chance": 0.5
         },
-        "sobbing": {
-            "base_chance": 3,
-            "looting_chance": 1
-        },
-        "hedgehog": {
-            "base_chance": 3,
-            "looting_chance": 1
-        },
-        "grapes": {
-            "base_chance": 2.5,
-            "looting_chance": 0.5
-        },
-        "green_grapes": {
-            "base_chance": 3,
-            "looting_chance": 1
+        "skull": {
+            "base_chance": 0.8,
+            "looting_chance": 0.4
         }
     }
 }
