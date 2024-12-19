@@ -111,47 +111,6 @@
           "enchantment": "minecraft:looting"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:note_block_sound": "minecraft:block.pumpkin.carve",
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTdlZGM5MDk4MDg5NDBmNjU2NGU5NjA4NmM5Yjk4Y2RhYTg1OWY2MjdlZWQ1NTZlYzM3NWQ2ZWQyNzA0YzUwNiJ9fX0="
-                    }
-                  ]
-                },
-                "minecraft:custom_name": "{\"text\": \"Trick or Treat Basket\", \"italic\": false, \"color\": \"red\"}"
-              }
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "random_chance_with_enchanted_bonus",
-          "unenchanted_chance": 0.03,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.04,
-            "per_level_above_first": 0.01
-          },
-          "enchantment": "minecraft:looting"
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:entities/snow_golem"
