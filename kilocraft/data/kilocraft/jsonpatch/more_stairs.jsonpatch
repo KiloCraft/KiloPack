@@ -1,0 +1,12 @@
+@version "1";
+
+@target [{
+    "path": {
+        "start": "recipe/",
+        "end": "_stairs.json"
+    }
+}];
+
+if (strings.endsWith($result.id, "_stairs") && $result.count == 4) {
+    $result.count = 8;
+};
