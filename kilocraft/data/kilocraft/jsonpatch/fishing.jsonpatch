@@ -1,0 +1,10 @@
+@version "1";
+
+@target "minecraft:loot_table/gameplay/fishing.json";
+
+arrays.push($pools[0].entries, {
+          "type": "minecraft:loot_table",
+          "quality": 0.5,
+          "value": "kilocraft:kilofishing",
+          "weight": 10
+});
