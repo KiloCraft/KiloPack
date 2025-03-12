@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "intotheskies:glider",
+  "key": {
+    "i": "minecraft:stick",
+    "p": "minecraft:phantom_membrane",
+    "w": "minecraft:flowering_azalea_leaves"
+  },
+  "pattern": [
+    "pww",
+    "ipw",
+    " ip"
+  ],
+  "result": {
+    "count": 1,
+    "id": "glideaway:azalea_hang_glider"
+  }
+}
