@@ -1,0 +1,1880 @@
+{
+    "tiers": [
+      {
+        "groups": [
+          {
+            "num_to_select": 2.0,
+            "trades": [
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 24.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:paper"
+                },
+                "max_uses": 16.0,
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "trader_experience": 2.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:fire_protection",
+                        "minecraft:thorns",
+                        "minecraft:infinity"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:feather_falling",
+                        "minecraft:projectile_protection",
+                        "minecraft:power"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:punch",
+                        "minecraft:smite",
+                        "minecraft:bane_of_arthropods"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:knockback",
+                        "minecraft:binding_curse",
+                        "minecraft:sweeping_edge"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:aqua_affinity",
+                        "minecraft:looting",
+                        "minecraft:frost_walker"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:depth_strider",
+                        "minecraft:respiration",
+                        "minecraft:vanishing_curse"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:blast_protection",
+                        "minecraft:fire_aspect",
+                        "minecraft:flame"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 1.0
+              },
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 9.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:bookshelf"
+                },
+                "trader_experience": 1.0
+              }
+            ]
+          }
+        ],
+        "total_exp_required": 0
+      },
+      {
+        "groups": [
+          {
+            "num_to_select": 2.0,
+            "trades": [
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 4.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:fire_protection",
+                        "minecraft:thorns",
+                        "minecraft:infinity"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:feather_falling",
+                        "minecraft:projectile_protection",
+                        "minecraft:power"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:punch",
+                        "minecraft:smite",
+                        "minecraft:bane_of_arthropods"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:knockback",
+                        "minecraft:binding_curse",
+                        "minecraft:sweeping_edge"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:aqua_affinity",
+                        "minecraft:looting",
+                        "minecraft:frost_walker"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:depth_strider",
+                        "minecraft:respiration",
+                        "minecraft:vanishing_curse"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:blast_protection",
+                        "minecraft:fire_aspect",
+                        "minecraft:flame"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 5.0
+              },
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:lantern"
+                },
+                "trader_experience": 5.0
+              }
+            ]
+          }
+        ],
+        "total_exp_required": 10
+      },
+      {
+        "groups": [
+          {
+            "num_to_select": 2.0,
+            "trades": [
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 5.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:ink_sac"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "trader_experience": 20.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:fire_protection",
+                        "minecraft:thorns",
+                        "minecraft:infinity"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:feather_falling",
+                        "minecraft:projectile_protection",
+                        "minecraft:power"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:punch",
+                        "minecraft:smite",
+                        "minecraft:bane_of_arthropods"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:knockback",
+                        "minecraft:binding_curse",
+                        "minecraft:sweeping_edge"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:aqua_affinity",
+                        "minecraft:looting",
+                        "minecraft:frost_walker"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:depth_strider",
+                        "minecraft:respiration",
+                        "minecraft:vanishing_curse"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "villagerconfig:add",
+                        "addends": [
+                          2,
+                          {
+                            "type": "minecraft:uniform",
+                            "min": 0,
+                            "max": 1
+                          },
+                          {
+                            "type": "villagerconfig:multiply",
+                            "factors": [
+                              2,
+                              {
+                                "type": "villagerconfig:reference",
+                                "id": "enchantmentLevel"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:blast_protection",
+                        "minecraft:fire_aspect",
+                        "minecraft:flame"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 10.0
+              },
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 4.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:glass"
+                },
+                "trader_experience": 10.0
+              }
+            ]
+          }
+        ],
+        "total_exp_required": 70
+      },
+      {
+        "groups": [
+          {
+            "num_to_select": 2.0,
+            "trades": [
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 2.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:writable_book"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 5.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:clock"
+                },
+                "trader_experience": 15.0
+              },
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 4.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:compass"
+                },
+                "trader_experience": 15.0
+              }
+            ]
+          }
+        ],
+        "total_exp_required": 150
+      },
+      {
+        "groups": [
+          {
+            "num_to_select": 2.0,
+            "trades": [
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:desert\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 3,
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:efficiency"
+                      ],
+                      "max_level": 3,
+                      "min_level": 3,
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:jungle\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 4,
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:unbreaking"
+                      ],
+                      "max_level": 2,
+                      "min_level": 2,
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:plains\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 5,
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:protection"
+                      ],
+                      "max_level": 3,
+                      "min_level": 3,
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:savanna\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 3,
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:sharpness"
+                      ],
+                      "max_level": 3,
+                      "min_level": 3,
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:snow\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "min": 4,
+                        "max": 5
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:silk_touch"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:swamp\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "min": 4,
+                        "max": 5
+                      },
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:mending"
+                      ],
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "conditions": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{VillagerData:{type:\"minecraft:taiga\"}}"
+                    }
+                  }
+                ],
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:diamond",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 4,
+                      "add": false
+                    }
+                  ]
+                },
+                "cost_b": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:book"
+                },
+                "result": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "function": "villagerconfig:enchant_randomly",
+                      "include": [
+                        "minecraft:fortune"
+                      ],
+                      "max_level": 2,
+                      "min_level": 2,
+                      "trade_enchantments": true
+                    }
+                  ],
+                  "name": "minecraft:book"
+                },
+                "trader_experience": 30.0
+              },
+              {
+                "cost_a": {
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 20.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
+                  "name": "minecraft:emerald"
+                },
+                "price_multiplier": 0.05,
+                "result": {
+                  "type": "minecraft:item",
+                  "name": "minecraft:name_tag"
+                },
+                "trader_experience": 30.0
+              }
+            ]
+          }
+        ],
+        "total_exp_required": 250
+      }
+    ]
+  }
