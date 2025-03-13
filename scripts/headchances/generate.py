@@ -8,6 +8,8 @@ import zipfile
 import re
 import shutil
 
+import modrinth
+
 MCFUNCTION_FILE_PREFIX = """# THIS FILE IS GENERATED AUTOMATICALLY, DO NOT MANUALLY EDIT
 
 tellraw @s ["", {"text":"------------- [","color":"#E0E0E0"},{"text":" HeadChances ", "color":"gold"},{"text":"] -------------","color":"#E0E0E0"}]
@@ -23,6 +25,13 @@ tellraw @s ["", {"text":"VANILLA: ","color":"gold","hoverEvent":{"action":"show_
 MCFUNCTION_FILE_SUFFIX = """scoreboard players reset @s headchances
 scoreboard players enable @s headchances"""
 
+### Configuration
+version = "1.21.4"
+mods = [
+    # https://modrinth.com/mod/toms-mobs/version/2.1.5+1.21.4
+    ("toms-mobs", "2.1.5+1.21.4")
+]
+
 
 def download_jar():
     version_manifest = json.loads(requests.get("https://launchermeta.mojang.com/mc/game/version_manifest.json").text)
@@ -34,11 +43,11 @@ def download_jar():
                 f.write(requests.get(version_data["downloads"]["client"]["url"]).content)
 
 
-def extract_loot_tables():
-    with zipfile.ZipFile(client_jar, "r") as zip:
+def extract_loot_tables(jar):
+    with zipfile.ZipFile(jar, "r") as zip:
         for file in zip.infolist():
             match = re.search(
-                r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/minecraft/loot_table/entities/([\w_\d]+/)*\w+.json)",
+                r"(?:data/minecraft/datapacks/[\w_\d]+/)?(data/[\w]+/loot_table/entities/([\w_\d]+/)*\w+.json)",
                 file.filename)
             if match:
                 destination_path = os.path.join(cache, match.group(1))
@@ -318,9 +327,8 @@ def generate_group_details(group: dict):
     ]
 
 
-version = input("Minecraft version: ")
-cache = f".cache/{version}"
-client_jar = f"{cache}/client.jar"
+cache = f".cache"
+client_jar = f"{cache}/client-{version}.jar"
 datapack_root = f"../../kilocraft"
 
 VANILLA_LOOT_TABLE_PATH = get_loot_table_path("minecraft")
@@ -330,7 +338,11 @@ if not os.path.exists(client_jar):
     download_jar()
 
 print("Extracting loot tables...")
-extract_loot_tables()
+extract_loot_tables(client_jar)
+
+for mod_id, mod_version in mods:
+    print("Downloading mod", mod_id, mod_version)
+    extract_loot_tables(modrinth.download_mod(mod_id, mod_version))
 
 print("Parsing configs")
 with open("config.json", "r") as f:
