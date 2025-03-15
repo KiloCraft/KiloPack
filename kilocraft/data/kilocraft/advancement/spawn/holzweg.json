@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head"
+    },
+    "title": "Der Holzweg",
+    "description": "Finde den Holzweg"
+  },
+  "parent": "kilocraft:spawn/sonkehaus",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "max": 373,
+                "min": 372
+              },
+              "y": {
+                "min": 90,
+                "max": 92
+              },
+              "z": {
+                "min": -168,
+                "max": -164
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

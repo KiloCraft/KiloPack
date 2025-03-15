@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cauldron"
+    },
+    "title": "Skibidi Toilet",
+    "description": "Go inside the toilet near the staff party"
+  },
+  "parent": "kilocraft:spawn/cake",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 326,
+                "max": 327
+              },
+              "y": {
+                "min": 108,
+                "max": 110
+              },
+              "z": {
+                "min": -243,
+                "max": -242
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

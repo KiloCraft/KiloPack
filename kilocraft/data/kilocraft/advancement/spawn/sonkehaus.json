@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:andesite"
+    },
+    "title": "Sönkehaus",
+    "description": "Find a hidden house..."
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 366,
+                "max": 378
+              },
+              "y": {
+                "min": 99,
+                "max": 101
+              },
+              "z": {
+                "min": -196,
+                "max": -180
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

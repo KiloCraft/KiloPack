@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": "Fishing Shenanigans",
+    "description": "Investigate the old fishing shack"
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 316,
+                "max": 320
+              },
+              "y": {
+                "min": 99,
+                "max": 102
+              },
+              "z": {
+                "min": -367,
+                "max": -361
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}
