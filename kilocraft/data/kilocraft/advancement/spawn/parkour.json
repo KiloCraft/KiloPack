@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "polyfactory:fan"
+    },
+    "title": "Frustration Factory",
+    "description": "Complete the parkour!"
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 262,
+                "max": 263
+              },
+              "y": {
+                "min": 145,
+                "max": 147
+              },
+              "z": {
+                "min": -305,
+                "max": -304
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}
