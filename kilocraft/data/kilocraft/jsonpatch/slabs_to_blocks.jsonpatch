@@ -93,6 +93,7 @@ foreach (slab_id in slabs) {
     var block_namespace = block_ns_parts[0];
     var block_path = block_ns_parts[1];
 
+    # recipe
     metapatch.addFile(block_namespace + ":recipe/slabs_to_blocks/" + block_path + ".json", {
         "result": {
             "id": base_block_id,
@@ -106,5 +107,32 @@ foreach (slab_id in slabs) {
             "#": slab_id
         },
         "group": "slabs_to_blocks"
+    });
+
+    # unlock advancement
+    metapatch.addFile(block_namespace + ":advancements/recipes/slabs_to_blocks/" + block_path + ".json", {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+            "has_slab": {
+                "trigger": "minecraft:inventory_changed",
+                "conditions": {
+                    "items": [
+                        {
+                            "items": slab_id
+                        }
+                    ]
+                }
+            }
+        },
+        "requirements": [
+            [
+                "has_slab"
+            ]
+        ],
+        "rewards": {
+            "recipes": [
+                block_namespace + ":slabs_to_blocks/" + block_path
+            ]
+        }
     });
 }

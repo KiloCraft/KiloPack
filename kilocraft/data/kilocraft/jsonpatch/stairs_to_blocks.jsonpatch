@@ -88,6 +88,7 @@ foreach (stair_id in stairs) {
     var block_namespace = block_ns_parts[0];
     var block_path = block_ns_parts[1];
 
+    # recipe
     metapatch.addFile(block_namespace + ":recipe/stairs_to_blocks/" + block_path + ".json", {
         "result": {
             "id": base_block_id,
@@ -101,5 +102,32 @@ foreach (stair_id in stairs) {
             stair_id
         ],
         "group": "stairs_to_blocks"
+    });
+
+    # unlock advancement
+    metapatch.addFile(block_namespace + ":advancements/recipes/stairs_to_blocks/" + block_path + ".json", {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+            "has_stair": {
+                "trigger": "minecraft:inventory_changed",
+                "conditions": {
+                    "items": [
+                        {
+                            "items": stair_id
+                        }
+                    ]
+                }
+            }
+        },
+        "requirements": [
+            [
+                "has_stair"
+            ]
+        ],
+        "rewards": {
+            "recipes": [
+                block_namespace + ":stairs_to_blocks/" + block_path
+            ]
+        }
     });
 }
