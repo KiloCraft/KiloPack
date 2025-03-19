@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:brain_coral_block",
+		"count": 1
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": "#coral_blocks:brain_coral"
+	},
+	"group": "coral_blocks"
+}

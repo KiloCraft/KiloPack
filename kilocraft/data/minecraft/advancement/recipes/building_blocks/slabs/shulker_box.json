@@ -1,0 +1,43 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:shulker_shell"
+					}
+				]
+			}
+		},
+		"has_chest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:chest"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:straight_to_shapeless/shulker_box"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_item",
+			"has_chest",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"minecraft:straight_to_shapeless/shulker_box"
+		]
+	}
+}

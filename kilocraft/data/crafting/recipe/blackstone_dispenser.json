@@ -1,0 +1,17 @@
+{
+	"result": {
+		"id": "minecraft:dispenser",
+		"count": 1
+	},
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"#B#",
+		"#R#"
+	],
+	"key": {
+		"#": "minecraft:blackstone",
+		"B": "minecraft:bow",
+		"R": "minecraft:redstone"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"result": {
+		"id": "minecraft:piston",
+		"count": 1
+	},
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"BiB",
+		"BRB"
+	],
+	"key": {
+		"#": "#minecraft:planks",
+		"B": "minecraft:blackstone",
+		"i": "minecraft:iron_ingot",
+		"R": "minecraft:redstone"
+	}
+}

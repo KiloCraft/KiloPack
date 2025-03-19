@@ -1,0 +1,33 @@
+{
+	"result": {
+		"id": "minecraft:purple_candle",
+		"count": 8
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"###",
+		"#O#",
+		"###"
+	],
+	"key": {
+		"#": [
+			"minecraft:white_candle",
+			"minecraft:orange_candle",
+			"minecraft:magenta_candle",
+			"minecraft:light_blue_candle",
+			"minecraft:yellow_candle",
+			"minecraft:lime_candle",
+			"minecraft:pink_candle",
+			"minecraft:gray_candle",
+			"minecraft:light_gray_candle",
+			"minecraft:cyan_candle",
+			"minecraft:blue_candle",
+			"minecraft:brown_candle",
+			"minecraft:green_candle",
+			"minecraft:red_candle",
+			"minecraft:black_candle"
+		],
+		"O": "minecraft:purple_dye"
+	},
+	"group": "universal_dyeing_candle"
+}

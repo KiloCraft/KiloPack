@@ -1,0 +1,15 @@
+{
+	"result": {
+		"id": "minecraft:horn_coral_block",
+		"count": 1
+	},
+	"type": "crafting_shaped",
+	"pattern": [
+		"##",
+		"##"
+	],
+	"key": {
+		"#": "#coral_blocks:horn_coral"
+	},
+	"group": "coral_blocks"
+}
