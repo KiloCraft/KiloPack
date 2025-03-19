@@ -1,0 +1,110 @@
+@version "1";
+@metapatch;
+
+var slabs = [
+    "minecraft:resin_brick_slab",
+    "minecraft:prismarine_slab",
+    "minecraft:prismarine_brick_slab",
+    "minecraft:dark_prismarine_slab",
+    "minecraft:oak_slab",
+    "minecraft:spruce_slab",
+    "minecraft:birch_slab",
+    "minecraft:jungle_slab",
+    "minecraft:acacia_slab",
+    "minecraft:cherry_slab",
+    "minecraft:dark_oak_slab",
+    "minecraft:pale_oak_slab",
+    "minecraft:mangrove_slab",
+    "minecraft:bamboo_slab",
+    "minecraft:bamboo_mosaic_slab",
+    "minecraft:stone_slab",
+    "minecraft:smooth_stone_slab",
+    "minecraft:sandstone_slab",
+    "minecraft:cut_sandstone_slab",
+#    "minecraft:petrified_oak_slab",
+    "minecraft:cobblestone_slab",
+    "minecraft:brick_slab",
+    "minecraft:stone_brick_slab",
+    "minecraft:mud_brick_slab",
+    "minecraft:nether_brick_slab",
+    "minecraft:quartz_slab",
+    "minecraft:red_sandstone_slab",
+    "minecraft:cut_red_sandstone_slab",
+    "minecraft:purpur_slab",
+    "minecraft:polished_granite_slab",
+    "minecraft:smooth_red_sandstone_slab",
+    "minecraft:mossy_stone_brick_slab",
+    "minecraft:polished_diorite_slab",
+    "minecraft:mossy_cobblestone_slab",
+    "minecraft:end_stone_brick_slab",
+    "minecraft:smooth_sandstone_slab",
+    "minecraft:smooth_quartz_slab",
+    "minecraft:granite_slab",
+    "minecraft:andesite_slab",
+    "minecraft:red_nether_brick_slab",
+    "minecraft:polished_andesite_slab",
+    "minecraft:diorite_slab",
+    "minecraft:crimson_slab",
+    "minecraft:warped_slab",
+    "minecraft:blackstone_slab",
+    "minecraft:polished_blackstone_brick_slab",
+    "minecraft:polished_blackstone_slab",
+    "minecraft:tuff_slab",
+    "minecraft:polished_tuff_slab",
+    "minecraft:tuff_brick_slab",
+    "minecraft:oxidized_cut_copper_slab",
+    "minecraft:weathered_cut_copper_slab",
+    "minecraft:exposed_cut_copper_slab",
+    "minecraft:cut_copper_slab",
+    "minecraft:waxed_oxidized_cut_copper_slab",
+    "minecraft:waxed_weathered_cut_copper_slab",
+    "minecraft:waxed_exposed_cut_copper_slab",
+    "minecraft:waxed_cut_copper_slab",
+    "minecraft:cobbled_deepslate_slab",
+    "minecraft:polished_deepslate_slab",
+    "minecraft:deepslate_tile_slab",
+    "minecraft:deepslate_brick_slab",
+    "terrestria:cypress_slab",
+    "terrestria:hemlock_slab",
+    "terrestria:rainbow_eucalyptus_slab",
+    "terrestria:redwood_slab",
+    "terrestria:rubber_slab",
+    "terrestria:willow_slab",
+    "terrestria:yucca_palm_slab",
+    "woods_and_mires:pine_slab",
+];
+
+foreach (slab_id in slabs) {
+    var slab_ns_parts = strings.split(slab_id, ":");
+    var slab_namespace = slab_ns_parts[0];
+    var slab_path = slab_ns_parts[1];
+    var recipe = metapatch.getFile(slab_namespace + ":recipe/" + slab_path + ".json");
+    if (recipe is null) {
+        debug.log("Slab recipe for " + slab_id + " is missing");
+        continue;
+    }
+    var base_block_id = recipe.key[objects.keys(recipe.key)[0]];
+
+    if (!(base_block_id is string)) {
+        #debug.log("Failed to find base block for " + slab_id + ", key is " + strings.asString(base_block_id));
+        continue;
+    }
+    var block_ns_parts = strings.split(base_block_id, ":");
+    var block_namespace = block_ns_parts[0];
+    var block_path = block_ns_parts[1];
+
+    metapatch.addFile(block_namespace + ":recipe/slabs_to_blocks/" + block_path + ".json", {
+        "result": {
+            "id": base_block_id,
+            "count": 1
+        },
+        "type": "crafting_shaped",
+        "pattern": [
+            "##"
+        ],
+        "key": {
+            "#": slab_id
+        },
+        "group": "slabs_to_blocks"
+    });
+}
