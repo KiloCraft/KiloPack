@@ -10,8 +10,11 @@ execute if score #keutil_automessage ke_var matches 2 as @a unless permission @s
 #guide
 execute if score #keutil_automessage ke_var matches 3 run tellraw @a[scores={keutil_minutes=..299}] ["",{"text":"[Info] ","color":"#6860FB"},{"text":"Type ","color":"#7AF631"},{"text":"/guide ","color":"#96EEEE","clickEvent":{"action":"run_command","value":"/guide"},"hoverEvent":{"action":"show_text","contents":{"text":"Click to show the guide!","color":"#BE11EE"}}},{"text":"to see the important ","color":"#7AF631"},{"text":"information","color":"#96EEEE"},{"text":" and ","color":"#7AF631"},{"text":"commands ","color":"#96EEEE"},{"text":"we have here, and how to use them!","color":"#7AF631"}]
 
+execute if score #keutil_automessage ke_var matches 4 run tellraw @a [{"text":"[Info] ","color":"light_purple"},{"text":"Ever wondered how you’d do in KiloCraft’s ","color":"#FCD701"},{"text":"biggest","color":"#F58A49"},{"text":" PvP project? ","color":"#FCD701"},{"text":"Register now for Varö","italic":true,"underlined":true,"color":"#F58A49","clickEvent":{"action":"open_url","value":"https://discord.gg/87AvatX5RY"},"hoverEvent":{"action":"show_text","contents":[{"text":"Click here to join the Discord!","italic":true,"color":"light_purple"}]}},{"text":" and put your survival skills to the test!","color":"#FCD701"}]
+
+
 scoreboard players add #keutil_automessage ke_var 1
 
-execute if score #keutil_automessage ke_var matches 4 run scoreboard players set #keutil_automessage ke_var 0
+execute if score #keutil_automessage ke_var matches 5.. run scoreboard players set #keutil_automessage ke_var 0
 
 schedule function kilocraft:util/automessage 300s replace
