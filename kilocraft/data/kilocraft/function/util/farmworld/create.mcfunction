@@ -1,0 +1,1 @@
+$wm create kilocraft:farmworld {seed:$(seed),generator:{settings:"minecraft:overworld",biome_source:{preset:"minecraft:overworld",type:"minecraft:multi_noise"},type:"minecraft:noise"},type:"minecraft:overworld"}
