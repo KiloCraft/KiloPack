@@ -18,7 +18,7 @@ tellraw @s ["", {"text":"HOVER","bold":true,"color":"#E0E0E0"},{"text":" over th
 
 MCFUNCTION_VANILLA = """
 
-tellraw @s ["", {"text":"VANILLA: ","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Creeper/Piglin/Skeleton/Zombie: ","color":"#E0E0E0"},{"text":"Charged Creeper killing the mob","color":"white"},{"text":"\\nWither Skeleton: ","color":"#E0E0E0"},{"text":"Random chance","color":"white"},{"text":"\\nEnder Dragon: ","color":"#E0E0E0"},{"text":"Found at End Cities","color":"white"}]}},{"text": "Creeper", "color": "#E0E0E0", "hoverEvent": {"action": "show_item", "contents": {"id": "bundle", "components": {"bundle_contents": [{"id": "creeper_head"}], "custom_name": "[\\"\\", {\\"text\\": \\"1 Variant\\", \\"color\\": \\"gray\\", \\"italic\\": false}]"}}}}, {"text": ", "},{"text": "Piglin", "color": "#E0E0E0", "hoverEvent": {"action": "show_item", "contents": {"id": "bundle", "components": {"bundle_contents": [{"id": "piglin_head"}], "custom_name": "[\\"\\", {\\"text\\": \\"1 Variant\\", \\"color\\": \\"gray\\", \\"italic\\": false}]"}}}}, {"text": ", "},{"text": "Skeleton", "color": "#E0E0E0", "hoverEvent": {"action": "show_item", "contents": {"id": "bundle", "components": {"bundle_contents": [{"id": "skeleton_skull"}], "custom_name": "[\\"\\", {\\"text\\": \\"1 Variant\\", \\"color\\": \\"gray\\", \\"italic\\": false}]"}}}}, {"text": ", "},{"text": "Zombie", "color": "#E0E0E0", "hoverEvent": {"action": "show_item", "contents": {"id": "bundle", "components": {"bundle_contents": [{"id": "zombie_head"}], "custom_name": "[\\"\\", {\\"text\\": \\"1 Variant\\", \\"color\\": \\"gray\\", \\"italic\\": false}]"}}}}, {"text": ", "},{"text": "Wither Skeleton", "color": "#E0E0E0", "hoverEvent": {"action": "show_item", "contents": {"id": "bundle", "components": {"bundle_contents": [{"id": "wither_skeleton_skull"}], "custom_name": "[\\"\\", {\\"text\\": \\"1 Variant\\", \\"color\\": \\"gray\\", \\"italic\\": false}]"}}}}, {"text": ", "},{"text": "Ender Dragon", "color": "#E0E0E0", "hoverEvent": {"action": "show_item", "contents": {"id": "bundle", "components": {"bundle_contents": [{"id": "dragon_head"}], "custom_name": "[\\"\\", {\\"text\\": \\"1 Variant\\", \\"color\\": \\"gray\\", \\"italic\\": false}]"}}}}]
+tellraw @s [{"text":"VANILLA: ","color":"gold","hover_event":{"action":"show_text","value":[{"text":"Creeper/Piglin/Skeleton/Zombie: ","color":"#E0E0E0"},{"text":"Charged Creeper killing the mob","color":"white"},{"text":"\\nWither Skeleton: ","color":"#E0E0E0"},{"text":"Random chance","color":"white"},{"text":"\\nEnder Dragon: ","color":"#E0E0E0"},{"text":"Found at End Cities","color":"white"}]}},{"text":"Creeper","color":"#E0E0E0","hover_event":{"action":"show_item","id":"bundle","components":{"bundle_contents":[{"id":"creeper_head"}],"custom_name":[{"text":"1 Variant","color":"gray","italic":false}]}}},{"text":", "},{"text":"Piglin","color":"#E0E0E0","hover_event":{"action":"show_item","id":"bundle","components":{"bundle_contents":[{"id":"piglin_head"}],"custom_name":[{"text":"1 Variant","color":"gray","italic":false}]}}},{"text":", "},{"text":"Skeleton","color":"#E0E0E0","hover_event":{"action":"show_item","id":"bundle","components":{"bundle_contents":[{"id":"skeleton_skull"}],"custom_name":[{"text":"1 Variant","color":"gray","italic":false}]}}},{"text":", "},{"text":"Zombie","color":"#E0E0E0","hover_event":{"action":"show_item","id":"bundle","components":{"bundle_contents":[{"id":"zombie_head"}],"custom_name":[{"text":"1 Variant","color":"gray","italic":false}]}}},{"text":", "},{"text":"Wither Skeleton","color":"#E0E0E0","hover_event":{"action":"show_item","id":"bundle","components":{"bundle_contents":[{"id":"wither_skeleton_skull"}],"custom_name":[{"text":"1 Variant","color":"gray","italic":false}]}}},{"text":", "},{"text":"Ender Dragon","color":"#E0E0E0","hover_event":{"action":"show_item","id":"bundle","components":{"bundle_contents":[{"id":"dragon_head"}],"custom_name":[{"text":"1 Variant","color":"gray","italic":false}]}}}]
 
 """
 
@@ -26,10 +26,10 @@ MCFUNCTION_FILE_SUFFIX = """scoreboard players reset @s headchances
 scoreboard players enable @s headchances"""
 
 ### Configuration
-version = "1.21.4"
+version = "1.21.5"
 mods = [
-    # https://modrinth.com/mod/toms-mobs/version/2.1.5+1.21.4
-    ("toms-mobs", "2.1.5+1.21.4")
+    # https://modrinth.com/mod/toms-mobs/version/2.2.3+1.21.5
+    ("toms-mobs", "2.2.3+1.21.5")
 ]
 
 
@@ -231,7 +231,7 @@ def generate_regular_head_chances(config: dict) -> str:
     group_messages = {}
     for group_id, group in config["groups"].items():
         group_prefix = group["name"]
-        group_prefix["hoverEvent"] = {"action": "show_text", "contents": generate_group_details(group)}
+        group_prefix["hover_event"] = {"action": "show_text", "value": generate_group_details(group)}
         group_messages.setdefault(group_id, ["", group_prefix, {"text": ": ", "color": "gray"}])
     for entity_id, entity in config["entities"].items():
         if "heads" not in entity or len(entity["heads"]) <= 0 or "group" not in entity:
@@ -298,14 +298,12 @@ def generate_head_text(entity: dict, name_suffix=None):
     return {
         "text": entity["name"],
         "color": "#E0E0E0" if len(entity["heads"]) == 1 else "#939393",
-        "hoverEvent": {
+        "hover_event": {
             "action": "show_item",
-            "contents": {
-                "id": "bundle",
-                "components": {
-                    "bundle_contents": bundle_contents,
-                    "custom_name": json.dumps(name)
-                }
+            "id": "bundle",
+            "components": {
+                "bundle_contents": bundle_contents,
+                "custom_name": name
             }
         }
     }
