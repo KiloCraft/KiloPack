@@ -138,7 +138,7 @@ def create_loot_table_pool(heads: dict, group: dict) -> dict:
                                 }
                             ]
                         },
-                        "minecraft:custom_name": json.dumps(name)
+                        "minecraft:custom_name": name
                     }
                 }
             ]

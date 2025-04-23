@@ -120,7 +120,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Stray\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Stray",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

@@ -121,7 +121,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Armorer\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Armorer",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -156,7 +160,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Butcher\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Butcher",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -191,7 +199,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Cartographer\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Cartographer",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -226,7 +238,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Cleric\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Cleric",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -261,7 +277,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Farmer\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Farmer",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -296,7 +316,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Fisherman\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Fisherman",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -331,7 +355,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Fletcher\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Fletcher",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -366,7 +394,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Leatherworker\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Leatherworker",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -401,7 +433,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Librarian\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Librarian",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -436,7 +472,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Mason\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Mason",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -471,7 +511,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Nitwit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Nitwit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -506,7 +550,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -541,7 +589,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Shepherd\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Shepherd",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -576,7 +628,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Toolsmith\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Toolsmith",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -611,7 +667,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Weaponsmith\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Weaponsmith",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

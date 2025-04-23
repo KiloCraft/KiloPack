@@ -41,7 +41,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Tabby Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Tabby Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -76,7 +80,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Black Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Black Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -111,7 +119,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Tuxedo Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Tuxedo Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -146,7 +158,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Ginger Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Ginger Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -181,7 +197,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Siamese Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Siamese Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -216,7 +236,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"British Shorthair Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "British Shorthair Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -251,7 +275,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Calico Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Calico Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -286,7 +314,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Persian Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Persian Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -321,7 +353,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Ragdoll Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Ragdoll Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -356,7 +392,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"White Cat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "White Cat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -391,7 +431,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Jellie\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Jellie",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

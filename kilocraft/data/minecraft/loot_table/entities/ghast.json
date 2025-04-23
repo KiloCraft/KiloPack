@@ -80,7 +80,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Ghast\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Ghast",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]
@@ -101,7 +105,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Shooting Ghast\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Shooting Ghast",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

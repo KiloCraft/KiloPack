@@ -53,7 +53,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Pufferfish\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Pufferfish",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]
@@ -74,7 +78,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Laughing Pufferfish\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Laughing Pufferfish",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]
@@ -95,7 +103,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Lovely Pufferfish\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Lovely Pufferfish",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]
@@ -116,7 +128,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Pride Pufferfish\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Pride Pufferfish",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]
@@ -137,7 +153,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Diamond Pufferfish\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Diamond Pufferfish",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

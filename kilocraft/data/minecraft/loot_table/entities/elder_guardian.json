@@ -219,7 +219,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Elder Guardian\", \"italic\": false, \"color\": \"yellow\"}"
+                "minecraft:custom_name": {
+                  "text": "Elder Guardian",
+                  "italic": false,
+                  "color": "yellow"
+                }
               }
             }
           ]

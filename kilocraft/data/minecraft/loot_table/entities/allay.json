@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Allay\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Allay",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

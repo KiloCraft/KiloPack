@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Armadillo\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Armadillo",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

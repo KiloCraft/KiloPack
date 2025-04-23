@@ -19,7 +19,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Elephant\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Elephant",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

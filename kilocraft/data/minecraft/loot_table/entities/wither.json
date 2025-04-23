@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Wither\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Wither",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]
@@ -42,7 +46,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Invulnerable Wither\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Invulnerable Wither",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]
@@ -63,7 +71,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Invulnerable Wither Skull\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Invulnerable Wither Skull",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]
@@ -84,7 +96,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Wither Skull\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Wither Skull",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]

@@ -147,7 +147,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Polar Bear\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Polar Bear",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]

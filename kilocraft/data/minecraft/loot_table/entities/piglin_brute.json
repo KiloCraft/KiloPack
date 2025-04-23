@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Piglin Brute\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Piglin Brute",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]

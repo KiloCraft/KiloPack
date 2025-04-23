@@ -50,7 +50,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"White Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "White Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -113,7 +117,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Creamy Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Creamy Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -176,7 +184,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Chestnut Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Chestnut Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -239,7 +251,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Brown Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Brown Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -302,7 +318,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Black Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Black Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -365,7 +385,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Gray Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Gray Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -428,7 +452,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Dark Brown Horse\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Dark Brown Horse",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],

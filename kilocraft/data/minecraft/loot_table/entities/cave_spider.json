@@ -85,7 +85,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Cave Spider\", \"italic\": false, \"color\": \"dark_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Cave Spider",
+                  "italic": false,
+                  "color": "dark_purple"
+                }
               }
             }
           ]

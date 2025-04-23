@@ -50,7 +50,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Cold Strider\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Cold Strider",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],
@@ -85,7 +89,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Strider\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Strider",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ],

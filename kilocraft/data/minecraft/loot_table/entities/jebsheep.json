@@ -19,7 +19,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Jeb_ Sheep\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Jeb_ Sheep",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

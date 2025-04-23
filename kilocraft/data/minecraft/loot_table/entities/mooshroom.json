@@ -116,7 +116,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Brown Mooshroom\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Brown Mooshroom",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],
@@ -151,7 +155,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Mooshroom\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Mooshroom",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],

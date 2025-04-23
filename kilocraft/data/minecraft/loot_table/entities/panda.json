@@ -37,7 +37,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Aggressive Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Aggressive Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -72,7 +76,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Brown Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Brown Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -107,7 +115,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Lazy Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Lazy Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -142,7 +154,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Normal Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Normal Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -177,7 +193,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Playful Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Playful Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -212,7 +232,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Weak Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Weak Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -247,7 +271,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Worried Panda\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Worried Panda",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

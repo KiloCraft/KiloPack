@@ -30,7 +30,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Warden\", \"italic\": false, \"color\": \"yellow\"}"
+                "minecraft:custom_name": {
+                  "text": "Warden",
+                  "italic": false,
+                  "color": "yellow"
+                }
               }
             }
           ]

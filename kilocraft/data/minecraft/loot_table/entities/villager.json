@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Armorer Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Armorer Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -56,7 +60,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Butcher Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Butcher Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -91,7 +99,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Cartographer Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Cartographer Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -126,7 +138,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Cleric Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Cleric Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -161,7 +177,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Farmer Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Farmer Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -196,7 +216,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Fisherman Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Fisherman Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -231,7 +255,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Fletcher Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Fletcher Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -266,7 +294,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Leatherworker Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Leatherworker Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -301,7 +333,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Librarian Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Librarian Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -336,7 +372,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Mason Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Mason Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -371,7 +411,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Nitwit Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Nitwit Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -406,7 +450,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -441,7 +489,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Shepherd Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Shepherd Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -476,7 +528,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Toolsmith Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Toolsmith Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -511,7 +567,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Weaponsmith Villager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Weaponsmith Villager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

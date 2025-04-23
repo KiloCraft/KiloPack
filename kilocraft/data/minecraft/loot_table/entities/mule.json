@@ -50,7 +50,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Mule\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Mule",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Vex\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Vex",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]
@@ -42,7 +46,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Charging Vex\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Charging Vex",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

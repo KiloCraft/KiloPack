@@ -50,7 +50,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Glow Squid\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Glow Squid",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

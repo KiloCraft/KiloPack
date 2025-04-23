@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Tadpole\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Tadpole",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

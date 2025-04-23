@@ -55,7 +55,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Vindicator\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Vindicator",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]

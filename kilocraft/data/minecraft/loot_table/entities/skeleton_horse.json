@@ -50,7 +50,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Skeleton Horse\", \"italic\": false, \"color\": \"yellow\"}"
+                "minecraft:custom_name": {
+                  "text": "Skeleton Horse",
+                  "italic": false,
+                  "color": "yellow"
+                }
               }
             }
           ]
@@ -71,7 +75,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Horse\", \"italic\": false, \"color\": \"yellow\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Horse",
+                  "italic": false,
+                  "color": "yellow"
+                }
               }
             }
           ]

@@ -190,7 +190,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Guardian\", \"italic\": false, \"color\": \"dark_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Guardian",
+                  "italic": false,
+                  "color": "dark_purple"
+                }
               }
             }
           ]

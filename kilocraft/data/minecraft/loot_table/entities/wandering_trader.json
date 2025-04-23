@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Wandering Trader\", \"italic\": false, \"color\": \"green\"}"
+                "minecraft:custom_name": {
+                  "text": "Wandering Trader",
+                  "italic": false,
+                  "color": "green"
+                }
               }
             }
           ]

@@ -50,7 +50,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Enderman\", \"italic\": false, \"color\": \"dark_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Enderman",
+                  "italic": false,
+                  "color": "dark_purple"
+                }
               }
             }
           ]

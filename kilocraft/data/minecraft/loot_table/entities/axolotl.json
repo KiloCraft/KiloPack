@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Lucy Axolotl\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Lucy Axolotl",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],
@@ -56,7 +60,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Wild Axolotl\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Wild Axolotl",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],
@@ -91,7 +99,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Gold Axolotl\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Gold Axolotl",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],
@@ -126,7 +138,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Cyan Axolotl\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Cyan Axolotl",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],
@@ -161,7 +177,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Blue Axolotl\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Blue Axolotl",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],

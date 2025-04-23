@@ -41,7 +41,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Sheared Snow Golem\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Sheared Snow Golem",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],
@@ -76,7 +80,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Snow Golem\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Snow Golem",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ],

@@ -19,7 +19,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Lobster\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Lobster",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

@@ -85,7 +85,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Spider\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Spider",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ]

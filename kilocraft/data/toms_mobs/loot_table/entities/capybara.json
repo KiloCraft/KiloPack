@@ -19,7 +19,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Capybara\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Capybara",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]
@@ -40,7 +44,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Orange Capybara\", \"italic\": false, \"color\": \"aqua\"}"
+                "minecraft:custom_name": {
+                  "text": "Orange Capybara",
+                  "italic": false,
+                  "color": "aqua"
+                }
               }
             }
           ]

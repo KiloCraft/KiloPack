@@ -21,7 +21,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Goat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Goat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -56,7 +60,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Screaming Goat\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Screaming Goat",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

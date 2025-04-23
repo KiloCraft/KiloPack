@@ -75,7 +75,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Drowned\", \"italic\": false, \"color\": \"light_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Drowned",
+                  "italic": false,
+                  "color": "light_purple"
+                }
               }
             }
           ]

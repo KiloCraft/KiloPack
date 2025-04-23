@@ -105,7 +105,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombie Pigman\", \"italic\": false, \"color\": \"dark_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombie Pigman",
+                  "italic": false,
+                  "color": "dark_purple"
+                }
               }
             }
           ]
@@ -126,7 +130,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Zombified Piglin\", \"italic\": false, \"color\": \"dark_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Zombified Piglin",
+                  "italic": false,
+                  "color": "dark_purple"
+                }
               }
             }
           ]

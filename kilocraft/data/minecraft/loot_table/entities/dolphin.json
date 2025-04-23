@@ -86,7 +86,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Dolphin\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Dolphin",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

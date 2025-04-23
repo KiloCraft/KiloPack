@@ -45,7 +45,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Nautilus\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Nautilus",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

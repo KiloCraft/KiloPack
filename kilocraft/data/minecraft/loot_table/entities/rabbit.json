@@ -137,7 +137,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Brown Rabbit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Brown Rabbit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -172,7 +176,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"White Rabbit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "White Rabbit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -207,7 +215,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Black Rabbit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Black Rabbit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -242,7 +254,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Black and White Rabbit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Black and White Rabbit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -277,7 +293,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Gold Rabbit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Gold Rabbit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -312,7 +332,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Salt and Pepper Rabbit\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Salt and Pepper Rabbit",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],
@@ -347,7 +371,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Toast\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Toast",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ],

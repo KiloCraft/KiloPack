@@ -37,7 +37,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Ravager\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Ravager",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

@@ -19,7 +19,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Firemoth\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Firemoth",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

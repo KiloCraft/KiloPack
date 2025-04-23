@@ -45,7 +45,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Sculkling\", \"italic\": false, \"color\": \"blue\"}"
+                "minecraft:custom_name": {
+                  "text": "Sculkling",
+                  "italic": false,
+                  "color": "blue"
+                }
               }
             }
           ]

@@ -55,7 +55,11 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Blaze\", \"italic\": false, \"color\": \"dark_purple\"}"
+                "minecraft:custom_name": {
+                  "text": "Blaze",
+                  "italic": false,
+                  "color": "dark_purple"
+                }
               }
             }
           ]
