@@ -346,7 +346,30 @@
                     "profile": {
                         "name": "Chicken",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ"
-                    }
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:temperate\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.chicken.egg",
+                    "profile": {
+                        "name": "Warm Chicken",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUxYzc0ZjZkMWVkNmJlZmJlNjM3NmNhMzIyYjUzYmI2ZjY4ZTExZDFjZTM5YzZiY2VkZWEyOTgyNTk5MzY5MyJ9fX0="
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:warm\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.chicken.hurt",
+                    "profile": {
+                        "name": "Cold Chicken",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE3NTNkY2Y5YWIzNzg3NGM4ZDU3OGUxNTU5YjM4M2NiMWQxZjBiYjNiMjllNmM5NjA1ZjNhODE3YmU4ZmRjNyJ9fX0="
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:cold\"}"
+                    ]
                 }
             ],
             "group": "rare"
@@ -372,7 +395,30 @@
                     "profile": {
                         "name": "Cow",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19"
-                    }
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:temperate\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cow.milk",
+                    "profile": {
+                        "name": "Warm Cow",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNiMzM3NmZhZjI4MWMxNGJhNDcyZDJlN2Y2YjZkMDE2OWU0YmMyMzc0ODM1YTlmOGQwNzg4ZTA0ZDgxMzQzZCJ9fX0="
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:warm\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.cow.hurt",
+                    "profile": {
+                        "name": "Cold Cow",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQwNjg4ODVkMmRmYTNhMzA5MzYzYWYwYTg3ZGNhNmZiZjYyOWY3MTMwNzRmOTY4NjIxOWQ3YmE3YWY3MDA4ZCJ9fX0="
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:cold\"}"
+                    ]
                 }
             ],
             "group": "rare"
@@ -1070,7 +1116,30 @@
                     "profile": {
                         "name": "Pig",
                         "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0="
-                    }
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:temperate\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.pig.saddle",
+                    "profile": {
+                        "name": "Warm Pig",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JlYmExYTJkNTZlODRmOGU1MWZlZDY2NTlmMmNiN2MxNGZlZDQzODU5YWY1ODQ3Mzc4OTdiZjcwYzAzOTQ3NSJ9fX0="
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:warm\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.pig.hurt",
+                    "profile": {
+                        "name": "Cold Pig",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExOGQ0MDQzY2Q2YzkwMzg2Njc4ODkxNGZkNTM0MzE1MjgxYWY5ZjI1OWUzNDgzN2UzZTE3NWU1NDVjMmVkZSJ9fX0="
+                    },
+                    "conditions": [
+                        "{variant:\"minecraft:cold\"}"
+                    ]
                 }
             ],
             "group": "rare"
