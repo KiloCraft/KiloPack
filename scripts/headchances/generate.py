@@ -335,6 +335,11 @@ if not os.path.exists(client_jar):
     print(f"Downloading client jar for {version}")
     download_jar()
 
+# delete old data
+cached_data = f"{cache}/data"
+if os.path.exists(cached_data):
+    shutil.rmtree(cached_data)
+
 print("Extracting loot tables...")
 extract_loot_tables(client_jar)
 
