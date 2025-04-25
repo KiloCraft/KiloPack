@@ -21,7 +21,7 @@
                     }
                   ]
                 },
-                "minecraft:custom_name": "{\"text\": \"Mini Barrel\", \"italic\": false, \"color\": \"dark_red\"}"
+                "minecraft:custom_name": {"text": "Mini Barrel", "italic": false, "color": "dark_red"}
               }
             }
           ]
