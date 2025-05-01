@@ -38,7 +38,7 @@
     },
     "title": "KiloCraft Survival",
     "description": "Walk through the Wilderness Portal and start your KiloCraft journey!",
-    "background": "minecraft:textures/block/light_gray_concrete_powder.png",
+    "background": "minecraft:block/light_gray_concrete_powder",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
