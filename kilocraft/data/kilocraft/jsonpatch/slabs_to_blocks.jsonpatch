@@ -72,6 +72,8 @@ var slabs = [
     "terrestria:willow_slab",
     "terrestria:yucca_palm_slab",
     "woods_and_mires:pine_slab",
+    "borukva-food:avocado_slab",
+    "borukva-food:lemon_slab",
 ];
 
 foreach (slab_id in slabs) {
