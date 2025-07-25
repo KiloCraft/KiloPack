@@ -7,6 +7,6 @@
     }
 }];
 
-if (strings.endsWith($result.id, "_wood") && $result.count == 3) {
+if ($.type == "minecraft:crafting_shaped" && strings.endsWith($result.id, "_wood") && $result.count == 3) {
     $result.count = 4;
 };

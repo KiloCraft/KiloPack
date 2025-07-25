@@ -7,6 +7,6 @@
     }
 }];
 
-if ("result" in $ && strings.endsWith($result.id, "_trapdoor") && $result.count == 2) {
+if ($.type == "minecraft:crafting_shaped" && "result" in $ && strings.endsWith($result.id, "_trapdoor") && $result.count == 2) {
     $result.count = 12;
 };

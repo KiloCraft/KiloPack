@@ -7,6 +7,6 @@
     }
 }];
 
-if (strings.endsWith($result.id, "_stairs") && $result.count == 4) {
+if ($.type == "minecraft:crafting_shaped" && strings.endsWith($result.id, "_stairs") && $result.count == 4) {
     $result.count = 8;
 };
