@@ -1,0 +1,6 @@
+{
+	"parent": "kilocraft:spawn/template",
+	"textures": {
+		"texture": "kilocraft:item/spawn/discord"
+	}
+}

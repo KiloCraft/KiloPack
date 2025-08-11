@@ -1,0 +1,9 @@
+{
+  "id": "kilocraft:banner",
+  "vanillaItem": "minecraft:trial_key",
+  "itemResource": {
+    "models": {
+      "default": "kilocraft:spawn/banner"
+    }
+  }
+}

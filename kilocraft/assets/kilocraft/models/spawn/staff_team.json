@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "kilocraft:item/spawn/staff_team"
+	}
+}

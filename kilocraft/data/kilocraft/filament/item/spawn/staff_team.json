@@ -1,0 +1,9 @@
+{
+  "id": "kilocraft:staff_team",
+  "vanillaItem": "minecraft:trial_key",
+  "itemResource": {
+    "models": {
+      "default": "kilocraft:spawn/staff_team"
+    }
+  }
+}

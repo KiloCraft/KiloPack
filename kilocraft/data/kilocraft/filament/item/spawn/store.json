@@ -1,0 +1,9 @@
+{
+  "id": "kilocraft:store",
+  "vanillaItem": "minecraft:trial_key",
+  "itemResource": {
+    "models": {
+      "default": "kilocraft:spawn/store"
+    }
+  }
+}
