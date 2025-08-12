@@ -1,0 +1,22 @@
+{
+    "id": "kilocraft:spawn_portal",
+    "block_resource": {
+        "models": {
+            "axis=x": "kilocraft:spawn/spawn_portal_ns",
+            "axis=y": "kilocraft:spawn/spawn_portal_ew",
+            "axis=z": "minecraft:block/nether_portal_ew"
+        }
+    },
+    "block_model_type": "plant_block",
+    "behaviour": {
+        "axis": {}
+    },
+    "properties": {
+        "block_base": "minecraft:nether_portal",
+        "light_emission": 4,
+        "transparent": true,
+        "collision": false,
+        "solid": false,
+        "virtual": true
+    }
+}
