@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stripped_oak_log"
+      "id": "televator:televator"
     },
-    "title": "Der Holzweg",
-    "description": "Finde den Holzweg.",
-    "frame": "challenge",
+    "title": "Aperture Science",
+    "description": "Use the televator.",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kilocraft:spawn/mine",
+  "parent": "kilocraft:spawn/root",
   "criteria": {
     "criteria": {
       "trigger": "minecraft:location",
@@ -19,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "max": 1023,
-                "min": 1017
+                "min": 994,
+                "max": 1000
               },
               "y": {
-                "min": 141,
-                "max": 143
+                "min": 156,
+                "max": 160
               },
               "z": {
-                "min": 1172,
-                "max": 1176
+                "min": 1135,
+                "max": 1139
               }
             },
             "dimension": "kilocraft:mighty_highlands"

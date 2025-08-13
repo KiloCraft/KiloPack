@@ -1,10 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:cake"
+      "id": "minecraft:blaze_rod"
     },
-    "title": "The cake is a lie",
-    "description": "Stand the cake at the staff picnic"
+    "title": "Wild Wildfire's fire",
+    "description": "Confront the Wildfire.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "kilocraft:spawn/root",
   "criteria": {
@@ -15,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 307,
-                "max": 309
+                "min": 951,
+                "max": 956
               },
               "y": {
-                "min": 108,
-                "max": 110
+                "min": 152,
+                "max": 155
               },
               "z": {
-                "min": -236,
-                "max": -234
+                "min": 1169,
+                "max": 1177
               }
             },
             "dimension": "kilocraft:mighty_highlands"

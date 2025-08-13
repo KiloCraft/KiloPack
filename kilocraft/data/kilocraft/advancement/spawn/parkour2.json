@@ -1,12 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:cauldron"
+      "id": "minecraft:diamond_boots"
     },
-    "title": "Skibidi Toilet",
-    "description": "Go inside the toilet near the staff party"
+    "title": "Parkour Master",
+    "description": "Complete the Pillar of Doom",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
-  "parent": "kilocraft:spawn/cake",
+  "parent": "kilocraft:spawn/parkour",
   "criteria": {
     "criteria": {
       "trigger": "minecraft:location",
@@ -15,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 326,
-                "max": 327
+                "min": 1084,
+                "max": 1088
               },
               "y": {
-                "min": 108,
-                "max": 110
+                "min": 175,
+                "max": 177
               },
               "z": {
-                "min": -243,
-                "max": -242
+                "min": 1132,
+                "max": 1136
               }
             },
             "dimension": "kilocraft:mighty_highlands"

@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stripped_oak_log"
+      "id": "minecraft:bone"
     },
-    "title": "Der Holzweg",
-    "description": "Finde den Holzweg.",
-    "frame": "challenge",
+    "title": "That's a good boy!",
+    "description": "Pet Milo",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kilocraft:spawn/mine",
+  "parent": "kilocraft:spawn/root",
   "criteria": {
     "criteria": {
       "trigger": "minecraft:location",
@@ -19,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "max": 1023,
-                "min": 1017
+                "min": 1043,
+                "max": 1045
               },
               "y": {
-                "min": 141,
-                "max": 143
+                "min": 150,
+                "max": 152
               },
               "z": {
-                "min": 1172,
-                "max": 1176
+                "min": 1158,
+                "max": 1161
               }
             },
             "dimension": "kilocraft:mighty_highlands"

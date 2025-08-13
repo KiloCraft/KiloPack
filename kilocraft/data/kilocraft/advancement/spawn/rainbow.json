@@ -1,10 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:water_bucket"
+      "id": "blockus:rainbow_block"
     },
-    "title": "Well, well, well...",
-    "description": "Go inside a very ominous well."
+    "title": "Somewhere under the rainbow",
+    "description": "Find the rainbow room.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "kilocraft:spawn/root",
   "criteria": {
@@ -15,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 181,
-                "max": 187
+                "min": 1039,
+                "max": 1046
               },
               "y": {
-                "min": 98,
-                "max": 101
+                "min": 147,
+                "max": 150
               },
               "z": {
-                "min": -305,
-                "max": -292
+                "min": 1133,
+                "max": 1139
               }
             },
             "dimension": "kilocraft:mighty_highlands"

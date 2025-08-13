@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stripped_oak_log"
+      "id": "minecraft:iron_bars"
     },
-    "title": "Der Holzweg",
-    "description": "Finde den Holzweg.",
+    "title": "Unsettling Discovery",
+    "description": "You should probably leave.",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "kilocraft:spawn/mine",
+  "parent": "kilocraft:spawn/illagerhideout",
   "criteria": {
     "criteria": {
       "trigger": "minecraft:location",
@@ -19,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "max": 1023,
-                "min": 1017
+                "min": 992,
+                "max": 997
               },
               "y": {
-                "min": 141,
-                "max": 143
+                "min": 143,
+                "max": 147
               },
               "z": {
-                "min": 1172,
-                "max": 1176
+                "min": 1194,
+                "max": 1199
               }
             },
             "dimension": "kilocraft:mighty_highlands"

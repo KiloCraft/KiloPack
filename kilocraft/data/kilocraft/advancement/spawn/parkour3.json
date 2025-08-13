@@ -1,12 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:andesite"
+      "id": "minecraft:skeleton_skull"
     },
-    "title": "Sönkehaus",
-    "description": "Find a hidden house..."
+    "title": "Guess that's it, huh?",
+    "description": "You had a bad time.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
   },
-  "parent": "kilocraft:spawn/root",
+  "parent": "kilocraft:spawn/parkour2",
   "criteria": {
     "criteria": {
       "trigger": "minecraft:location",
@@ -15,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 366,
-                "max": 378
+                "min": 1095,
+                "max": 1099
               },
               "y": {
-                "min": 99,
-                "max": 101
+                "min": 172,
+                "max": 174
               },
               "z": {
-                "min": -196,
-                "max": -180
+                "min": 1058,
+                "max": 1062
               }
             },
             "dimension": "kilocraft:mighty_highlands"

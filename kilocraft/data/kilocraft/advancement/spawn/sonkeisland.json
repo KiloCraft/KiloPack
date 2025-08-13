@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:stripped_oak_log"
+      "id": "minecraft:player_head"
     },
-    "title": "Der Holzweg",
-    "description": "Finde den Holzweg.",
-    "frame": "challenge",
+    "title": "Sönke Island",
+    "description": "Visit Sönke Island",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "kilocraft:spawn/mine",
+  "parent": "kilocraft:spawn/root",
   "criteria": {
     "criteria": {
       "trigger": "minecraft:location",
@@ -19,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "max": 1023,
-                "min": 1017
+                "min": 1027,
+                "max": 1033
               },
               "y": {
-                "min": 141,
-                "max": 143
+                "min": 149,
+                "max": 152
               },
               "z": {
-                "min": 1172,
-                "max": 1176
+                "min": 1184,
+                "max": 1191
               }
             },
             "dimension": "kilocraft:mighty_highlands"

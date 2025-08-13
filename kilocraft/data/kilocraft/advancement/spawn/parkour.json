@@ -1,10 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "polyfactory:fan"
+      "id": "enderscape:drift_jelly_block"
     },
-    "title": "Frustration Factory",
-    "description": "Complete the parkour!"
+    "title": "Parkour Prodigy",
+    "description": "Complete the parkour (?)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "kilocraft:spawn/root",
   "criteria": {
@@ -15,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 262,
-                "max": 263
+                "min": 1087,
+                "max": 1091
               },
               "y": {
-                "min": 145,
-                "max": 147
+                "min": 161,
+                "max": 163
               },
               "z": {
-                "min": -305,
-                "max": -304
+                "min": 1132,
+                "max": 1136
               }
             },
             "dimension": "kilocraft:mighty_highlands"

@@ -1,10 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:fishing_rod"
+      "id": "minecraft:rail"
     },
-    "title": "Fishing Shenanigans",
-    "description": "Investigate the old fishing shack"
+    "title": "This is MINE now!",
+    "description": "Find the secret mine.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "parent": "kilocraft:spawn/root",
   "criteria": {
@@ -15,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 316,
-                "max": 320
+                "min": 1017,
+                "max": 1021
               },
               "y": {
-                "min": 99,
-                "max": 102
+                "min": 141,
+                "max": 143
               },
               "z": {
-                "min": -367,
-                "max": -361
+                "min": 1147,
+                "max": 1155
               }
             },
             "dimension": "kilocraft:mighty_highlands"
