@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "friendsandfoes:crab_claw"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.crab.step",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ5NTc0ZGNlMzc0OGIwNjI2ODU3ZDM1YjE3YjJmMDNmNzAxOTViNTBkNjgxNmVjNmFjZDg5NDU4MTNjYjY2MSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Crab",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.015,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.02,
+            "per_level_above_first": 0.005
+          },
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    }
+  ]
+}

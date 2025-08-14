@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 5.0,
+								"max": 20.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 16.0
+							}
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 10.0
+							}
+						}
+					]
+				},
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.generic.extinguish_fire",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQzZTZlZGU3NmJiNGYxOTAzYTZjNDlmNzQyZGZmNmRmMTU1YTk3MDdhNGU3NzBkNTZmNTAxMjVlODQxNTM1NyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Rascal",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

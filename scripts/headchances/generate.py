@@ -26,10 +26,12 @@ MCFUNCTION_FILE_SUFFIX = """scoreboard players reset @s headchances
 scoreboard players enable @s headchances"""
 
 ### Configuration
-version = "1.21.5"
+version = "1.21.8"
 mods = [
-    # https://modrinth.com/mod/toms-mobs/version/2.2.3+1.21.5
-    ("toms-mobs", "2.2.3+1.21.5")
+    ("toms-mobs", "2.3.0+1.21.6"),
+    ("friends-and-foes", "fabric-4.0.7+mc1.21.6"),
+    ("enderscape", "1.0.8"),
+    ("lovely_snails", "1.2.1+1.21.8")
 ]
 
 

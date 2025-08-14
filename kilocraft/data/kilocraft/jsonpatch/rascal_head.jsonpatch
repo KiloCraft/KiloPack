@@ -1,0 +1,9 @@
+@version "1";
+
+@target "friendsandfoes:loot_table/rewards/rascal_good_reward.json";
+
+arrays.push($pools[0].entries, {
+          "type": "minecraft:loot_table",
+          "value": "kilocraft:rascal",
+          "weight": 1
+});
