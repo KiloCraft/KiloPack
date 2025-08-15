@@ -19,16 +19,16 @@
           "location": {
             "position": {
               "x": {
-                "min": 994,
-                "max": 1000
+                "min": 984,
+                "max": 990
               },
               "y": {
                 "min": 156,
                 "max": 160
               },
               "z": {
-                "min": 1135,
-                "max": 1139
+                "min": 1125,
+                "max": 1129
               }
             },
             "dimension": "kilocraft:mighty_highlands"
