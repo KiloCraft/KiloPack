@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.mauler.growl",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMyMDlmNjA4MzljMGNhM2U4OTUxMmY1Nzg5OThmZDUyMjI4Y2FkZDMxYTZlOGY1NGZiNGEzNjA0NmFkMjE4NSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Mauler",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Type:'savanna'}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.mauler.bite",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdkODdhNjU3MTVmN2Y2N2MxM2VjMmY5YTUwNDEwODRmNWFlY2QzNTgwZjQwZjY1NDQ3YzA5OThmZDM4NTk3NyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Sand Mauler",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Type:'desert'}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.mauler.hurt",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRkNDlhYWVmMTlhYWJkMTEyYWI5Mjg0YTc0ZTdjMDIwNTNmODkyNzMzZDI5OWUxZTYzMGZiNTUwYmViZmJjNyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Red Sand Mauler",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Type:'badlands'}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

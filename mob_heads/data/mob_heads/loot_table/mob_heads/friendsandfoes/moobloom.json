@@ -1,0 +1,673 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI1NzY2YjE1MTA1NDY3Yjg5NDYzNGIwNjI1NzU4M2E0ZTU0NDg4OWQ1MTlkN2Q1NTVkMDJlZjk4OTJmM2FkMyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"buttercup\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIxN2YxMTA1NzU2ZDk1ZTcwODVlNDk3NTA0MzhiZDY0ZTY1NjNlZjU5NmQ0ZGI1NGNkMTBiN2JkYzA2NTViZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Allium Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"allium\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY2ZDdjZmRmNjM4YTVjODk4ZTE5OTJkODg5MjIwZWFiZDQ5NTFiYjY4ZDgzOGU0MTM2YzM0NDY2M2E1MjkxNCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Orange Tulip Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"orange_tulip\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmFiODM4MzkwMTBmZTlhMmY1YjQ1MjA0NzA0M2Q1ZTkwYWFlMzg5NjgxNTVkMDU1NDY3NTExMjczZWMwMjAwZiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Oxeye Daisy Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"oxeye_daisy\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYyNDI2ZWQ4MWEwMDlkZWM5ZmMxZDQ0NzBmYjM2MTZhYmMzYjhjMmMzZjA0NzRiZGUwOGZiOTFiMTQ5MDM4ZSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Peony Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"peony\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE1OTgyOWY4MGUzMTg4MzVhOGRmNGQzNTMxMzQ0NzU0ZDI0YjViNjU2NTk3YjgyYzcwYzM2ZmNmMzM4NDA4MSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Pink Tulip Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"pink_tulip\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYyNjk0MDQzYmUxYmU5NWJjNjQyMWFiYmZmYjk0ZTgzNmFmNTgxMDg4ZDgyZDAzYTA3ZWMwM2FkN2NmYjEwMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Poppy Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"poppy\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmJlMmFlYzA3MzJlNjdjMmYzODdhMjE5NmFiNzEyMTIwMjM1Y2VkODA4YTk2OWVjODQ0MjJkYTlhMDNmNGY5NiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Sunflower Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"sunflower\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliODE3YzVkYTNiZTAyNDdiYTZjNDQ4NjBlYzVhMGQxOGIwNjIzNTdmNGI2ODk3MGUzNDhiNWMwMTM4Y2ZmYyJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "White Tulip Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"white_tulip\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYyNjk0MDQzYmUxYmU5NWJjNjQyMWFiYmZmYjk0ZTgzNmFmNTgxMDg4ZDgyZDAzYTA3ZWMwM2FkN2NmYjEwMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Red Tulip Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"red_tulip\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDllOTM2MTBjNTgzYWM3YTM5YWFkMzZhZDIwNThkNzE0OWI1ZTZhNGQxZTRmNTYzOWU4OGY4ZDZlYjdhZmUwOSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Blue Orchid Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"blue_orchid\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QxYTNjMjk4ZDQ2ZjQ4NDIwZTIxM2E0MmE0OWU4ODNlMmNkNjE3NDZkZGZlNTY4OWNmZTcwNDRhYzNlNTk1MSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Rose Bush Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"rose_bush\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRlNjQ0ZWQ5YTUyODVmMjQwYTE3Y2M2MGI5NjQ1NDczODNiMTEyMmE1YWY5M2I1M2U2YmYxNTk5NDFiYzRmNCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Cornflower Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"cornflower\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxZDM2YzJjZTQ1NGVhNjIwNTY5NmIwNGFkMTM2NjczNzI4ZmEyZmJiMWNiMmRhZDUyZTY2OWU4ZWE3NGI4MCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Dandelion Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"dandelion\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdmYTdhNWY1ZjE4NzAxMWM0NzBjNzliZGNiNjU3OWVjNzMzN2VmNGU5MjJhNjhhZTU4NzhkNjVhMjY3YjUzZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Lily of the Valley Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"lily_of_the_valley\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.shear",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY0NzAzNmEwMjQwZTQxMGE3OTk5ZWQ2ZmVjNGMwMTQ3YTAzYTcwNjRmMTkxNDZmNDMxYWJkNDAxMTgzMDY1NSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Lilac Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"lilac\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.moobloom.convert",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZmODUyNjExYWMyMDVmMjM4MDlmZjA2YzU5MzViZDM4OWQwOWNjOTljMjFhMGJmZTk4ZTI3N2I5OWQxNTc4NSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Azure Bluet Moobloom",
+                  "italic": false,
+                  "color": "aqua"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{Variant:\"azure_bluet\"}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mob_heads:mob_heads/minecraft/blaze"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.0004,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.0006000000000000001,
+            "per_level_above_first": 0.0002
+          },
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    }
+  ]
+}

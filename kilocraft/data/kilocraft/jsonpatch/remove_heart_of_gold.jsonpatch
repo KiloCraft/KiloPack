@@ -1,4 +1,0 @@
-@version "1";
-@metapatch;
-
-metapatch.deleteFiles("plushables:recipe/heart_of_gold.json");

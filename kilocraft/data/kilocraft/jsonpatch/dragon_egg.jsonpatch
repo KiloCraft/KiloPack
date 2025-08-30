@@ -1,0 +1,25 @@
+@version "1";
+
+@target "minecraft:loot_table/entities/ender_dragon.json";
+
+var pool = {
+    "rolls": 1,
+    "entries": [
+        {
+            "type": "minecraft:item",
+            "name": "minecraft:dragon_egg"
+        }
+    ],
+    "conditions": [
+        {
+            "condition": "minecraft:random_chance",
+            "chance": 0.2
+        }
+    ]
+};
+
+if ("pools" in $) {
+    arrays.push($pools, pool);
+} else {
+    $.pools = [pool];
+}

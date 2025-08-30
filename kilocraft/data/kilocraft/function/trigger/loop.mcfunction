@@ -4,7 +4,7 @@ execute as @a if score @s rankinfo matches 1.. run function kilocraft:trigger/ra
 execute as @a if score @s rules matches 1.. run function kilocraft:trigger/rules
 execute as @a if score @s voteshop matches 1.. run function kilocraft:trigger/voteshop
 execute as @a if score @s voteshop matches ..-1 run function kilocraft:trigger/voteshop
-execute as @a if score @s headchances matches 1.. run function kilocraft:trigger/headchances
+execute as @a if score @s headchances matches 1.. run function mob_heads:headchances
 execute as @a if score @s misc matches 1.. run function kilocraft:trigger/util
 execute as @a if score @s guide matches 1.. run function kilocraft:trigger/guide
 execute as @a if score @s guide matches ..-1 run function kilocraft:trigger/guide

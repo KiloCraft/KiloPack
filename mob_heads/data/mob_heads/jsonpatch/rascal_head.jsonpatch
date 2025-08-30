@@ -1,0 +1,16 @@
+@version "1";
+
+@target "friendsandfoes:loot_table/rewards/rascal_good_reward.json";
+
+var pool = {
+    "rolls": 1,
+    "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "value": "mob_heads:mob_heads/friendsandfoes/rascal"
+        }
+    ]
+};
+
+
+arrays.push($.pools, pool);
