@@ -4,7 +4,7 @@
       "id": "minecraft:end_crystal"
     },
     "title": "Master Of All Bosses",
-    "description": "Kill the Wither, Warden, Elder Guardien and Ender Dragon",
+    "description": "Kill the Wither, Warden, Elder Guardian and Ender Dragon",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
