@@ -3,9 +3,7 @@
     "icon": {
       "id": "minecraft:potion",
       "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:luck"
-        }
+        "minecraft:potion_contents":  "minecraft:luck"
       }
     },
     "title": "Lucky Charm",
