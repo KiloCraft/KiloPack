@@ -1,0 +1,166 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTllMjRlOTRkYmU0MmUyMzBkODMyOTNhNzdkNjFmZjcxMDFhOGM2OGFiNjhiYmM2YTkzZjk2MzBmYjJmZGI0In19fQ=="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Copper Golem",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{OxidationLevel:0}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE5ZTQxMGM4YjdmZGJkNGI5ZDhlYTgwNzViYzY2YTljMWFkYTliYzE1ODczYjRiMWRlYWRhYTI4MTJiODQ3ZCJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Exposed Copper Golem",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{OxidationLevel:1}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI2Mjk5MmQ2ZDVhNjJhMWRkM2VkZThlNGMzNGYxYzE4MDUwYmFiNjQyNzFkOTI2YzFjMGM2MTYyYjJjZDc0ZSJ9fX0"
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Weathered Copper Golem",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{OxidationLevel:2}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MyYWFiOGEwZmVjM2NjMDZhNGQ0NzQ4MGUwMjRmODhmMmIwN2JjOTZlZTA5ZTUzMzFlNWY0ZGI2YjI3Mzg4NSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Oxidized Copper Golem",
+                  "italic": false,
+                  "color": "blue"
+                }
+              }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "any_of",
+              "terms": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{OxidationLevel:3}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
