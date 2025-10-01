@@ -27,20 +27,6 @@
                 }
               }
             }
-          ],
-          "conditions": [
-            {
-              "condition": "any_of",
-              "terms": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{Fire:-1s}"
-                  },
-                  "entity": "this"
-                }
-              ]
-            }
           ]
         },
         {
@@ -65,20 +51,6 @@
                   "color": "aqua"
                 }
               }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "any_of",
-              "terms": [
-                {
-                  "condition": "entity_properties",
-                  "predicate": {
-                    "nbt": "{Fire:0s}"
-                  },
-                  "entity": "this"
-                }
-              ]
             }
           ]
         }
