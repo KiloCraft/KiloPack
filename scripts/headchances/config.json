@@ -322,22 +322,6 @@
             ],
             "group": "very_rare"
         },
-        "minecraft:charged_creeper": {
-            "name": "Charged Creeper",
-            "heads": [
-                {
-                    "note_block_sound": "minecraft:entity.lightning_bolt.thunder",
-                    "profile": {
-                        "name": "Charged Creeper",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZWIzOWRkNGRlMjRhN2FkZmUyOTFhM2EwY2ZjN2NmNGY2NDVkZTU5YjYwM2ZjZmUwNmM2YjVhMDZlMjYifX19"
-                    },
-                    "conditions": [
-                        "{powered:1b}"
-                    ]
-                }
-            ],
-            "group": "uncommon"
-        },
         "minecraft:chicken": {
             "name": "Chicken",
             "heads": [
@@ -441,7 +425,7 @@
             "heads": [
             ],
             "references": [
-                "minecraft:charged_creeper"
+                "kilocraft:charged_creeper"
             ]
         },
         "minecraft:dolphin": {
@@ -856,22 +840,6 @@
             ],
             "group": "rare"
         },
-        "minecraft:jebsheep": {
-            "name": "Jeb_ Sheep",
-            "heads": [
-                {
-                    "note_block_sound": "minecraft:block.amethyst_block.chime",
-                    "profile": {
-                        "name": "Jeb_ Sheep",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM0Y2JmMmRhYzQyZGUzYjJjYmZkMGFhMWRjNDAzNjNiNmQzZDViNTczNmIyYTc4OGMwNWQxYjRhYmIxOWU3In19fQ=="
-                    },
-                    "conditions": [
-                        "{CustomName:'jeb_'}"
-                    ]
-                }
-            ],
-            "group": "uncommon"
-        },
         "minecraft:llama": {
             "name": "Llama",
             "heads": [
@@ -1194,24 +1162,8 @@
             ],
             "group": "normal",
             "references": [
-                "minecraft:pill_bo"
+                "kilocraft:pill_bo"
             ]
-        },
-        "minecraft:pill_bo": {
-            "name": "Bad Omen Pillager",
-            "heads": [
-                {
-                    "note_block_sound": "minecraft:entity.pillager.celebrate",
-                    "profile": {
-                        "name": "Bad Omen Pillager",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ1NDNlM2RmYjUwNDhiNDNjYTNjM2FiY2YwZGY0YjNmY2ZiMTdhOTk4NTRkNzZjZmFhNjdhNjYxZjU2NGZkOSJ9fX0="
-                    },
-                    "conditions": [
-                        "{PatrolLeader:1b}"
-                    ]
-                }
-            ],
-            "group": "normal"
         },
         "minecraft:polar_bear": {
             "name": "Polar Bear",
@@ -1329,17 +1281,10 @@
                     "conditions": [
                         "{RabbitType:5}"
                     ]
-                },
-                {
-                    "note_block_sound": "minecraft:entity.rabbit.attack",
-                    "profile": {
-                        "name": "Toast",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYzNiNzQ2NjY1NDVmMmQ0MWJjMmI1MzQwZTFkZjY5ZGQyNWUyYTdlMmIzNGVmZDFhOTUzMTFhN2Q2YyJ9fX0="
-                    },
-                    "conditions": [
-                        "{CustomName:'\"Toast\"'}"
-                    ]
                 }
+            ],
+            "references": [
+                "kilocraft:toast_rabbit"
             ],
             "group": "uncommon"
         },
@@ -1534,7 +1479,7 @@
                 }
             ],
             "references": [
-                "minecraft:jebsheep"
+                "kilocraft:jebsheep"
             ],
             "group": "normal"
         },
@@ -3111,6 +3056,70 @@
                 }
             ],
             "group": "uncommon"
+        },
+        "kilocraft:charged_creeper": {
+            "name": "Charged Creeper",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.lightning_bolt.thunder",
+                    "profile": {
+                        "name": "Charged Creeper",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZWIzOWRkNGRlMjRhN2FkZmUyOTFhM2EwY2ZjN2NmNGY2NDVkZTU5YjYwM2ZjZmUwNmM2YjVhMDZlMjYifX19"
+                    },
+                    "conditions": [
+                        "{powered:1b}"
+                    ]
+                }
+            ],
+            "group": "uncommon"
+        },
+        "kilocraft:toast_rabbit": {
+            "name": "Toast Rabbit",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.rabbit.attack",
+                    "profile": {
+                        "name": "Toast",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYzNiNzQ2NjY1NDVmMmQ0MWJjMmI1MzQwZTFkZjY5ZGQyNWUyYTdlMmIzNGVmZDFhOTUzMTFhN2Q2YyJ9fX0="
+                    },
+                    "conditions": [
+                        "{CustomName:'Toast'}"
+                    ]
+                }
+            ],
+            "group": "uncommon"
+        },
+        "kilocraft:jebsheep": {
+            "name": "Jeb_ Sheep",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:block.amethyst_block.chime",
+                    "profile": {
+                        "name": "Jeb_ Sheep",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM0Y2JmMmRhYzQyZGUzYjJjYmZkMGFhMWRjNDAzNjNiNmQzZDViNTczNmIyYTc4OGMwNWQxYjRhYmIxOWU3In19fQ=="
+                    },
+                    "conditions": [
+                        "{CustomName:'jeb_'}"
+                    ]
+                }
+            ],
+            "group": "uncommon"
+        },
+        "kilocraft:pill_bo": {
+            "name": "Bad Omen Pillager",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.pillager.celebrate",
+                    "profile": {
+                        "name": "Bad Omen Pillager",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ1NDNlM2RmYjUwNDhiNDNjYTNjM2FiY2YwZGY0YjNmY2ZiMTdhOTk4NTRkNzZjZmFhNjdhNjYxZjU2NGZkOSJ9fX0="
+                    },
+                    "conditions": [
+                        "{PatrolLeader:1b}"
+                    ]
+                }
+            ],
+            "group": "normal"
         }
     },
     "groups": {

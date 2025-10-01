@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mob_heads:mob_heads/minecraft/charged_creeper"
+          "value": "mob_heads:mob_heads/kilocraft/charged_creeper"
         }
       ],
       "conditions": [

@@ -30,7 +30,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mob_heads:mob_heads/minecraft/pill_bo"
+          "value": "mob_heads:mob_heads/kilocraft/pill_bo"
         }
       ],
       "conditions": [
