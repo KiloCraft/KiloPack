@@ -371,6 +371,52 @@
             ],
             "group": "normal"
         },
+        "minecraft:copper_golem": {
+            "name": "Copper Golem",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.copper_golem.shear",
+                    "profile": {
+                        "name": "Copper Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTllMjRlOTRkYmU0MmUyMzBkODMyOTNhNzdkNjFmZjcxMDFhOGM2OGFiNjhiYmM2YTkzZjk2MzBmYjJmZGI0In19fQ=="
+                    },
+                    "conditions": [
+                        "{weather_state:\"unaffected\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.copper_golem.item_drop",
+                    "profile": {
+                        "name": "Exposed Copper Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE5ZTQxMGM4YjdmZGJkNGI5ZDhlYTgwNzViYzY2YTljMWFkYTliYzE1ODczYjRiMWRlYWRhYTI4MTJiODQ3ZCJ9fX0="
+                    },
+                    "conditions": [
+                        "{weather_state:\"exposed\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.copper_golem_weathered.hurt",
+                    "profile": {
+                        "name": "Weathered Copper Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI2Mjk5MmQ2ZDVhNjJhMWRkM2VkZThlNGMzNGYxYzE4MDUwYmFiNjQyNzFkOTI2YzFjMGM2MTYyYjJjZDc0ZSJ9fX0"
+                    },
+                    "conditions": [
+                        "{weather_state:\"weathered\"}"
+                    ]
+                },
+                {
+                    "note_block_sound": "minecraft:entity.copper_golem_oxidized.death",
+                    "profile": {
+                        "name": "Oxidized Copper Golem",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MyYWFiOGEwZmVjM2NjMDZhNGQ0NzQ4MGUwMjRmODhmMmIwN2JjOTZlZTA5ZTUzMzFlNWY0ZGI2YjI3Mzg4NSJ9fX0="
+                    },
+                    "conditions": [
+                        "{weather_state:\"oxidized\"}"
+                    ]
+                }
+            ],
+            "group": "uncommon"
+        },
         "minecraft:cow": {
             "name": "Cow",
             "heads": [
@@ -2573,52 +2619,6 @@
                     },
                     "conditions": [
                         "{RubblemiteVariant:3}"
-                    ]
-                }
-            ],
-            "group": "uncommon"
-        },
-        "friendsandfoes:copper_golem": {
-            "name": "Copper Golem",
-            "heads": [
-                {
-                    "note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
-                    "profile": {
-                        "name": "Copper Golem",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTllMjRlOTRkYmU0MmUyMzBkODMyOTNhNzdkNjFmZjcxMDFhOGM2OGFiNjhiYmM2YTkzZjk2MzBmYjJmZGI0In19fQ=="
-                    },
-                    "conditions": [
-                        "{OxidationLevel:0}"
-                    ]
-                },
-                {
-                    "note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
-                    "profile": {
-                        "name": "Exposed Copper Golem",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE5ZTQxMGM4YjdmZGJkNGI5ZDhlYTgwNzViYzY2YTljMWFkYTliYzE1ODczYjRiMWRlYWRhYTI4MTJiODQ3ZCJ9fX0="
-                    },
-                    "conditions": [
-                        "{OxidationLevel:1}"
-                    ]
-                },
-                {
-                    "note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
-                    "profile": {
-                        "name": "Weathered Copper Golem",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODI2Mjk5MmQ2ZDVhNjJhMWRkM2VkZThlNGMzNGYxYzE4MDUwYmFiNjQyNzFkOTI2YzFjMGM2MTYyYjJjZDc0ZSJ9fX0"
-                    },
-                    "conditions": [
-                        "{OxidationLevel:2}"
-                    ]
-                },
-                {
-                    "note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
-                    "profile": {
-                        "name": "Oxidized Copper Golem",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MyYWFiOGEwZmVjM2NjMDZhNGQ0NzQ4MGUwMjRmODhmMmIwN2JjOTZlZTA5ZTUzMzFlNWY0ZGI2YjI3Mzg4NSJ9fX0="
-                    },
-                    "conditions": [
-                        "{OxidationLevel:3}"
                     ]
                 }
             ],

@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:note_block_sound": "minecraft:entity.copper_golem.shear",
                 "minecraft:profile": {
                   "properties": [
                     {
@@ -35,7 +35,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{OxidationLevel:0}"
+                    "nbt": "{weather_state:\"unaffected\"}"
                   },
                   "entity": "this"
                 }
@@ -50,7 +50,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:note_block_sound": "minecraft:entity.copper_golem.item_drop",
                 "minecraft:profile": {
                   "properties": [
                     {
@@ -74,7 +74,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{OxidationLevel:1}"
+                    "nbt": "{weather_state:\"exposed\"}"
                   },
                   "entity": "this"
                 }
@@ -89,7 +89,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:note_block_sound": "minecraft:entity.copper_golem_weathered.hurt",
                 "minecraft:profile": {
                   "properties": [
                     {
@@ -113,7 +113,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{OxidationLevel:2}"
+                    "nbt": "{weather_state:\"weathered\"}"
                   },
                   "entity": "this"
                 }
@@ -128,7 +128,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:note_block_sound": "friendsandfoes:entity.copper_golem.hurt",
+                "minecraft:note_block_sound": "minecraft:entity.copper_golem_oxidized.death",
                 "minecraft:profile": {
                   "properties": [
                     {
@@ -152,7 +152,7 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{OxidationLevel:3}"
+                    "nbt": "{weather_state:\"oxidized\"}"
                   },
                   "entity": "this"
                 }

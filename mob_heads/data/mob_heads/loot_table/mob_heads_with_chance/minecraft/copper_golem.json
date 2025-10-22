@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "mob_heads:mob_heads/friendsandfoes/copper_golem"
+          "value": "mob_heads:mob_heads/minecraft/copper_golem"
         }
       ],
       "conditions": [
