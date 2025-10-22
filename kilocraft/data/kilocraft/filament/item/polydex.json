@@ -1,0 +1,21 @@
+{
+    "id": "kilocraft:polydex",
+    "vanilla_item": "minecraft:trial_key",
+    "item_tags": [],
+    "behaviour": {
+        "item_interact_execute": {
+            "command": "/polydex"
+        }
+    },
+    "properties": {
+        "stack_size": 1,
+        "lore": [
+            "<gray>Right-click to open <white>/polydex"
+        ]
+    },
+    "components": {
+        "minecraft:item_model": "minecraft:knowledge_book",
+        "minecraft:item_name": "Polydex",
+        "minecraft:rarity": "rare"
+    }
+}
