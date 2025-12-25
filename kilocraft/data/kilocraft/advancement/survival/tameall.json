@@ -42,21 +42,6 @@
         ]
       }
     },
-    "minecraft:camel": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:camel"
-            }
-          }
-        ]
-      }
-    },
     "minecraft:cat": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
