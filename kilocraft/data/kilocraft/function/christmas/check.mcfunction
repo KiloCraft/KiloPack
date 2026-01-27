@@ -1,2 +1,0 @@
-$execute as @e[tag=christmas,tag=$(tag)] at @s run execute as @a[distance=..1.6,tag=!$(tag)] run function kilocraft:christmas/reward {tag: "$(tag)", texture: "$(texture)", name: "$(name)"}
-$execute as @e[tag=christmas,tag=$(tag)] at @s run execute as @a[tag=$(tag)] run particle minecraft:happy_villager ~ ~2.2 ~ 0.001 0.001 0.001 0 1 normal @a[tag=$(tag)]

@@ -1,1 +1,0 @@
-scoreboard objectives add christmas_dialogue dummy
