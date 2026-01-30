@@ -13,4 +13,5 @@ execute as @a[tag=kilocraft_in_portal_tmp,tag=!kilocraft_in_portal] at @s run fu
 
 tag @a[tag=kilocraft_in_portal_tmp] remove kilocraft_in_portal_tmp
 
+execute as @a[distance=0..] at @s if entity @s[y=80,dy=-2147483647] at @s run effect give @s minecraft:levitation 1 13 true
 execute positioned 0.5 100.00 0.5 as @a[distance=500..] at @s run tp @s 0.5 100.00 0.5 0 0
