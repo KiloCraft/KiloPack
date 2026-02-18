@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/desert_pyramid"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/desert_well"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/ocean_ruin_cold"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/ocean_ruin_warm"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/trail_ruins_common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:archaeology/trail_ruins_rare"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+	"title": "Event Shop",
+	"type": "generic_9x3",
+	"entries": [
+		{
+			"slot": 0,
+			"icon": {
+				"id": "minecraft:bow",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "The Perfect Combo",
+						"color": "light_purple",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"minecraft:mending": 1,
+						"minecraft:infinity": 1
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:event/shop {cost:50,command:\"give @s minecraft:bow[minecraft:enchantments={\\\"minecraft:mending\\\":1,\\\"minecraft:infinity\\\":1},minecraft:custom_name={\\\"text\\\": \\\"The Perfect Combo\\\",\\\"color\\\": \\\"light_purple\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"The Perfect Combo\"}"
+		},
+		{
+			"slot": 1,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Always Protected",
+						"color": "aqua",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"minecraft:protection": 4
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:event/shop {cost:50,command:\"give @s minecraft:elytra[minecraft:enchantments={\\\"minecraft:protection\\\":4},minecraft:custom_name={\\\"text\\\": \\\"Always Protected\\\",\\\"color\\\": \\\"aqua\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Always Protected\"}"
+		},
+		{
+			"slot": 2,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Always in Range",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"nova_structures:outreach": 4
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:event/shop {cost:50,command:\"give @s minecraft:elytra[minecraft:enchantments={\\\"nova_structures:outreach\\\":4},minecraft:custom_name={\\\"text\\\": \\\"Always in Range\\\",\\\"color\\\": \\\"yellow\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Always in Range\"}"
+		},
+		{
+			"slot": 3,
+			"icon": {
+				"id": "minecraft:iron_hoe",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Lucky Hoe",
+						"color": "green",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"minecraft:fortune": 3
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "20 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:event/shop {cost:20,command:\"give @s minecraft:iron_hoe[minecraft:enchantments={\\\"minecraft:fortune\\\":3},minecraft:custom_name={\\\"text\\\": \\\"Lucky Hoe\\\",\\\"color\\\": \\\"green\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Lucky Hoe\"}"
+		},
+		{
+			"slot": 4,
+			"icon": {
+				"id": "minecraft:stick",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Knockback Stick",
+						"color": "red",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"minecraft:knockback": 3
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "20 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:event/shop {cost:20,command:\"give @s minecraft:stick[minecraft:enchantments={\\\"minecraft:knockback\\\":3},minecraft:custom_name={\\\"text\\\": \\\"Knockback Stick\\\",\\\"color\\\": \\\"red\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Knockback Stick\"}"
+		},
+		{
+			"slot": 5,
+			"icon": {
+				"id": "minecraft:player_head",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Your Head",
+						"color": "dark_purple",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:event/shop {cost:20,command:\"loot give @s loot kilocraft:player_head\",name:\"Your Head\"}"
+		},
+		{
+			"slot": 26,
+			"icon": {
+				"id": "minecraft:gold_nugget",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Event Coins: ",
+						"color": "yellow",
+						"italic": false,
+						"extra": [
+							{
+								"text": "%player:objective event_coins%",
+								"color": "white"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

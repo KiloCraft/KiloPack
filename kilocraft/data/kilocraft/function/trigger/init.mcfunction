@@ -1,4 +1,3 @@
-scoreboard objectives add voteshop trigger
 scoreboard objectives add claimshop trigger
 scoreboard objectives add rankinfo trigger
 scoreboard objectives add rules trigger

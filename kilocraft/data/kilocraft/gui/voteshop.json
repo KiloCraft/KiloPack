@@ -1,0 +1,407 @@
+{
+	"title": "Vote Shop",
+	"type": "generic_9x3",
+	"entries": [
+		{
+			"slot": 0,
+			"icon": {
+				"id": "minecraft:diamond",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Diamond",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "2 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:2,command:\"give @s minecraft:diamond 1\",name:\"1 Diamond\"}"
+		},
+		{
+			"slot": 1,
+			"icon": {
+				"id": "minecraft:sponge",
+				"count": 4,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "4 Sponges",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "2 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:2,command:\"give @s minecraft:sponge 4\",name:\"4 Sponges\"}"
+		},
+		{
+			"slot": 2,
+			"icon": {
+				"id": "minecraft:experience_bottle",
+				"count": 5,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "5 Experience Bottles",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "1 credit",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:1,command:\"give @s minecraft:experience_bottle 5\",name:\"5 Experience Bottles\"}"
+		},
+		{
+			"slot": 3,
+			"icon": {
+				"id": "minecraft:enchanted_book",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Enchanted Book",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"minecraft:mending": 1
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "25 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:25,command:\"give @s minecraft:enchanted_book[minecraft:stored_enchantments={\\\"minecraft:mending\\\":1}] 1\",name:\"Mending Book\"}"
+		},
+		{
+			"slot": 4,
+			"icon": {
+				"id": "minecraft:enchanted_book",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Enchanted Book",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"nova_structures:gravity": 3
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Shoot an arrow which pulls all mobs around it",
+								"color": "gray"
+							}
+						],
+						[
+							{
+								"text": "upon landing, destroying the arrow in the process",
+								"color": "gray"
+							}
+						],
+						[
+							{
+								"text": "Items: Crossbow",
+								"color": "gray"
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "40 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:40,command:\"give @s minecraft:enchanted_book[minecraft:stored_enchantments={\\\"nova_structures:gravity\\\":3}] 1\",name:\"Gravity Book\"}"
+		},
+		{
+			"slot": 5,
+			"icon": {
+				"id": "minecraft:enchanted_book",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Enchanted Book",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:enchantments": {
+						"nova_structures:wax_wings": 1
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Negates elytra damage from slow gliding, ",
+								"color": "gray"
+							}
+						],
+						[
+							{
+								"text": "but raises durability drain from firework boosting.",
+								"color": "gray"
+							}
+						],
+						[
+							{
+								"text": "Items: Elytra",
+								"color": "gray"
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "40 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:40,command:\"give @s minecraft:enchanted_book[minecraft:stored_enchantments={\\\"nova_structures:wax_wings\\\":1}] 1\",name:\"Wax Wings Book\"}"
+		},
+		{
+			"slot": 6,
+			"icon": {
+				"id": "minecraft:cooked_beef",
+				"count": 8,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "8 Cooked Beefs",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "1 credit",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:1,command:\"give @s minecraft:cooked_beef 8\",name:\"8 Cooked Beefs\"}"
+		},
+		{
+			"slot": 7,
+			"icon": {
+				"id": "minecraft:glow_item_frame",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Invisible Item Frame",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Note: Can only be placed once",
+								"color": "gray"
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "4 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:4,command:\"give @s minecraft:glow_item_frame[minecraft:entity_data={id:'minecraft:glow_item_frame',Invisible:1b},minecraft:enchantment_glint_override=true,minecraft:custom_name={\\\"text\\\":\\\"Invisible Item Frame\\\",\\\"color\\\":\\\"aqua\\\",\\\"italic\\\":false}] 1\",name:\"Invisible Item Frame\"}"
+		},
+		{
+			"slot": 8,
+			"icon": {
+				"id": "minecraft:suspicious_sand",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Suspicious Sand",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Note: Contains a random item from any archaeology block.",
+								"color": "gray"
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "2 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:2,command:\"give @s minecraft:suspicious_sand[minecraft:block_entity_data={id:\\\"minecraft:brushable_block\\\",LootTable:\\\"kilocraft:archaeology\\\"}]\",name:\"Suspicious Sand\"}"
+		},
+		{
+			"slot": 9,
+			"icon": {
+				"id": "minecraft:suspicious_gravel",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Suspicious Gravel",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Note: Contains a random item from any archaeology block.",
+								"color": "gray"
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "2 credits",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:2,command:\"give @s minecraft:suspicious_gravel[minecraft:block_entity_data={id:\\\"minecraft:brushable_block\\\",LootTable:\\\"kilocraft:archaeology\\\"}]\",name:\"Suspicious Gravel\"}"
+		},
+		{
+			"slot": 10,
+			"icon": {
+				"id": "minecraft:gold_nugget",
+				"count": 50,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "50 Claim Blocks",
+						"color": "light_purple",
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "aqua",
+								"italic": false
+							},
+							{
+								"text": "1 credit",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:vote/shop {cost:1,command:\"claim blocks add @p 50\",name:\"50 Claim Blocks\"}"
+		},
+		{
+			"slot": 26,
+			"icon": {
+				"id": "minecraft:gold_nugget",
+				"count": 1,
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Vote Credits: ",
+						"color": "aqua",
+						"italic": false,
+						"extra": [
+							{
+								"text": "%player:objective kevote_credits%",
+								"color": "white"
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}
