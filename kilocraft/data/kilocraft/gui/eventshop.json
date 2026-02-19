@@ -102,17 +102,15 @@
 		{
 			"slot": 3,
 			"icon": {
-				"id": "minecraft:iron_hoe",
+				"id": "minecraft:elytra",
 				"components": {
 					"minecraft:custom_name": {
-						"text": "Lucky Hoe",
+						"text": "Ice Wings",
 						"color": "green",
 						"bold": true,
 						"italic": false
 					},
-					"minecraft:enchantments": {
-						"minecraft:fortune": 3
-					},
+					"minecraft:item_model": "kilocraft:wings/ice",
 					"minecraft:lore": [
 						"",
 						[
@@ -122,14 +120,14 @@
 								"italic": false
 							},
 							{
-								"text": "20 coins",
+								"text": "25 coins",
 								"color": "white"
 							}
 						]
 					]
 				}
 			},
-			"command": "/function kilocraft:event/shop {cost:20,command:\"give @s minecraft:iron_hoe[minecraft:enchantments={\\\"minecraft:fortune\\\":3},minecraft:custom_name={\\\"text\\\": \\\"Lucky Hoe\\\",\\\"color\\\": \\\"green\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Lucky Hoe\"}"
+			"command": "/function kilocraft:event/shop {cost:25,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:ice\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/ice\\\"] 1\",name:\"Ice Wings\"}"
 		},
 		{
 			"slot": 4,

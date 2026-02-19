@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "kilocraft:bat",
+                "use_player_texture": false
+            }
+        ]
+    }
+}

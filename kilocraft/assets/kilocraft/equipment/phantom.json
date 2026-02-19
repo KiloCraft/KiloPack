@@ -1,0 +1,10 @@
+{
+    "layers": {
+        "wings": [
+            {
+                "texture": "kilocraft:phantom",
+                "use_player_texture": false
+            }
+        ]
+    }
+}
