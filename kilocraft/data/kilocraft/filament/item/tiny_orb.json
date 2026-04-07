@@ -1,0 +1,20 @@
+{
+    "id": "kilocraft:tiny_orb",
+    "vanilla_item": "minecraft:popped_chorus_fruit",
+    "item_tags": [],
+    "components": {
+        "minecraft:item_name": "Tiny Orb",
+        "minecraft:rarity": "epic",
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:scale",
+                "id": "kilocraft:tiny_orb",
+                "amount": -0.5,
+                "operation": "add_multiplied_total"
+            }
+        ],
+        "minecraft:equippable": {
+            "slot": "head"
+        }
+    }
+}

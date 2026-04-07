@@ -1,0 +1,1 @@
+$webhook eventshop {"content":null,"embeds":[{"color":null,"fields":[{"name":"Item","value":"$(name)"},{"name":"Cost","value":"$(cost) Coins"}],"author":{"name":"$(player_name)","icon_url":"https://mc-heads.net/avatar/$(player_name)"}}],"username":"Event Shop","attachments":[]}

@@ -1,0 +1,2 @@
+loot replace entity 242f7f9f-61b6-448f-8884-4996d861b024 container.0 loot kilocraft:player_head
+data modify storage kilocraft player_name set from entity 242f7f9f-61b6-448f-8884-4996d861b024 item.components."minecraft:profile".name

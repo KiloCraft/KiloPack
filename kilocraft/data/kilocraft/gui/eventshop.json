@@ -5,11 +5,281 @@
 		{
 			"slot": 0,
 			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Bastion Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/bastion",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:bastion\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/bastion\\\"] 1\",name:\"Bastion Wings\"}"
+		},
+		{
+			"slot": 1,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Bat Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/bat",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:bat\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/bat\\\"] 1\",name:\"Bat Wings\"}"
+		},
+		{
+			"slot": 2,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Bee Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/bee",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:bee\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/bee\\\"] 1\",name:\"Bee Wings\"}"
+		},
+		{
+			"slot": 3,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Blahaj Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/blahaj",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:blahaj\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/blahaj\\\"] 1\",name:\"Blahaj Wings\"}"
+		},
+		{
+			"slot": 4,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Dragon Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/dragon",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:dragon\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/dragon\\\"] 1\",name:\"Dragon Wings\"}"
+		},
+		{
+			"slot": 5,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Gargoyle Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/gargoyle",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:gargoyle\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/gargoyle\\\"] 1\",name:\"Gargoyle Wings\"}"
+		},
+		{
+			"slot": 6,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Ice Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/ice",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:ice\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/ice\\\"] 1\",name:\"Ice Wings\"}"
+		},
+		{
+			"slot": 7,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Parrot Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/parrot",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:parrot\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/parrot\\\"] 1\",name:\"Parrot Wings\"}"
+		},
+		{
+			"slot": 8,
+			"icon": {
+				"id": "minecraft:elytra",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Phantom Wings",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:item_model": "kilocraft:wings/phantom",
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:phantom\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/phantom\\\"] 1\",name:\"Phantom Wings\"}"
+		},
+		{
+			"slot": 9,
+			"icon": {
 				"id": "minecraft:bow",
 				"components": {
 					"minecraft:custom_name": {
 						"text": "The Perfect Combo",
-						"color": "light_purple",
+						"color": "yellow",
 						"bold": true,
 						"italic": false
 					},
@@ -26,49 +296,17 @@
 								"italic": false
 							},
 							{
-								"text": "50 coins",
+								"text": "75 coins",
 								"color": "white"
 							}
 						]
 					]
 				}
 			},
-			"command": "/function kilocraft:event/shop {cost:50,command:\"give @s minecraft:bow[minecraft:enchantments={\\\"minecraft:mending\\\":1,\\\"minecraft:infinity\\\":1}] 1\",name:\"The Perfect Combo\"}"
+			"command": "/function kilocraft:eventshop/purchase {cost:75,command:\"give @s minecraft:bow[minecraft:enchantments={\\\"minecraft:mending\\\":1,\\\"minecraft:infinity\\\":1}] 1\",name:\"The Perfect Combo\"}"
 		},
 		{
-			"slot": 1,
-			"icon": {
-				"id": "minecraft:elytra",
-				"components": {
-					"minecraft:custom_name": {
-						"text": "Always Protected",
-						"color": "aqua",
-						"bold": true,
-						"italic": false
-					},
-					"minecraft:enchantments": {
-						"minecraft:protection": 4
-					},
-					"minecraft:lore": [
-						"",
-						[
-							{
-								"text": "Cost: ",
-								"color": "yellow",
-								"italic": false
-							},
-							{
-								"text": "50 coins",
-								"color": "white"
-							}
-						]
-					]
-				}
-			},
-			"command": "/function kilocraft:event/shop {cost:50,command:\"give @s minecraft:elytra[minecraft:enchantments={\\\"minecraft:protection\\\":4}] 1\",name:\"Always Protected\"}"
-		},
-		{
-			"slot": 2,
+			"slot": 10,
 			"icon": {
 				"id": "minecraft:elytra",
 				"components": {
@@ -97,20 +335,22 @@
 					]
 				}
 			},
-			"command": "/function kilocraft:event/shop {cost:50,command:\"give @s minecraft:elytra[minecraft:enchantments={\\\"nova_structures:outreach\\\":4}] 1\",name:\"Always in Range\"}"
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s minecraft:elytra[minecraft:enchantments={\\\"nova_structures:outreach\\\":4}] 1\",name:\"Always in Range\"}"
 		},
 		{
-			"slot": 3,
+			"slot": 11,
 			"icon": {
 				"id": "minecraft:elytra",
 				"components": {
 					"minecraft:custom_name": {
-						"text": "Ice Wings",
-						"color": "green",
+						"text": "Always Protected",
+						"color": "yellow",
 						"bold": true,
 						"italic": false
 					},
-					"minecraft:item_model": "kilocraft:wings/ice",
+					"minecraft:enchantments": {
+						"minecraft:protection": 4
+					},
 					"minecraft:lore": [
 						"",
 						[
@@ -120,113 +360,23 @@
 								"italic": false
 							},
 							{
-								"text": "25 coins",
+								"text": "50 coins",
 								"color": "white"
 							}
 						]
 					]
 				}
 			},
-			"command": "/function kilocraft:event/shop {cost:25,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:ice\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/ice\\\"] 1\",name:\"Ice Wings\"}"
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s minecraft:elytra[minecraft:enchantments={\\\"minecraft:protection\\\":4}] 1\",name:\"Always Protected\"}"
 		},
 		{
-			"slot": 4,
-			"icon": {
-				"id": "minecraft:elytra",
-				"components": {
-					"minecraft:custom_name": {
-						"text": "Blahaj Wings",
-						"color": "green",
-						"bold": true,
-						"italic": false
-					},
-					"minecraft:item_model": "kilocraft:wings/blahaj",
-					"minecraft:lore": [
-						"",
-						[
-							{
-								"text": "Cost: ",
-								"color": "yellow",
-								"italic": false
-							},
-							{
-								"text": "25 coins",
-								"color": "white"
-							}
-						]
-					]
-				}
-			},
-			"command": "/function kilocraft:event/shop {cost:25,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:blahaj\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/blahaj\\\"] 1\",name:\"Blahaj Wings\"}"
-		},
-		{
-			"slot": 5,
-			"icon": {
-				"id": "minecraft:elytra",
-				"components": {
-					"minecraft:custom_name": {
-						"text": "Gargoyle Wings",
-						"color": "green",
-						"bold": true,
-						"italic": false
-					},
-					"minecraft:item_model": "kilocraft:wings/gargoyle",
-					"minecraft:lore": [
-						"",
-						[
-							{
-								"text": "Cost: ",
-								"color": "yellow",
-								"italic": false
-							},
-							{
-								"text": "25 coins",
-								"color": "white"
-							}
-						]
-					]
-				}
-			},
-			"command": "/function kilocraft:event/shop {cost:25,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:gargoyle\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/gargoyle\\\"] 1\",name:\"Gargoyle Wings\"}"
-		},
-		{
-			"slot": 6,
-			"icon": {
-				"id": "minecraft:elytra",
-				"components": {
-					"minecraft:custom_name": {
-						"text": "Bat Wings",
-						"color": "green",
-						"bold": true,
-						"italic": false
-					},
-					"minecraft:item_model": "kilocraft:wings/bat",
-					"minecraft:lore": [
-						"",
-						[
-							{
-								"text": "Cost: ",
-								"color": "yellow",
-								"italic": false
-							},
-							{
-								"text": "25 coins",
-								"color": "white"
-							}
-						]
-					]
-				}
-			},
-			"command": "/function kilocraft:event/shop {cost:25,command:\"give @s elytra[equippable={slot:\\\"chest\\\",asset_id:\\\"kilocraft:bat\\\",damage_on_hurt:false},minecraft:item_model=\\\"kilocraft:wings/bat\\\"] 1\",name:\"Gargoyle Wings\"}"
-		},
-		{
-			"slot": 7,
+			"slot": 12,
 			"icon": {
 				"id": "minecraft:stick",
 				"components": {
 					"minecraft:custom_name": {
 						"text": "Knockback Stick",
-						"color": "red",
+						"color": "yellow",
 						"bold": true,
 						"italic": false
 					},
@@ -249,16 +399,131 @@
 					]
 				}
 			},
-			"command": "/function kilocraft:event/shop {cost:20,command:\"give @s minecraft:stick[minecraft:enchantments={\\\"minecraft:knockback\\\":3},minecraft:custom_name={\\\"text\\\": \\\"Knockback Stick\\\",\\\"color\\\": \\\"red\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Knockback Stick\"}"
+			"command": "/function kilocraft:eventshop/purchase {cost:20,command:\"give @s minecraft:stick[minecraft:enchantments={\\\"minecraft:knockback\\\":3},minecraft:custom_name={\\\"text\\\": \\\"Knockback Stick\\\",\\\"color\\\": \\\"red\\\",\\\"bold\\\": true,\\\"italic\\\": false}] 1\",name:\"Knockback Stick\"}"
 		},
 		{
-			"slot": 8,
+			"slot": 13,
+			"icon": {
+				"id": "danse:player_statue",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Player Statue",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Use a nametag to change the skin",
+								"color": "gray",
+								"italic": true
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s danse:player_statue 1\",name:\"Player Statue\"}"
+		},
+		{
+			"slot": 14,
 			"icon": {
 				"id": "minecraft:player_head",
 				"components": {
 					"minecraft:custom_name": {
 						"text": "Your Head",
-						"color": "dark_purple",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "25 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:25,command:\"loot give @s loot kilocraft:player_head\",name:\"Your Head\"}"
+		},
+		{
+			"slot": 15,
+			"icon": {
+				"id": "minecraft:feather",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Claim Fly (1 Day)",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:lore": [
+						[
+							{
+								"text": "Activated immediately after purchase",
+								"color": "gray",
+								"italic": true
+							}
+						],
+						[
+							{
+								"text": "Use /claim fly to toggle",
+								"color": "gray",
+								"italic": true
+							}
+						],
+						[
+							{
+								"text": "(Intended for building, Abuse will be punished)",
+								"color": "red",
+								"italic": true
+							}
+						],
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "35 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:35,command:\"lp user @s permission settemp itsours.fly 1d world=overworld\",name:\"Claim Fly (1 Day)\"}"
+		},
+		{
+			"slot": 16,
+			"icon": {
+				"id": "kilocraft:tiny_orb",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Tiny Orb",
+						"color": "yellow",
 						"bold": true,
 						"italic": false
 					},
@@ -278,7 +543,36 @@
 					]
 				}
 			},
-			"command": "/function kilocraft:event/shop {cost:20,command:\"loot give @s loot kilocraft:player_head\",name:\"Your Head\"}"
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s kilocraft:tiny_orb 1\",name:\"Tiny Orb\"}"
+		},
+		{
+			"slot": 17,
+			"icon": {
+				"id": "kilocraft:giant_orb",
+				"components": {
+					"minecraft:custom_name": {
+						"text": "Giant Orb",
+						"color": "yellow",
+						"bold": true,
+						"italic": false
+					},
+					"minecraft:lore": [
+						"",
+						[
+							{
+								"text": "Cost: ",
+								"color": "yellow",
+								"italic": false
+							},
+							{
+								"text": "50 coins",
+								"color": "white"
+							}
+						]
+					]
+				}
+			},
+			"command": "/function kilocraft:eventshop/purchase {cost:50,command:\"give @s kilocraft:giant_orb 1\",name:\"Giant Orb\"}"
 		},
 		{
 			"slot": 26,
