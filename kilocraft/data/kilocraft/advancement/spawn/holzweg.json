@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "title": "Der Holzweg",
+    "description": "Finde den Holzweg.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:spawn/mine",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "max": 205,
+                "min": 196
+              },
+              "y": {
+                "min": 33,
+                "max": 34
+              },
+              "z": {
+                "min": -192,
+                "max": -191
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

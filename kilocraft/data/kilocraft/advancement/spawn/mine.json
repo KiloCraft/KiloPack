@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_cluster"
+    },
+    "title": "People Live Here?",
+    "description": "Reach the centre of the cave.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 240,
+                "max": 250
+              },
+              "y": {
+                "min": 43,
+                "max": 53
+              },
+              "z": {
+                "min": -206,
+                "max": -204
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    },
+    "criteria2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 251,
+                "max": 254
+              },
+              "y": {
+                "min": 31,
+                "max": 37
+              },
+              "z": {
+                "min": -195,
+                "max": -186
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    },
+    "criteria3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 231,
+                "max": 238
+              },
+              "y": {
+                "min": 30,
+                "max": 37
+              },
+              "z": {
+                "min": -168,
+                "max": -166
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    },
+    "criteria4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 225,
+                "max": 238
+              },
+              "y": {
+                "min": 25,
+                "max": 29
+              },
+              "z": {
+                "min": -193,
+                "max": -178
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria",
+      "criteria2",
+      "criteria3",
+      "criteria4"
+    ]
+  ]
+}

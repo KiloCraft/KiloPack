@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "blahaj:blue_shark"
+    },
+    "title": "Get Eaten",
+    "description": "Go into the shark's mouth.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 209,
+                "max": 211
+              },
+              "y": {
+                "min": 60,
+                "max": 62
+              },
+              "z": {
+                "min": 68,
+                "max": 69
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

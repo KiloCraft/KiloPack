@@ -69,4 +69,6 @@ loot replace entity @s weapon.offhand loot kilocraft:shield
 
 execute as @a at @s run playsound minecraft:entity.lightning_bolt.thunder weather @s ~ ~ ~ 1 1
 
+advancement grant @s only kilocraft:spawn/root
+
 tag @s add kemain_hasjoined

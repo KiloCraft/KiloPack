@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Shrek"
+        }
+      }
+    },
+    "title": "Get Out of My Swamp",
+    "description": "Find Shrek.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:spawn/root",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 283,
+                "max": 284
+              },
+              "y": {
+                "min": 68,
+                "max": 70
+              },
+              "z": {
+                "min": -60,
+                "max": -59
+              }
+            },
+            "dimension": "kilocraft:mighty_highlands"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

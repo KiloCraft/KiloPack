@@ -1,6 +1,7 @@
 attribute @s minecraft:jump_strength modifier add kilocraft:in_portal -1024 add_value
 attribute @s minecraft:movement_speed modifier add kilocraft:in_portal -1024 add_value
 
+advancement grant @s only kilocraft:spawn/rtp
 execute store result score rtp ke_var run rtp
 
 # If rtp failed, try rtpback
