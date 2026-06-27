@@ -1,0 +1,82 @@
+{
+  "basic_permissions": [
+    {"name": "Server Stuff", "permissions": ["/store", "/vote", "/discord", "/link", "/guide", "/claim"]},
+    {"name": "KiloPack", "permissions": ["/voteshop", "/claimshop", "/rankinfo", "/votes", "/votecrate", "/headchances"]},
+    {"name": "KiloEssentials", "permissions": ["/msg", "/tpa", "/rtp", "/insomnia", "/mobcaps", "/ignore", "/pvp", ":playtime:", ":pos:"]}
+  ],
+  "ranks": [
+    {
+      "name": "Guest", "file": "guest", "trigger": 3, "color": "#B0B1B0",
+      "description": "The default rank", "new_permissions": "3 claims, 1 home, All Basic Commands, /sit"
+    },
+    {
+      "name": "Player", "file": "player", "trigger": 4, "color": "#7EC9FB",
+      "requirements": {"minutes": 300, "votes": 10},
+      "previous_permissions": "All Basic Commands, /sit",
+      "new_permissions": "5 claims, 2 homes, :item: in chat, /gesture",
+      "preview": "5 claims, 2 homes, :item: in chat, /gesture"
+    },
+    {
+      "name": "Player+", "file": "player_plus", "trigger": 5, "color": "#4CB6FB",
+      "requirements": {"minutes": 1500, "votes": 40},
+      "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture",
+      "new_permissions": "7 claims, 3 homes, /hat",
+      "preview": "7 claims, 3 homes, /hat"
+    },
+    {
+      "name": "Member", "file": "member", "trigger": 6, "color": "#1C8EEF",
+      "requirements": {"minutes": 5000, "votes": 80},
+      "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture, /hat",
+      "new_permissions": "10 claims, 4 homes, /signedit, Basic Chat Coloring, /hug",
+      "preview": "10 claims, 4 homes, Chat Coloring, /signedit, /hug"
+    },
+    {
+      "name": "Kilocrafter", "file": "kc", "trigger": 7, "color": "#FBB64C",
+      "requirements": {"minutes": 10000, "votes": 120},
+      "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture, /hat, /signedit, Basic Chat Coloring, /hug",
+      "new_permissions": "12 claims, 5 homes, /glow, /nick, /anvil, /enderchest, 1 Pwarp",
+      "preview": "12 claims, 5 homes, /glow, /nick, /anvil, /enderchest, 1 Pwarp"
+    },
+    {
+      "name": "Kilocrafter+", "file": "kc_plus", "trigger": 8, "color": "#FB9600",
+      "requirements": {"minutes": 30000, "votes": 250},
+      "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture, /hat, /signedit, Basic Chat Coloring, /hug, /glow, /nick, /anvil, /enderchest, 1 Pwarp",
+      "new_permissions": "15 claims, 7 homes, /craft, Nickname Coloring, Book Formatting, 2 Pwarps",
+      "preview": "15 claims, 7 homes, /craft, colored /nick, Book Formatting, 2 Pwarps"
+    },
+    {
+      "name": "Champion", "file": "champion", "trigger": 9, "color": "#8C11E9",
+      "paid_permission": "group.champion", "price": "5€/month", "store_command": "/store",
+      "expiry_placeholder": "luckperms:inherited_group_expiry_time champion",
+      "new_permissions": "+2 homes, /ec, /itemedit, /nick, /magicalparticles, /signedit, Chat Formatting, Basic Nickname Formatting, Book Formatting, Armor Stand Editing, /glow_color"
+    },
+    {
+      "name": "Ultimate", "file": "ultimate", "trigger": 10, "color": "#F929F9",
+      "paid_permission": "group.ultimate", "price": "10€/month", "store_command": "/store",
+      "expiry_placeholder": "luckperms:inherited_group_expiry_time ultimate",
+      "previous_permissions": "/ec, /itemedit, /nick, /magicalparticles, /signedit, Chat Formatting, Basic Nickname Formatting, Book Formatting, Armor Stand Editing, /glow_color",
+      "new_permissions": "+4 homes, /anvil, /claim fly, /craft, Extended Chat Formatting/Gradients, Extended Nickname Formatting/Gradients, Doubled Vote Rewards"
+    }
+  ],
+  "categories": [
+    {
+      "title": "Staff Ranks", "bracket_color": "dark_gray",
+      "ranks": [
+        {"name": "Helper", "short": "H", "color": "#00FB00", "description": "Answers player questions and helps with in-game problems"},
+        {"name": "Staff", "short": "S", "color": "#009732", "description": "Moderates chat and handles Helper responsibilities"},
+        {"name": "Moderator", "short": "Mod", "color": "#2F3BED", "description": "Moderates gameplay and handles Staff responsibilities"},
+        {"name": "Admin", "short": "A", "color": "#E23238", "description": "Handles overall server moderation"},
+        {"name": "Owner", "short": "O", "color": "#B897FB", "description": "Owns and maintains the server"}
+      ]
+    },
+    {
+      "title": "Other Ranks", "bracket_color": "white",
+      "ranks": [
+        {"name": "Builder", "short": "B", "color": "#97FB65", "description": "Builds server areas such as spawn and events"},
+        {"name": "Developer", "short": "Dev", "color": "#2FEBE1", "description": "Creates and maintains mods and datapacks"},
+        {"name": "Content Creator", "short": "CC", "color": "#FFC2FF", "description": "Creates videos and streams for the server"},
+        {"name": "VIP", "short": "VIP", "color": "#ECF042", "description": "Very important people to the server"}
+      ]
+    }
+  ]
+}
