@@ -128,9 +128,13 @@ def simple_rank_line(rank: dict[str, Any]) -> str:
 
 def paid_rank_lines(rank: dict[str, Any]) -> list[str]:
     permission = rank["paid_permission"]
+    hide_condition = ""
+    if hidden_permission := rank.get("hide_if_permission"):
+        hide_condition = f" unless permission @s {hidden_permission}"
+    preview = rank.get("preview", rank["new_permissions"])
     owned = (
         "tellmessage @s "
-        f"<hover:'<gold>[Click for permission list]'>"
+        f"<hover:'<gold>[Click for permission list] {preview}'>"
         f"<run_cmd:'/trigger rankinfo set {rank['trigger']}'>"
         f"<{rank['color']}>[{rank['name']}] - <reset>"
         f"<green>You have %{rank['expiry_placeholder']}% left"
@@ -143,8 +147,8 @@ def paid_rank_lines(rank: dict[str, Any]) -> list[str]:
             hover_event={"action": "show_text", "value": component("Click to visit store!", color="gold")},
         )],
     )
-    return [f"execute if permission @s {permission} run {owned}",
-            f"execute unless permission @s {permission} run {available}"]
+    return [f"execute if permission @s {permission}{hide_condition} run {owned}",
+            f"execute unless permission @s {permission}{hide_condition} run {available}"]
 
 
 def category_line(title: str, ranks: list[dict[str, Any]], bracket_color: str) -> str:

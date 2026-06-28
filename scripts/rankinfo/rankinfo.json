@@ -46,7 +46,7 @@
     },
     {
       "name": "Champion", "file": "champion", "trigger": 9, "color": "#8C11E9",
-      "paid_permission": "group.champion", "price": "5€/month", "store_command": "/store",
+      "paid_permission": "group.champion", "hide_if_permission": "group.ultimate", "price": "5€/month", "store_command": "/store",
       "expiry_placeholder": "luckperms:inherited_group_expiry_time champion",
       "new_permissions": "+2 homes, /ec, /itemedit, /nick, /magicalparticles, /signedit, Chat Formatting, Basic Nickname Formatting, Book Formatting, Armor Stand Editing, /glow_color"
     },

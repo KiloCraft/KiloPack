@@ -227,7 +227,7 @@
 				"count": 8,
 				"components": {
 					"minecraft:custom_name": {
-						"text": "8 Cooked Beefs",
+						"text": "8 Cooked Beef",
 						"color": "light_purple",
 						"italic": false
 					},
@@ -247,7 +247,7 @@
 					]
 				}
 			},
-			"command": "/function kilocraft:vote/shop {cost:1,command:\"give @s minecraft:cooked_beef 8\",name:\"8 Cooked Beefs\"}"
+			"command": "/function kilocraft:vote/shop {cost:1,command:\"give @s minecraft:cooked_beef 8\",name:\"8 Cooked Beef\"}"
 		},
 		{
 			"slot": 7,
