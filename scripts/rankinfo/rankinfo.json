@@ -34,13 +34,13 @@
       "name": "Kilocrafter", "file": "kc", "trigger": 7, "color": "#FBB64C",
       "requirements": {"minutes": 10000, "votes": 120},
       "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture, /hat, /signedit, Basic Chat Coloring, /hug",
-      "new_permissions": "12 claims, 5 homes, /glow, /nick, /anvil, /enderchest, 1 Pwarp",
-      "preview": "12 claims, 5 homes, /glow, /nick, /anvil, /enderchest, 1 Pwarp"
+      "new_permissions": "12 claims, 5 homes, /glow, /nick, /anvil, /enderchest, 1 Pwarp, /glow_color",
+      "preview": "12 claims, 5 homes, /glow, /nick, /anvil, /enderchest, 1 Pwarp, /glow_color"
     },
     {
       "name": "Kilocrafter+", "file": "kc_plus", "trigger": 8, "color": "#FB9600",
       "requirements": {"minutes": 30000, "votes": 250},
-      "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture, /hat, /signedit, Basic Chat Coloring, /hug, /glow, /nick, /anvil, /enderchest, 1 Pwarp",
+      "previous_permissions": "All Basic Commands, /sit, :item: in chat, /gesture, /hat, /signedit, Basic Chat Coloring, /hug, /glow, /nick, /anvil, /enderchest, 1 Pwarp, /glow_color",
       "new_permissions": "15 claims, 7 homes, /craft, Nickname Coloring, Book Formatting, 2 Pwarps",
       "preview": "15 claims, 7 homes, /craft, colored /nick, Book Formatting, 2 Pwarps"
     },
