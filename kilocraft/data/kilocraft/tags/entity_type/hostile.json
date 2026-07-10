@@ -1,13 +1,30 @@
 {
   "replace": false,
   "values": [
-   "minecraft:skeleton",
-   "minecraft:zombie",
-   "minecraft:creeper",
-   "minecraft:enderman",
-   "minecraft:zombie_villager",
-   "minecraft:spider",
-   "minecraft:phantom",
-   "minecraft:pillager"
+    "skeleton",
+    "stray",
+    "wither_skeleton",
+    "bogged",
+    "zombie",
+    "zombie_villager",
+    "drowned",
+    "phantom",
+    "evoker",
+    "illusioner",
+    "pillager",
+    "vindicator",
+    "friendsandfoes:iceologer",
+    "friendsandfoes:illusioner",
+    "toms_mobs:iceologer",
+    "toms_mobs:showmaster",
+    "parched",
+    "zombified_piglin",
+    "zoglin",
+    "husk",
+    "ravager",
+    "witch",
+    "creeper",
+    "spider",
+    "cave_spider"
   ]
 }
