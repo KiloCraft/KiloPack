@@ -15,136 +15,65 @@
     "minecraft:horse": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:horse"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:horse"
+        }
       }
     },
     "minecraft:llama": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:llama"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:llama"
+        }
       }
     },
     "minecraft:cat": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:cat"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:cat"
+        }
       }
     },
     "minecraft:donkey": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:donkey"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:donkey"
+        }
       }
     },
     "minecraft:mule": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:mule"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:mule"
+        }
       }
     },
     "minecraft:parrot": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:parrot"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:parrot"
+        }
       }
     },
     "minecraft:trader_llama": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:trader_llama"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:trader_llama"
+        }
       }
     },
     "minecraft:wolf": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:wolf"
-            }
-          }
-        ]
-      }
-    },
-    "minecraft:skeleton_horse": {
-      "trigger": "minecraft:started_riding",
-      "conditions": {
-        "player": [],
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:skeleton_horse"
-            }
-          }
-        ]
+        "entity": {
+          "minecraft:entity_type": "minecraft:wolf"
+        }
       }
     }
   }

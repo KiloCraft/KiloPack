@@ -1,6 +1,7 @@
 {
-    "pack": {
-        "pack_format": 85,
-        "description": "Mob heads datapack"
-    }
+  "pack": {
+    "description": "Mob Heads datapack",
+    "min_format": 82,
+    "max_format": 2147483647
+  }
 }

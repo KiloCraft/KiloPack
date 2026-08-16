@@ -1,6 +1,7 @@
 {
-    "pack": {
-        "pack_format": 71,
-        "description": "Kilocraft datapack"
-    }
+  "pack": {
+    "description": "Kilocraft datapack",
+    "min_format": 82,
+    "max_format": 2147483647
+  }
 }
