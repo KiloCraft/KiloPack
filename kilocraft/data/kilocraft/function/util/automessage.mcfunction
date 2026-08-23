@@ -10,9 +10,12 @@ execute if score #keutil_automessage ke_var matches 2 as @a unless permission @s
 #guide
 execute if score #keutil_automessage ke_var matches 3 run tellraw @a[scores={keutil_minutes=..299}] ["",{"text":"[Info] ","color":"#6860FB"},{"text":"Type ","color":"#7AF631"},{"text":"/guide ","color":"#96EEEE","click_event":{"action":"run_command","command":"/guide"},"hover_event":{"action":"show_text","value":{"text":"Click to show the guide!","color":"#BE11EE"}}},{"text":"to see the important ","color":"#7AF631"},{"text":"information","color":"#96EEEE"},{"text":" and ","color":"#7AF631"},{"text":"commands ","color":"#96EEEE"},{"text":"we have here, and how to use them!","color":"#7AF631"}]
 
+execute as @a store result score @s dummy run preferences event_reminder
+
+execute if score #keutil_automessage ke_var matches 4 run tellraw @a[scores={dummy=1..1}] ["",{color:"light_purple",text:"[Special Event] "},{color:"aqua",text:"Did you already hear about the "},{color:"gold",text:"10th Anniversary Event? "},{color:"aqua",text:"Read our announcement on Discord and join us from "},{color:"gold",text:"September 28th "},{color:"aqua",text:"to "},{color:"gold",text:"October 4th "},{color:"aqua",text:"to celebrate this milestone with us!"}]
 
 scoreboard players add #keutil_automessage ke_var 1
 
-execute if score #keutil_automessage ke_var matches 4.. run scoreboard players set #keutil_automessage ke_var 0
+execute if score #keutil_automessage ke_var matches 5.. run scoreboard players set #keutil_automessage ke_var 0
 
 schedule function kilocraft:util/automessage 300s replace

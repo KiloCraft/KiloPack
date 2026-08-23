@@ -7,4 +7,6 @@ scoreboard players add @s event_coins 0
 
 scoreboard players remove @s kemain_onjoin 1
 
-execute store result score event_reminder ke_var run preferences event_reminder
+execute store result score @s dummy run preferences event_reminder
+
+#execute if score @s dummy matches 1..1 run tellraw @s
