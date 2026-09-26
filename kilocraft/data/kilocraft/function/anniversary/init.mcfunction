@@ -1,0 +1,1 @@
+scoreboard objectives add anniversary_dialogue dummy
