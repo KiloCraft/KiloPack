@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": "Against All Odds",
+    "description": "Breed a blue axolotl.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "kilocraft:survival/root",
+  "criteria": {
+    "blue_axolotl": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "minecraft:components": {
+            "minecraft:axolotl/variant": "blue"
+          }
+        }
+      }
+    }
+  }
+}
