@@ -1,21 +1,106 @@
 {
     "entities": {
-        "minecraft:comingsoon": {
-            "name": "Coming Soon...",
+        "minecraft:snow_golem": {
+            "name": "Snow Golem",
             "heads": [
                 {
-                    "note_block_sound": "minecraft:block.beacon.power_select",
+                    "note_block_sound": "minecraft:block.pumpkin.carve",
                     "profile": {
-                        "name": "Coming soon...",
-                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE1MmQ1NzlhZmUyZmRmN2I4ZWNmYTc0NmNkMDE2MTUwZDk2YmViNzUwMDliYjI3MzNhZGUxNWQ0ODdjNDJhMSJ9fX0="
+                        "name": "Pumpkin",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM5MWQ2MmNlNjkwZTkyYzg2NzA5MzVmNTgxNzYzMWRmMWI0MDdkNTA5MzNjNTAyNGY2MWM2OWNkYTI5OGI4NiJ9fX0="
                     }
                 }
             ],
-            "group": "present"
+            "group": "pumpkin"
+        },
+        "minecraft:phantom": {
+            "name": "Phantom",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.phantom.ambient",
+                    "profile": {
+                        "name": "Crow",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc3OWI2NDM4MzFmODM4ZmI1ZWZkMmJhZmE0YzZlYTk3YmIyNTY4Mzk3NjE1ODg1MjU0OThkNjI5NGZjNDcifX19"
+                    }
+                }
+            ],
+            "group": "crow"
+        },
+        "minecraft:ghast": {
+            "name": "Ghast",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.ghast.ambient",
+                    "profile": {
+                        "name": "Ghost",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQwNjYyOGNjZGVmMjZhN2E5OGQ4ODlkZmQyOTczMzQxYWI5ZjM1NGIwN2VjYzg3MTViMDQxZGUwNzI0OGQ0In19fQ=="
+                    }
+                }
+            ],
+            "group": "ghost"
+        },
+        "minecraft:slime": {
+            "name": "Slime",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.slime.squish",
+                    "profile": {
+                        "name": "Candy Bowl",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJhZjk3MjQ0NWVlMWM0NmIxMGNiMmY5MGFhOTE3NDE1NTJjMGQyN2VjNmJiMWU2MzAxOWMxNzFiOGI4YTFkOCJ9fX0="
+                    }
+                }
+            ],
+            "group": "candy"
+        },
+        "minecraft:zombie": {
+            "name": "Zombie",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.zombie_villager.cure",
+                    "profile": {
+                        "name": "Tombstone",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdjYWI1NmM4MmNiODFiZGI5OTc5YTQ2NGJjOWQzYmEzZTY3MjJiYTEyMmNmNmM1Mjg3MzAxMGEyYjU5YWVmZSJ9fX0="
+                    }
+                }
+            ],
+            "group": "tombstone"
+        },
+        "minecraft:witch": {
+            "name": "Witch",
+            "heads": [
+                {
+                    "note_block_sound": "minecraft:entity.witch.ambient",
+                    "profile": {
+                        "name": "Cauldron",
+                        "texture": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2MTc4Mzc4NzkxNDFlMzhjYzBhMDNjNTEyYTBkZDg3NWVkNzliNTkzNzY3ZGM4ZWQ5Mzk4MDA0Zjk0NTJlIn19fQ=="
+                    }
+                }
+            ],
+            "group": "cauldron"
         }
     },
     "groups": {
-        "present": {
+        "pumpkin": {
+            "base_chance": 6,
+            "looting_chance": 3
+        },
+        "crow": {
+            "base_chance": 6,
+            "looting_chance": 3
+        },
+        "ghost": {
+            "base_chance": 6,
+            "looting_chance": 3
+        },
+        "candy": {
+            "base_chance": 6,
+            "looting_chance": 3
+        },
+        "tombstone": {
+            "base_chance": 0.8,
+            "looting_chance": 0.4
+        },
+        "cauldron": {
             "base_chance": 6,
             "looting_chance": 3
         }

@@ -57,7 +57,7 @@ foreach (entity_id in entities) {
 }
 """
 
-enable_special_heads = False
+enable_special_heads = True
 
 
 def generate_loot_pools(config: dict, entity_id: str):
