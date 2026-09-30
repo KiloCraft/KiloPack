@@ -83,6 +83,36 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:block.pumpkin.carve",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM5MWQ2MmNlNjkwZTkyYzg2NzA5MzVmNTgxNzYzMWRmMWI0MDdkNTA5MzNjNTAyNGY2MWM2OWNkYTI5OGI4NiJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "text": "Pumpkin",
+                  "italic": false,
+                  "color": "red"
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
